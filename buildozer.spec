@@ -16,8 +16,10 @@ version = 1.0
 # 应用图标（512x512 PNG，安装后在桌面显示）
 icon.filename = icon.png
 
-# 依赖：lxml 由 python-docx 需要（p4a 有 recipe），pillow 为 reportlab 图片支持
-requirements = python3,kivy,pyjnius,flask,reportlab,pillow,lxml,python-docx
+# 依赖：仅保留 APK 运行必需项。reportlab/pillow/lxml/python-docx 用于桌面端
+# PDF/Word 导出——p4a 的 reportlab recipe 下载源 hg.reportlab.com 已失效（403），
+# 且这些库仅服务端导出用，安卓端停用导出（routes 做运行时检测返回友好提示）
+requirements = python3,kivy,pyjnius,flask
 
 # 启动不显示 Kivy 窗口内容（窗口会被浏览器覆盖）
 fullscreen = False

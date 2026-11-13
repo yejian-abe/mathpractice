@@ -9,14 +9,19 @@ import io
 import math
 from xml.sax.saxutils import escape
 
-from reportlab.lib.pagesizes import A4
-from reportlab.lib.styles import ParagraphStyle
-from reportlab.lib.units import cm
-from reportlab.pdfbase import pdfmetrics
-from reportlab.pdfbase.cidfonts import UnicodeCIDFont
-from reportlab.pdfbase.ttfonts import TTFont
-from reportlab.platypus import (PageBreak, Paragraph, SimpleDocTemplate,
-                                Spacer, Table)
+# reportlab 仅桌面端安装（APK 端 requirements 不含），缺失时导出端点返回友好提示
+try:
+    from reportlab.lib.pagesizes import A4
+    from reportlab.lib.styles import ParagraphStyle
+    from reportlab.lib.units import cm
+    from reportlab.pdfbase import pdfmetrics
+    from reportlab.pdfbase.cidfonts import UnicodeCIDFont
+    from reportlab.pdfbase.ttfonts import TTFont
+    from reportlab.platypus import (PageBreak, Paragraph, SimpleDocTemplate,
+                                    Spacer, Table)
+    PDF_OK = True
+except ImportError:
+    PDF_OK = False
 
 GRADE_NAMES = {1: "一年级", 2: "二年级", 3: "三年级", 4: "四年级",
                5: "五年级", 6: "六年级", 7: "七年级", 8: "八年级", 9: "九年级"}

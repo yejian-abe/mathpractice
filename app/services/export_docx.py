@@ -9,11 +9,16 @@ import io
 import math
 from datetime import datetime
 
-from docx import Document
-from docx.enum.text import WD_ALIGN_PARAGRAPH, WD_TAB_ALIGNMENT
-from docx.oxml import OxmlElement
-from docx.oxml.ns import qn
-from docx.shared import Cm, Pt
+# python-docx 仅桌面端安装（APK 端 requirements 不含），缺失时导出端点返回友好提示
+try:
+    from docx import Document
+    from docx.enum.text import WD_ALIGN_PARAGRAPH, WD_TAB_ALIGNMENT
+    from docx.oxml import OxmlElement
+    from docx.oxml.ns import qn
+    from docx.shared import Cm, Pt
+    DOCX_OK = True
+except ImportError:
+    DOCX_OK = False
 
 GRADE_NAMES = {1: "一年级", 2: "二年级", 3: "三年级", 4: "四年级",
                5: "五年级", 6: "六年级", 7: "七年级", 8: "八年级", 9: "九年级"}

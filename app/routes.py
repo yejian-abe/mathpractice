@@ -243,9 +243,13 @@ def api_export(fmt):
                                             semester, kind, units)]
 
     if fmt == "pdf":
+        if not export_pdf.PDF_OK:
+            return jsonify({"error": "本设备暂不支持导出 PDF，请在电脑端使用导出功能"}), 503
         buf, filename = export_pdf.export_pdf(datasets, with_answers)
         mimetype = "application/pdf"
     elif fmt == "docx":
+        if not export_docx.DOCX_OK:
+            return jsonify({"error": "本设备暂不支持导出 Word，请在电脑端使用导出功能"}), 503
         buf, filename = export_docx.export_docx(datasets, with_answers)
         mimetype = ("application/vnd.openxmlformats-officedocument."
                     "wordprocessingml.document")
