@@ -28,6 +28,18 @@ jobs:
           pip install --upgrade pip wheel
           pip install cython==0.29.36 buildozer virtualenv
 
+      - name: Add swap
+        run: |
+          # clang 编译 p4a android 模块的巨型生成 C 文件（_android.c）内存占用极高，
+          # runner 默认 7GB 内存不足时 clang 会被系统 OOM 杀掉，python -m build 以
+          # exit 1 静默收场（日志戛然而止无报错文本）。加 swap 缓解。
+          sudo swapoff -a || true
+          sudo fallocate -l 7G /swapfile
+          sudo chmod 600 /swapfile
+          sudo mkswap /swapfile
+          sudo swapon /swapfile
+          free -h
+
       - name: Build APK
         run: |
           # 1) 初始化 buildozer 的 SDK/NDK（首次 aidl 检查可能失败，允许继续）
@@ -47,10 +59,25 @@ jobs:
           else
             echo "WARNING: sdkmanager not found, buildozer will download on next step"
           fi
-          # 4) 正式构建
-          buildozer -v android debug
+          # 4) 正式构建。完整日志写入文件，无论成败都输出最后 200 行：
+          #    buildozer -v 日志量极大，GitHub 网页端会截断超长日志，
+          #    导致真正的报错（在末尾）永远看不到
+          buildozer -v android debug > build_full.log 2>&1
+          CODE=$?
+          echo "=== buildozer exit code: $CODE ==="
+          echo "=== log tail (last 200 lines) ==="
+          tail -n 200 build_full.log
+          exit $CODE
+
+      - name: Upload build log
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: build-full-log
+          path: build_full.log
 
       - name: Upload APK artifact
+        if: success()
         uses: actions/upload-artifact@v4
         with:
           name: mathpractice-apk
