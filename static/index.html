@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>数学每日练习 · mathPractice_tool</title>
+<link rel="icon" type="image/png" href="/static/favicon.png">
+<link rel="apple-touch-icon" href="/static/favicon.png">
+<link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+<!-- 内联 SVG 图标库（线性图标，跟随主题色） -->
+<svg style="display:none" aria-hidden="true">
+  <symbol id="i-practice" viewBox="0 0 24 24"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></symbol>
+  <symbol id="i-records" viewBox="0 0 24 24"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><rect x="8" y="2" width="8" height="4" rx="1"/><line x1="9" y1="12" x2="15" y2="12"/><line x1="9" y1="16" x2="13" y2="16"/></symbol>
+  <symbol id="i-stats" viewBox="0 0 24 24"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/><path d="M2 20h20"/></symbol>
+  <symbol id="i-export" viewBox="0 0 24 24"><path d="M6 9V2h12v7"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></symbol>
+  <symbol id="i-settings" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3.2"/><line x1="12" y1="2.5" x2="12" y2="5.5"/><line x1="12" y1="18.5" x2="12" y2="21.5"/><line x1="2.5" y1="12" x2="5.5" y2="12"/><line x1="18.5" y1="12" x2="21.5" y2="12"/><line x1="5.3" y1="5.3" x2="7.4" y2="7.4"/><line x1="16.6" y1="16.6" x2="18.7" y2="18.7"/><line x1="18.7" y1="5.3" x2="16.6" y2="7.4"/><line x1="7.4" y1="16.6" x2="5.3" y2="18.7"/></symbol>
+  <symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 3.6-6.5 8-6.5s8 2.5 8 6.5"/></symbol>
+  <symbol id="i-users" viewBox="0 0 24 24"><circle cx="9" cy="8" r="4"/><path d="M2 21c0-4 3.1-6.5 7-6.5s7 2.5 7 6.5"/><path d="M16.5 4.6a4 4 0 0 1 0 6.8"/><path d="M17.8 14.9c2.5.9 4.2 3 4.2 6.1"/></symbol>
+  <symbol id="i-book" viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></symbol>
+  <symbol id="i-sem" viewBox="0 0 24 24"><rect x="3" y="4.5" width="18" height="17" rx="2"/><line x1="3" y1="10" x2="21" y2="10"/><line x1="8" y1="2" x2="8" y2="6.5"/><line x1="16" y1="2" x2="16" y2="6.5"/><line x1="7.5" y1="14.5" x2="10.5" y2="14.5"/><line x1="13.5" y1="14.5" x2="16.5" y2="14.5"/><line x1="7.5" y1="18" x2="10.5" y2="18"/></symbol>
+</svg>
+<div class="layout">
+  <!-- 侧边导航 -->
+  <aside class="sidebar">
+    <div class="logo"><svg class="logo-icon" viewBox="0 0 24 24" aria-hidden="true"><rect class="badge-bg" x="1.5" y="1.5" width="21" height="21" rx="6"/><g class="badge-fg"><line x1="7" y1="6.8" x2="17" y2="6.8"/><circle class="badge-dot" cx="8.8" cy="11.8" r="1.2"/><circle class="badge-dot" cx="15.2" cy="11.8" r="1.2"/><circle class="badge-dot" cx="8.8" cy="16.6" r="1.2"/><line x1="13.6" y1="16.6" x2="16.9" y2="16.6"/></g></svg>数学练习</div>
+    <div class="user-box">
+      <span class="user-label"><svg class="icon" viewBox="0 0 24 24"><use href="#i-user"/></svg>当前用户</span>
+      <select id="user-select"></select>
+    </div>
+    <div class="user-box">
+      <span class="user-label"><svg class="icon" viewBox="0 0 24 24"><use href="#i-book"/></svg>年级</span>
+      <select id="grade-select"></select>
+    </div>
+    <div class="user-box">
+      <span class="user-label"><svg class="icon" viewBox="0 0 24 24"><use href="#i-sem"/></svg>学期</span>
+      <select id="semester-select">
+        <option value="0">自动（按学期）</option>
+        <option value="1">上册</option>
+        <option value="2">下册</option>
+      </select>
+    </div>
+    <nav>
+      <a href="#/practice" class="nav-item" data-view="practice"><svg class="icon" viewBox="0 0 24 24"><use href="#i-practice"/></svg>做题</a>
+      <a href="#/records" class="nav-item" data-view="records"><svg class="icon" viewBox="0 0 24 24"><use href="#i-records"/></svg>练习记录</a>
+      <a href="#/stats" class="nav-item" data-view="stats"><svg class="icon" viewBox="0 0 24 24"><use href="#i-stats"/></svg>学情</a>
+      <a href="#/export" class="nav-item" data-view="export"><svg class="icon" viewBox="0 0 24 24"><use href="#i-export"/></svg>生成 / 导出</a>
+      <a href="#/settings" class="nav-item" data-view="settings"><svg class="icon" viewBox="0 0 24 24"><use href="#i-settings"/></svg>设置</a>
+      <a href="#/users" class="nav-item" data-view="users"><svg class="icon" viewBox="0 0 24 24"><use href="#i-users"/></svg>用户管理</a>
+    </nav>
+    <div class="sidebar-footer">mathPractice_tool</div>
+  </aside>
+
+  <main class="content">
+    <!-- ============ 做题页 ============ -->
+    <section id="view-practice" class="view">
+      <div class="page-header">
+        <h2>每日练习</h2>
+        <div class="controls card">
+          <label>日期 <input type="date" id="date-input"></label>
+          <button id="btn-load" class="btn primary">加载</button>
+          <button id="btn-regenerate" class="btn danger">重新生成</button>
+        </div>
+        <div class="progress-wrap">
+          <div class="progress"><div id="progress-fill"></div></div>
+          <span id="progress-text" class="progress-text">0/0 · 正确 0</span>
+          <button id="btn-submit-all" class="btn primary btn-submit-all">提交</button>
+        </div>
+      </div>
+      <div id="focus-tip" class="focus-tip hidden"></div>
+      <div id="problem-list"></div>
+    </section>
+
+    <!-- ============ 练习记录页 ============ -->
+    <section id="view-records" class="view hidden">
+      <div class="page-header">
+        <h2>练习记录</h2>
+        <div class="controls card">
+          <label>年级
+            <select id="records-grade"></select>
+          </label>
+          <label>开始日期 <input type="date" id="records-from"></label>
+          <label>结束日期 <input type="date" id="records-to"></label>
+          <button id="btn-records" class="btn primary">查询</button>
+        </div>
+      </div>
+      <div class="card records-scroll">
+        <div id="records-table"><p class="tip">加载中…</p></div>
+      </div>
+    </section>
+
+    <!-- ============ 学情页 ============ -->
+    <section id="view-stats" class="view hidden">
+      <div class="page-header">
+        <h2>学情分析</h2>
+        <div class="controls card">
+          <label>年级 <select id="stats-grade"></select></label>
+        </div>
+      </div>
+      <div id="stats-content"><p class="tip">加载中…</p></div>
+    </section>
+
+    <!-- ============ 生成 / 导出页 ============ -->
+    <section id="view-export" class="view hidden">
+      <div class="page-header">
+        <h2>生成 / 导出</h2>
+      </div>
+      <div class="card export-controls">
+        <label>年级 <span id="export-grade-text" class="readonly-value"></span></label>
+        <label>学期 <span id="export-semester-text" class="readonly-value"></span></label>
+        <label>起始日期 <input type="date" id="export-date"></label>
+        <label>结束日期 <input type="date" id="export-date-to"></label>
+        <label class="checkbox">
+          <input type="checkbox" id="export-answers"> 附参考答案页
+        </label>
+        <button id="btn-generate" class="btn primary">生成题目</button>
+        <div class="btn-group">
+          <a id="link-pdf" class="btn primary" href="#">导出 PDF</a>
+          <a id="link-docx" class="btn" href="#">导出 Word</a>
+        </div>
+        <p class="tip">提示：年级、学期在左侧边栏选择，此处只读显示；点击"生成题目"按起止日期生成并列出题目列表，可在列表中预览或重新生成某天；"导出"一次把列表范围内全部题目排入一份文档（缺失日期自动补生成），页数按题量自动压缩到尽量少。</p>
+      </div>
+      <div class="card">
+        <h3>题目列表</h3>
+        <div id="gen-list"><p class="tip">选好日期范围后，点击"生成题目"展示列表</p></div>
+      </div>
+    </section>
+
+    <!-- ============ 设置页 ============ -->
+    <section id="view-settings" class="view hidden">
+      <div class="page-header">
+        <h2>设置</h2>
+      </div>
+      <div class="card settings-card">
+        <h3>每日题量</h3>
+        <label>计算题数量
+          <input type="number" id="cfg-calc" min="0" max="20" inputmode="numeric">
+        </label>
+        <label>竖式计算 / 解方程数量
+          <input type="number" id="cfg-vertical" min="0" max="20" inputmode="numeric">
+        </label>
+        <label>应用题数量
+          <input type="number" id="cfg-word" min="0" max="20" inputmode="numeric">
+        </label>
+        <label>题目类别
+          <select id="kind-select">
+            <option value="0">易错题 + 常见题</option>
+            <option value="1">易错题</option>
+            <option value="2">常见题</option>
+          </select>
+        </label>
+        <button id="btn-save-config" class="btn primary">保存</button>
+        <p class="tip">题目类别修改后立即保存；修改题量或类别后，<b>做题页点"重新生成"</b>当日题集才会生效（历史题集不受影响）；导出时缺失日期自动按新设置生成。</p>
+      </div>
+      <div class="card settings-card">
+        <h3>教材单元出题范围</h3>
+        <p class="unit-scope">当前范围：<b id="unit-scope-text">—</b>（跟随左侧栏的年级与学期）</p>
+        <div id="unit-list" class="unit-list"></div>
+        <div class="unit-actions">
+          <button id="btn-units-all" class="btn">全选</button>
+          <button id="btn-units-none" class="btn">清空</button>
+          <span id="unit-count-text" class="unit-count"></span>
+        </div>
+        <p class="tip">默认全选（不限制范围）；只勾选部分单元后，做题与生成/导出仅针对所选单元出题，题量不足时先用教材顺序更早的已学单元补足，仍不足用上一册内容补足，最后才减量；"清空"等同不限制。按用户分别记忆，修改后需<b>做题页点"重新生成"</b>当日题集才生效，导出缺失日期自动按新范围生成。</p>
+      </div>
+    </section>
+
+    <!-- ============ 用户管理页 ============ -->
+    <section id="view-users" class="view hidden">
+      <div class="page-header">
+        <h2>用户管理</h2>
+      </div>
+      <div class="card settings-card">
+        <div id="user-manage-list"></div>
+        <div class="user-add-row">
+          <input type="text" id="new-user-name" placeholder="输入姓名" maxlength="20">
+          <button id="btn-add-user" class="btn primary">新增用户</button>
+        </div>
+        <p class="tip">删除用户会同时删除其全部练习记录；默认用户不可删除。左侧"当前用户"下拉可切换做题身份。</p>
+      </div>
+    </section>
+  </main>
+</div>
+
+<!-- 练习详情弹窗 -->
+<div id="record-modal" class="modal-mask hidden">
+  <div class="modal">
+    <div class="modal-head">
+      <h3 id="record-modal-title">练习详情</h3>
+      <button id="record-modal-close" class="btn btn-sm">关闭</button>
+    </div>
+    <div id="record-modal-body" class="modal-body"></div>
+  </div>
+</div>
+<!-- 提交确认 / 结果弹窗 -->
+<div id="submit-modal" class="modal-mask hidden">
+  <div class="modal modal-submit">
+    <div class="modal-head">
+      <h3 id="submit-modal-title">提交确认</h3>
+      <button id="submit-modal-close" class="btn btn-sm">关闭</button>
+    </div>
+    <div id="submit-modal-body" class="modal-body"></div>
+    <div id="submit-modal-actions" class="submit-actions"></div>
+  </div>
+</div>
+<!-- 学情正确率曲线弹窗 -->
+<div id="chart-modal" class="modal-mask hidden">
+  <div class="modal">
+    <div class="modal-head">
+      <h3 id="chart-modal-title">正确率曲线</h3>
+      <button id="chart-modal-close" class="btn btn-sm">关闭</button>
+    </div>
+    <div id="chart-modal-body" class="modal-body"></div>
+  </div>
+</div>
+<script src="/static/js/app.js"></script>
+</body>
+</html>

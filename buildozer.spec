@@ -1,0 +1,35 @@
+[app]
+# APK 基本信息与依赖
+title = 数学练习
+package.name = mathpractice
+package.domain = com.mpt
+# 入口文件：main_android.py（Flask 子线程 + 浏览器 Intent）
+source.dir = .
+source.main = main_android.py
+source.include_exts = py,txt,json,css,js,html,png,jpg
+# 排除桌面专用/无关文件
+source.exclude_dirs = data,build,dist,tests,__pycache__,.git,android_src
+source.exclude_patterns = main.py,任务记录.md,*.spec,安装说明.txt,*.exe,*.zip
+
+version = 1.0
+
+# 应用图标（512x512 PNG，安装后在桌面显示）
+icon.filename = icon.png
+
+# 依赖：lxml 由 python-docx 需要（p4a 有 recipe），pillow 为 reportlab 图片支持
+requirements = python3,kivy,pyjnius,flask,reportlab,pillow,lxml,python-docx
+
+# 启动不显示 Kivy 窗口内容（窗口会被浏览器覆盖）
+fullscreen = False
+orientation = all
+
+# Android 配置
+android.api = 31
+android.minapi = 24
+android.archs = arm64-v8a,armeabi-v7a
+android.permissions = INTERNET
+android.allow_backup = True
+
+[buildozer]
+log_level = 2
+warn_on_root = 1

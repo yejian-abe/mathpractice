@@ -1,0 +1,42 @@
+mathPractice_tool Android（Termux）运行包使用说明
+==================================================
+
+一、原理
+在 Android 平板上安装 Termux（一个 Linux 终端环境），在本软件目录内
+运行一键脚本，平板本地即可启动服务，再用平板浏览器打开页面做题，
+题目数据保存在平板本地（与台式机的数据相互独立）。
+
+二、准备
+1. 平板安装 Termux：建议从 F-Droid（https://f-droid.org）下载安装，
+   Google Play 上的版本已停止更新，不推荐。
+2. 平板首次运行 Termux 时如提示存储权限，执行：
+       termux-setup-storage
+   并在弹窗中点"允许"。
+
+三、安装与启动
+1. 将本文件夹（mathPractice_tool）整体拷贝到平板存储，
+   例如"下载"目录（/sdcard/Download/mathPractice_tool）。
+2. 打开 Termux，依次执行：
+       pkg update
+       cp -r /sdcard/Download/mathPractice_tool ~/
+       cd ~/mathPractice_tool
+       bash start.sh
+   首次运行会自动安装依赖（flask、reportlab、python-docx），
+   需要几分钟，之后启动只需几秒。
+3. 脚本会自动打开浏览器并进入 http://127.0.0.1:10021，
+   若未自动打开，手动在浏览器输入该地址即可。
+4. 停止服务：执行  bash stop.sh
+
+四、日常使用
+- 以后每次使用只需：
+       cd ~/mathPractice_tool
+       bash start.sh
+- 也可在 Termux 中把 start.sh 固定常用，或使用 Termux 的
+  "快捷方式"（termux-widget）实现一键启动。
+
+五、常见问题
+1. pip 安装报错/超时：多为网络问题，可换源后重试：
+       pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
+2. 页面打不开：确认服务在运行（cat app.log 查看日志），或重启脚本。
+3. 想让其他设备访问本平板上的题目：浏览器访问 http://<平板IP>:10021
+   （平板 IP 可在 Termux 中用 ifconfig 查看）。

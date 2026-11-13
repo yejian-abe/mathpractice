@@ -1,0 +1,13 @@
+# 用户数据（本地保留，不入仓库）
+data/daily/
+data/config.json
+data/users.json
+data/bank/progress_*.json
+
+# 打包产物与临时文件
+build/
+dist/
+__pycache__/
+*.pyc
+*.exe
+app.log
