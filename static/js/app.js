@@ -1443,11 +1443,27 @@ function init() {
   applyUserGrade();  // 恢复当前用户记忆的年级并同步各下拉
   updateExportInfo();
 
-  // 页面心跳：每 3 秒上报一次服务端；页面全部关闭后服务在 12 秒后自动退出
-  fetch('/api/heartbeat', { method: 'POST' }).catch(function () {});
-  setInterval(function () {
+  // 页面心跳：每 3 秒上报一次服务端；页面全部关闭后服务在超时后自动退出。
+  // 心跳必须放在 Web Worker 里：浏览器对后台标签页的主线程定时器有激进节流
+  // （后台约 5 分钟后强制降为每分钟 1 次），页面开着也会被看门狗误判退出。
+  var HB_MS = 3000;
+  function sendHeartbeat() {
     fetch('/api/heartbeat', { method: 'POST' }).catch(function () {});
-  }, 3000);
+  }
+  try {
+    var hbCode = 'function beat(){fetch("' + location.origin +
+      '/api/heartbeat",{method:"POST"}).catch(function(){});}' +
+      'beat();setInterval(beat,' + HB_MS + ');';
+    var hbUrl = URL.createObjectURL(new Blob([hbCode], { type: 'text/javascript' }));
+    new Worker(hbUrl);
+  } catch (e) {
+    sendHeartbeat();
+    setInterval(sendHeartbeat, HB_MS);
+  }
+  // 从后台切回前台时立即补一次心跳（Worker 被浏览器冻结时的兜底）
+  document.addEventListener('visibilitychange', function () {
+    if (!document.hidden) sendHeartbeat();
+  });
 
   $('btn-load').addEventListener('click', loadDaily);
   $('btn-regenerate').addEventListener('click', regenerate);

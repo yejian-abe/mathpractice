@@ -63,7 +63,9 @@ if __name__ == "__main__":
     print("=" * 50)
 
     # 看门狗：页面（浏览器标签页）全部关闭后自动退出服务
-    # 页面每 3 秒发一次 /api/heartbeat；超过 12 秒收不到（且曾有页面打开过）即退出
+    # 页面（经 Web Worker）每 3 秒发一次 /api/heartbeat；超过 60 秒收不到（且曾有
+    # 页面打开过）即退出。阈值取 60 秒：兼容整机睡眠、平板息屏等心跳暂停场景，
+    # 避免页面仍开着却被误杀；正常关闭页面后约 1 分钟退出
     from app import heartbeat
 
     def watchdog():
@@ -73,7 +75,7 @@ if __name__ == "__main__":
         while True:
             time.sleep(3)
             idle = heartbeat.idle_seconds()
-            if idle is not None and idle > 12:
+            if idle is not None and idle > 60:
                 print("页面已全部关闭，服务自动退出")
                 os._exit(0)
 

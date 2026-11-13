@@ -27,6 +27,7 @@ t.start()
 time.sleep(1.5)
 
 # 看门狗：浏览器页面全部关闭后自动退出服务（与桌面端 main.py 一致）
+# 心跳由页面内 Web Worker 每 3 秒上报；阈值 60 秒兼容平板息屏等心跳暂停场景
 from app import heartbeat as _hb
 
 
@@ -34,7 +35,7 @@ def _watchdog():
     while True:
         time.sleep(3)
         idle = _hb.idle_seconds()
-        if idle is not None and idle > 12:
+        if idle is not None and idle > 60:
             os._exit(0)
 
 
