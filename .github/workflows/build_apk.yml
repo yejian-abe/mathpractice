@@ -18,7 +18,10 @@ jobs:
         run: |
           sudo apt-get update -y
           sudo apt-get install -y zip unzip openjdk-17-jdk autoconf automake \
-            libtool pkg-config cmake build-essential ccache libssl-dev libffi-dev
+            libtool libtool-bin pkg-config cmake build-essential ccache \
+            libssl-dev libffi-dev libltdl-dev
+          # libltdl-dev 提供 LT_SYS_SYMBOL_USCORE 宏：p4a libffi recipe 在
+          # autoreconf 阶段必需，缺失则报 "possibly undefined macro" 而失败
 
       - name: Install Buildozer
         run: |
