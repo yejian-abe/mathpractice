@@ -1442,6 +1442,12 @@ function init() {
   $('export-date').value = state.date;
   applyUserGrade();  // 恢复当前用户记忆的年级并同步各下拉
   updateExportInfo();
+  // 导出能力检测：安卓 APK 端未打包导出库，隐藏导出按钮并显示说明
+  fetchJSON('/api/caps').then(function (c) {
+    var ok = !c || c.export !== false;  // 端点异常时按可用处理
+    $('export-buttons').classList.toggle('hidden', !ok);
+    $('export-unsupported').classList.toggle('hidden', ok);
+  }).catch(function () {});
 
   // 页面心跳：每 3 秒上报一次服务端；页面全部关闭后服务在超时后自动退出。
   // 心跳必须放在 Web Worker 里：浏览器对后台标签页的主线程定时器有激进节流

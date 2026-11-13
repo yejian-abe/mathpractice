@@ -115,10 +115,11 @@
           <input type="checkbox" id="export-answers"> 附参考答案页
         </label>
         <button id="btn-generate" class="btn primary">生成题目</button>
-        <div class="btn-group">
+        <div class="btn-group" id="export-buttons">
           <a id="link-pdf" class="btn primary" href="#">导出 PDF</a>
           <a id="link-docx" class="btn" href="#">导出 Word</a>
         </div>
+        <p id="export-unsupported" class="tip hidden">本设备为安卓端，暂不支持导出 PDF/Word 文件（打印需在电脑端使用）；生成题目与在线做题不受影响。</p>
         <p class="tip">提示：年级、学期在左侧边栏选择，此处只读显示；点击"生成题目"按起止日期生成并列出题目列表，可在列表中预览或重新生成某天；"导出"一次把列表范围内全部题目排入一份文档（缺失日期自动补生成），页数按题量自动压缩到尽量少。</p>
       </div>
       <div class="card">

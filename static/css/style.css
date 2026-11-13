@@ -115,6 +115,9 @@ body {
 
 .view.hidden { display: none; }
 
+/* 通用隐藏（如安卓端隐藏导出按钮） */
+.hidden { display: none; }
+
 /* ---------- 通用 ---------- */
 .page-header h2 { margin-bottom: 16px; font-size: var(--fs-h2); }
 

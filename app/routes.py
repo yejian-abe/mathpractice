@@ -343,6 +343,12 @@ def api_users():
 
 # ---------- 学情统计 ----------
 
+@api_bp.route("/caps")
+def api_caps():
+    """设备能力：安卓 APK 端未打包导出库，前端据此隐藏导出按钮"""
+    return jsonify({"export": bool(export_pdf.PDF_OK and export_docx.DOCX_OK)})
+
+
 @api_bp.route("/stats")
 def api_stats():
     uid = _user_id_from(request.args.get("user_id"))
