@@ -27,6 +27,16 @@ jobs:
 
       - name: Build APK
         run: |
+          # 1) 初始化 buildozer 的 SDK/NDK（accept_license 自动接受；首次 aidl 检查可能失败，允许继续）
+          buildozer android update || true
+          # 2) 显式接受全部 SDK 许可并补装 build-tools（无交互终端时更新通道会静默跳过）
+          SDKM=$(find $HOME/.buildozer/android/platform/android-sdk -name sdkmanager 2>/dev/null | head -n1)
+          if [ -n "$SDKM" ]; then
+            yes | "$SDKM" --licenses >/dev/null 2>&1 || true
+            yes | "$SDKM" "build-tools;37.0.0" >/dev/null 2>&1 || true
+            yes | "$SDKM" "platforms;android-31" >/dev/null 2>&1 || true
+          fi
+          # 3) 正式构建
           buildozer -v android debug
 
       - name: Upload APK artifact
