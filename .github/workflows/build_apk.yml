@@ -83,9 +83,25 @@ jobs:
           # 显式保险：确保 android-31 与 build-tools 落在 $SDK（许可已写，无提示）
           "$SDKM" --sdk_root=$SDK "platforms;android-31" >/dev/null || true
           "$SDKM" --sdk_root=$SDK "build-tools;37.0.0" >/dev/null || true
-          ls $SDK/platforms $SDK/build-tools || echo "WARNING: buildozer update 会自行补装"
-          # 2) 初始化 buildozer 的 SDK/NDK（许可指纹已写 + 软链就位，应无提示）
-          buildozer android update || true
+          ls $SDK/platforms $SDK/build-tools || echo "WARNING: buildozer 会自行补装"
+          # 2) 关键修复（run #16 根因）：手动预克隆 p4a master 到 buildozer
+          #    期望路径。绝不能用 `buildozer android update`——它经
+          #    prepare_for_build→compile_platform 会触发一次完整 p4a create
+          #    发行版构建（约 15 分钟），且发生在下方 sed 补丁之前：
+          #    未补丁的 INSTALL STAGE 必挂（arm64 venv pip ImportError），
+          #    还留下残缺 dist 缓存被 debug 复用导致 "No main.py found"。
+          #    手动克隆后直接删掉 update：debug 的 prepare_for_build 自己
+          #    会装 ANT/SDK/NDK，并用补丁后的代码构建 dist。
+          #    注意：buildozer 克隆的是 p4a master 分支（旧版 venv 代码），
+          #    而非仓库默认分支 develop（已重写为新安装逻辑），两者完全不同
+          mkdir -p $GITHUB_WORKSPACE/.buildozer/android/platform
+          P4A_DIR=$GITHUB_WORKSPACE/.buildozer/android/platform/python-for-android
+          P4A_BUILD=$P4A_DIR/pythonforandroid/build.py
+          if [ ! -f "$P4A_BUILD" ]; then
+            git clone -b master --single-branch \
+              https://github.com/kivy/python-for-android.git "$P4A_DIR" \
+              || { echo "ERROR: p4a 手动克隆失败"; exit 1; }
+          fi
           # 2.5) 关键修复（run #13/#14 根因）：p4a 用 hostpython3（CPython
           #    3.14.2）建 venv，其 ensurepip 种出的 pip 自身 import 链断裂
           #    （build_env/installer.py 引 capture_logging，utils/logging.py
@@ -94,13 +110,8 @@ jobs:
           #    故为 ensurepip 捆绑轮子缺陷。修复：把 build.py 的
           #    `pip install -U pip` 替换为 get-pip.py 强制重装（绕开坏种子，
           #    装完 PyPI 最新完整 pip，后续全部 venv/bin/pip 调用恢复正常）
-          #    补丁必须 git commit 固化：debug 阶段 buildozer 会重查 p4a
-          #    仓库（clean/pull），未提交的 sed 修改会被回滚（run #14 教训）
-          P4A_DIR=$GITHUB_WORKSPACE/.buildozer/android/platform/python-for-android
-          P4A_BUILD=$P4A_DIR/pythonforandroid/build.py
-          if [ ! -f "$P4A_BUILD" ]; then
-            echo "ERROR: p4a build.py 不存在，buildozer update 可能未克隆 p4a"; exit 1
-          fi
+          #    git commit 固化作为保险：debug 的 _install_p4a 只在
+          #    url/branch 不匹配时才重克隆，正常不会动已补丁的工作区
           sed -i 's|pip install -U pip|curl -sSL https://bootstrap.pypa.io/get-pip.py -o get-pip.py \&\& python get-pip.py --force-reinstall|' "$P4A_BUILD"
           grep -c "get-pip.py" "$P4A_BUILD" >/dev/null \
             || { echo "ERROR: sed 未生效，p4a 源码结构可能已变化"; exit 1; }
