@@ -104,6 +104,19 @@ jobs:
           sed -i 's|pip install -U pip|curl -sSL https://bootstrap.pypa.io/get-pip.py -o get-pip.py \&\& python get-pip.py --force-reinstall|' "$P4A_BUILD"
           grep -c "get-pip.py" "$P4A_BUILD" >/dev/null \
             || { echo "ERROR: sed 未生效，p4a 源码结构可能已变化"; exit 1; }
+          # 2.6) 关键修复（run #15 根因）：p4a 解析依赖时按 android 平台标签
+          #    （--platform android_24_arm64_v8a --python-version 3.14）从 PyPI
+          #    抓到 cp314 官方 android wheel（如 charset_normalizer 3.5.2，PEP
+          #    738 新事物，旧版 hostpython 3.11/3.12 时代 PyPI 无 android wheel
+          #    故从未触发），把直链 URL 写进 requirements.txt；但安装命令
+          #    （build.py run_pymodules_install）不带 --platform，venv pip 跑在
+          #    linux x86_64 上直接拒绝 "not a supported wheel on this
+          #    platform"。给安装命令补 android 平台标签（arm64/aarch64/arm
+          #    一次列全适配双架构；py3-none-any 纯 wheel 不受影响；命令已有
+          #    --no-deps，满足 pip 对 --platform 的限制）
+          sed -i "s|install -v --target '{0}' --no-deps -r requirements.txt|install -v --target '{0}' --no-deps --platform android_24_arm64_v8a --platform android_24_aarch64 --platform android_24_arm -r requirements.txt|" "$P4A_BUILD"
+          grep -c "platform android_24_arm64_v8a" "$P4A_BUILD" >/dev/null \
+            || { echo "ERROR: 平台标签 sed 未生效，p4a 源码结构可能已变化"; exit 1; }
           git -C "$P4A_DIR" add pythonforandroid/build.py
           git -C "$P4A_DIR" -c user.email=ci@local -c user.name=ci \
             commit -q -m "ci: repair broken ensurepip-seeded venv pip via get-pip.py" \
