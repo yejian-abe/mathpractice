@@ -32,7 +32,7 @@ android.archs = arm64-v8a,armeabi-v7a
 android.permissions = INTERNET
 android.allow_backup = True
 # CI 无交互终端，自动接受 Android SDK/NDK 许可协议（否则 build-tools 装不上导致 aidl 缺失）
-android.accept_license = yes
+android.accept_sdk_license = yes
 
 [buildozer]
 log_level = 2
