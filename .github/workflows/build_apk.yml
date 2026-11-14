@@ -69,9 +69,11 @@ jobs:
           ls $SDK/build-tools || echo "WARNING: build-tools missing, buildozer will retry"
           # 4) 正式构建。完整日志写入文件，无论成败都输出最后 200 行：
           #    buildozer -v 日志量极大，GitHub 网页端会截断超长日志，
-          #    导致真正的报错（在末尾）永远看不到
-          buildozer -v android debug > build_full.log 2>&1
-          CODE=$?
+          #    导致真正的报错（在末尾）永远看不到。
+          #    注意：本步骤以 bash -e 运行，必须用 || CODE=$? 兜住退出码，
+          #    否则 buildozer 失败时脚本立即退出，诊断输出会被吞掉（run #8 教训）
+          buildozer -v android debug > build_full.log 2>&1 || CODE=$?
+          CODE=${CODE:-0}
           echo "=== buildozer exit code: $CODE ==="
           echo "=== log tail (last 200 lines) ==="
           tail -n 200 build_full.log
