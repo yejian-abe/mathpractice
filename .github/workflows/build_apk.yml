@@ -67,11 +67,18 @@ jobs:
             echo "ERROR: runner 上未找到 sdkmanager"; exit 1
           fi
           SDKBIN=$(dirname "$SDKM")
+          # 注意：不能只软链二进制——p4a 调 avdmanager 不传 --sdk_root，会从
+          # 工具自身物理位置推断 SDK 根目录，软链会解析回预装 SDK（只见
+          # API 34/35/36，报 "Requested API target 31 is not available"——
+          # run #11 根因）。必须拷贝整个 bin，让推断根目录落到 $SDK
           mkdir -p $SDK/tools/bin $SDK/cmdline-tools/latest/bin
-          ln -sf "$SDKM" $SDK/tools/bin/sdkmanager
-          ln -sf "$SDKBIN"/avdmanager $SDK/tools/bin/avdmanager
-          ln -sf "$SDKBIN"/* $SDK/cmdline-tools/latest/bin/
-          ls -l $SDK/tools/bin $SDK/cmdline-tools/latest/bin
+          cp -a "$SDKBIN"/. $SDK/cmdline-tools/latest/bin/
+          ln -sf $SDK/cmdline-tools/latest/bin/sdkmanager $SDK/tools/bin/sdkmanager
+          ln -sf $SDK/cmdline-tools/latest/bin/avdmanager $SDK/tools/bin/avdmanager
+          # 显式保险：确保 android-31 与 build-tools 落在 $SDK（许可已写，无提示）
+          "$SDKM" --sdk_root=$SDK "platforms;android-31" >/dev/null || true
+          "$SDKM" --sdk_root=$SDK "build-tools;37.0.0" >/dev/null || true
+          ls $SDK/platforms $SDK/build-tools
           # 2) 初始化 buildozer 的 SDK/NDK（许可指纹已写 + 软链就位，应无提示）
           buildozer android update || true
           # 3) 正式构建。完整日志写入文件，无论成败都输出最后 200 行：
