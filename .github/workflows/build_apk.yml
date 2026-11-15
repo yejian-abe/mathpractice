@@ -132,6 +132,13 @@ jobs:
           git -C "$P4A_DIR" -c user.email=ci@local -c user.name=ci \
             commit -q -m "ci: repair broken ensurepip-seeded venv pip via get-pip.py" \
             || echo "WARNING: 补丁 commit 失败（将依赖 sed 直接生效）"
+          # 2.7) 关键修复（run #17 根因）：buildozer 1.6.0 不支持
+          #    source.main 重命名（_copy_application_sources 只原样复制），
+          #    p4a 打包时在 app 目录只认 main.py —— exclude_patterns 排除了
+          #    main.py，main_android.py 被复制但不改名 → "No main.py(c)
+          #    found"。改用 cp 覆盖桌面入口提供 Android 入口（配合
+          #    buildozer.spec 移除 source.main 与 main.py 排除项）
+          cp main_android.py main.py
           # 3) 正式构建。完整日志写入文件，无论成败都输出最后 200 行：
           #    buildozer -v 日志量极大，GitHub 网页端会截断超长日志，
           #    导致真正的报错（在末尾）永远看不到。

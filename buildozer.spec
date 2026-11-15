@@ -3,13 +3,14 @@
 title = 数学练习
 package.name = mathpractice
 package.domain = com.mpt
-# 入口文件：main_android.py（Flask 子线程 + 浏览器 Intent）
+# 入口文件：main_android.py（Flask 子线程 + 浏览器 Intent）。
+# 注意：buildozer 1.6.0 不支持 source.main 重命名（run #17 教训），由
+# CI 在构建前 cp main_android.py main.py 覆盖桌面入口来提供 Android 入口
 source.dir = .
-source.main = main_android.py
 source.include_exts = py,txt,json,css,js,html,png,jpg
-# 排除桌面专用/无关文件
+# 排除桌面专用/无关文件（main.py 不能排除：CI 已将其替换为 Android 入口）
 source.exclude_dirs = data,build,dist,tests,__pycache__,.git,android_src
-source.exclude_patterns = main.py,任务记录.md,*.spec,安装说明.txt,*.exe,*.zip
+source.exclude_patterns = 任务记录.md,*.spec,安装说明.txt,*.exe,*.zip
 
 version = 1.0
 
