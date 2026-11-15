@@ -4,18 +4,11 @@
 """
 import os
 import socket
-import sys
 import threading
 import time
 import webbrowser
 
-from flask import Flask, send_from_directory
-
-from app.routes import api_bp
-
-# 服务端口：选用高位端口，避免与常见软件的默认端口（如 8000）冲突
-PORT = 10021
-
+from app import create_app, PORT
 
 def get_lan_ip():
     """获取本机局域网 IP：通过向外连接（不实际发送数据）确定出口地址"""
@@ -27,32 +20,6 @@ def get_lan_ip():
         return ip
     except OSError:
         return "127.0.0.1"
-
-
-def create_app():
-    if getattr(sys, "frozen", False):
-        # PyInstaller 打包后：静态资源在解包目录（sys._MEIPASS），
-        # 题集/配置等运行数据必须放在 exe 同级目录（可写、重启不丢）
-        base_dir = sys._MEIPASS
-        data_dir = os.path.join(os.path.dirname(sys.executable), "data")
-    else:
-        base_dir = os.path.dirname(os.path.abspath(__file__))
-        data_dir = os.path.join(base_dir, "data")
-    os.makedirs(data_dir, exist_ok=True)
-
-    app = Flask(__name__,
-                static_folder=os.path.join(base_dir, "static"),
-                static_url_path="/static")
-    app.config["BASE_DIR"] = base_dir
-    app.config["DATA_DIR"] = data_dir
-    app.register_blueprint(api_bp, url_prefix="/api")
-
-    @app.route("/")
-    def index():
-        # 单页应用入口
-        return send_from_directory(app.static_folder, "index.html")
-
-    return app
 
 
 if __name__ == "__main__":
