@@ -28,6 +28,18 @@ jobs:
           pip install --upgrade pip wheel
           pip install cython==0.29.36 buildozer virtualenv
 
+      - name: Pin JDK 17 for Gradle
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+        # run #20 根因：runner 镜像更新后默认 JAVA_HOME 指向 Temurin 25
+        # （class file major version 69），而 p4a dist 的 Gradle 8.14.3
+        # 最高支持 Java 24，解析构建脚本时直接报
+        # "BUG! exception in phase 'semantic analysis' ... Unsupported
+        # class file major version 69"。显式钉死 JDK 17（Gradle 8.14 与
+        # p4a bootstrap 的 AGP 兼容区间最稳的 LTS 版本）
+
       - name: Add swap
         run: |
           # clang 编译 p4a android 模块的巨型生成 C 文件（_android.c）内存占用极高，
