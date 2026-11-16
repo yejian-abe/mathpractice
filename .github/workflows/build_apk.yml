@@ -147,8 +147,16 @@ jobs:
           buildozer -v android debug > build_full.log 2>&1 || CODE=$?
           CODE=${CODE:-0}
           echo "=== buildozer exit code: $CODE ==="
-          echo "=== log tail (last 200 lines) ==="
-          tail -n 200 build_full.log
+          # run #20 教训：buildozer 失败后会 dump 约 80 行环境变量，把
+          # tail 200 行窗口占满，gradle 的真实报错（在 dump 之前）被截掉。
+          # 先抓 gradle 报错关键段，再输出更长尾部。注意 bash -e 下 grep
+          # 无匹配返回 1 会中断脚本，必须 || true
+          echo "=== gradle failure context ==="
+          grep -n -B 5 -A 40 "What went wrong" build_full.log || true
+          grep -n -B 3 -A 20 "FAILURE: Build failed" build_full.log || true
+          grep -n -B 2 -A 10 "Daemon" build_full.log | tail -n 80 || true
+          echo "=== log tail (last 400 lines) ==="
+          tail -n 400 build_full.log
           exit $CODE
 
       - name: Upload build log
