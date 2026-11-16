@@ -1028,8 +1028,19 @@ function closeRecordModal() {
 
 /* ---------- 设置页 ---------- */
 
+/* 最近一次保存的题量配置：输入框被清空（平板触摸易误触）时，
+   用它回退而不是静默存 0（否则重新生成后该题型会消失） */
+var _savedCfg = null;
+
+function _cfgVal(id, fallback) {
+  var v = parseInt($(id).value, 10);
+  if (isNaN(v)) return fallback;  // 空/非法输入 → 保持原值
+  return Math.max(0, Math.min(20, v));
+}
+
 function loadConfig() {
   fetchJSON('/api/config').then(function (cfg) {
+    _savedCfg = cfg;
     $('cfg-calc').value = cfg.calc_count;
     $('cfg-vertical').value = cfg.vertical_count;
     $('cfg-word').value = cfg.word_count;
@@ -1037,15 +1048,23 @@ function loadConfig() {
 }
 
 function saveConfig() {
+  var last = _savedCfg || { calc_count: 5, vertical_count: 4, word_count: 2 };
+  var body = {
+    calc_count: _cfgVal('cfg-calc', last.calc_count),
+    vertical_count: _cfgVal('cfg-vertical', last.vertical_count),
+    word_count: _cfgVal('cfg-word', last.word_count)
+  };
   fetchJSON('/api/config', {
     method: 'POST',
-    body: JSON.stringify({
-      calc_count: parseInt($('cfg-calc').value, 10) || 0,
-      vertical_count: parseInt($('cfg-vertical').value, 10) || 0,
-      word_count: parseInt($('cfg-word').value, 10) || 0
-    })
+    body: JSON.stringify(body)
   }).then(function () {
-    alert('保存成功。如需当日题集生效，请回到做题页点"重新生成"。');
+    _savedCfg = body;
+    $('cfg-calc').value = body.calc_count;
+    $('cfg-vertical').value = body.vertical_count;
+    $('cfg-word').value = body.word_count;
+    alert('保存成功：计算 ' + body.calc_count + ' 题，竖式/解方程 ' +
+      body.vertical_count + ' 题，应用题 ' + body.word_count + ' 题。' +
+      '如需当日题集生效，请回到做题页点"重新生成"。');
   });
 }
 
