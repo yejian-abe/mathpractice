@@ -19095,6 +19095,1500 @@
           "figure": null
         }
       ]
+    },
+    {
+      "id": "paper_g4_chengdu_qingyang_2024b",
+      "grade": 4,
+      "region": "成都市青羊区",
+      "year": "2024-2025学年下期",
+      "title": "四年级数学期末测试卷（二）",
+      "duration": 90,
+      "total_score": 100,
+      "note": "北师大版四年级下册：小数的意义和加减法、认识三角形和四边形、小数乘法、观察物体、认识方程、平均数与相遇问题；口算10×1分+填空8×3分+判断5×2分+选择5×2分+计算4×4分+看图列式与操作2×3分+解决问题6×4分",
+      "questions": [
+        {
+          "id": "paper_g4_chengdu_qingyang_2024b_n1",
+          "no": 1,
+          "type": "fill",
+          "stem": "口算：8-2.9=",
+          "answer": "5.1",
+          "score": 1,
+          "analysis": "小数口算按整数口算方法计算，再点上小数点（对齐数位）。",
+          "source": "成都市青羊区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_qingyang_2024b_n2",
+          "no": 2,
+          "type": "fill",
+          "stem": "口算：87×10=",
+          "answer": "870",
+          "score": 1,
+          "analysis": "小数口算按整数口算方法计算，再点上小数点（对齐数位）。",
+          "source": "成都市青羊区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_qingyang_2024b_n3",
+          "no": 3,
+          "type": "fill",
+          "stem": "口算：7.6-2.9=",
+          "answer": "4.7",
+          "score": 1,
+          "analysis": "小数口算按整数口算方法计算，再点上小数点（对齐数位）。",
+          "source": "成都市青羊区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_qingyang_2024b_n4",
+          "no": 4,
+          "type": "fill",
+          "stem": "口算：70×10=",
+          "answer": "700",
+          "score": 1,
+          "analysis": "小数口算按整数口算方法计算，再点上小数点（对齐数位）。",
+          "source": "成都市青羊区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_qingyang_2024b_n5",
+          "no": 5,
+          "type": "fill",
+          "stem": "口算：5.7+0.5=",
+          "answer": "6.2",
+          "score": 1,
+          "analysis": "小数口算按整数口算方法计算，再点上小数点（对齐数位）。",
+          "source": "成都市青羊区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_qingyang_2024b_n6",
+          "no": 6,
+          "type": "fill",
+          "stem": "口算：3.4+1.4=",
+          "answer": "4.8",
+          "score": 1,
+          "analysis": "小数口算按整数口算方法计算，再点上小数点（对齐数位）。",
+          "source": "成都市青羊区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_qingyang_2024b_n7",
+          "no": 7,
+          "type": "fill",
+          "stem": "口算：0.5×4=",
+          "answer": "2",
+          "score": 1,
+          "analysis": "小数口算按整数口算方法计算，再点上小数点（对齐数位）。",
+          "source": "成都市青羊区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_qingyang_2024b_n8",
+          "no": 8,
+          "type": "fill",
+          "stem": "口算：5.43+2=",
+          "answer": "7.43",
+          "score": 1,
+          "analysis": "小数口算按整数口算方法计算，再点上小数点（对齐数位）。",
+          "source": "成都市青羊区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_qingyang_2024b_n9",
+          "no": 9,
+          "type": "fill",
+          "stem": "口算：65×30=",
+          "answer": "1950",
+          "score": 1,
+          "analysis": "小数口算按整数口算方法计算，再点上小数点（对齐数位）。",
+          "source": "成都市青羊区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_qingyang_2024b_n10",
+          "no": 10,
+          "type": "fill",
+          "stem": "口算：0.1×2=",
+          "answer": "0.2",
+          "score": 1,
+          "analysis": "小数口算按整数口算方法计算，再点上小数点（对齐数位）。",
+          "source": "成都市青羊区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_qingyang_2024b_n11",
+          "no": 11,
+          "type": "fill",
+          "stem": "0.35里面有（　）个0.01",
+          "answer": "35",
+          "score": 3,
+          "analysis": "0.35 是 35 个 0.01。",
+          "source": "成都市青羊区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_qingyang_2024b_n12",
+          "no": 12,
+          "type": "fill",
+          "stem": "三角形的内角和是（　）°",
+          "answer": "180",
+          "score": 3,
+          "analysis": "任意三角形内角和 180°。",
+          "source": "成都市青羊区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_qingyang_2024b_n13",
+          "no": 13,
+          "type": "fill",
+          "stem": "8.5-2.1=（　）",
+          "answer": "6.4",
+          "score": 3,
+          "analysis": "8.5-2.1=6.4。",
+          "source": "成都市青羊区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_qingyang_2024b_n14",
+          "no": 14,
+          "type": "fill",
+          "stem": "2.5×4=（　）",
+          "answer": "10",
+          "score": 3,
+          "analysis": "2.5×4=10。",
+          "source": "成都市青羊区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_qingyang_2024b_n15",
+          "no": 15,
+          "type": "fill",
+          "stem": "小明今年a岁，爸爸比他大26岁，爸爸今年（　）岁（用含字母的式子）",
+          "answer": "a+26",
+          "score": 3,
+          "analysis": "爸爸的岁数是 a+26。",
+          "source": "成都市青羊区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_qingyang_2024b_n16",
+          "no": 16,
+          "type": "fill",
+          "stem": "含有未知数的（　）叫作方程",
+          "answer": "等式",
+          "score": 3,
+          "analysis": "方程是含有未知数的等式。",
+          "source": "成都市青羊区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_qingyang_2024b_n17",
+          "no": 17,
+          "type": "fill",
+          "stem": "小明4次跳绳成绩是7、10、11、4个，平均每次跳（　）个",
+          "answer": "8",
+          "score": 3,
+          "analysis": "总数7+10+11+4=32个，32÷4=8个。",
+          "source": "成都市青羊区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_qingyang_2024b_n18",
+          "no": 18,
+          "type": "fill",
+          "stem": "4分米=（　）米（填小数）",
+          "answer": "0.4",
+          "score": 3,
+          "analysis": "1 分米=0.1 米，4 分米=0.4 米。",
+          "source": "成都市青羊区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_qingyang_2024b_n19",
+          "no": 19,
+          "type": "judge",
+          "stem": "判断：0.3和0.30大小相等。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "0.3=0.30，末尾添 0 大小不变。",
+          "source": "成都市青羊区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_qingyang_2024b_n20",
+          "no": 20,
+          "type": "judge",
+          "stem": "判断：三角形的内角和是180°。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "任意三角形内角和 180°。",
+          "source": "成都市青羊区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_qingyang_2024b_n21",
+          "no": 21,
+          "type": "judge",
+          "stem": "判断：x=6是方程4x=24的解。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "4×6=24 左右两边相等。",
+          "source": "成都市青羊区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_qingyang_2024b_n22",
+          "no": 22,
+          "type": "judge",
+          "stem": "判断：0.6×0.6=3.6。",
+          "answer": "错",
+          "score": 2,
+          "analysis": "0.6×0.6=0.36，先按 6×6=36 算，再点上两位小数。",
+          "source": "成都市青羊区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_qingyang_2024b_n23",
+          "no": 23,
+          "type": "judge",
+          "stem": "判断：平均数能较好地代表一组数据的总体水平。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "平均数是统计中的重要指标。",
+          "source": "成都市青羊区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_qingyang_2024b_n24",
+          "no": 24,
+          "type": "choice",
+          "stem": "5厘米=（　）米（填小数）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.0.05 B.0.5 C.5 D.0.50，正确答案为A。",
+          "source": "成都市青羊区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_qingyang_2024b_n25",
+          "no": 25,
+          "type": "choice",
+          "stem": "任意三角形的内角和都是（　）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.180° B.90° C.270° D.360°，正确答案为A。",
+          "source": "成都市青羊区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_qingyang_2024b_n26",
+          "no": 26,
+          "type": "choice",
+          "stem": "方程x+36=47的解是x=（　）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.11 B.47 C.-25 D.25，正确答案为A。",
+          "source": "成都市青羊区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_qingyang_2024b_n27",
+          "no": 27,
+          "type": "choice",
+          "stem": "3.3×100=（　）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.330 B.33 C.0.33 D.3.3，正确答案为A。",
+          "source": "成都市青羊区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_qingyang_2024b_n28",
+          "no": 28,
+          "type": "choice",
+          "stem": "3次测试成绩分别是39、44、43分，平均每次（　）分",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.42 B.43 C.41 D.126，正确答案为A。",
+          "source": "成都市青羊区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_qingyang_2024b_n29",
+          "no": 29,
+          "type": "fill",
+          "stem": "用竖式计算：26.6+17=",
+          "answer": "43.6",
+          "score": 4,
+          "analysis": "小数竖式注意小数点对齐；解方程根据等式性质两边同加减或同除。",
+          "source": "成都市青羊区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_qingyang_2024b_n30",
+          "no": 30,
+          "type": "fill",
+          "stem": "用竖式计算：44.4-9.6=",
+          "answer": "34.8",
+          "score": 4,
+          "analysis": "小数竖式注意小数点对齐；解方程根据等式性质两边同加减或同除。",
+          "source": "成都市青羊区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_qingyang_2024b_n31",
+          "no": 31,
+          "type": "fill",
+          "stem": "用竖式计算：3×4=",
+          "answer": "12",
+          "score": 4,
+          "analysis": "小数竖式注意小数点对齐；解方程根据等式性质两边同加减或同除。",
+          "source": "成都市青羊区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_qingyang_2024b_n32",
+          "no": 32,
+          "type": "fill",
+          "stem": "解方程：8x=88，x=（　）",
+          "answer": "11",
+          "score": 4,
+          "analysis": "小数竖式注意小数点对齐；解方程根据等式性质两边同加减或同除。",
+          "source": "成都市青羊区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_qingyang_2024b_n33",
+          "no": 33,
+          "type": "draw",
+          "stem": "画出下面三角形底边上的高（底边已用虚线标出）。",
+          "answer": "画出底边上的高（从顶点向底边作垂线）",
+          "score": 3,
+          "analysis": "从顶点向底边作垂线，垂足在底边上。",
+          "source": "成都市青羊区2024-2025学年下期期末（组编）",
+          "figure": {
+            "w": 240,
+            "h": 160,
+            "shapes": [
+              {
+                "t": "l",
+                "x1": 40,
+                "y1": 130,
+                "x2": 200,
+                "y2": 130
+              },
+              {
+                "t": "l",
+                "x1": 40,
+                "y1": 130,
+                "x2": 90,
+                "y2": 30
+              },
+              {
+                "t": "l",
+                "x1": 200,
+                "y1": 130,
+                "x2": 90,
+                "y2": 30
+              },
+              {
+                "t": "tx",
+                "x": 108,
+                "y": 136,
+                "s": "底",
+                "fs": 13
+              }
+            ]
+          }
+        },
+        {
+          "id": "paper_g4_chengdu_qingyang_2024b_n34",
+          "no": 34,
+          "type": "draw",
+          "stem": "在方格纸上画一个底6厘米、高3厘米的三角形（每个小格边长1厘米）。",
+          "answer": "底6格、高3格的三角形（画法不唯一）",
+          "score": 3,
+          "analysis": "沿方格线画底 6 格，再在距离底 3 格处取顶点。",
+          "source": "成都市青羊区2024-2025学年下期期末（组编）",
+          "figure": {
+            "w": 300,
+            "h": 200,
+            "shapes": [
+              {
+                "t": "grid",
+                "x": 20,
+                "y": 10,
+                "cols": 11,
+                "rows": 6,
+                "cw": 24
+              }
+            ]
+          }
+        },
+        {
+          "id": "paper_g4_chengdu_qingyang_2024b_n35",
+          "no": 35,
+          "type": "solve",
+          "stem": "一支钢笔3.9元，一本笔记本4元，买一支钢笔和一本笔记本一共要多少元？",
+          "answer": "7.9元",
+          "score": 4,
+          "analysis": "3.9+4=7.9（元）。",
+          "source": "成都市青羊区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_qingyang_2024b_n36",
+          "no": 36,
+          "type": "solve",
+          "stem": "妈妈买菜用去5.3元，买水果用去4.4元，她付给售货员20元，应找回多少元？",
+          "answer": "10.3元",
+          "score": 4,
+          "analysis": "先用去 5.3+4.4=9.7（元），再算找回：20-9.7=10.3（元）。",
+          "source": "成都市青羊区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_qingyang_2024b_n37",
+          "no": 37,
+          "type": "solve",
+          "stem": "苹果每千克6.6元，买4千克要多少元？",
+          "answer": "26.4元",
+          "score": 4,
+          "analysis": "单价×数量=总价：6.6×4=26.4（元）。",
+          "source": "成都市青羊区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_qingyang_2024b_n38",
+          "no": 38,
+          "type": "solve",
+          "stem": "小丽跳绳，前3次平均每次跳95个，第4次跳了99个，4次平均每次跳多少个？",
+          "answer": "96个",
+          "score": 4,
+          "analysis": "前3次共跳 95×3=285 个，加上第4次共 384 个，平均 384÷4=96 个。",
+          "source": "成都市青羊区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_qingyang_2024b_n39",
+          "no": 39,
+          "type": "solve",
+          "stem": "甲、乙两人同时从两地相向而行，甲每分钟走69米，乙每分钟走63米，4分钟后相遇，两地相距多少米？",
+          "answer": "528米",
+          "score": 4,
+          "analysis": "速度和×时间=路程：(69+63)×4=528米。",
+          "source": "成都市青羊区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_qingyang_2024b_n40",
+          "no": 40,
+          "type": "solve",
+          "stem": "文具店运来4盒铅笔，每盒27支，卖出69支，还剩多少支？",
+          "answer": "39支",
+          "score": 4,
+          "analysis": "共有 4×27=108 支，卖出 69 支，还剩 39 支。",
+          "source": "成都市青羊区2024-2025学年下期期末（组编）",
+          "figure": null
+        }
+      ]
+    },
+    {
+      "id": "paper_g4_mianyang_fucheng_2022b",
+      "grade": 4,
+      "region": "绵阳市涪城区",
+      "year": "2022-2023学年下期",
+      "title": "四年级数学期末测试卷（三）",
+      "duration": 90,
+      "total_score": 100,
+      "note": "北师大版四年级下册：小数的意义和加减法、认识三角形和四边形、小数乘法、观察物体、认识方程、平均数与相遇问题；口算10×1分+填空8×3分+判断5×2分+选择5×2分+计算4×4分+看图列式与操作2×3分+解决问题6×4分",
+      "questions": [
+        {
+          "id": "paper_g4_mianyang_fucheng_2022b_n1",
+          "no": 1,
+          "type": "fill",
+          "stem": "口算：2.89+0.5=",
+          "answer": "3.39",
+          "score": 1,
+          "analysis": "小数口算按整数口算方法计算，再点上小数点（对齐数位）。",
+          "source": "绵阳市涪城区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_mianyang_fucheng_2022b_n2",
+          "no": 2,
+          "type": "fill",
+          "stem": "口算：6.9-2.9=",
+          "answer": "4",
+          "score": 1,
+          "analysis": "小数口算按整数口算方法计算，再点上小数点（对齐数位）。",
+          "source": "绵阳市涪城区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_mianyang_fucheng_2022b_n3",
+          "no": 3,
+          "type": "fill",
+          "stem": "口算：5.56+1.5=",
+          "answer": "7.06",
+          "score": 1,
+          "analysis": "小数口算按整数口算方法计算，再点上小数点（对齐数位）。",
+          "source": "绵阳市涪城区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_mianyang_fucheng_2022b_n4",
+          "no": 4,
+          "type": "fill",
+          "stem": "口算：0.4×3=",
+          "answer": "1.2",
+          "score": 1,
+          "analysis": "小数口算按整数口算方法计算，再点上小数点（对齐数位）。",
+          "source": "绵阳市涪城区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_mianyang_fucheng_2022b_n5",
+          "no": 5,
+          "type": "fill",
+          "stem": "口算：7.47+1.5=",
+          "answer": "8.97",
+          "score": 1,
+          "analysis": "小数口算按整数口算方法计算，再点上小数点（对齐数位）。",
+          "source": "绵阳市涪城区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_mianyang_fucheng_2022b_n6",
+          "no": 6,
+          "type": "fill",
+          "stem": "口算：2.27+1.5=",
+          "answer": "3.77",
+          "score": 1,
+          "analysis": "小数口算按整数口算方法计算，再点上小数点（对齐数位）。",
+          "source": "绵阳市涪城区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_mianyang_fucheng_2022b_n7",
+          "no": 7,
+          "type": "fill",
+          "stem": "口算：4.2+3.7=",
+          "answer": "7.9",
+          "score": 1,
+          "analysis": "小数口算按整数口算方法计算，再点上小数点（对齐数位）。",
+          "source": "绵阳市涪城区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_mianyang_fucheng_2022b_n8",
+          "no": 8,
+          "type": "fill",
+          "stem": "口算：7-2.9=",
+          "answer": "4.1",
+          "score": 1,
+          "analysis": "小数口算按整数口算方法计算，再点上小数点（对齐数位）。",
+          "source": "绵阳市涪城区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_mianyang_fucheng_2022b_n9",
+          "no": 9,
+          "type": "fill",
+          "stem": "口算：4.3+2=",
+          "answer": "6.3",
+          "score": 1,
+          "analysis": "小数口算按整数口算方法计算，再点上小数点（对齐数位）。",
+          "source": "绵阳市涪城区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_mianyang_fucheng_2022b_n10",
+          "no": 10,
+          "type": "fill",
+          "stem": "口算：4.9-3.4=",
+          "answer": "1.5",
+          "score": 1,
+          "analysis": "小数口算按整数口算方法计算，再点上小数点（对齐数位）。",
+          "source": "绵阳市涪城区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_mianyang_fucheng_2022b_n11",
+          "no": 11,
+          "type": "fill",
+          "stem": "0.8里面有（　）个0.1",
+          "answer": "8",
+          "score": 3,
+          "analysis": "0.8 是 8 个 0.1。",
+          "source": "绵阳市涪城区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_mianyang_fucheng_2022b_n12",
+          "no": 12,
+          "type": "fill",
+          "stem": "三角形任意两边之和（　）第三边（填“大于”“小于”或“等于”）",
+          "answer": "大于",
+          "score": 3,
+          "analysis": "两边之和大于第三边。",
+          "source": "绵阳市涪城区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_mianyang_fucheng_2022b_n13",
+          "no": 13,
+          "type": "fill",
+          "stem": "8.9-1.9=（　）",
+          "answer": "7",
+          "score": 3,
+          "analysis": "8.9-1.9=7。",
+          "source": "绵阳市涪城区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_mianyang_fucheng_2022b_n14",
+          "no": 14,
+          "type": "fill",
+          "stem": "0.25×4=（　）",
+          "answer": "1",
+          "score": 3,
+          "analysis": "0.25×4=1。",
+          "source": "绵阳市涪城区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_mianyang_fucheng_2022b_n15",
+          "no": 15,
+          "type": "fill",
+          "stem": "每支笔m元，买5支要（　）元（用含字母的式子）",
+          "answer": "5m",
+          "score": 3,
+          "analysis": "总价=5×m，写作 5m。",
+          "source": "绵阳市涪城区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_mianyang_fucheng_2022b_n16",
+          "no": 16,
+          "type": "fill",
+          "stem": "求方程解的过程叫作（　）",
+          "answer": "解方程",
+          "score": 3,
+          "analysis": "求方程的解的过程叫解方程。",
+          "source": "绵阳市涪城区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_mianyang_fucheng_2022b_n17",
+          "no": 17,
+          "type": "fill",
+          "stem": "小明4次跳绳成绩是6、9、10、3个，平均每次跳（　）个",
+          "answer": "7",
+          "score": 3,
+          "analysis": "总数6+9+10+3=28个，28÷4=7个。",
+          "source": "绵阳市涪城区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_mianyang_fucheng_2022b_n18",
+          "no": 18,
+          "type": "fill",
+          "stem": "9分米=（　）米（填小数）",
+          "answer": "0.9",
+          "score": 3,
+          "analysis": "1 分米=0.1 米，9 分米=0.9 米。",
+          "source": "绵阳市涪城区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_mianyang_fucheng_2022b_n19",
+          "no": 19,
+          "type": "judge",
+          "stem": "判断：小数部分位数越多，小数就越大。",
+          "answer": "错",
+          "score": 2,
+          "analysis": "如 0.2 是一位小数、0.15 是两位小数，但 0.2 > 0.15。",
+          "source": "绵阳市涪城区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_mianyang_fucheng_2022b_n20",
+          "no": 20,
+          "type": "judge",
+          "stem": "判断：等边三角形的三条边相等。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "等边三角形三边都相等。",
+          "source": "绵阳市涪城区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_mianyang_fucheng_2022b_n21",
+          "no": 21,
+          "type": "judge",
+          "stem": "判断：方程一定是等式。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "方程是含有未知数的等式。",
+          "source": "绵阳市涪城区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_mianyang_fucheng_2022b_n22",
+          "no": 22,
+          "type": "judge",
+          "stem": "判断：1.2×0.5=0.6。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "1.2×0.5=0.6。",
+          "source": "绵阳市涪城区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_mianyang_fucheng_2022b_n23",
+          "no": 23,
+          "type": "judge",
+          "stem": "判断：小组平均身高140厘米，说明每人都是140厘米。",
+          "answer": "错",
+          "score": 2,
+          "analysis": "平均数不代表每个人的数据。",
+          "source": "绵阳市涪城区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_mianyang_fucheng_2022b_n24",
+          "no": 24,
+          "type": "choice",
+          "stem": "3厘米=（　）米（填小数）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.0.03 B.0.3 C.3 D.0.30，正确答案为A。",
+          "source": "绵阳市涪城区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_mianyang_fucheng_2022b_n25",
+          "no": 25,
+          "type": "choice",
+          "stem": "一个三角形中，最小的角是30°，最大的角是85°，第三个角是（　）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.65° B.75° C.55° D.85°，正确答案为A。",
+          "source": "绵阳市涪城区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_mianyang_fucheng_2022b_n26",
+          "no": 26,
+          "type": "choice",
+          "stem": "方程x+23=31的解是x=（　）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.8 B.31 C.-15 D.15，正确答案为A。",
+          "source": "绵阳市涪城区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_mianyang_fucheng_2022b_n27",
+          "no": 27,
+          "type": "choice",
+          "stem": "2.5×100=（　）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.250 B.25 C.0.25 D.2.5，正确答案为A。",
+          "source": "绵阳市涪城区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_mianyang_fucheng_2022b_n28",
+          "no": 28,
+          "type": "choice",
+          "stem": "3次测试成绩分别是25、30、29分，平均每次（　）分",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.28 B.29 C.27 D.84，正确答案为A。",
+          "source": "绵阳市涪城区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_mianyang_fucheng_2022b_n29",
+          "no": 29,
+          "type": "fill",
+          "stem": "用竖式计算：55.9+21.1=",
+          "answer": "77",
+          "score": 4,
+          "analysis": "小数竖式注意小数点对齐；解方程根据等式性质两边同加减或同除。",
+          "source": "绵阳市涪城区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_mianyang_fucheng_2022b_n30",
+          "no": 30,
+          "type": "fill",
+          "stem": "用竖式计算：76.8-8.9=",
+          "answer": "67.9",
+          "score": 4,
+          "analysis": "小数竖式注意小数点对齐；解方程根据等式性质两边同加减或同除。",
+          "source": "绵阳市涪城区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_mianyang_fucheng_2022b_n31",
+          "no": 31,
+          "type": "fill",
+          "stem": "用竖式计算：4.4×6=",
+          "answer": "26.4",
+          "score": 4,
+          "analysis": "小数竖式注意小数点对齐；解方程根据等式性质两边同加减或同除。",
+          "source": "绵阳市涪城区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_mianyang_fucheng_2022b_n32",
+          "no": 32,
+          "type": "fill",
+          "stem": "解方程：x+33=37，x=（　）",
+          "answer": "4",
+          "score": 4,
+          "analysis": "小数竖式注意小数点对齐；解方程根据等式性质两边同加减或同除。",
+          "source": "绵阳市涪城区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_mianyang_fucheng_2022b_n33",
+          "no": 33,
+          "type": "draw",
+          "stem": "以下面三角形的水平边为底，画出它的高。",
+          "answer": "画出底边上的高（从顶点向底边作垂线）",
+          "score": 3,
+          "analysis": "过顶点作底边的垂线段，并标出直角符号。",
+          "source": "绵阳市涪城区2022-2023学年下期期末（组编）",
+          "figure": {
+            "w": 240,
+            "h": 160,
+            "shapes": [
+              {
+                "t": "l",
+                "x1": 40,
+                "y1": 130,
+                "x2": 200,
+                "y2": 130
+              },
+              {
+                "t": "l",
+                "x1": 40,
+                "y1": 130,
+                "x2": 90,
+                "y2": 30
+              },
+              {
+                "t": "l",
+                "x1": 200,
+                "y1": 130,
+                "x2": 90,
+                "y2": 30
+              },
+              {
+                "t": "tx",
+                "x": 108,
+                "y": 136,
+                "s": "底",
+                "fs": 13
+              }
+            ]
+          }
+        },
+        {
+          "id": "paper_g4_mianyang_fucheng_2022b_n34",
+          "no": 34,
+          "type": "draw",
+          "stem": "在方格纸上画一个底5厘米、高3厘米的三角形（每个小格边长1厘米）。",
+          "answer": "底5格、高3格的三角形（画法不唯一）",
+          "score": 3,
+          "analysis": "沿方格线画底 5 格，再在距离底 3 格处取顶点。",
+          "source": "绵阳市涪城区2022-2023学年下期期末（组编）",
+          "figure": {
+            "w": 300,
+            "h": 200,
+            "shapes": [
+              {
+                "t": "grid",
+                "x": 20,
+                "y": 10,
+                "cols": 11,
+                "rows": 6,
+                "cw": 24
+              }
+            ]
+          }
+        },
+        {
+          "id": "paper_g4_mianyang_fucheng_2022b_n35",
+          "no": 35,
+          "type": "solve",
+          "stem": "一支钢笔2.6元，一本笔记本4.2元，买一支钢笔和一本笔记本一共要多少元？",
+          "answer": "6.8元",
+          "score": 4,
+          "analysis": "2.6+4.2=6.8（元）。",
+          "source": "绵阳市涪城区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_mianyang_fucheng_2022b_n36",
+          "no": 36,
+          "type": "solve",
+          "stem": "妈妈买菜用去3.7元，买水果用去4.1元，她付给售货员20元，应找回多少元？",
+          "answer": "12.2元",
+          "score": 4,
+          "analysis": "先用去 3.7+4.1=7.8（元），再算找回：20-7.8=12.2（元）。",
+          "source": "绵阳市涪城区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_mianyang_fucheng_2022b_n37",
+          "no": 37,
+          "type": "solve",
+          "stem": "苹果每千克7.1元，买6千克要多少元？",
+          "answer": "42.6元",
+          "score": 4,
+          "analysis": "单价×数量=总价：7.1×6=42.6（元）。",
+          "source": "绵阳市涪城区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_mianyang_fucheng_2022b_n38",
+          "no": 38,
+          "type": "solve",
+          "stem": "小丽跳绳，前3次平均每次跳93个，第4次跳了85个，4次平均每次跳多少个？",
+          "answer": "91个",
+          "score": 4,
+          "analysis": "前3次共跳 93×3=279 个，加上第4次共 364 个，平均 364÷4=91 个。",
+          "source": "绵阳市涪城区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_mianyang_fucheng_2022b_n39",
+          "no": 39,
+          "type": "solve",
+          "stem": "甲、乙两人同时从两地相向而行，甲每分钟走62米，乙每分钟走41米，6分钟后相遇，两地相距多少米？",
+          "answer": "618米",
+          "score": 4,
+          "analysis": "速度和×时间=路程：(62+41)×6=618米。",
+          "source": "绵阳市涪城区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_mianyang_fucheng_2022b_n40",
+          "no": 40,
+          "type": "solve",
+          "stem": "文具店运来3盒铅笔，每盒28支，卖出23支，还剩多少支？",
+          "answer": "61支",
+          "score": 4,
+          "analysis": "共有 3×28=84 支，卖出 23 支，还剩 61 支。",
+          "source": "绵阳市涪城区2022-2023学年下期期末（组编）",
+          "figure": null
+        }
+      ]
+    },
+    {
+      "id": "paper_g4_yibin_cuiping_2021b",
+      "grade": 4,
+      "region": "宜宾市翠屏区",
+      "year": "2021-2022学年下期",
+      "title": "四年级数学期末测试卷（四）",
+      "duration": 90,
+      "total_score": 100,
+      "note": "北师大版四年级下册：小数的意义和加减法、认识三角形和四边形、小数乘法、观察物体、认识方程、平均数与相遇问题；口算10×1分+填空8×3分+判断5×2分+选择5×2分+计算4×4分+看图列式与操作2×3分+解决问题6×4分",
+      "questions": [
+        {
+          "id": "paper_g4_yibin_cuiping_2021b_n1",
+          "no": 1,
+          "type": "fill",
+          "stem": "口算：67×10=",
+          "answer": "670",
+          "score": 1,
+          "analysis": "小数口算按整数口算方法计算，再点上小数点（对齐数位）。",
+          "source": "宜宾市翠屏区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_yibin_cuiping_2021b_n2",
+          "no": 2,
+          "type": "fill",
+          "stem": "口算：3.99+1.5=",
+          "answer": "5.49",
+          "score": 1,
+          "analysis": "小数口算按整数口算方法计算，再点上小数点（对齐数位）。",
+          "source": "宜宾市翠屏区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_yibin_cuiping_2021b_n3",
+          "no": 3,
+          "type": "fill",
+          "stem": "口算：9.3-1.8=",
+          "answer": "7.5",
+          "score": 1,
+          "analysis": "小数口算按整数口算方法计算，再点上小数点（对齐数位）。",
+          "source": "宜宾市翠屏区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_yibin_cuiping_2021b_n4",
+          "no": 4,
+          "type": "fill",
+          "stem": "口算：0.2×4=",
+          "answer": "0.8",
+          "score": 1,
+          "analysis": "小数口算按整数口算方法计算，再点上小数点（对齐数位）。",
+          "source": "宜宾市翠屏区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_yibin_cuiping_2021b_n5",
+          "no": 5,
+          "type": "fill",
+          "stem": "口算：1.2×3=",
+          "answer": "3.6",
+          "score": 1,
+          "analysis": "小数口算按整数口算方法计算，再点上小数点（对齐数位）。",
+          "source": "宜宾市翠屏区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_yibin_cuiping_2021b_n6",
+          "no": 6,
+          "type": "fill",
+          "stem": "口算：1.71+2=",
+          "answer": "3.71",
+          "score": 1,
+          "analysis": "小数口算按整数口算方法计算，再点上小数点（对齐数位）。",
+          "source": "宜宾市翠屏区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_yibin_cuiping_2021b_n7",
+          "no": 7,
+          "type": "fill",
+          "stem": "口算：5.1+5.5=",
+          "answer": "10.6",
+          "score": 1,
+          "analysis": "小数口算按整数口算方法计算，再点上小数点（对齐数位）。",
+          "source": "宜宾市翠屏区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_yibin_cuiping_2021b_n8",
+          "no": 8,
+          "type": "fill",
+          "stem": "口算：7.6-2.4=",
+          "answer": "5.2",
+          "score": 1,
+          "analysis": "小数口算按整数口算方法计算，再点上小数点（对齐数位）。",
+          "source": "宜宾市翠屏区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_yibin_cuiping_2021b_n9",
+          "no": 9,
+          "type": "fill",
+          "stem": "口算：8.51+0.5=",
+          "answer": "9.01",
+          "score": 1,
+          "analysis": "小数口算按整数口算方法计算，再点上小数点（对齐数位）。",
+          "source": "宜宾市翠屏区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_yibin_cuiping_2021b_n10",
+          "no": 10,
+          "type": "fill",
+          "stem": "口算：4.6-1.7=",
+          "answer": "2.9",
+          "score": 1,
+          "analysis": "小数口算按整数口算方法计算，再点上小数点（对齐数位）。",
+          "source": "宜宾市翠屏区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_yibin_cuiping_2021b_n11",
+          "no": 11,
+          "type": "fill",
+          "stem": "0.06里面有（　）个0.01",
+          "answer": "6",
+          "score": 3,
+          "analysis": "0.06 是 6 个 0.01。",
+          "source": "宜宾市翠屏区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_yibin_cuiping_2021b_n12",
+          "no": 12,
+          "type": "fill",
+          "stem": "等边三角形的每个角都是（　）°",
+          "answer": "60",
+          "score": 3,
+          "analysis": "三边相等三角形的三个角相等，180÷3=60。",
+          "source": "宜宾市翠屏区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_yibin_cuiping_2021b_n13",
+          "no": 13,
+          "type": "fill",
+          "stem": "6.8+1.4=（　）",
+          "answer": "8.2",
+          "score": 3,
+          "analysis": "6.8+1.4=8.2。",
+          "source": "宜宾市翠屏区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_yibin_cuiping_2021b_n14",
+          "no": 14,
+          "type": "fill",
+          "stem": "小数乘整十数 3.6×10=（　）",
+          "answer": "36",
+          "score": 3,
+          "analysis": "乘 10 小数点向右移一位。",
+          "source": "宜宾市翠屏区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_yibin_cuiping_2021b_n15",
+          "no": 15,
+          "type": "fill",
+          "stem": "一堆煤n吨，运走8吨，还剩（　）吨（用含字母的式子）",
+          "answer": "n-8",
+          "score": 3,
+          "analysis": "剩下的煤是 n-8 吨。",
+          "source": "宜宾市翠屏区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_yibin_cuiping_2021b_n16",
+          "no": 16,
+          "type": "fill",
+          "stem": "使方程左右两边相等的未知数的值叫作方程的（　）",
+          "answer": "解",
+          "score": 3,
+          "analysis": "方程的解是使两边相等的未知数的值。",
+          "source": "宜宾市翠屏区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_yibin_cuiping_2021b_n17",
+          "no": 17,
+          "type": "fill",
+          "stem": "小明4次跳绳成绩是10、13、14、7个，平均每次跳（　）个",
+          "answer": "11",
+          "score": 3,
+          "analysis": "总数10+13+14+7=44个，44÷4=11个。",
+          "source": "宜宾市翠屏区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_yibin_cuiping_2021b_n18",
+          "no": 18,
+          "type": "fill",
+          "stem": "7分米=（　）米（填小数）",
+          "answer": "0.7",
+          "score": 3,
+          "analysis": "1 分米=0.1 米，7 分米=0.7 米。",
+          "source": "宜宾市翠屏区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_yibin_cuiping_2021b_n19",
+          "no": 19,
+          "type": "judge",
+          "stem": "判断：1.5米=1米5厘米。",
+          "answer": "错",
+          "score": 2,
+          "analysis": "1.5 米 = 1 米 50 厘米。",
+          "source": "宜宾市翠屏区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_yibin_cuiping_2021b_n20",
+          "no": 20,
+          "type": "judge",
+          "stem": "判断：长3厘米、4厘米、7厘米的三根小棒能围成三角形。",
+          "answer": "错",
+          "score": 2,
+          "analysis": "3+4=7，不大于第三边，围不成。",
+          "source": "宜宾市翠屏区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_yibin_cuiping_2021b_n21",
+          "no": 21,
+          "type": "judge",
+          "stem": "判断：等式一定是方程。",
+          "answer": "错",
+          "score": 2,
+          "analysis": "如 3+2=5 是等式但不含未知数。",
+          "source": "宜宾市翠屏区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_yibin_cuiping_2021b_n22",
+          "no": 22,
+          "type": "judge",
+          "stem": "判断：3.5×2=0.7。",
+          "answer": "错",
+          "score": 2,
+          "analysis": "3.5×2=7，不是 0.7。",
+          "source": "宜宾市翠屏区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_yibin_cuiping_2021b_n23",
+          "no": 23,
+          "type": "judge",
+          "stem": "判断：平均数在最大值和最小值之间。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "平均数介于最大数与最小数之间。",
+          "source": "宜宾市翠屏区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_yibin_cuiping_2021b_n24",
+          "no": 24,
+          "type": "choice",
+          "stem": "8厘米=（　）米（填小数）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.0.08 B.0.8 C.8 D.0.80，正确答案为A。",
+          "source": "宜宾市翠屏区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_yibin_cuiping_2021b_n25",
+          "no": 25,
+          "type": "choice",
+          "stem": "三根小棒长度分别为4cm、5cm、9cm，能围成三角形吗？",
+          "answer": "B",
+          "score": 2,
+          "analysis": "选项：A.能 B.不能 C.无法确定 D.一定能，正确答案为B。",
+          "source": "宜宾市翠屏区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_yibin_cuiping_2021b_n26",
+          "no": 26,
+          "type": "choice",
+          "stem": "方程x+11=37的解是x=（　）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.26 B.37 C.15 D.-15，正确答案为A。",
+          "source": "宜宾市翠屏区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_yibin_cuiping_2021b_n27",
+          "no": 27,
+          "type": "choice",
+          "stem": "7.6×100=（　）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.760 B.76 C.0.76 D.7.6，正确答案为A。",
+          "source": "宜宾市翠屏区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_yibin_cuiping_2021b_n28",
+          "no": 28,
+          "type": "choice",
+          "stem": "3次测试成绩分别是38、43、42分，平均每次（　）分",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.41 B.42 C.40 D.123，正确答案为A。",
+          "source": "宜宾市翠屏区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_yibin_cuiping_2021b_n29",
+          "no": 29,
+          "type": "fill",
+          "stem": "用竖式计算：37.8+22.2=",
+          "answer": "60",
+          "score": 4,
+          "analysis": "小数竖式注意小数点对齐；解方程根据等式性质两边同加减或同除。",
+          "source": "宜宾市翠屏区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_yibin_cuiping_2021b_n30",
+          "no": 30,
+          "type": "fill",
+          "stem": "用竖式计算：69.6-22.5=",
+          "answer": "47.1",
+          "score": 4,
+          "analysis": "小数竖式注意小数点对齐；解方程根据等式性质两边同加减或同除。",
+          "source": "宜宾市翠屏区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_yibin_cuiping_2021b_n31",
+          "no": 31,
+          "type": "fill",
+          "stem": "用竖式计算：3.4×5=",
+          "answer": "17",
+          "score": 4,
+          "analysis": "小数竖式注意小数点对齐；解方程根据等式性质两边同加减或同除。",
+          "source": "宜宾市翠屏区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_yibin_cuiping_2021b_n32",
+          "no": 32,
+          "type": "fill",
+          "stem": "解方程：x+26=45，x=（　）",
+          "answer": "19",
+          "score": 4,
+          "analysis": "小数竖式注意小数点对齐；解方程根据等式性质两边同加减或同除。",
+          "source": "宜宾市翠屏区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_yibin_cuiping_2021b_n33",
+          "no": 33,
+          "type": "draw",
+          "stem": "请给下面的三角形画出指定底边上的高。",
+          "answer": "画出底边上的高（从顶点向底边作垂线）",
+          "score": 3,
+          "analysis": "用三角尺从顶点向底边画垂线段。",
+          "source": "宜宾市翠屏区2021-2022学年下期期末（组编）",
+          "figure": {
+            "w": 240,
+            "h": 160,
+            "shapes": [
+              {
+                "t": "l",
+                "x1": 40,
+                "y1": 130,
+                "x2": 200,
+                "y2": 130
+              },
+              {
+                "t": "l",
+                "x1": 40,
+                "y1": 130,
+                "x2": 90,
+                "y2": 30
+              },
+              {
+                "t": "l",
+                "x1": 200,
+                "y1": 130,
+                "x2": 90,
+                "y2": 30
+              },
+              {
+                "t": "tx",
+                "x": 108,
+                "y": 136,
+                "s": "底",
+                "fs": 13
+              }
+            ]
+          }
+        },
+        {
+          "id": "paper_g4_yibin_cuiping_2021b_n34",
+          "no": 34,
+          "type": "draw",
+          "stem": "在方格纸上画一个底4厘米、高3厘米的三角形（每个小格边长1厘米）。",
+          "answer": "底4格、高3格的三角形（画法不唯一）",
+          "score": 3,
+          "analysis": "沿方格线画底 4 格，再在距离底 3 格处取顶点。",
+          "source": "宜宾市翠屏区2021-2022学年下期期末（组编）",
+          "figure": {
+            "w": 300,
+            "h": 200,
+            "shapes": [
+              {
+                "t": "grid",
+                "x": 20,
+                "y": 10,
+                "cols": 11,
+                "rows": 6,
+                "cw": 24
+              }
+            ]
+          }
+        },
+        {
+          "id": "paper_g4_yibin_cuiping_2021b_n35",
+          "no": 35,
+          "type": "solve",
+          "stem": "一支钢笔4.4元，一本笔记本6.3元，买一支钢笔和一本笔记本一共要多少元？",
+          "answer": "10.7元",
+          "score": 4,
+          "analysis": "4.4+6.3=10.7（元）。",
+          "source": "宜宾市翠屏区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_yibin_cuiping_2021b_n36",
+          "no": 36,
+          "type": "solve",
+          "stem": "妈妈买菜用去7.2元，买水果用去3.5元，她付给售货员20元，应找回多少元？",
+          "answer": "9.3元",
+          "score": 4,
+          "analysis": "先用去 7.2+3.5=10.7（元），再算找回：20-10.7=9.3（元）。",
+          "source": "宜宾市翠屏区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_yibin_cuiping_2021b_n37",
+          "no": 37,
+          "type": "solve",
+          "stem": "苹果每千克5.2元，买3千克要多少元？",
+          "answer": "15.6元",
+          "score": 4,
+          "analysis": "单价×数量=总价：5.2×3=15.6（元）。",
+          "source": "宜宾市翠屏区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_yibin_cuiping_2021b_n38",
+          "no": 38,
+          "type": "solve",
+          "stem": "小丽跳绳，前3次平均每次跳118个，第4次跳了122个，4次平均每次跳多少个？",
+          "answer": "119个",
+          "score": 4,
+          "analysis": "前3次共跳 118×3=354 个，加上第4次共 476 个，平均 476÷4=119 个。",
+          "source": "宜宾市翠屏区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_yibin_cuiping_2021b_n39",
+          "no": 39,
+          "type": "solve",
+          "stem": "甲、乙两人同时从两地相向而行，甲每分钟走46米，乙每分钟走65米，8分钟后相遇，两地相距多少米？",
+          "answer": "888米",
+          "score": 4,
+          "analysis": "速度和×时间=路程：(46+65)×8=888米。",
+          "source": "宜宾市翠屏区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_yibin_cuiping_2021b_n40",
+          "no": 40,
+          "type": "solve",
+          "stem": "文具店运来3盒铅笔，每盒15支，卖出29支，还剩多少支？",
+          "answer": "16支",
+          "score": 4,
+          "analysis": "共有 3×15=45 支，卖出 29 支，还剩 16 支。",
+          "source": "宜宾市翠屏区2021-2022学年下期期末（组编）",
+          "figure": null
+        }
+      ]
     }
   ]
 }
