@@ -7,7 +7,7 @@ var GRADE_NAMES = { 1: '一年级', 2: '二年级', 3: '三年级', 4: '四年�
 var TYPE_NAMES = { calc: '计算题', vertical: '竖式计算',
                    equation: '解方程', word: '应用题' };
 
-var VIEWS = ['practice', 'finale', 'records', 'stats', 'export', 'settings', 'users'];
+var VIEWS = ['practice', 'finale', 'papers', 'records', 'stats', 'export', 'settings', 'users'];
 
 /* 学期名称（侧边栏全局学期选择器，做题 / 生成导出共用） */
 var SEMESTER_NAMES = { '0': '自动（按学期）', '1': '上册', '2': '下册' };
@@ -117,6 +117,7 @@ function route() {
   if (target === 'records') loadRecords();
   if (target === 'stats') loadStats();
   if (target === 'finale') loadFinale();
+  if (target === 'papers') loadPapers();
 }
 
 /* ---------- 做题页 ---------- */
@@ -1209,6 +1210,327 @@ function loadFinaleHistory() {
     });
 }
 
+/* ---------- 真题试卷（四川各地小学 1-6 年级） ---------- */
+
+var PAPER_RESULT_NAMES = { done: '做出来了', hint: '看了提示做出来',
+                           fail: '没做出来' };
+
+var paperState = {
+  grade: 0,       // 列表筛选年级（0=全部）
+  list: null,     // /api/papers/list 返回
+  paper: null,    // 当前打开的试卷（/api/papers/load 返回）
+  answers: {},    // 客观题作答 {qid: value}
+  self: {}        // 解答题自评 {qid: done|hint|fail}
+};
+
+function loadPapers(grade) {
+  if (typeof grade === 'number') paperState.grade = grade;
+  var box = $('papers-content');
+  if (!box) return;
+  var g = paperState.grade ? '&grade=' + paperState.grade : '';
+  box.innerHTML = '<p class="tip">加载中…</p>';
+  paperState.paper = null;
+  fetchJSON('/api/papers/list?user_id=' + encodeURIComponent(state.user) + g)
+    .then(function (d) {
+      paperState.list = d;
+      renderPapersList();
+    })
+    .catch(function () {
+      box.innerHTML = '<p class="tip">加载失败，请检查服务是否正常。</p>';
+    });
+}
+
+/* 试卷导出能力：安卓 APK 端未打包导出库，隐藏导出按钮（与导出页一致） */
+var _papersExportOk = true;  // 端点未返回前按可用处理
+
+function paperGradeTabs() {
+  var html = '<div class="paper-tabs">';
+  html += '<button class="btn btn-sm paper-tab' + (paperState.grade === 0 ? ' primary' : '') +
+    '" data-pgrade="0">全部</button>';
+  for (var g = 1; g <= 6; g++) {
+    html += '<button class="btn btn-sm paper-tab' + (paperState.grade === g ? ' primary' : '') +
+      '" data-pgrade="' + g + '">' + GRADE_NAMES[g] + '</button>';
+  }
+  return html + '</div>';
+}
+
+function renderPapersList() {
+  var box = $('papers-content');
+  if (!box) return;
+  var d = paperState.list;
+  var doneMap = {};
+  (d.done || []).forEach(function (r) { doneMap[r.paper_id] = r; });
+
+  var html = paperGradeTabs() +
+    '<p class="tip">四川各地市（成都、绵阳、宜宾、南充、泸州）期末真题卷，按北师大版教材组编；' +
+    '在线作答自动判分，解答题自评计分。</p>';
+
+  var items = d.items || [];
+  var byGrade = {};
+  items.forEach(function (p) {
+    (byGrade[p.grade] = byGrade[p.grade] || []).push(p);
+  });
+  Object.keys(byGrade).sort(function (a, b) { return a - b; }).forEach(function (g) {
+    html += '<h3 class="paper-grade-head">' + GRADE_NAMES[g] + '</h3>';
+    byGrade[g].forEach(function (p) {
+      var done = doneMap[p.id];
+      var doneHtml = done
+        ? '<span class="rec-status ok">已作答 ' + done.score + ' 分</span>'
+        : '<span class="rec-status none">未作答</span>';
+      var exportBtns = _papersExportOk
+        ? '<a class="btn btn-sm" href="/api/papers/export/pdf?id=' + encodeURIComponent(p.id) +
+          '">导出PDF</a>' +
+          '<a class="btn btn-sm" href="/api/papers/export/pdf?id=' + encodeURIComponent(p.id) +
+          '&with_answers=1">导出PDF含答案</a>'
+        : '';
+      html += '<div class="card paper-card">' +
+        '<div class="paper-card-head">' +
+        '<div><b>' + escapeHtml(p.title) + '</b>' +
+        '<span class="paper-meta">' + escapeHtml(p.region) + ' · ' +
+        escapeHtml(p.year) + ' · 共' + p.question_count + '题 · 满分' +
+        p.total_score + '分</span></div>' + doneHtml + '</div>' +
+        '<div class="paper-note">' + escapeHtml(p.note || '') + '</div>' +
+        '<div class="paper-actions">' +
+        '<button class="btn primary btn-sm" data-popen="' + escapeHtml(p.id) + '">进入答题</button>' +
+        exportBtns + '</div>' +
+        '</div>';
+    });
+  });
+  box.innerHTML = html;
+
+  // 导出能力检测（与导出页共用 /api/caps）
+  fetchJSON('/api/caps').then(function (c) {
+    _papersExportOk = !c || c.export !== false;
+    if (!_papersExportOk) {
+      box.querySelectorAll('.paper-actions a').forEach(function (a) {
+        a.classList.add('hidden');
+      });
+      var tip = document.createElement('p');
+      tip.className = 'tip';
+      tip.textContent = '本设备暂不支持导出 PDF，请在电脑端使用导出功能。';
+      box.insertBefore(tip, box.querySelector('.paper-grade-head'));
+    }
+  }).catch(function () {});
+
+  box.querySelectorAll('.paper-tab').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      loadPapers(parseInt(btn.getAttribute('data-pgrade'), 10));
+    });
+  });
+  box.querySelectorAll('[data-popen]').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      openPaper(btn.getAttribute('data-popen'));
+    });
+  });
+}
+
+function openPaper(paperId) {
+  var box = $('papers-content');
+  box.innerHTML = '<p class="tip">加载中…</p>';
+  fetchJSON('/api/papers/load?id=' + encodeURIComponent(paperId) +
+      '&user_id=' + encodeURIComponent(state.user))
+    .then(function (d) {
+      paperState.paper = d;
+      paperState.answers = {};
+      paperState.self = {};
+      // 恢复已提交答卷的作答状态
+      var rec = d.record;
+      if (rec) {
+        Object.keys(rec.answers || {}).forEach(function (k) {
+          paperState.answers[k] = rec.answers[k];
+        });
+        Object.keys(rec.graded || {}).forEach(function (k) {
+          var g = rec.graded[k];
+          if (g && g.self) paperState.self[k] = g.self;
+        });
+      }
+      renderPaperExam();
+    })
+    .catch(function () {
+      box.innerHTML = '<p class="tip">加载失败，请检查服务是否正常。</p>';
+    });
+}
+
+function paperQHtml(q, rec) {
+  var graded = rec && rec.graded && rec.graded[q.id];
+  var head = '<div class="paper-q-head"><b>' + q.no + '. </b>' +
+    escapeHtml(q.stem || '') + '</div>';
+  if (graded && graded.correct !== undefined) {
+    head += ' <span class="rec-status ' + (graded.correct ? 'ok' : 'wrong') + '">' +
+      (graded.correct ? '正确' : '错误') + '</span>';
+  }
+  var html = '<div class="card paper-q">' + head;
+  if (q.type === 'choice') {
+    html += '<div class="paper-choice">';
+    (q.options || []).forEach(function (opt, i) {
+      var letter = String.fromCharCode(65 + i);
+      var checked = paperState.answers[q.id] === letter ? ' checked' : '';
+      html += '<label class="paper-choice-item' +
+        (checked ? ' checked' : '') + '"><input type="radio" name="q-' +
+        escapeHtml(q.id) + '" value="' + letter + '"' + checked + '>' +
+        letter + '. ' + escapeHtml(opt) + '</label>';
+    });
+    html += '</div>';
+  } else if (q.type === 'fill') {
+    var val = paperState.answers[q.id] || '';
+    html += '<div class="paper-fill">答：<input type="text" class="fill-input" ' +
+      'data-qid="' + escapeHtml(q.id) + '" value="' + escapeHtml(val) +
+      '" placeholder="在此输入答案"></div>';
+  } else {  // solve：解答题，自评三态
+    var selfBtns = '';
+    ['done', 'hint', 'fail'].forEach(function (r) {
+      var active = paperState.self[q.id] === r ? ' primary' : '';
+      selfBtns += '<button class="btn btn-sm paper-self' + active +
+        '" data-self="' + escapeHtml(q.id) + '" data-result="' + r + '">' +
+        PAPER_RESULT_NAMES[r] + '</button>';
+    });
+    html += '<div class="paper-self-row"><span class="paper-self-label">做完后自评：</span>' +
+      selfBtns + '</div>';
+    var analysis = q.analysis
+      ? '<div class="finale-reveal hidden" id="paper-ana-' + escapeHtml(q.id) +
+        '"><b>答案与解析：</b>' + escapeHtml(q.answer || '') +
+        (q.analysis ? '。' + escapeHtml(q.analysis) : '') + '</div>'
+      : '';
+    html += '<div class="paper-solve-actions">' +
+      '<button class="btn btn-sm" data-show-ana="' + escapeHtml(q.id) + '">查看解析</button>' +
+      analysis + '</div>';
+  }
+  return html + '</div>';
+}
+
+function renderPaperExam() {
+  var box = $('papers-content');
+  var p = paperState.paper;
+  if (!p) return;
+  var rec = p.record;
+  var scoreHtml = rec
+    ? '<div class="result-box ok">上次得分：<b>' + rec.score + '</b> / ' +
+      p.total_score + ' 分（提交于 ' + escapeHtml((rec.submitted_at || '').slice(0, 16)
+        .replace('T', ' ')) + '）</div>'
+    : '';
+  var html = '<div class="card paper-exam-head">' +
+    '<div class="paper-card-head"><div><b>' + escapeHtml(p.title) + '</b>' +
+    '<span class="paper-meta">' + escapeHtml(p.region) + ' · ' +
+    escapeHtml(p.year) + ' · 满分' + p.total_score + '分 · 建议' +
+    p.duration + '分钟</span></div>' +
+    '<button id="btn-paper-back" class="btn btn-sm">返回列表</button></div>' +
+    '<div class="paper-note">' + escapeHtml(p.note || '') + '</div>' +
+    '<div class="paper-submit-row">' +
+    '<button id="btn-paper-submit" class="btn primary">提交整卷</button>' +
+    (rec ? '<span class="tip-inline">已提交过，重新提交将覆盖上次成绩</span>' : '') +
+    '</div></div>' + scoreHtml;
+  (p.questions || []).forEach(function (q) {
+    html += paperQHtml(q, rec);
+  });
+  html += '<p class="tip">选择/填空自动判分；解答题对照解析自评，自评"做出来了"得满分、' +
+    '"看了提示做出来"得一半分、"没做出来"不得分。</p>';
+  box.innerHTML = html;
+
+  $('btn-paper-back').addEventListener('click', function () { loadPapers(); });
+  $('btn-paper-submit').addEventListener('click', confirmPaperSubmit);
+  // 填空输入
+  box.querySelectorAll('.fill-input').forEach(function (inp) {
+    inp.addEventListener('input', function () {
+      paperState.answers[inp.getAttribute('data-qid')] = inp.value;
+    });
+  });
+  // 选择单选
+  box.querySelectorAll('.paper-choice-item input').forEach(function (radio) {
+    radio.addEventListener('change', function () {
+      var qid = radio.name.replace('q-', '');
+      paperState.answers[qid] = radio.value;
+      radio.closest('.paper-choice').querySelectorAll('.paper-choice-item')
+        .forEach(function (lab) {
+          lab.classList.toggle('checked', lab.querySelector('input').checked);
+        });
+    });
+  });
+  // 解答题自评 + 查看解析
+  box.querySelectorAll('.paper-self').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var qid = btn.getAttribute('data-self');
+      paperState.self[qid] = btn.getAttribute('data-result');
+      btn.closest('.paper-self-row').querySelectorAll('.paper-self')
+        .forEach(function (b) {
+          b.classList.toggle('primary', b.getAttribute('data-result') ===
+            paperState.self[qid]);
+        });
+    });
+  });
+  box.querySelectorAll('[data-show-ana]').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      $('paper-ana-' + btn.getAttribute('data-show-ana')).classList.toggle('hidden');
+    });
+  });
+}
+
+function confirmPaperSubmit() {
+  var p = paperState.paper;
+  if (!p) return;
+  var qs = p.questions || [];
+  var unanswered = [];
+  var unself = [];
+  qs.forEach(function (q) {
+    if (q.type === 'solve') {
+      if (!paperState.self[q.id]) unself.push(q.no);
+    } else if (!(paperState.answers[q.id] || '').trim()) {
+      unanswered.push(q.no);
+    }
+  });
+  var info = '<p>共 <b>' + qs.length + '</b> 题，提交后自动判分并存档。</p>';
+  if (unanswered.length) {
+    info += '<p class="warn-text">⚠ 客观题未作答：第 ' + unanswered.join('、') +
+      ' 题，未作答将按错误处理。</p>';
+  }
+  if (unself.length) {
+    info += '<p class="warn-text">⚠ 解答题未自评：第 ' + unself.join('、') +
+      ' 题，未自评按未做处理（0 分）。</p>';
+  }
+  info += '<p>确定提交吗？</p>';
+  openSubmitModal('提交真题卷', info, [
+    { text: '取消', fn: null },
+    { text: '确定提交', cls: 'primary', fn: submitPaper }
+  ]);
+}
+
+function submitPaper() {
+  var p = paperState.paper;
+  if (!p) return;
+  var selfAssess = {};
+  Object.keys(paperState.self).forEach(function (k) {
+    selfAssess[k] = paperState.self[k];
+  });
+  fetchJSON('/api/papers/submit', {
+    method: 'POST',
+    body: JSON.stringify({
+      user_id: state.user,
+      id: p.id,
+      answers: paperState.answers,
+      self_assess: selfAssess
+    })
+  }).then(function (res) {
+    if (res.error) { alert(res.error); return; }
+    var rec = res.record || {};
+    // 统计客观题与解答题明细
+    var objOk = 0, objTotal = 0;
+    Object.keys(rec.graded || {}).forEach(function (k) {
+      var g = rec.graded[k];
+      if (g.type !== 'solve') { objTotal++; if (g.correct) objOk++; }
+    });
+    var body = '<div class="submit-result">' +
+      '<p class="submit-score">得分 <b>' + res.score + '</b> / ' +
+      p.total_score + ' 分</p>' +
+      '<p class="submit-msg">客观题答对 ' + objOk + ' / ' + objTotal +
+      ' 题；解答题按自评计分（做出来了=满分，看了提示=一半，没做出来=0分）。</p></div>';
+    openSubmitModal('真题卷成绩', body, [
+      { text: '好的', cls: 'primary', fn: function () { openPaper(p.id); } }
+    ]);
+  }).catch(function () {
+    openSubmitModal('提交失败', '<p>提交失败，请检查服务是否正常后重试。</p>',
+      [{ text: '好的' }]);
+  });
+}
+
 /* ---------- 设置页 ---------- */
 
 /* 最近一次保存的题量配置：输入框被清空（平板触摸易误触）时，
@@ -1314,6 +1636,8 @@ function onUserChange() {
   loadStats();
   // 当前停留在压轴专项页时刷新该页（进度按用户分开存储）
   if ((location.hash || '').indexOf('#/finale') === 0) loadFinale();
+  // 当前停留在真题试卷页时刷新该页（答卷按用户分开存储）
+  if ((location.hash || '').indexOf('#/papers') === 0) loadPapers();
   renderUserManage();
 }
 

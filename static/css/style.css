@@ -778,3 +778,119 @@ select:focus, input:focus {
   .finale-stem { padding: 10px 12px; }
   .finale-fig { max-height: 260px; }
 }
+
+/* ---------- 真题试卷页 ---------- */
+
+/* 年级筛选按钮组：横纵对齐，触控目标 ≥44px */
+.paper-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.paper-tab { min-width: 64px; min-height: 40px; }
+
+.paper-grade-head { margin: 14px 0 8px; font-size: 16px; }
+
+.paper-card { padding: 14px 16px; margin-bottom: 10px; }
+
+.paper-card-head {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.paper-card-head > div:first-child { flex: 1; min-width: 0; }
+
+.paper-meta {
+  display: block;
+  color: var(--text-secondary);
+  font-size: var(--fs-small);
+  margin-top: 4px;
+}
+
+.paper-note {
+  color: var(--text-secondary);
+  font-size: var(--fs-small);
+  margin-top: 8px;
+  line-height: 1.6;
+}
+
+.paper-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.paper-actions .btn { min-height: 40px; }
+
+/* 答题页 */
+.paper-exam-head { margin-bottom: 10px; }
+
+.paper-submit-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.tip-inline { color: var(--text-secondary); font-size: var(--fs-small); }
+
+.paper-q { padding: 14px 16px; margin-bottom: 10px; }
+
+.paper-q-head {
+  line-height: 1.7;
+  white-space: pre-wrap;
+}
+
+.paper-choice {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-top: 10px;
+}
+
+.paper-choice-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 10px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  cursor: pointer;
+  min-height: 44px;
+}
+
+.paper-choice-item.checked {
+  border-color: var(--primary);
+  background: #f6fffb;
+}
+
+.paper-fill { margin-top: 10px; display: flex; align-items: center; gap: 8px; }
+
+.fill-input {
+  flex: 1;
+  max-width: 320px;
+  min-height: 44px;
+  padding: 6px 10px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  font-size: var(--fs-body);
+}
+
+.paper-self-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.paper-self-label { color: var(--text-secondary); font-size: var(--fs-body); }
+
+.paper-self { min-height: 40px; }
+
+.paper-solve-actions { margin-top: 10px; }

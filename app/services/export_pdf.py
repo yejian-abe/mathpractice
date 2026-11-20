@@ -260,3 +260,86 @@ def export_pdf(datasets, with_answers=False):
     else:
         filename = "数学练习_%s_%s%s.pdf" % (date_str, grade_name, suffix)
     return buf, filename
+
+
+# ---------- 真题试卷导出（四川小学 1-6 年级） ----------
+
+def export_paper_pdf(paper, with_answers=False):
+    """真题试卷导出 PDF：按填空/选择/解答三个分节排版，解答题预留答题空白，
+    可选附参考答案页（含解析）。返回 (BytesIO, 文件名)"""
+    styles = _styles()
+    font = _ensure_font()
+    title = paper.get("title") or "数学真题卷"
+    region = paper.get("region") or ""
+    year = paper.get("year") or ""
+    grade_name = GRADE_NAMES.get(paper.get("grade"), str(paper.get("grade")))
+
+    buf = io.BytesIO()
+    doc = SimpleDocTemplate(
+        buf, pagesize=A4,
+        leftMargin=1.5 * cm, rightMargin=1.5 * cm,
+        topMargin=1.8 * cm, bottomMargin=1.3 * cm,
+        title="%s %s" % (region, title))
+
+    def _header(canvas, _doc):
+        canvas.saveState()
+        canvas.setFont(font, 10)
+        canvas.drawString(1.5 * cm, A4[1] - 1.1 * cm,
+                          "%s · %s" % (region, year))
+        canvas.drawRightString(A4[0] - 1.5 * cm, A4[1] - 1.1 * cm,
+                               "姓名：____________")
+        canvas.restoreState()
+
+    questions = paper.get("questions") or []
+    fills = [q for q in questions if q.get("type") == "fill"]
+    choices = [q for q in questions if q.get("type") == "choice"]
+    solves = [q for q in questions if q.get("type") == "solve"]
+
+    story = []
+    story.append(Paragraph(title, styles["title"]))
+    story.append(Paragraph("%s · %s · %s · 满分 %s 分 · 建议 %s 分钟" % (
+        escape(region), escape(year), escape(grade_name),
+        paper.get("total_score"), paper.get("duration")), styles["info"]))
+
+    def _section(qs, heading, space_after=0.9 * cm):
+        if not qs:
+            return
+        story.append(Paragraph(heading, styles["section"]))
+        for q in qs:
+            text = "%s. %s" % (q.get("no"), escape(str(q.get("stem") or "")))
+            if q.get("type") == "choice":
+                # 选项排一行（A/B/C），卷面更紧凑
+                opts = q.get("options") or []
+                letters = ("A", "B", "C", "D")
+                text += "　" + "　".join(
+                    "%s. %s" % (letters[i], escape(str(o)))
+                    for i, o in enumerate(opts))
+            else:
+                text += "（　　）"  # 填空括号，答题处留空
+            story.append(Paragraph(text, styles["body"]))
+            story.append(Spacer(1, space_after))
+
+    _section(fills, "一、填空题（把答案写在横线或括号内）")
+    _section(choices, "二、选择题（把正确答案的字母填入括号内）", 0.4 * cm)
+    _section(solves, "三、解答题（写出解答过程）", 2.6 * cm)
+
+    # ---- 参考答案页 ----
+    if with_answers:
+        story.append(PageBreak())
+        story.append(Paragraph("参考答案与解析", styles["title"]))
+        for q in questions:
+            story.append(Paragraph(
+                "%s. 【答案】%s" % (q.get("no"),
+                                    escape(str(q.get("answer") or ""))),
+                styles["answer"]))
+            if q.get("analysis"):
+                story.append(Paragraph(
+                    "　　【解析】%s" % escape(str(q["analysis"])),
+                    styles["body"]))
+            story.append(Spacer(1, 0.2 * cm))
+
+    doc.build(story, onFirstPage=_header, onLaterPages=_header)
+    buf.seek(0)
+    suffix = "_含答案" if with_answers else ""
+    filename = "真题卷_%s_%s%s.pdf" % (year, title, suffix)
+    return buf, filename

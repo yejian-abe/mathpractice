@@ -23,6 +23,7 @@ from app import config as config_mod, heartbeat
 from app.services import bank, daily_set, export_docx, export_pdf, grading, \
     stats, users
 from app.services import finale as finale_svc
+from app.services import papers as papers_svc
 from app.services import units as units_svc
 
 api_bp = Blueprint("api", __name__)
@@ -407,3 +408,65 @@ def api_finale_fig(name):
     if path is None:
         return jsonify({"error": "配图不存在"}), 404
     return send_file(path, mimetype="image/svg+xml")
+
+
+# ---------- 真题试卷（四川各地小学 1-6 年级） ----------
+
+@api_bp.route("/papers/list")
+def api_papers_list():
+    """真题卷列表（不含题目内容），按年级筛选（缺省=全部年级），附当前用户完成状态"""
+    uid = _user_id_from(request.args.get("user_id"))
+    grade = _grade_or_all(request.args.get("grade"))
+    items = []
+    for p in papers_svc.load_bank(_data_dir()):
+        if grade and p.get("grade") != grade:
+            continue
+        items.append(papers_svc.paper_meta(p))
+    return jsonify({
+        "items": items,
+        "done": papers_svc.list_done(_data_dir(), uid),
+    })
+
+
+@api_bp.route("/papers/load")
+def api_papers_load():
+    """试卷内容（客观题隐藏标准答案），附该用户已提交的答卷用于恢复"""
+    uid = _user_id_from(request.args.get("user_id"))
+    paper_id = (request.args.get("id") or "").strip()
+    paper = papers_svc.find_paper(_data_dir(), paper_id)
+    if paper is None:
+        return jsonify({"error": "试卷不存在"}), 404
+    public = papers_svc.paper_meta(paper)
+    public["questions"] = [papers_svc.question_public(q)
+                           for q in paper.get("questions", [])]
+    public["record"] = papers_svc.get_answers_state(_data_dir(), uid, paper_id)
+    return jsonify(public)
+
+
+@api_bp.route("/papers/submit", methods=["POST"])
+def api_papers_submit():
+    """提交整卷：客观题自动判分，解答题自评三态，合计得分并存档"""
+    body = request.get_json(force=True, silent=True) or {}
+    uid = _user_id_from(body.get("user_id"))
+    paper_id = (body.get("id") or "").strip()
+    result, err = papers_svc.submit(_data_dir(), uid, paper_id,
+                                    body.get("answers"),
+                                    body.get("self_assess"))
+    if err:
+        return jsonify({"error": err}), 400
+    return jsonify(result)
+
+
+@api_bp.route("/papers/export/pdf")
+def api_papers_export_pdf():
+    """整卷导出 PDF（可选附参考答案页）；安卓端未打包 reportlab 返回友好提示"""
+    if not export_pdf.PDF_OK:
+        return jsonify({"error": "本设备暂不支持导出 PDF，请在电脑端使用导出功能"}), 503
+    paper_id = (request.args.get("id") or "").strip()
+    with_answers = request.args.get("with_answers", "0") in ("1", "true", "yes")
+    paper = papers_svc.find_paper(_data_dir(), paper_id)
+    if paper is None:
+        return jsonify({"error": "试卷不存在"}), 404
+    buf, filename = export_pdf.export_paper_pdf(paper, with_answers)
+    return send_file(buf, mimetype="application/pdf", as_attachment=True,
+                     download_name=filename)
