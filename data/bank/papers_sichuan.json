@@ -17307,6 +17307,1794 @@
           "figure": null
         }
       ]
+    },
+    {
+      "id": "paper_g4_chengdu_jinjiang_2022a",
+      "grade": 4,
+      "region": "成都市锦江区",
+      "year": "2022-2023学年上期",
+      "title": "四年级数学期末测试卷（二）",
+      "duration": 90,
+      "total_score": 100,
+      "note": "北师大版四年级上册：认识更大的数与近似数、线与角、三位数乘两位数、运算律、方向与位置（数对）、除法（除以两位数）、生活中的负数、可能性；口算10×1分+填空8×3分+判断5×2分+选择5×2分+计算4×4分+看图列式与操作2×3分+解决问题6×4分",
+      "questions": [
+        {
+          "id": "paper_g4_chengdu_jinjiang_2022a_n1",
+          "no": 1,
+          "type": "fill",
+          "stem": "口算：250÷50=",
+          "answer": "5",
+          "score": 1,
+          "analysis": "口算乘除：先算表内乘除，再看 0 的个数补足。",
+          "source": "成都市锦江区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_jinjiang_2022a_n2",
+          "no": 2,
+          "type": "fill",
+          "stem": "口算：396×2=",
+          "answer": "792",
+          "score": 1,
+          "analysis": "口算乘除：先算表内乘除，再看 0 的个数补足。",
+          "source": "成都市锦江区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_jinjiang_2022a_n3",
+          "no": 3,
+          "type": "fill",
+          "stem": "口算：489×3=",
+          "answer": "1467",
+          "score": 1,
+          "analysis": "口算乘除：先算表内乘除，再看 0 的个数补足。",
+          "source": "成都市锦江区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_jinjiang_2022a_n4",
+          "no": 4,
+          "type": "fill",
+          "stem": "口算：20×4=",
+          "answer": "80",
+          "score": 1,
+          "analysis": "口算乘除：先算表内乘除，再看 0 的个数补足。",
+          "source": "成都市锦江区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_jinjiang_2022a_n5",
+          "no": 5,
+          "type": "fill",
+          "stem": "口算：342×2=",
+          "answer": "684",
+          "score": 1,
+          "analysis": "口算乘除：先算表内乘除，再看 0 的个数补足。",
+          "source": "成都市锦江区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_jinjiang_2022a_n6",
+          "no": 6,
+          "type": "fill",
+          "stem": "口算：280÷40=",
+          "answer": "7",
+          "score": 1,
+          "analysis": "口算乘除：先算表内乘除，再看 0 的个数补足。",
+          "source": "成都市锦江区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_jinjiang_2022a_n7",
+          "no": 7,
+          "type": "fill",
+          "stem": "口算：285÷3=",
+          "answer": "95",
+          "score": 1,
+          "analysis": "口算乘除：先算表内乘除，再看 0 的个数补足。",
+          "source": "成都市锦江区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_jinjiang_2022a_n8",
+          "no": 8,
+          "type": "fill",
+          "stem": "口算：539÷7=",
+          "answer": "77",
+          "score": 1,
+          "analysis": "口算乘除：先算表内乘除，再看 0 的个数补足。",
+          "source": "成都市锦江区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_jinjiang_2022a_n9",
+          "no": 9,
+          "type": "fill",
+          "stem": "口算：350÷50=",
+          "answer": "7",
+          "score": 1,
+          "analysis": "口算乘除：先算表内乘除，再看 0 的个数补足。",
+          "source": "成都市锦江区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_jinjiang_2022a_n10",
+          "no": 10,
+          "type": "fill",
+          "stem": "口算：36×30=",
+          "answer": "1080",
+          "score": 1,
+          "analysis": "口算乘除：先算表内乘除，再看 0 的个数补足。",
+          "source": "成都市锦江区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_jinjiang_2022a_n11",
+          "no": 11,
+          "type": "fill",
+          "stem": "由1个亿和542个万组成的数是（　）",
+          "answer": "105420000",
+          "score": 3,
+          "analysis": "1 个亿是 100000000，5 个万是 5420000，合起来是 105420000。",
+          "source": "成都市锦江区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_jinjiang_2022a_n12",
+          "no": 12,
+          "type": "fill",
+          "stem": "230498≈（　）万（省略万位后面的尾数）",
+          "answer": "23",
+          "score": 3,
+          "analysis": "看千位，千位小于 5 舍去、大于等于 5 进一：230498≈23万。",
+          "source": "成都市锦江区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_jinjiang_2022a_n13",
+          "no": 13,
+          "type": "fill",
+          "stem": "一条线段有（　）个端点",
+          "answer": "2",
+          "score": 3,
+          "analysis": "线段两端各一个端点。",
+          "source": "成都市锦江区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_jinjiang_2022a_n14",
+          "no": 14,
+          "type": "fill",
+          "stem": "125×80=（　）",
+          "answer": "10000",
+          "score": 3,
+          "analysis": "125×8=1000，再乘 10。",
+          "source": "成都市锦江区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_jinjiang_2022a_n15",
+          "no": 15,
+          "type": "fill",
+          "stem": "640÷20=（　）",
+          "answer": "32",
+          "score": 3,
+          "analysis": "640÷20=32。",
+          "source": "成都市锦江区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_jinjiang_2022a_n16",
+          "no": 16,
+          "type": "fill",
+          "stem": "零下5℃记作（　）℃",
+          "answer": "-5",
+          "score": 3,
+          "analysis": "零下记作负。",
+          "source": "成都市锦江区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_jinjiang_2022a_n17",
+          "no": 17,
+          "type": "fill",
+          "stem": "小明在教室里坐在第3列第3行，用数对表示是（　）",
+          "answer": "(3,3)",
+          "score": 3,
+          "analysis": "数对中先写列、再写行：(3,3)。",
+          "source": "成都市锦江区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_jinjiang_2022a_n18",
+          "no": 18,
+          "type": "fill",
+          "stem": "一条路长64米，每隔8米栽一棵树（两端都栽），一共要栽（　）棵",
+          "answer": "9",
+          "score": 3,
+          "analysis": "64÷8=8个间隔，两端都栽要加 1：8+1=9棵。",
+          "source": "成都市锦江区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_jinjiang_2022a_n19",
+          "no": 19,
+          "type": "judge",
+          "stem": "判断：最小的自然数是0。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "0 是最小的自然数。",
+          "source": "成都市锦江区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_jinjiang_2022a_n20",
+          "no": 20,
+          "type": "judge",
+          "stem": "判断：直线比射线长。",
+          "answer": "错",
+          "score": 2,
+          "analysis": "直线、射线无限长，不能比较长短。",
+          "source": "成都市锦江区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_jinjiang_2022a_n21",
+          "no": 21,
+          "type": "judge",
+          "stem": "判断：25×16=25×4×4，运用了乘法结合律。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "把 16 拆成 4×4。",
+          "source": "成都市锦江区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_jinjiang_2022a_n22",
+          "no": 22,
+          "type": "judge",
+          "stem": "判断：0是正数。",
+          "answer": "错",
+          "score": 2,
+          "analysis": "0 既不是正数也不是负数。",
+          "source": "成都市锦江区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_jinjiang_2022a_n23",
+          "no": 23,
+          "type": "judge",
+          "stem": "判断：抛一枚硬币，正面朝上的可能性是一半。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "两种等可能结果。",
+          "source": "成都市锦江区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_jinjiang_2022a_n24",
+          "no": 24,
+          "type": "choice",
+          "stem": "665817≈（　）万",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.70 B.71 C.69 D.67，正确答案为A。",
+          "source": "成都市锦江区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_jinjiang_2022a_n25",
+          "no": 25,
+          "type": "choice",
+          "stem": "3时整，钟面上时针与分针所成的角是（　）",
+          "answer": "B",
+          "score": 2,
+          "analysis": "选项：A.锐角 B.直角 C.钝角 D.平角，正确答案为B。",
+          "source": "成都市锦江区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_jinjiang_2022a_n26",
+          "no": 26,
+          "type": "choice",
+          "stem": "8×26×125=（　）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.26000 B.159 C.333 D.1208，正确答案为A。",
+          "source": "成都市锦江区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_jinjiang_2022a_n27",
+          "no": 27,
+          "type": "choice",
+          "stem": "1998÷54=（　）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.37 B.38 C.36 D.47，正确答案为A。",
+          "source": "成都市锦江区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_jinjiang_2022a_n28",
+          "no": 28,
+          "type": "choice",
+          "stem": "盒子里有8个白球和2个黄球，任意摸一个，摸到（　）的可能性大",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.白球 B.黄球 C.一样大 D.黑球，正确答案为A。",
+          "source": "成都市锦江区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_jinjiang_2022a_n29",
+          "no": 29,
+          "type": "fill",
+          "stem": "用竖式计算：244×32=",
+          "answer": "7808",
+          "score": 4,
+          "analysis": "竖式注意数位对齐与试商；简便计算优先凑整百整千。",
+          "source": "成都市锦江区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_jinjiang_2022a_n30",
+          "no": 30,
+          "type": "fill",
+          "stem": "用竖式计算：396÷36=",
+          "answer": "11",
+          "score": 4,
+          "analysis": "竖式注意数位对齐与试商；简便计算优先凑整百整千。",
+          "source": "成都市锦江区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_jinjiang_2022a_n31",
+          "no": 31,
+          "type": "fill",
+          "stem": "简便计算：4×15×25=",
+          "answer": "1500",
+          "score": 4,
+          "analysis": "竖式注意数位对齐与试商；简便计算优先凑整百整千。",
+          "source": "成都市锦江区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_jinjiang_2022a_n32",
+          "no": 32,
+          "type": "fill",
+          "stem": "简便计算：7×40-7×37=",
+          "answer": "21",
+          "score": 4,
+          "analysis": "竖式注意数位对齐与试商；简便计算优先凑整百整千。",
+          "source": "成都市锦江区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_jinjiang_2022a_n33",
+          "no": 33,
+          "type": "draw",
+          "stem": "以下面射线为角的一条边，用量角器画一个45°的角。",
+          "answer": "画一个45°的角",
+          "score": 3,
+          "analysis": "先画一条边，用量角器量出 45° 再画另一条边。",
+          "source": "成都市锦江区2022-2023学年上期期末（组编）",
+          "figure": {
+            "w": 220,
+            "h": 70,
+            "shapes": [
+              {
+                "t": "l",
+                "x1": 40,
+                "y1": 40,
+                "x2": 180,
+                "y2": 40
+              },
+              {
+                "t": "tx",
+                "x": 30,
+                "y": 46,
+                "s": "O",
+                "fs": 14
+              }
+            ]
+          }
+        },
+        {
+          "id": "paper_g4_chengdu_jinjiang_2022a_n34",
+          "no": 34,
+          "type": "draw",
+          "stem": "在方格纸上描出第5列、第3行的位置，并标上字母A。",
+          "answer": "A 点在第5列、第3行",
+          "score": 3,
+          "analysis": "数对先列后行：先数第 5 列，再数第 3 行，交叉点标 A。",
+          "source": "成都市锦江区2022-2023学年上期期末（组编）",
+          "figure": {
+            "w": 290,
+            "h": 190,
+            "shapes": [
+              {
+                "t": "grid",
+                "x": 20,
+                "y": 10,
+                "cols": 10,
+                "rows": 6,
+                "cw": 24
+              },
+              {
+                "t": "tx",
+                "x": 32,
+                "y": 172,
+                "s": "1",
+                "fs": 10
+              },
+              {
+                "t": "tx",
+                "x": 56,
+                "y": 172,
+                "s": "2",
+                "fs": 10
+              },
+              {
+                "t": "tx",
+                "x": 80,
+                "y": 172,
+                "s": "3",
+                "fs": 10
+              },
+              {
+                "t": "tx",
+                "x": 104,
+                "y": 172,
+                "s": "4",
+                "fs": 10
+              },
+              {
+                "t": "tx",
+                "x": 128,
+                "y": 172,
+                "s": "5",
+                "fs": 10
+              },
+              {
+                "t": "tx",
+                "x": 152,
+                "y": 172,
+                "s": "6",
+                "fs": 10
+              },
+              {
+                "t": "tx",
+                "x": 176,
+                "y": 172,
+                "s": "7",
+                "fs": 10
+              },
+              {
+                "t": "tx",
+                "x": 200,
+                "y": 172,
+                "s": "8",
+                "fs": 10
+              },
+              {
+                "t": "tx",
+                "x": 224,
+                "y": 172,
+                "s": "9",
+                "fs": 10
+              },
+              {
+                "t": "tx",
+                "x": 248,
+                "y": 172,
+                "s": "10",
+                "fs": 10
+              },
+              {
+                "t": "tx",
+                "x": 10,
+                "y": 160,
+                "s": "1",
+                "fs": 10
+              },
+              {
+                "t": "tx",
+                "x": 10,
+                "y": 136,
+                "s": "2",
+                "fs": 10
+              },
+              {
+                "t": "tx",
+                "x": 10,
+                "y": 112,
+                "s": "3",
+                "fs": 10
+              },
+              {
+                "t": "tx",
+                "x": 10,
+                "y": 88,
+                "s": "4",
+                "fs": 10
+              },
+              {
+                "t": "tx",
+                "x": 10,
+                "y": 64,
+                "s": "5",
+                "fs": 10
+              },
+              {
+                "t": "tx",
+                "x": 10,
+                "y": 40,
+                "s": "6",
+                "fs": 10
+              }
+            ]
+          }
+        },
+        {
+          "id": "paper_g4_chengdu_jinjiang_2022a_n35",
+          "no": 35,
+          "type": "solve",
+          "stem": "一台电风扇的价钱是349元，学校买了25台，一共要用多少元？",
+          "answer": "349×25=8725（元）",
+          "score": 4,
+          "analysis": "单价×数量=总价：349×25=8725元。",
+          "source": "成都市锦江区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_jinjiang_2022a_n36",
+          "no": 36,
+          "type": "solve",
+          "stem": "一辆汽车每小时行驶53千米，6小时行驶多少千米？",
+          "answer": "53×6=318（千米）",
+          "score": 4,
+          "analysis": "速度×时间=路程：53×6=318千米。",
+          "source": "成都市锦江区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_jinjiang_2022a_n37",
+          "no": 37,
+          "type": "solve",
+          "stem": "果园收了138千克橘子，每筐装37千克，能装满几筐？还剩多少千克？",
+          "answer": "138÷37=3（筐）……27（千克）",
+          "score": 4,
+          "analysis": "求能装满几筐：138÷37=3筐，余27千克装不满一筐。",
+          "source": "成都市锦江区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_jinjiang_2022a_n38",
+          "no": 38,
+          "type": "solve",
+          "stem": "在一条长32米的马路一侧栽树，每隔8米栽一棵（两端都栽），一共要栽多少棵？",
+          "answer": "32÷8=4，4+1=5（棵）",
+          "score": 4,
+          "analysis": "间隔数=32÷8=4，两端都栽时棵数=间隔数+1=5棵。",
+          "source": "成都市锦江区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_jinjiang_2022a_n39",
+          "no": 39,
+          "type": "solve",
+          "stem": "商店运来14箱梨，每箱19千克，卖出283千克，还剩多少千克？",
+          "answer": "14×19-283=-17（千克）",
+          "score": 4,
+          "analysis": "先算总质量 14×19=266千克，再减卖出的：-17千克。",
+          "source": "成都市锦江区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_jinjiang_2022a_n40",
+          "no": 40,
+          "type": "solve",
+          "stem": "甲、乙两个数的和是158，差是10，甲数是多少？",
+          "answer": "(158+10)÷2=84",
+          "score": 4,
+          "analysis": "甲数=（和+差）÷2=(158+10)÷2=84。",
+          "source": "成都市锦江区2022-2023学年上期期末（组编）",
+          "figure": null
+        }
+      ]
+    },
+    {
+      "id": "paper_g4_luzhou_jiangyang_2024a",
+      "grade": 4,
+      "region": "泸州市江阳区",
+      "year": "2024-2025学年上期",
+      "title": "四年级数学期末测试卷（三）",
+      "duration": 90,
+      "total_score": 100,
+      "note": "北师大版四年级上册：认识更大的数与近似数、线与角、三位数乘两位数、运算律、方向与位置（数对）、除法（除以两位数）、生活中的负数、可能性；口算10×1分+填空8×3分+判断5×2分+选择5×2分+计算4×4分+看图列式与操作2×3分+解决问题6×4分",
+      "questions": [
+        {
+          "id": "paper_g4_luzhou_jiangyang_2024a_n1",
+          "no": 1,
+          "type": "fill",
+          "stem": "口算：90÷30=",
+          "answer": "3",
+          "score": 1,
+          "analysis": "口算乘除：先算表内乘除，再看 0 的个数补足。",
+          "source": "泸州市江阳区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_luzhou_jiangyang_2024a_n2",
+          "no": 2,
+          "type": "fill",
+          "stem": "口算：51×10=",
+          "answer": "510",
+          "score": 1,
+          "analysis": "口算乘除：先算表内乘除，再看 0 的个数补足。",
+          "source": "泸州市江阳区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_luzhou_jiangyang_2024a_n3",
+          "no": 3,
+          "type": "fill",
+          "stem": "口算：270÷30=",
+          "answer": "9",
+          "score": 1,
+          "analysis": "口算乘除：先算表内乘除，再看 0 的个数补足。",
+          "source": "泸州市江阳区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_luzhou_jiangyang_2024a_n4",
+          "no": 4,
+          "type": "fill",
+          "stem": "口算：365÷5=",
+          "answer": "73",
+          "score": 1,
+          "analysis": "口算乘除：先算表内乘除，再看 0 的个数补足。",
+          "source": "泸州市江阳区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_luzhou_jiangyang_2024a_n5",
+          "no": 5,
+          "type": "fill",
+          "stem": "口算：344÷8=",
+          "answer": "43",
+          "score": 1,
+          "analysis": "口算乘除：先算表内乘除，再看 0 的个数补足。",
+          "source": "泸州市江阳区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_luzhou_jiangyang_2024a_n6",
+          "no": 6,
+          "type": "fill",
+          "stem": "口算：344×5=",
+          "answer": "1720",
+          "score": 1,
+          "analysis": "口算乘除：先算表内乘除，再看 0 的个数补足。",
+          "source": "泸州市江阳区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_luzhou_jiangyang_2024a_n7",
+          "no": 7,
+          "type": "fill",
+          "stem": "口算：277×4=",
+          "answer": "1108",
+          "score": 1,
+          "analysis": "口算乘除：先算表内乘除，再看 0 的个数补足。",
+          "source": "泸州市江阳区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_luzhou_jiangyang_2024a_n8",
+          "no": 8,
+          "type": "fill",
+          "stem": "口算：27×10=",
+          "answer": "270",
+          "score": 1,
+          "analysis": "口算乘除：先算表内乘除，再看 0 的个数补足。",
+          "source": "泸州市江阳区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_luzhou_jiangyang_2024a_n9",
+          "no": 9,
+          "type": "fill",
+          "stem": "口算：385÷5=",
+          "answer": "77",
+          "score": 1,
+          "analysis": "口算乘除：先算表内乘除，再看 0 的个数补足。",
+          "source": "泸州市江阳区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_luzhou_jiangyang_2024a_n10",
+          "no": 10,
+          "type": "fill",
+          "stem": "口算：736÷8=",
+          "answer": "92",
+          "score": 1,
+          "analysis": "口算乘除：先算表内乘除，再看 0 的个数补足。",
+          "source": "泸州市江阳区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_luzhou_jiangyang_2024a_n11",
+          "no": 11,
+          "type": "fill",
+          "stem": "由5个亿和685个万组成的数是（　）",
+          "answer": "506850000",
+          "score": 3,
+          "analysis": "5 个亿是 500000000，6 个万是 6850000，合起来是 506850000。",
+          "source": "泸州市江阳区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_luzhou_jiangyang_2024a_n12",
+          "no": 12,
+          "type": "fill",
+          "stem": "436854≈（　）万（省略万位后面的尾数）",
+          "answer": "44",
+          "score": 3,
+          "analysis": "看千位，千位小于 5 舍去、大于等于 5 进一：436854≈44万。",
+          "source": "泸州市江阳区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_luzhou_jiangyang_2024a_n13",
+          "no": 13,
+          "type": "fill",
+          "stem": "一条射线有（　）个端点",
+          "answer": "1",
+          "score": 3,
+          "analysis": "射线向一端无限延伸，只有一个端点。",
+          "source": "泸州市江阳区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_luzhou_jiangyang_2024a_n14",
+          "no": 14,
+          "type": "fill",
+          "stem": "25×400=（　）",
+          "answer": "10000",
+          "score": 3,
+          "analysis": "25×4=100，再乘 100。",
+          "source": "泸州市江阳区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_luzhou_jiangyang_2024a_n15",
+          "no": 15,
+          "type": "fill",
+          "stem": "1320÷40=（　）",
+          "answer": "33",
+          "score": 3,
+          "analysis": "1320÷40=33。",
+          "source": "泸州市江阳区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_luzhou_jiangyang_2024a_n16",
+          "no": 16,
+          "type": "fill",
+          "stem": "如果收入 200 元记作 +200 元，那么支出 150 元记作（　）元",
+          "answer": "-150",
+          "score": 3,
+          "analysis": "支出记作负。",
+          "source": "泸州市江阳区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_luzhou_jiangyang_2024a_n17",
+          "no": 17,
+          "type": "fill",
+          "stem": "小明在教室里坐在第1列第4行，用数对表示是（　）",
+          "answer": "(1,4)",
+          "score": 3,
+          "analysis": "数对中先写列、再写行：(1,4)。",
+          "source": "泸州市江阳区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_luzhou_jiangyang_2024a_n18",
+          "no": 18,
+          "type": "fill",
+          "stem": "一条路长20米，每隔4米栽一棵树（两端都栽），一共要栽（　）棵",
+          "answer": "6",
+          "score": 3,
+          "analysis": "20÷4=5个间隔，两端都栽要加 1：5+1=6棵。",
+          "source": "泸州市江阳区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_luzhou_jiangyang_2024a_n19",
+          "no": 19,
+          "type": "judge",
+          "stem": "判断：10个一万是十万。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "相邻计数单位进率是 10。",
+          "source": "泸州市江阳区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_luzhou_jiangyang_2024a_n20",
+          "no": 20,
+          "type": "judge",
+          "stem": "判断：一个周角等于4个直角。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "360°=90°×4。",
+          "source": "泸州市江阳区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_luzhou_jiangyang_2024a_n21",
+          "no": 21,
+          "type": "judge",
+          "stem": "判断：102×45=100×45+2×45，运用了乘法分配律。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "把 102 拆成 100+2。",
+          "source": "泸州市江阳区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_luzhou_jiangyang_2024a_n22",
+          "no": 22,
+          "type": "judge",
+          "stem": "判断：温度计上，-2℃比-8℃高。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "-2 离 0 更近，温度更高。",
+          "source": "泸州市江阳区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_luzhou_jiangyang_2024a_n23",
+          "no": 23,
+          "type": "judge",
+          "stem": "判断：明天一定会下雨。",
+          "answer": "错",
+          "score": 2,
+          "analysis": "明天可能下雨，是不确定事件。",
+          "source": "泸州市江阳区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_luzhou_jiangyang_2024a_n24",
+          "no": 24,
+          "type": "choice",
+          "stem": "432761≈（　）万",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.43 B.44 C.42 D.44，正确答案为A。",
+          "source": "泸州市江阳区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_luzhou_jiangyang_2024a_n25",
+          "no": 25,
+          "type": "choice",
+          "stem": "6时整，钟面上时针与分针所成的角是（　）",
+          "answer": "D",
+          "score": 2,
+          "analysis": "选项：A.锐角 B.直角 C.钝角 D.平角，正确答案为D。",
+          "source": "泸州市江阳区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_luzhou_jiangyang_2024a_n26",
+          "no": 26,
+          "type": "choice",
+          "stem": "25×12×4=（　）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.1200 B.41 C.304 D.400，正确答案为A。",
+          "source": "泸州市江阳区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_luzhou_jiangyang_2024a_n27",
+          "no": 27,
+          "type": "choice",
+          "stem": "609÷21=（　）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.29 B.30 C.28 D.39，正确答案为A。",
+          "source": "泸州市江阳区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_luzhou_jiangyang_2024a_n28",
+          "no": 28,
+          "type": "choice",
+          "stem": "掷一枚骰子，小于3的点数有（　）种可能",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.2 B.1 C.3 D.6，正确答案为A。",
+          "source": "泸州市江阳区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_luzhou_jiangyang_2024a_n29",
+          "no": 29,
+          "type": "fill",
+          "stem": "用竖式计算：281×32=",
+          "answer": "8992",
+          "score": 4,
+          "analysis": "竖式注意数位对齐与试商；简便计算优先凑整百整千。",
+          "source": "泸州市江阳区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_luzhou_jiangyang_2024a_n30",
+          "no": 30,
+          "type": "fill",
+          "stem": "用竖式计算：528÷48=",
+          "answer": "11",
+          "score": 4,
+          "analysis": "竖式注意数位对齐与试商；简便计算优先凑整百整千。",
+          "source": "泸州市江阳区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_luzhou_jiangyang_2024a_n31",
+          "no": 31,
+          "type": "fill",
+          "stem": "简便计算：125×28×4=",
+          "answer": "14000",
+          "score": 4,
+          "analysis": "竖式注意数位对齐与试商；简便计算优先凑整百整千。",
+          "source": "泸州市江阳区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_luzhou_jiangyang_2024a_n32",
+          "no": 32,
+          "type": "fill",
+          "stem": "简便计算：6×19-6×16=",
+          "answer": "18",
+          "score": 4,
+          "analysis": "竖式注意数位对齐与试商；简便计算优先凑整百整千。",
+          "source": "泸州市江阳区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_luzhou_jiangyang_2024a_n33",
+          "no": 33,
+          "type": "draw",
+          "stem": "以下面射线为角的一条边，用量角器画一个120°的角。",
+          "answer": "画一个120°的角",
+          "score": 3,
+          "analysis": "先画一条边，用量角器量出 120° 再画另一条边。",
+          "source": "泸州市江阳区2024-2025学年上期期末（组编）",
+          "figure": {
+            "w": 220,
+            "h": 70,
+            "shapes": [
+              {
+                "t": "l",
+                "x1": 40,
+                "y1": 40,
+                "x2": 180,
+                "y2": 40
+              },
+              {
+                "t": "tx",
+                "x": 30,
+                "y": 46,
+                "s": "O",
+                "fs": 14
+              }
+            ]
+          }
+        },
+        {
+          "id": "paper_g4_luzhou_jiangyang_2024a_n34",
+          "no": 34,
+          "type": "draw",
+          "stem": "在方格纸上描出第6列、第2行的位置，并标上字母A。",
+          "answer": "A 点在第6列、第2行",
+          "score": 3,
+          "analysis": "数对先列后行：先数第 6 列，再数第 2 行，交叉点标 A。",
+          "source": "泸州市江阳区2024-2025学年上期期末（组编）",
+          "figure": {
+            "w": 290,
+            "h": 190,
+            "shapes": [
+              {
+                "t": "grid",
+                "x": 20,
+                "y": 10,
+                "cols": 10,
+                "rows": 6,
+                "cw": 24
+              },
+              {
+                "t": "tx",
+                "x": 32,
+                "y": 172,
+                "s": "1",
+                "fs": 10
+              },
+              {
+                "t": "tx",
+                "x": 56,
+                "y": 172,
+                "s": "2",
+                "fs": 10
+              },
+              {
+                "t": "tx",
+                "x": 80,
+                "y": 172,
+                "s": "3",
+                "fs": 10
+              },
+              {
+                "t": "tx",
+                "x": 104,
+                "y": 172,
+                "s": "4",
+                "fs": 10
+              },
+              {
+                "t": "tx",
+                "x": 128,
+                "y": 172,
+                "s": "5",
+                "fs": 10
+              },
+              {
+                "t": "tx",
+                "x": 152,
+                "y": 172,
+                "s": "6",
+                "fs": 10
+              },
+              {
+                "t": "tx",
+                "x": 176,
+                "y": 172,
+                "s": "7",
+                "fs": 10
+              },
+              {
+                "t": "tx",
+                "x": 200,
+                "y": 172,
+                "s": "8",
+                "fs": 10
+              },
+              {
+                "t": "tx",
+                "x": 224,
+                "y": 172,
+                "s": "9",
+                "fs": 10
+              },
+              {
+                "t": "tx",
+                "x": 248,
+                "y": 172,
+                "s": "10",
+                "fs": 10
+              },
+              {
+                "t": "tx",
+                "x": 10,
+                "y": 160,
+                "s": "1",
+                "fs": 10
+              },
+              {
+                "t": "tx",
+                "x": 10,
+                "y": 136,
+                "s": "2",
+                "fs": 10
+              },
+              {
+                "t": "tx",
+                "x": 10,
+                "y": 112,
+                "s": "3",
+                "fs": 10
+              },
+              {
+                "t": "tx",
+                "x": 10,
+                "y": 88,
+                "s": "4",
+                "fs": 10
+              },
+              {
+                "t": "tx",
+                "x": 10,
+                "y": 64,
+                "s": "5",
+                "fs": 10
+              },
+              {
+                "t": "tx",
+                "x": 10,
+                "y": 40,
+                "s": "6",
+                "fs": 10
+              }
+            ]
+          }
+        },
+        {
+          "id": "paper_g4_luzhou_jiangyang_2024a_n35",
+          "no": 35,
+          "type": "solve",
+          "stem": "一台电风扇的价钱是343元，学校买了20台，一共要用多少元？",
+          "answer": "343×20=6860（元）",
+          "score": 4,
+          "analysis": "单价×数量=总价：343×20=6860元。",
+          "source": "泸州市江阳区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_luzhou_jiangyang_2024a_n36",
+          "no": 36,
+          "type": "solve",
+          "stem": "一辆汽车每小时行驶88千米，4小时行驶多少千米？",
+          "answer": "88×4=352（千米）",
+          "score": 4,
+          "analysis": "速度×时间=路程：88×4=352千米。",
+          "source": "泸州市江阳区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_luzhou_jiangyang_2024a_n37",
+          "no": 37,
+          "type": "solve",
+          "stem": "果园收了141千克橘子，每筐装37千克，能装满几筐？还剩多少千克？",
+          "answer": "141÷37=3（筐）……30（千克）",
+          "score": 4,
+          "analysis": "求能装满几筐：141÷37=3筐，余30千克装不满一筐。",
+          "source": "泸州市江阳区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_luzhou_jiangyang_2024a_n38",
+          "no": 38,
+          "type": "solve",
+          "stem": "在一条长32米的马路一侧栽树，每隔4米栽一棵（两端都栽），一共要栽多少棵？",
+          "answer": "32÷4=8，8+1=9（棵）",
+          "score": 4,
+          "analysis": "间隔数=32÷4=8，两端都栽时棵数=间隔数+1=9棵。",
+          "source": "泸州市江阳区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_luzhou_jiangyang_2024a_n39",
+          "no": 39,
+          "type": "solve",
+          "stem": "商店运来26箱梨，每箱20千克，卖出214千克，还剩多少千克？",
+          "answer": "26×20-214=306（千克）",
+          "score": 4,
+          "analysis": "先算总质量 26×20=520千克，再减卖出的：306千克。",
+          "source": "泸州市江阳区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_luzhou_jiangyang_2024a_n40",
+          "no": 40,
+          "type": "solve",
+          "stem": "甲、乙两个数的和是72，差是20，甲数是多少？",
+          "answer": "(72+20)÷2=46",
+          "score": 4,
+          "analysis": "甲数=（和+差）÷2=(72+20)÷2=46。",
+          "source": "泸州市江阳区2024-2025学年上期期末（组编）",
+          "figure": null
+        }
+      ]
+    },
+    {
+      "id": "paper_g4_chengdu_gaoxin_2021a",
+      "grade": 4,
+      "region": "成都市高新区",
+      "year": "2021-2022学年上期",
+      "title": "四年级数学期末测试卷（四）",
+      "duration": 90,
+      "total_score": 100,
+      "note": "北师大版四年级上册：认识更大的数与近似数、线与角、三位数乘两位数、运算律、方向与位置（数对）、除法（除以两位数）、生活中的负数、可能性；口算10×1分+填空8×3分+判断5×2分+选择5×2分+计算4×4分+看图列式与操作2×3分+解决问题6×4分",
+      "questions": [
+        {
+          "id": "paper_g4_chengdu_gaoxin_2021a_n1",
+          "no": 1,
+          "type": "fill",
+          "stem": "口算：621÷9=",
+          "answer": "69",
+          "score": 1,
+          "analysis": "口算乘除：先算表内乘除，再看 0 的个数补足。",
+          "source": "成都市高新区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_gaoxin_2021a_n2",
+          "no": 2,
+          "type": "fill",
+          "stem": "口算：450÷50=",
+          "answer": "9",
+          "score": 1,
+          "analysis": "口算乘除：先算表内乘除，再看 0 的个数补足。",
+          "source": "成都市高新区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_gaoxin_2021a_n3",
+          "no": 3,
+          "type": "fill",
+          "stem": "口算：679÷7=",
+          "answer": "97",
+          "score": 1,
+          "analysis": "口算乘除：先算表内乘除，再看 0 的个数补足。",
+          "source": "成都市高新区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_gaoxin_2021a_n4",
+          "no": 4,
+          "type": "fill",
+          "stem": "口算：16×20=",
+          "answer": "320",
+          "score": 1,
+          "analysis": "口算乘除：先算表内乘除，再看 0 的个数补足。",
+          "source": "成都市高新区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_gaoxin_2021a_n5",
+          "no": 5,
+          "type": "fill",
+          "stem": "口算：11×7=",
+          "answer": "77",
+          "score": 1,
+          "analysis": "口算乘除：先算表内乘除，再看 0 的个数补足。",
+          "source": "成都市高新区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_gaoxin_2021a_n6",
+          "no": 6,
+          "type": "fill",
+          "stem": "口算：200÷50=",
+          "answer": "4",
+          "score": 1,
+          "analysis": "口算乘除：先算表内乘除，再看 0 的个数补足。",
+          "source": "成都市高新区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_gaoxin_2021a_n7",
+          "no": 7,
+          "type": "fill",
+          "stem": "口算：100÷20=",
+          "answer": "5",
+          "score": 1,
+          "analysis": "口算乘除：先算表内乘除，再看 0 的个数补足。",
+          "source": "成都市高新区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_gaoxin_2021a_n8",
+          "no": 8,
+          "type": "fill",
+          "stem": "口算：365×4=",
+          "answer": "1460",
+          "score": 1,
+          "analysis": "口算乘除：先算表内乘除，再看 0 的个数补足。",
+          "source": "成都市高新区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_gaoxin_2021a_n9",
+          "no": 9,
+          "type": "fill",
+          "stem": "口算：13×10=",
+          "answer": "130",
+          "score": 1,
+          "analysis": "口算乘除：先算表内乘除，再看 0 的个数补足。",
+          "source": "成都市高新区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_gaoxin_2021a_n10",
+          "no": 10,
+          "type": "fill",
+          "stem": "口算：358×3=",
+          "answer": "1074",
+          "score": 1,
+          "analysis": "口算乘除：先算表内乘除，再看 0 的个数补足。",
+          "source": "成都市高新区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_gaoxin_2021a_n11",
+          "no": 11,
+          "type": "fill",
+          "stem": "由4个亿和345个万组成的数是（　）",
+          "answer": "403450000",
+          "score": 3,
+          "analysis": "4 个亿是 400000000，3 个万是 3450000，合起来是 403450000。",
+          "source": "成都市高新区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_gaoxin_2021a_n12",
+          "no": 12,
+          "type": "fill",
+          "stem": "677463≈（　）万（省略万位后面的尾数）",
+          "answer": "70",
+          "score": 3,
+          "analysis": "看千位，千位小于 5 舍去、大于等于 5 进一：677463≈70万。",
+          "source": "成都市高新区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_gaoxin_2021a_n13",
+          "no": 13,
+          "type": "fill",
+          "stem": "一个平角=（　）个直角",
+          "answer": "2",
+          "score": 3,
+          "analysis": "平角 180°，直角 90°。",
+          "source": "成都市高新区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_gaoxin_2021a_n14",
+          "no": 14,
+          "type": "fill",
+          "stem": "三位数乘两位数，积最多是（　）位数",
+          "answer": "五",
+          "score": 3,
+          "analysis": "如 999×99=98901。",
+          "source": "成都市高新区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_gaoxin_2021a_n15",
+          "no": 15,
+          "type": "fill",
+          "stem": "480÷30=（　）",
+          "answer": "16",
+          "score": 3,
+          "analysis": "480÷30=16。",
+          "source": "成都市高新区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_gaoxin_2021a_n16",
+          "no": 16,
+          "type": "fill",
+          "stem": "零上8℃记作（　）℃",
+          "answer": "+8",
+          "score": 3,
+          "analysis": "零上记作正，也可省略正号。",
+          "source": "成都市高新区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_gaoxin_2021a_n17",
+          "no": 17,
+          "type": "fill",
+          "stem": "小明在教室里坐在第2列第5行，用数对表示是（　）",
+          "answer": "(2,5)",
+          "score": 3,
+          "analysis": "数对中先写列、再写行：(2,5)。",
+          "source": "成都市高新区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_gaoxin_2021a_n18",
+          "no": 18,
+          "type": "fill",
+          "stem": "一条路长40米，每隔5米栽一棵树（两端都栽），一共要栽（　）棵",
+          "answer": "9",
+          "score": 3,
+          "analysis": "40÷5=8个间隔，两端都栽要加 1：8+1=9棵。",
+          "source": "成都市高新区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_gaoxin_2021a_n19",
+          "no": 19,
+          "type": "judge",
+          "stem": "判断：一个数的近似数一定比原数小。",
+          "answer": "错",
+          "score": 2,
+          "analysis": "四舍时小，五入时大。",
+          "source": "成都市高新区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_gaoxin_2021a_n20",
+          "no": 20,
+          "type": "judge",
+          "stem": "判断：大于90°的角都是钝角。",
+          "answer": "错",
+          "score": 2,
+          "analysis": "90°~180°之间才是钝角，平角、周角不是。",
+          "source": "成都市高新区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_gaoxin_2021a_n21",
+          "no": 21,
+          "type": "judge",
+          "stem": "判断：56×99=56×100-56。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "99 个 56 就是 100 个 56 少 1 个。",
+          "source": "成都市高新区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_gaoxin_2021a_n22",
+          "no": 22,
+          "type": "judge",
+          "stem": "判断：被除数和除数同时乘10，商不变。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "商不变的性质。",
+          "source": "成都市高新区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_gaoxin_2021a_n23",
+          "no": 23,
+          "type": "judge",
+          "stem": "判断：盒子里有10个红球和1个白球，摸到红球的可能性大。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "数量多可能性大。",
+          "source": "成都市高新区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_gaoxin_2021a_n24",
+          "no": 24,
+          "type": "choice",
+          "stem": "742289≈（　）万",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.74 B.75 C.73 D.75，正确答案为A。",
+          "source": "成都市高新区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_gaoxin_2021a_n25",
+          "no": 25,
+          "type": "choice",
+          "stem": "用一副三角尺，能直接拼出（　）的角",
+          "answer": "B",
+          "score": 2,
+          "analysis": "选项：A.100° B.105° C.80° D.95°，正确答案为B。",
+          "source": "成都市高新区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_gaoxin_2021a_n26",
+          "no": 26,
+          "type": "choice",
+          "stem": "125×28×4=（　）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.14000 B.157 C.3504 D.4000，正确答案为A。",
+          "source": "成都市高新区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_gaoxin_2021a_n27",
+          "no": 27,
+          "type": "choice",
+          "stem": "1620÷54=（　）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.30 B.31 C.29 D.40，正确答案为A。",
+          "source": "成都市高新区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_gaoxin_2021a_n28",
+          "no": 28,
+          "type": "choice",
+          "stem": "冬天，武汉（　）会下雪",
+          "answer": "B",
+          "score": 2,
+          "analysis": "选项：A.一定 B.可能 C.不可能 D.确定，正确答案为B。",
+          "source": "成都市高新区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_gaoxin_2021a_n29",
+          "no": 29,
+          "type": "fill",
+          "stem": "用竖式计算：136×46=",
+          "answer": "6256",
+          "score": 4,
+          "analysis": "竖式注意数位对齐与试商；简便计算优先凑整百整千。",
+          "source": "成都市高新区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_gaoxin_2021a_n30",
+          "no": 30,
+          "type": "fill",
+          "stem": "用竖式计算：882÷49=",
+          "answer": "18",
+          "score": 4,
+          "analysis": "竖式注意数位对齐与试商；简便计算优先凑整百整千。",
+          "source": "成都市高新区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_gaoxin_2021a_n31",
+          "no": 31,
+          "type": "fill",
+          "stem": "简便计算：8×20×125=",
+          "answer": "20000",
+          "score": 4,
+          "analysis": "竖式注意数位对齐与试商；简便计算优先凑整百整千。",
+          "source": "成都市高新区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_gaoxin_2021a_n32",
+          "no": 32,
+          "type": "fill",
+          "stem": "简便计算：3×65+3×35=",
+          "answer": "300",
+          "score": 4,
+          "analysis": "竖式注意数位对齐与试商；简便计算优先凑整百整千。",
+          "source": "成都市高新区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_gaoxin_2021a_n33",
+          "no": 33,
+          "type": "draw",
+          "stem": "以下面射线为角的一条边，用量角器画一个75°的角。",
+          "answer": "画一个75°的角",
+          "score": 3,
+          "analysis": "先画一条边，用量角器量出 75° 再画另一条边。",
+          "source": "成都市高新区2021-2022学年上期期末（组编）",
+          "figure": {
+            "w": 220,
+            "h": 70,
+            "shapes": [
+              {
+                "t": "l",
+                "x1": 40,
+                "y1": 40,
+                "x2": 180,
+                "y2": 40
+              },
+              {
+                "t": "tx",
+                "x": 30,
+                "y": 46,
+                "s": "O",
+                "fs": 14
+              }
+            ]
+          }
+        },
+        {
+          "id": "paper_g4_chengdu_gaoxin_2021a_n34",
+          "no": 34,
+          "type": "draw",
+          "stem": "在方格纸上描出第2列、第3行的位置，并标上字母A。",
+          "answer": "A 点在第2列、第3行",
+          "score": 3,
+          "analysis": "数对先列后行：先数第 2 列，再数第 3 行，交叉点标 A。",
+          "source": "成都市高新区2021-2022学年上期期末（组编）",
+          "figure": {
+            "w": 290,
+            "h": 190,
+            "shapes": [
+              {
+                "t": "grid",
+                "x": 20,
+                "y": 10,
+                "cols": 10,
+                "rows": 6,
+                "cw": 24
+              },
+              {
+                "t": "tx",
+                "x": 32,
+                "y": 172,
+                "s": "1",
+                "fs": 10
+              },
+              {
+                "t": "tx",
+                "x": 56,
+                "y": 172,
+                "s": "2",
+                "fs": 10
+              },
+              {
+                "t": "tx",
+                "x": 80,
+                "y": 172,
+                "s": "3",
+                "fs": 10
+              },
+              {
+                "t": "tx",
+                "x": 104,
+                "y": 172,
+                "s": "4",
+                "fs": 10
+              },
+              {
+                "t": "tx",
+                "x": 128,
+                "y": 172,
+                "s": "5",
+                "fs": 10
+              },
+              {
+                "t": "tx",
+                "x": 152,
+                "y": 172,
+                "s": "6",
+                "fs": 10
+              },
+              {
+                "t": "tx",
+                "x": 176,
+                "y": 172,
+                "s": "7",
+                "fs": 10
+              },
+              {
+                "t": "tx",
+                "x": 200,
+                "y": 172,
+                "s": "8",
+                "fs": 10
+              },
+              {
+                "t": "tx",
+                "x": 224,
+                "y": 172,
+                "s": "9",
+                "fs": 10
+              },
+              {
+                "t": "tx",
+                "x": 248,
+                "y": 172,
+                "s": "10",
+                "fs": 10
+              },
+              {
+                "t": "tx",
+                "x": 10,
+                "y": 160,
+                "s": "1",
+                "fs": 10
+              },
+              {
+                "t": "tx",
+                "x": 10,
+                "y": 136,
+                "s": "2",
+                "fs": 10
+              },
+              {
+                "t": "tx",
+                "x": 10,
+                "y": 112,
+                "s": "3",
+                "fs": 10
+              },
+              {
+                "t": "tx",
+                "x": 10,
+                "y": 88,
+                "s": "4",
+                "fs": 10
+              },
+              {
+                "t": "tx",
+                "x": 10,
+                "y": 64,
+                "s": "5",
+                "fs": 10
+              },
+              {
+                "t": "tx",
+                "x": 10,
+                "y": 40,
+                "s": "6",
+                "fs": 10
+              }
+            ]
+          }
+        },
+        {
+          "id": "paper_g4_chengdu_gaoxin_2021a_n35",
+          "no": 35,
+          "type": "solve",
+          "stem": "一台电风扇的价钱是110元，学校买了21台，一共要用多少元？",
+          "answer": "110×21=2310（元）",
+          "score": 4,
+          "analysis": "单价×数量=总价：110×21=2310元。",
+          "source": "成都市高新区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_gaoxin_2021a_n36",
+          "no": 36,
+          "type": "solve",
+          "stem": "一辆汽车每小时行驶58千米，3小时行驶多少千米？",
+          "answer": "58×3=174（千米）",
+          "score": 4,
+          "analysis": "速度×时间=路程：58×3=174千米。",
+          "source": "成都市高新区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_gaoxin_2021a_n37",
+          "no": 37,
+          "type": "solve",
+          "stem": "果园收了126千克橘子，每筐装24千克，能装满几筐？还剩多少千克？",
+          "answer": "126÷24=5（筐）……6（千克）",
+          "score": 4,
+          "analysis": "求能装满几筐：126÷24=5筐，余6千克装不满一筐。",
+          "source": "成都市高新区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_gaoxin_2021a_n38",
+          "no": 38,
+          "type": "solve",
+          "stem": "在一条长16米的马路一侧栽树，每隔4米栽一棵（两端都栽），一共要栽多少棵？",
+          "answer": "16÷4=4，4+1=5（棵）",
+          "score": 4,
+          "analysis": "间隔数=16÷4=4，两端都栽时棵数=间隔数+1=5棵。",
+          "source": "成都市高新区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_gaoxin_2021a_n39",
+          "no": 39,
+          "type": "solve",
+          "stem": "商店运来23箱梨，每箱17千克，卖出375千克，还剩多少千克？",
+          "answer": "23×17-375=16（千克）",
+          "score": 4,
+          "analysis": "先算总质量 23×17=391千克，再减卖出的：16千克。",
+          "source": "成都市高新区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g4_chengdu_gaoxin_2021a_n40",
+          "no": 40,
+          "type": "solve",
+          "stem": "甲、乙两个数的和是85，差是15，甲数是多少？",
+          "answer": "(85+15)÷2=50",
+          "score": 4,
+          "analysis": "甲数=（和+差）÷2=(85+15)÷2=50。",
+          "source": "成都市高新区2021-2022学年上期期末（组编）",
+          "figure": null
+        }
+      ]
     }
   ]
 }
