@@ -42,6 +42,9 @@ android.permissions = INTERNET
 android.allow_backup = True
 # CI 无交互终端，自动接受 Android SDK/NDK 许可协议（否则 build-tools 装不上导致 aidl 缺失）
 android.accept_sdk_license = yes
+# buildozer 1.6 release 默认产物为 aab（App Bundle，不能侧载安装），
+# 显式指定 apk 才会跑 gradlew assembleRelease 产出 *-release-unsigned.apk 供 apksigner 签名
+android.release_artifact = apk
 
 [buildozer]
 log_level = 2
