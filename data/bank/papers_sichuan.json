@@ -15810,6 +15810,1503 @@
           "figure": null
         }
       ]
+    },
+    {
+      "id": "paper_g3_chengdu_wuhou_2024b",
+      "grade": 3,
+      "region": "成都市武侯区",
+      "year": "2024-2025学年下期",
+      "title": "三年级数学期末测试卷（二）",
+      "duration": 90,
+      "total_score": 100,
+      "note": "北师大版三年级下册：除法（两三位数除以一位数）、图形的运动（轴对称）、乘法（两位数乘两位数）、千克克吨、面积、认识分数；口算10×1分+填空8×3分+判断5×2分+选择5×2分+计算4×4分+看图列式与操作2×3分+解决问题6×4分",
+      "questions": [
+        {
+          "id": "paper_g3_chengdu_wuhou_2024b_n1",
+          "no": 1,
+          "type": "fill",
+          "stem": "口算：30×20=",
+          "answer": "600",
+          "score": 1,
+          "analysis": "口算乘除：想口诀，整十整百数先算表内乘除再添 0。",
+          "source": "成都市武侯区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_chengdu_wuhou_2024b_n2",
+          "no": 2,
+          "type": "fill",
+          "stem": "口算：360÷9=",
+          "answer": "40",
+          "score": 1,
+          "analysis": "口算乘除：想口诀，整十整百数先算表内乘除再添 0。",
+          "source": "成都市武侯区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_chengdu_wuhou_2024b_n3",
+          "no": 3,
+          "type": "fill",
+          "stem": "口算：20÷2=",
+          "answer": "10",
+          "score": 1,
+          "analysis": "口算乘除：想口诀，整十整百数先算表内乘除再添 0。",
+          "source": "成都市武侯区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_chengdu_wuhou_2024b_n4",
+          "no": 4,
+          "type": "fill",
+          "stem": "口算：10×30=",
+          "answer": "300",
+          "score": 1,
+          "analysis": "口算乘除：想口诀，整十整百数先算表内乘除再添 0。",
+          "source": "成都市武侯区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_chengdu_wuhou_2024b_n5",
+          "no": 5,
+          "type": "fill",
+          "stem": "口算：33÷3=",
+          "answer": "11",
+          "score": 1,
+          "analysis": "口算乘除：想口诀，整十整百数先算表内乘除再添 0。",
+          "source": "成都市武侯区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_chengdu_wuhou_2024b_n6",
+          "no": 6,
+          "type": "fill",
+          "stem": "口算：180÷9=",
+          "answer": "20",
+          "score": 1,
+          "analysis": "口算乘除：想口诀，整十整百数先算表内乘除再添 0。",
+          "source": "成都市武侯区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_chengdu_wuhou_2024b_n7",
+          "no": 7,
+          "type": "fill",
+          "stem": "口算：42×2=",
+          "answer": "84",
+          "score": 1,
+          "analysis": "口算乘除：想口诀，整十整百数先算表内乘除再添 0。",
+          "source": "成都市武侯区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_chengdu_wuhou_2024b_n8",
+          "no": 8,
+          "type": "fill",
+          "stem": "口算：66÷3=",
+          "answer": "22",
+          "score": 1,
+          "analysis": "口算乘除：想口诀，整十整百数先算表内乘除再添 0。",
+          "source": "成都市武侯区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_chengdu_wuhou_2024b_n9",
+          "no": 9,
+          "type": "fill",
+          "stem": "口算：44×2=",
+          "answer": "88",
+          "score": 1,
+          "analysis": "口算乘除：想口诀，整十整百数先算表内乘除再添 0。",
+          "source": "成都市武侯区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_chengdu_wuhou_2024b_n10",
+          "no": 10,
+          "type": "fill",
+          "stem": "口算：22÷2=",
+          "answer": "11",
+          "score": 1,
+          "analysis": "口算乘除：想口诀，整十整百数先算表内乘除再添 0。",
+          "source": "成都市武侯区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_chengdu_wuhou_2024b_n11",
+          "no": 11,
+          "type": "fill",
+          "stem": "1平方米=（　）平方分米",
+          "answer": "100",
+          "score": 3,
+          "analysis": "平方米与平方分米的进率是 100。",
+          "source": "成都市武侯区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_chengdu_wuhou_2024b_n12",
+          "no": 12,
+          "type": "fill",
+          "stem": "5000千克=（　）吨",
+          "answer": "5",
+          "score": 3,
+          "analysis": "1000 千克 = 1 吨。",
+          "source": "成都市武侯区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_chengdu_wuhou_2024b_n13",
+          "no": 13,
+          "type": "fill",
+          "stem": "3/8读作（　）",
+          "answer": "八分之三",
+          "score": 3,
+          "analysis": "先读分母 8 再读分子 3。",
+          "source": "成都市武侯区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_chengdu_wuhou_2024b_n14",
+          "no": 14,
+          "type": "fill",
+          "stem": "一个长方形的长是16分米，宽是2分米，面积是（　）平方分米",
+          "answer": "32",
+          "score": 3,
+          "analysis": "长方形面积=长×宽=16×2=32平方分米。",
+          "source": "成都市武侯区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_chengdu_wuhou_2024b_n15",
+          "no": 15,
+          "type": "fill",
+          "stem": "297÷9=（　）",
+          "answer": "33",
+          "score": 3,
+          "analysis": "297÷9=33。",
+          "source": "成都市武侯区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_chengdu_wuhou_2024b_n16",
+          "no": 16,
+          "type": "fill",
+          "stem": "一页书有15行，每行12个字，这一页共有（　）个字",
+          "answer": "180",
+          "score": 3,
+          "analysis": "15×12=180个。",
+          "source": "成都市武侯区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_chengdu_wuhou_2024b_n17",
+          "no": 17,
+          "type": "fill",
+          "stem": "沿一条直线对折后能完全重合的图形叫（　）图形",
+          "answer": "轴对称",
+          "score": 3,
+          "analysis": "这就是轴对称图形的定义。",
+          "source": "成都市武侯区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_chengdu_wuhou_2024b_n18",
+          "no": 18,
+          "type": "fill",
+          "stem": "2/7+4/7=（　）（用 a/b 形式）",
+          "answer": "6/7",
+          "score": 3,
+          "analysis": "同分母分数相加，分母不变、分子相加。",
+          "source": "成都市武侯区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_chengdu_wuhou_2024b_n19",
+          "no": 19,
+          "type": "judge",
+          "stem": "判断：分子都是1时，分母大的分数反而小。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "如 1/4 < 1/2。",
+          "source": "成都市武侯区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_chengdu_wuhou_2024b_n20",
+          "no": 20,
+          "type": "judge",
+          "stem": "判断：边长1米的正方形面积是1平方米。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "面积单位的定义。",
+          "source": "成都市武侯区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_chengdu_wuhou_2024b_n21",
+          "no": 21,
+          "type": "judge",
+          "stem": "判断：1吨=1000千克。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "吨与千克进率 1000。",
+          "source": "成都市武侯区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_chengdu_wuhou_2024b_n22",
+          "no": 22,
+          "type": "judge",
+          "stem": "判断：钟摆的运动是旋转。",
+          "answer": "错",
+          "score": 2,
+          "analysis": "钟摆绕固定点摆动，属于旋转（摆动）。",
+          "source": "成都市武侯区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_chengdu_wuhou_2024b_n23",
+          "no": 23,
+          "type": "judge",
+          "stem": "判断：0÷5=0。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "0 除以任何不是 0 的数都得 0。",
+          "source": "成都市武侯区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_chengdu_wuhou_2024b_n24",
+          "no": 24,
+          "type": "choice",
+          "stem": "8平方分米=（　）平方厘米",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.800 B.80 C.8 D.8000，正确答案为A。",
+          "source": "成都市武侯区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_chengdu_wuhou_2024b_n25",
+          "no": 25,
+          "type": "choice",
+          "stem": "最接近1吨的是（　）",
+          "answer": "B",
+          "score": 2,
+          "analysis": "选项：A.10个婴儿的体重 B.10个三年级学生的体重 C.1头大象的体重 D.100个鸡蛋的重量，正确答案为B。",
+          "source": "成都市武侯区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_chengdu_wuhou_2024b_n26",
+          "no": 26,
+          "type": "choice",
+          "stem": "3/9+2/9=（　）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.5/9 B.5/18 C.1/9 D.1，正确答案为A。",
+          "source": "成都市武侯区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_chengdu_wuhou_2024b_n27",
+          "no": 27,
+          "type": "choice",
+          "stem": "荡秋千时秋千的运动是（　）",
+          "answer": "B",
+          "score": 2,
+          "analysis": "选项：A.平移 B.旋转 C.轴对称 D.无法确定，正确答案为B。",
+          "source": "成都市武侯区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_chengdu_wuhou_2024b_n28",
+          "no": 28,
+          "type": "choice",
+          "stem": "216÷6=（　）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.36 B.42 C.35 D.216，正确答案为A。",
+          "source": "成都市武侯区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_chengdu_wuhou_2024b_n29",
+          "no": 29,
+          "type": "fill",
+          "stem": "用竖式计算：458÷2=",
+          "answer": "229",
+          "score": 4,
+          "analysis": "竖式除法从最高位除起，乘法注意进位；脱式按从左往右的运算顺序。",
+          "source": "成都市武侯区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_chengdu_wuhou_2024b_n30",
+          "no": 30,
+          "type": "fill",
+          "stem": "用竖式计算：80÷4=",
+          "answer": "20",
+          "score": 4,
+          "analysis": "竖式除法从最高位除起，乘法注意进位；脱式按从左往右的运算顺序。",
+          "source": "成都市武侯区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_chengdu_wuhou_2024b_n31",
+          "no": 31,
+          "type": "fill",
+          "stem": "用竖式计算：19×19=",
+          "answer": "361",
+          "score": 4,
+          "analysis": "竖式除法从最高位除起，乘法注意进位；脱式按从左往右的运算顺序。",
+          "source": "成都市武侯区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_chengdu_wuhou_2024b_n32",
+          "no": 32,
+          "type": "fill",
+          "stem": "脱式计算：6×2÷3=",
+          "answer": "4",
+          "score": 4,
+          "analysis": "竖式除法从最高位除起，乘法注意进位；脱式按从左往右的运算顺序。",
+          "source": "成都市武侯区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_chengdu_wuhou_2024b_n33",
+          "no": 33,
+          "type": "draw",
+          "stem": "在下面的方格纸上画一个面积是6平方厘米的长方形（每个小格边长表示1厘米）。",
+          "answer": "画面积6平方厘米的长方形（画法不唯一）",
+          "score": 3,
+          "analysis": "面积 6 平方厘米可画：长6格宽1格或长3格宽2格。",
+          "source": "成都市武侯区2024-2025学年下期期末（组编）",
+          "figure": {
+            "w": 320,
+            "h": 220,
+            "shapes": [
+              {
+                "t": "grid",
+                "x": 20,
+                "y": 10,
+                "cols": 13,
+                "rows": 6,
+                "cw": 24
+              }
+            ]
+          }
+        },
+        {
+          "id": "paper_g3_chengdu_wuhou_2024b_n34",
+          "no": 34,
+          "type": "draw",
+          "stem": "在方格纸上画出左边图形的另一半，使它成为轴对称图形（对称轴是中间虚线）。",
+          "answer": "沿对称轴补画右侧另一半",
+          "score": 3,
+          "analysis": "沿虚线右侧画出与左侧每格对应相同的方格图形。",
+          "source": "成都市武侯区2024-2025学年下期期末（组编）",
+          "figure": {
+            "w": 280,
+            "h": 170,
+            "shapes": [
+              {
+                "t": "grid",
+                "x": 20,
+                "y": 10,
+                "cols": 10,
+                "rows": 6,
+                "cw": 24
+              },
+              {
+                "t": "l",
+                "x1": 140,
+                "y1": 10,
+                "x2": 140,
+                "y2": 154
+              },
+              {
+                "t": "r",
+                "x": 44,
+                "y": 34,
+                "w": 96,
+                "h": 48
+              },
+              {
+                "t": "r",
+                "x": 68,
+                "y": 82,
+                "w": 72,
+                "h": 48
+              }
+            ]
+          }
+        },
+        {
+          "id": "paper_g3_chengdu_wuhou_2024b_n35",
+          "no": 35,
+          "type": "solve",
+          "stem": "买5盒酸奶一共用了30元，一盒酸奶多少元？",
+          "answer": "30÷5=6（元）",
+          "score": 4,
+          "analysis": "总价÷数量=单价：30÷5=6元。",
+          "source": "成都市武侯区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_chengdu_wuhou_2024b_n36",
+          "no": 36,
+          "type": "solve",
+          "stem": "果园摘了30个苹果，平均装在3个箱子里，每箱分2层摆放，每层放多少个？",
+          "answer": "30÷3÷2=5（个）",
+          "score": 4,
+          "analysis": "先算每箱 10 个，再算每层 5 个。",
+          "source": "成都市武侯区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_chengdu_wuhou_2024b_n37",
+          "no": 37,
+          "type": "solve",
+          "stem": "学校买了20箱图书，每箱有18本，一共买了多少本图书？",
+          "answer": "20×18=360（本）",
+          "score": 4,
+          "analysis": "每箱 18 本、共 20 箱：20×18=360本。",
+          "source": "成都市武侯区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_chengdu_wuhou_2024b_n38",
+          "no": 38,
+          "type": "solve",
+          "stem": "一块长方形玻璃长10分米，宽4分米，它的面积是多少平方分米？",
+          "answer": "10×4=40（平方分米）",
+          "score": 4,
+          "analysis": "长方形面积=长×宽=10×4=40平方分米。",
+          "source": "成都市武侯区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_chengdu_wuhou_2024b_n39",
+          "no": 39,
+          "type": "solve",
+          "stem": "一辆货车运货438千克，另一辆货车比它多运290千克，两辆货车一共运货多少千克？",
+          "answer": "438+290+438=1166（千克）",
+          "score": 4,
+          "analysis": "另一辆运 438+290=728 千克，两车合计 438+728=1166 千克。",
+          "source": "成都市武侯区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_chengdu_wuhou_2024b_n40",
+          "no": 40,
+          "type": "solve",
+          "stem": "一块蛋糕被平均分成8份，明明吃了4份，还剩下这块蛋糕的几分之几？（用 a/b 形式）",
+          "answer": "4/8",
+          "score": 4,
+          "analysis": "剩下 4 份，占4/8。",
+          "source": "成都市武侯区2024-2025学年下期期末（组编）",
+          "figure": null
+        }
+      ]
+    },
+    {
+      "id": "paper_g3_nanchong_shunqing_2022b",
+      "grade": 3,
+      "region": "南充市顺庆区",
+      "year": "2022-2023学年下期",
+      "title": "三年级数学期末测试卷（三）",
+      "duration": 90,
+      "total_score": 100,
+      "note": "北师大版三年级下册：除法（两三位数除以一位数）、图形的运动（轴对称）、乘法（两位数乘两位数）、千克克吨、面积、认识分数；口算10×1分+填空8×3分+判断5×2分+选择5×2分+计算4×4分+看图列式与操作2×3分+解决问题6×4分",
+      "questions": [
+        {
+          "id": "paper_g3_nanchong_shunqing_2022b_n1",
+          "no": 1,
+          "type": "fill",
+          "stem": "口算：450÷5=",
+          "answer": "90",
+          "score": 1,
+          "analysis": "口算乘除：想口诀，整十整百数先算表内乘除再添 0。",
+          "source": "南充市顺庆区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_nanchong_shunqing_2022b_n2",
+          "no": 2,
+          "type": "fill",
+          "stem": "口算：350÷7=",
+          "answer": "50",
+          "score": 1,
+          "analysis": "口算乘除：想口诀，整十整百数先算表内乘除再添 0。",
+          "source": "南充市顺庆区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_nanchong_shunqing_2022b_n3",
+          "no": 3,
+          "type": "fill",
+          "stem": "口算：40×10=",
+          "answer": "400",
+          "score": 1,
+          "analysis": "口算乘除：想口诀，整十整百数先算表内乘除再添 0。",
+          "source": "南充市顺庆区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_nanchong_shunqing_2022b_n4",
+          "no": 4,
+          "type": "fill",
+          "stem": "口算：10×10=",
+          "answer": "100",
+          "score": 1,
+          "analysis": "口算乘除：想口诀，整十整百数先算表内乘除再添 0。",
+          "source": "南充市顺庆区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_nanchong_shunqing_2022b_n5",
+          "no": 5,
+          "type": "fill",
+          "stem": "口算：46÷2=",
+          "answer": "23",
+          "score": 1,
+          "analysis": "口算乘除：想口诀，整十整百数先算表内乘除再添 0。",
+          "source": "南充市顺庆区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_nanchong_shunqing_2022b_n6",
+          "no": 6,
+          "type": "fill",
+          "stem": "口算：60÷2=",
+          "answer": "30",
+          "score": 1,
+          "analysis": "口算乘除：想口诀，整十整百数先算表内乘除再添 0。",
+          "source": "南充市顺庆区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_nanchong_shunqing_2022b_n7",
+          "no": 7,
+          "type": "fill",
+          "stem": "口算：30×10=",
+          "answer": "300",
+          "score": 1,
+          "analysis": "口算乘除：想口诀，整十整百数先算表内乘除再添 0。",
+          "source": "南充市顺庆区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_nanchong_shunqing_2022b_n8",
+          "no": 8,
+          "type": "fill",
+          "stem": "口算：540÷6=",
+          "answer": "90",
+          "score": 1,
+          "analysis": "口算乘除：想口诀，整十整百数先算表内乘除再添 0。",
+          "source": "南充市顺庆区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_nanchong_shunqing_2022b_n9",
+          "no": 9,
+          "type": "fill",
+          "stem": "口算：11×6=",
+          "answer": "66",
+          "score": 1,
+          "analysis": "口算乘除：想口诀，整十整百数先算表内乘除再添 0。",
+          "source": "南充市顺庆区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_nanchong_shunqing_2022b_n10",
+          "no": 10,
+          "type": "fill",
+          "stem": "口算：88÷2=",
+          "answer": "44",
+          "score": 1,
+          "analysis": "口算乘除：想口诀，整十整百数先算表内乘除再添 0。",
+          "source": "南充市顺庆区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_nanchong_shunqing_2022b_n11",
+          "no": 11,
+          "type": "fill",
+          "stem": "300平方分米=（　）平方米",
+          "answer": "3",
+          "score": 3,
+          "analysis": "100 平方分米 = 1 平方米。",
+          "source": "南充市顺庆区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_nanchong_shunqing_2022b_n12",
+          "no": 12,
+          "type": "fill",
+          "stem": "3吨=（　）千克",
+          "answer": "3000",
+          "score": 3,
+          "analysis": "1 吨 = 1000 千克。",
+          "source": "南充市顺庆区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_nanchong_shunqing_2022b_n13",
+          "no": 13,
+          "type": "fill",
+          "stem": "5/9读作（　）",
+          "answer": "九分之五",
+          "score": 3,
+          "analysis": "先读分母 9 再读分子 5。",
+          "source": "南充市顺庆区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_nanchong_shunqing_2022b_n14",
+          "no": 14,
+          "type": "fill",
+          "stem": "一个长方形的长是11分米，宽是2分米，面积是（　）平方分米",
+          "answer": "22",
+          "score": 3,
+          "analysis": "长方形面积=长×宽=11×2=22平方分米。",
+          "source": "南充市顺庆区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_nanchong_shunqing_2022b_n15",
+          "no": 15,
+          "type": "fill",
+          "stem": "355÷5=（　）",
+          "answer": "71",
+          "score": 3,
+          "analysis": "355÷5=71。",
+          "source": "南充市顺庆区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_nanchong_shunqing_2022b_n16",
+          "no": 16,
+          "type": "fill",
+          "stem": "一页书有20行，每行20个字，这一页共有（　）个字",
+          "answer": "400",
+          "score": 3,
+          "analysis": "20×20=400个。",
+          "source": "南充市顺庆区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_nanchong_shunqing_2022b_n17",
+          "no": 17,
+          "type": "fill",
+          "stem": "长方形有（　）条对称轴",
+          "answer": "2",
+          "score": 3,
+          "analysis": "长方形对边中点连线共 2 条。",
+          "source": "南充市顺庆区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_nanchong_shunqing_2022b_n18",
+          "no": 18,
+          "type": "fill",
+          "stem": "3/7-1/7=（　）（用 a/b 形式）",
+          "answer": "2/7",
+          "score": 3,
+          "analysis": "同分母分数相减，分母不变、分子相减。",
+          "source": "南充市顺庆区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_nanchong_shunqing_2022b_n19",
+          "no": 19,
+          "type": "judge",
+          "stem": "判断：1/2和2/4一样大。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "平均分 2 份取 1 份 = 平均分 4 份取 2 份。",
+          "source": "南充市顺庆区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_nanchong_shunqing_2022b_n20",
+          "no": 20,
+          "type": "judge",
+          "stem": "判断：课桌桌面面积约24平方厘米。",
+          "answer": "错",
+          "score": 2,
+          "analysis": "约 24 平方分米，平方厘米太小。",
+          "source": "南充市顺庆区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_nanchong_shunqing_2022b_n21",
+          "no": 21,
+          "type": "judge",
+          "stem": "判断：一头大象重约4吨。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "大象体重约 4 吨。",
+          "source": "南充市顺庆区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_nanchong_shunqing_2022b_n22",
+          "no": 22,
+          "type": "judge",
+          "stem": "判断：风车叶片的运动是旋转。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "绕中心转动。",
+          "source": "南充市顺庆区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_nanchong_shunqing_2022b_n23",
+          "no": 23,
+          "type": "judge",
+          "stem": "判断：两位数乘两位数，积一定是三位数。",
+          "answer": "错",
+          "score": 2,
+          "analysis": "如 25×40=1000 是四位数。",
+          "source": "南充市顺庆区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_nanchong_shunqing_2022b_n24",
+          "no": 24,
+          "type": "choice",
+          "stem": "4平方分米=（　）平方厘米",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.400 B.40 C.4 D.4000，正确答案为A。",
+          "source": "南充市顺庆区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_nanchong_shunqing_2022b_n25",
+          "no": 25,
+          "type": "choice",
+          "stem": "1吨棉花和1000千克铁比较（　）",
+          "answer": "C",
+          "score": 2,
+          "analysis": "选项：A.棉花重 B.铁重 C.一样重 D.无法比较，正确答案为C。",
+          "source": "南充市顺庆区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_nanchong_shunqing_2022b_n26",
+          "no": 26,
+          "type": "choice",
+          "stem": "2/9+1/9=（　）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.3/9 B.3/18 C.1/9 D.1，正确答案为A。",
+          "source": "南充市顺庆区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_nanchong_shunqing_2022b_n27",
+          "no": 27,
+          "type": "choice",
+          "stem": "滑滑梯时人的运动是（　）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.平移 B.旋转 C.轴对称 D.无法确定，正确答案为A。",
+          "source": "南充市顺庆区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_nanchong_shunqing_2022b_n28",
+          "no": 28,
+          "type": "choice",
+          "stem": "180÷5=（　）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.36 B.41 C.35 D.180，正确答案为A。",
+          "source": "南充市顺庆区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_nanchong_shunqing_2022b_n29",
+          "no": 29,
+          "type": "fill",
+          "stem": "用竖式计算：672÷4=",
+          "answer": "168",
+          "score": 4,
+          "analysis": "竖式除法从最高位除起，乘法注意进位；脱式按从左往右的运算顺序。",
+          "source": "南充市顺庆区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_nanchong_shunqing_2022b_n30",
+          "no": 30,
+          "type": "fill",
+          "stem": "用竖式计算：132÷4=",
+          "answer": "33",
+          "score": 4,
+          "analysis": "竖式除法从最高位除起，乘法注意进位；脱式按从左往右的运算顺序。",
+          "source": "南充市顺庆区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_nanchong_shunqing_2022b_n31",
+          "no": 31,
+          "type": "fill",
+          "stem": "用竖式计算：59×29=",
+          "answer": "1711",
+          "score": 4,
+          "analysis": "竖式除法从最高位除起，乘法注意进位；脱式按从左往右的运算顺序。",
+          "source": "南充市顺庆区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_nanchong_shunqing_2022b_n32",
+          "no": 32,
+          "type": "fill",
+          "stem": "脱式计算：48÷8×2=",
+          "answer": "6",
+          "score": 4,
+          "analysis": "竖式除法从最高位除起，乘法注意进位；脱式按从左往右的运算顺序。",
+          "source": "南充市顺庆区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_nanchong_shunqing_2022b_n33",
+          "no": 33,
+          "type": "draw",
+          "stem": "在下面的方格纸上画一个面积是8平方厘米的长方形（每个小格边长表示1厘米）。",
+          "answer": "画面积8平方厘米的长方形（画法不唯一）",
+          "score": 3,
+          "analysis": "面积 8 平方厘米可画：长8格宽1格或长4格宽2格。",
+          "source": "南充市顺庆区2022-2023学年下期期末（组编）",
+          "figure": {
+            "w": 320,
+            "h": 220,
+            "shapes": [
+              {
+                "t": "grid",
+                "x": 20,
+                "y": 10,
+                "cols": 13,
+                "rows": 6,
+                "cw": 24
+              }
+            ]
+          }
+        },
+        {
+          "id": "paper_g3_nanchong_shunqing_2022b_n34",
+          "no": 34,
+          "type": "draw",
+          "stem": "下面图形只有一半，请补画出它的另一半，使它成为轴对称图形。",
+          "answer": "沿对称轴补画右侧另一半",
+          "score": 3,
+          "analysis": "对称轴两侧每行格子数相同，向右补齐。",
+          "source": "南充市顺庆区2022-2023学年下期期末（组编）",
+          "figure": {
+            "w": 280,
+            "h": 170,
+            "shapes": [
+              {
+                "t": "grid",
+                "x": 20,
+                "y": 10,
+                "cols": 10,
+                "rows": 6,
+                "cw": 24
+              },
+              {
+                "t": "l",
+                "x1": 140,
+                "y1": 10,
+                "x2": 140,
+                "y2": 154
+              },
+              {
+                "t": "r",
+                "x": 44,
+                "y": 34,
+                "w": 96,
+                "h": 48
+              },
+              {
+                "t": "r",
+                "x": 68,
+                "y": 82,
+                "w": 72,
+                "h": 48
+              }
+            ]
+          }
+        },
+        {
+          "id": "paper_g3_nanchong_shunqing_2022b_n35",
+          "no": 35,
+          "type": "solve",
+          "stem": "买5盒酸奶一共用了35元，一盒酸奶多少元？",
+          "answer": "35÷5=7（元）",
+          "score": 4,
+          "analysis": "总价÷数量=单价：35÷5=7元。",
+          "source": "南充市顺庆区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_nanchong_shunqing_2022b_n36",
+          "no": 36,
+          "type": "solve",
+          "stem": "果园摘了120个苹果，平均装在5个箱子里，每箱分4层摆放，每层放多少个？",
+          "answer": "120÷5÷4=6（个）",
+          "score": 4,
+          "analysis": "先算每箱 24 个，再算每层 6 个。",
+          "source": "南充市顺庆区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_nanchong_shunqing_2022b_n37",
+          "no": 37,
+          "type": "solve",
+          "stem": "学校买了11箱图书，每箱有26本，一共买了多少本图书？",
+          "answer": "11×26=286（本）",
+          "score": 4,
+          "analysis": "每箱 26 本、共 11 箱：11×26=286本。",
+          "source": "南充市顺庆区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_nanchong_shunqing_2022b_n38",
+          "no": 38,
+          "type": "solve",
+          "stem": "一块长方形玻璃长11分米，宽5分米，它的面积是多少平方分米？",
+          "answer": "11×5=55（平方分米）",
+          "score": 4,
+          "analysis": "长方形面积=长×宽=11×5=55平方分米。",
+          "source": "南充市顺庆区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_nanchong_shunqing_2022b_n39",
+          "no": 39,
+          "type": "solve",
+          "stem": "一辆货车运货596千克，另一辆货车比它多运213千克，两辆货车一共运货多少千克？",
+          "answer": "596+213+596=1405（千克）",
+          "score": 4,
+          "analysis": "另一辆运 596+213=809 千克，两车合计 596+809=1405 千克。",
+          "source": "南充市顺庆区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_nanchong_shunqing_2022b_n40",
+          "no": 40,
+          "type": "solve",
+          "stem": "一块蛋糕被平均分成9份，明明吃了4份，还剩下这块蛋糕的几分之几？（用 a/b 形式）",
+          "answer": "5/9",
+          "score": 4,
+          "analysis": "剩下 5 份，占5/9。",
+          "source": "南充市顺庆区2022-2023学年下期期末（组编）",
+          "figure": null
+        }
+      ]
+    },
+    {
+      "id": "paper_g3_luzhou_jiangyang_2021b",
+      "grade": 3,
+      "region": "泸州市江阳区",
+      "year": "2021-2022学年下期",
+      "title": "三年级数学期末测试卷（四）",
+      "duration": 90,
+      "total_score": 100,
+      "note": "北师大版三年级下册：除法（两三位数除以一位数）、图形的运动（轴对称）、乘法（两位数乘两位数）、千克克吨、面积、认识分数；口算10×1分+填空8×3分+判断5×2分+选择5×2分+计算4×4分+看图列式与操作2×3分+解决问题6×4分",
+      "questions": [
+        {
+          "id": "paper_g3_luzhou_jiangyang_2021b_n1",
+          "no": 1,
+          "type": "fill",
+          "stem": "口算：11×4=",
+          "answer": "44",
+          "score": 1,
+          "analysis": "口算乘除：想口诀，整十整百数先算表内乘除再添 0。",
+          "source": "泸州市江阳区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_luzhou_jiangyang_2021b_n2",
+          "no": 2,
+          "type": "fill",
+          "stem": "口算：84÷4=",
+          "answer": "21",
+          "score": 1,
+          "analysis": "口算乘除：想口诀，整十整百数先算表内乘除再添 0。",
+          "source": "泸州市江阳区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_luzhou_jiangyang_2021b_n3",
+          "no": 3,
+          "type": "fill",
+          "stem": "口算：60÷6=",
+          "answer": "10",
+          "score": 1,
+          "analysis": "口算乘除：想口诀，整十整百数先算表内乘除再添 0。",
+          "source": "泸州市江阳区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_luzhou_jiangyang_2021b_n4",
+          "no": 4,
+          "type": "fill",
+          "stem": "口算：250÷5=",
+          "answer": "50",
+          "score": 1,
+          "analysis": "口算乘除：想口诀，整十整百数先算表内乘除再添 0。",
+          "source": "泸州市江阳区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_luzhou_jiangyang_2021b_n5",
+          "no": 5,
+          "type": "fill",
+          "stem": "口算：810÷9=",
+          "answer": "90",
+          "score": 1,
+          "analysis": "口算乘除：想口诀，整十整百数先算表内乘除再添 0。",
+          "source": "泸州市江阳区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_luzhou_jiangyang_2021b_n6",
+          "no": 6,
+          "type": "fill",
+          "stem": "口算：240÷3=",
+          "answer": "80",
+          "score": 1,
+          "analysis": "口算乘除：想口诀，整十整百数先算表内乘除再添 0。",
+          "source": "泸州市江阳区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_luzhou_jiangyang_2021b_n7",
+          "no": 7,
+          "type": "fill",
+          "stem": "口算：14×2=",
+          "answer": "28",
+          "score": 1,
+          "analysis": "口算乘除：想口诀，整十整百数先算表内乘除再添 0。",
+          "source": "泸州市江阳区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_luzhou_jiangyang_2021b_n8",
+          "no": 8,
+          "type": "fill",
+          "stem": "口算：22×3=",
+          "answer": "66",
+          "score": 1,
+          "analysis": "口算乘除：想口诀，整十整百数先算表内乘除再添 0。",
+          "source": "泸州市江阳区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_luzhou_jiangyang_2021b_n9",
+          "no": 9,
+          "type": "fill",
+          "stem": "口算：180÷3=",
+          "answer": "60",
+          "score": 1,
+          "analysis": "口算乘除：想口诀，整十整百数先算表内乘除再添 0。",
+          "source": "泸州市江阳区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_luzhou_jiangyang_2021b_n10",
+          "no": 10,
+          "type": "fill",
+          "stem": "口算：68÷2=",
+          "answer": "34",
+          "score": 1,
+          "analysis": "口算乘除：想口诀，整十整百数先算表内乘除再添 0。",
+          "source": "泸州市江阳区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_luzhou_jiangyang_2021b_n11",
+          "no": 11,
+          "type": "fill",
+          "stem": "1平方分米=（　）平方厘米",
+          "answer": "100",
+          "score": 3,
+          "analysis": "平方分米与平方厘米的进率是 100。",
+          "source": "泸州市江阳区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_luzhou_jiangyang_2021b_n12",
+          "no": 12,
+          "type": "fill",
+          "stem": "2000克=（　）千克",
+          "answer": "2",
+          "score": 3,
+          "analysis": "1000 克 = 1 千克。",
+          "source": "泸州市江阳区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_luzhou_jiangyang_2021b_n13",
+          "no": 13,
+          "type": "fill",
+          "stem": "四分之三写作（　）（用 a/b 形式）",
+          "answer": "3/4",
+          "score": 3,
+          "analysis": "分母 4 在下、分子 3 在上。",
+          "source": "泸州市江阳区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_luzhou_jiangyang_2021b_n14",
+          "no": 14,
+          "type": "fill",
+          "stem": "一个长方形的长是9分米，宽是4分米，面积是（　）平方分米",
+          "answer": "36",
+          "score": 3,
+          "analysis": "长方形面积=长×宽=9×4=36平方分米。",
+          "source": "泸州市江阳区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_luzhou_jiangyang_2021b_n15",
+          "no": 15,
+          "type": "fill",
+          "stem": "330÷5=（　）",
+          "answer": "66",
+          "score": 3,
+          "analysis": "330÷5=66。",
+          "source": "泸州市江阳区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_luzhou_jiangyang_2021b_n16",
+          "no": 16,
+          "type": "fill",
+          "stem": "一页书有23行，每行19个字，这一页共有（　）个字",
+          "answer": "437",
+          "score": 3,
+          "analysis": "23×19=437个。",
+          "source": "泸州市江阳区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_luzhou_jiangyang_2021b_n17",
+          "no": 17,
+          "type": "fill",
+          "stem": "正方形有（　）条对称轴",
+          "answer": "4",
+          "score": 3,
+          "analysis": "正方形有 4 条对称轴。",
+          "source": "泸州市江阳区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_luzhou_jiangyang_2021b_n18",
+          "no": 18,
+          "type": "fill",
+          "stem": "6/7-1/7=（　）（用 a/b 形式）",
+          "answer": "5/7",
+          "score": 3,
+          "analysis": "同分母分数相减，分母不变、分子相减。",
+          "source": "泸州市江阳区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_luzhou_jiangyang_2021b_n19",
+          "no": 19,
+          "type": "judge",
+          "stem": "判断：把一块饼分成3份，每份是它的1/3。",
+          "answer": "错",
+          "score": 2,
+          "analysis": "必须是“平均分”才是 1/3。",
+          "source": "泸州市江阳区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_luzhou_jiangyang_2021b_n20",
+          "no": 20,
+          "type": "judge",
+          "stem": "判断：面积相等的长方形，周长一定相等。",
+          "answer": "错",
+          "score": 2,
+          "analysis": "如 2×6 与 3×4 面积都是 12，周长不同。",
+          "source": "泸州市江阳区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_luzhou_jiangyang_2021b_n21",
+          "no": 21,
+          "type": "judge",
+          "stem": "判断：1千克铁比1千克棉花重。",
+          "answer": "错",
+          "score": 2,
+          "analysis": "都是 1 千克，一样重。",
+          "source": "泸州市江阳区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_luzhou_jiangyang_2021b_n22",
+          "no": 22,
+          "type": "judge",
+          "stem": "判断：电梯上下移动是平移。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "沿直线移动。",
+          "source": "泸州市江阳区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_luzhou_jiangyang_2021b_n23",
+          "no": 23,
+          "type": "judge",
+          "stem": "判断：被除数中间有0，商中间一定有0。",
+          "answer": "错",
+          "score": 2,
+          "analysis": "如 208÷2=104 有 0，但 105÷5=21 没有。",
+          "source": "泸州市江阳区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_luzhou_jiangyang_2021b_n24",
+          "no": 24,
+          "type": "choice",
+          "stem": "3平方分米=（　）平方厘米",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.300 B.30 C.3 D.3000，正确答案为A。",
+          "source": "泸州市江阳区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_luzhou_jiangyang_2021b_n25",
+          "no": 25,
+          "type": "choice",
+          "stem": "一辆载重5吨的卡车最多能运（　）千克货物",
+          "answer": "B",
+          "score": 2,
+          "analysis": "选项：A.500 B.5000 C.50 D.50000，正确答案为B。",
+          "source": "泸州市江阳区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_luzhou_jiangyang_2021b_n26",
+          "no": 26,
+          "type": "choice",
+          "stem": "1/9+3/9=（　）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.4/9 B.4/18 C.2/9 D.1，正确答案为A。",
+          "source": "泸州市江阳区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_luzhou_jiangyang_2021b_n27",
+          "no": 27,
+          "type": "choice",
+          "stem": "开关水龙头时水龙头的运动是（　）",
+          "answer": "B",
+          "score": 2,
+          "analysis": "选项：A.平移 B.旋转 C.轴对称 D.无法确定，正确答案为B。",
+          "source": "泸州市江阳区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_luzhou_jiangyang_2021b_n28",
+          "no": 28,
+          "type": "choice",
+          "stem": "212÷4=（　）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.53 B.57 C.52 D.212，正确答案为A。",
+          "source": "泸州市江阳区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_luzhou_jiangyang_2021b_n29",
+          "no": 29,
+          "type": "fill",
+          "stem": "用竖式计算：2538÷9=",
+          "answer": "282",
+          "score": 4,
+          "analysis": "竖式除法从最高位除起，乘法注意进位；脱式按从左往右的运算顺序。",
+          "source": "泸州市江阳区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_luzhou_jiangyang_2021b_n30",
+          "no": 30,
+          "type": "fill",
+          "stem": "用竖式计算：296÷8=",
+          "answer": "37",
+          "score": 4,
+          "analysis": "竖式除法从最高位除起，乘法注意进位；脱式按从左往右的运算顺序。",
+          "source": "泸州市江阳区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_luzhou_jiangyang_2021b_n31",
+          "no": 31,
+          "type": "fill",
+          "stem": "用竖式计算：69×26=",
+          "answer": "1794",
+          "score": 4,
+          "analysis": "竖式除法从最高位除起，乘法注意进位；脱式按从左往右的运算顺序。",
+          "source": "泸州市江阳区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_luzhou_jiangyang_2021b_n32",
+          "no": 32,
+          "type": "fill",
+          "stem": "脱式计算：180÷6×5=",
+          "answer": "30",
+          "score": 4,
+          "analysis": "竖式除法从最高位除起，乘法注意进位；脱式按从左往右的运算顺序。",
+          "source": "泸州市江阳区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_luzhou_jiangyang_2021b_n33",
+          "no": 33,
+          "type": "draw",
+          "stem": "在下面的方格纸上画一个面积是12平方厘米的长方形（每个小格边长表示1厘米）。",
+          "answer": "画面积12平方厘米的长方形（画法不唯一）",
+          "score": 3,
+          "analysis": "面积 12 平方厘米可画：长12格宽1格、长6格宽2格或长4格宽3格。",
+          "source": "泸州市江阳区2021-2022学年下期期末（组编）",
+          "figure": {
+            "w": 320,
+            "h": 220,
+            "shapes": [
+              {
+                "t": "grid",
+                "x": 20,
+                "y": 10,
+                "cols": 13,
+                "rows": 6,
+                "cw": 24
+              }
+            ]
+          }
+        },
+        {
+          "id": "paper_g3_luzhou_jiangyang_2021b_n34",
+          "no": 34,
+          "type": "draw",
+          "stem": "以虚线为对称轴，画出这个图形的另一半。",
+          "answer": "沿对称轴补画右侧另一半",
+          "score": 3,
+          "analysis": "逐行对应补画右侧图形。",
+          "source": "泸州市江阳区2021-2022学年下期期末（组编）",
+          "figure": {
+            "w": 280,
+            "h": 170,
+            "shapes": [
+              {
+                "t": "grid",
+                "x": 20,
+                "y": 10,
+                "cols": 10,
+                "rows": 6,
+                "cw": 24
+              },
+              {
+                "t": "l",
+                "x1": 140,
+                "y1": 10,
+                "x2": 140,
+                "y2": 154
+              },
+              {
+                "t": "r",
+                "x": 44,
+                "y": 34,
+                "w": 96,
+                "h": 48
+              },
+              {
+                "t": "r",
+                "x": 68,
+                "y": 82,
+                "w": 72,
+                "h": 48
+              }
+            ]
+          }
+        },
+        {
+          "id": "paper_g3_luzhou_jiangyang_2021b_n35",
+          "no": 35,
+          "type": "solve",
+          "stem": "买3盒酸奶一共用了21元，一盒酸奶多少元？",
+          "answer": "21÷3=7（元）",
+          "score": 4,
+          "analysis": "总价÷数量=单价：21÷3=7元。",
+          "source": "泸州市江阳区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_luzhou_jiangyang_2021b_n36",
+          "no": 36,
+          "type": "solve",
+          "stem": "果园摘了80个苹果，平均装在4个箱子里，每箱分4层摆放，每层放多少个？",
+          "answer": "80÷4÷4=5（个）",
+          "score": 4,
+          "analysis": "先算每箱 20 个，再算每层 5 个。",
+          "source": "泸州市江阳区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_luzhou_jiangyang_2021b_n37",
+          "no": 37,
+          "type": "solve",
+          "stem": "学校买了15箱图书，每箱有28本，一共买了多少本图书？",
+          "answer": "15×28=420（本）",
+          "score": 4,
+          "analysis": "每箱 28 本、共 15 箱：15×28=420本。",
+          "source": "泸州市江阳区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_luzhou_jiangyang_2021b_n38",
+          "no": 38,
+          "type": "solve",
+          "stem": "一块长方形玻璃长8分米，宽4分米，它的面积是多少平方分米？",
+          "answer": "8×4=32（平方分米）",
+          "score": 4,
+          "analysis": "长方形面积=长×宽=8×4=32平方分米。",
+          "source": "泸州市江阳区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_luzhou_jiangyang_2021b_n39",
+          "no": 39,
+          "type": "solve",
+          "stem": "一辆货车运货480千克，另一辆货车比它多运190千克，两辆货车一共运货多少千克？",
+          "answer": "480+190+480=1150（千克）",
+          "score": 4,
+          "analysis": "另一辆运 480+190=670 千克，两车合计 480+670=1150 千克。",
+          "source": "泸州市江阳区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_luzhou_jiangyang_2021b_n40",
+          "no": 40,
+          "type": "solve",
+          "stem": "一块蛋糕被平均分成9份，明明吃了2份，还剩下这块蛋糕的几分之几？（用 a/b 形式）",
+          "answer": "7/9",
+          "score": 4,
+          "analysis": "剩下 7 份，占7/9。",
+          "source": "泸州市江阳区2021-2022学年下期期末（组编）",
+          "figure": null
+        }
+      ]
     }
   ]
 }
