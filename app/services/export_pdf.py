@@ -17,6 +17,8 @@ try:
     from reportlab.pdfbase import pdfmetrics
     from reportlab.pdfbase.cidfonts import UnicodeCIDFont
     from reportlab.pdfbase.ttfonts import TTFont
+    from reportlab.graphics.shapes import Circle, Drawing, Line, Rect, String
+    from reportlab.lib import colors
     from reportlab.platypus import (PageBreak, Paragraph, SimpleDocTemplate,
                                     Spacer, Table)
     PDF_OK = True
@@ -264,9 +266,56 @@ def export_pdf(datasets, with_answers=False):
 
 # ---------- 真题试卷导出（四川小学 1-6 年级） ----------
 
+def _fig_drawing(fig):
+    """题图 spec（与前端 paperFigureSvg 同源数据）转 reportlab Drawing。
+    spec 用屏幕坐标（y 向下），Drawing 用 PDF 坐标（y 向上），整体翻转。"""
+    sc = 0.55
+    w = int((fig.get("w") or 240) * sc)
+    h = int((fig.get("h") or 100) * sc)
+    d = Drawing(w, h)
+
+    def Y(y):
+        return h - y * sc
+
+    font = _ensure_font()
+    for sh in fig.get("shapes") or []:
+        t = sh.get("t")
+        if t in ("c", "cf"):
+            d.add(Circle(sh["cx"] * sc, Y(sh["cy"]), sh["r"] * sc,
+                         strokeColor=colors.black,
+                         fillColor=colors.black if t == "cf" else None))
+        elif t == "x":
+            r = sh["r"] * sc
+            cx, cy = sh["cx"] * sc, Y(sh["cy"])
+            d.add(Line(cx - r, cy - r, cx + r, cy + r, strokeColor=colors.black))
+            d.add(Line(cx - r, cy + r, cx + r, cy - r, strokeColor=colors.black))
+        elif t == "l":
+            d.add(Line(sh["x1"] * sc, Y(sh["y1"]), sh["x2"] * sc, Y(sh["y2"]),
+                       strokeColor=colors.black))
+        elif t == "r":
+            d.add(Rect(sh["x"] * sc, Y(sh["y"] + sh["h"]), sh["w"] * sc,
+                       sh["h"] * sc, strokeColor=colors.black, fillColor=None))
+        elif t == "tx":
+            d.add(String(sh["x"] * sc, Y(sh["y"]), str(sh.get("s", "")),
+                         fontName=font, fontSize=sh.get("fs", 16) * sc))
+        elif t == "grid":
+            x0 = sh["x"] * sc
+            y0 = Y(sh["y"])
+            cw = sh["cw"] * sc
+            gh = sh["rows"] * cw
+            for i in range(sh["cols"] + 1):
+                d.add(Line(x0 + i * cw, y0, x0 + i * cw, y0 - gh,
+                           strokeColor=colors.grey))
+            for j in range(sh["rows"] + 1):
+                d.add(Line(x0, y0 - j * cw, x0 + sh["cols"] * cw, y0 - j * cw,
+                           strokeColor=colors.grey))
+    return d
+
+
 def export_paper_pdf(paper, with_answers=False):
-    """真题试卷导出 PDF：按填空/选择/解答三个分节排版，解答题预留答题空白，
-    可选附参考答案页（含解析）。返回 (BytesIO, 文件名)"""
+    """真题试卷导出 PDF：按口算·填空·计算/判断/选择/作图/解答五分节排版，
+    作图题嵌入题图并预留作图空白，解答题预留答题空白，可选附参考答案页
+    （含解析）。返回 (BytesIO, 文件名)"""
     styles = _styles()
     font = _ensure_font()
     title = paper.get("title") or "数学真题卷"
@@ -294,6 +343,7 @@ def export_paper_pdf(paper, with_answers=False):
     fills = [q for q in questions if q.get("type") == "fill"]
     judges = [q for q in questions if q.get("type") == "judge"]
     choices = [q for q in questions if q.get("type") == "choice"]
+    draws = [q for q in questions if q.get("type") == "draw"]
     solves = [q for q in questions if q.get("type") == "solve"]
 
     story = []
@@ -315,15 +365,20 @@ def export_paper_pdf(paper, with_answers=False):
                 text += "　" + "　".join(
                     "%s. %s" % (letters[i], escape(str(o)))
                     for i, o in enumerate(opts))
-            else:
+            elif q.get("type") not in ("solve", "draw"):
                 text += "（　　）"  # 填空括号，答题处留空
             story.append(Paragraph(text, styles["body"]))
+            if q.get("type") == "draw" and q.get("figure"):
+                # 作图题嵌入题图，下方随 space_after 留作图空间
+                story.append(Spacer(1, 0.15 * cm))
+                story.append(_fig_drawing(q["figure"]))
             story.append(Spacer(1, space_after))
 
     _section(fills, "一、口算·填空·计算题（把答案写在横线或括号内）")
     _section(judges, "二、判断题（对的打“√”，错的打“×”）", 0.5 * cm)
     _section(choices, "三、选择题（把正确答案的字母填入括号内）", 0.4 * cm)
-    _section(solves, "四、解答题（写出解答过程）", 2.6 * cm)
+    _section(draws, "四、作图与操作题（在图上或草稿纸上作图）", 3.4 * cm)
+    _section(solves, "五、解答题（写出解答过程）", 2.6 * cm)
 
     # ---- 参考答案页 ----
     if with_answers:

@@ -1411,7 +1411,10 @@ function paperQHtml(q, rec) {
     html += '<div class="paper-fill">答：<input type="text" class="fill-input" ' +
       'data-qid="' + escapeHtml(q.id) + '" value="' + escapeHtml(val) +
       '" placeholder="在此输入答案"></div>';
-  } else {  // solve：解答题，自评三态
+  } else {  // solve 解答题 / draw 作图题（人工判定）：自评三态
+    if (q.type === 'draw' && q.figure) {
+      html += paperFigureSvg(q.figure);
+    }
     var selfBtns = '';
     ['done', 'hint', 'fail'].forEach(function (r) {
       var active = paperState.self[q.id] === r ? ' primary' : '';
@@ -1419,8 +1422,9 @@ function paperQHtml(q, rec) {
         '" data-self="' + escapeHtml(q.id) + '" data-result="' + r + '">' +
         PAPER_RESULT_NAMES[r] + '</button>';
     });
-    html += '<div class="paper-self-row"><span class="paper-self-label">做完后自评：</span>' +
-      selfBtns + '</div>';
+    html += '<div class="paper-self-row"><span class="paper-self-label">' +
+      (q.type === 'draw' ? '作图后对照答案自评：' : '做完后自评：') +
+      '</span>' + selfBtns + '</div>';
     var analysis = q.analysis
       ? '<div class="finale-reveal hidden" id="paper-ana-' + escapeHtml(q.id) +
         '"><b>答案与解析：</b>' + escapeHtml(q.answer || '') +
@@ -1431,6 +1435,48 @@ function paperQHtml(q, rec) {
       analysis + '</div>';
   }
   return html + '</div>';
+}
+
+// 题图 spec → 内联 SVG（c 圆 / cf 实心圆 / x 划除圆 / l 线 / r 矩形 /
+// tx 文字 / grid 方格；与 PDF 端 _fig_drawing 同源数据）
+function paperFigureSvg(fig) {
+  if (!fig || !fig.shapes) return '';
+  var w = fig.w || 240, h = fig.h || 100, s = '';
+  (fig.shapes || []).forEach(function (sh) {
+    var st = ' fill="none" stroke="#374151" stroke-width="1.6"';
+    if (sh.t === 'c' || sh.t === 'cf') {
+      s += '<circle cx="' + sh.cx + '" cy="' + sh.cy + '" r="' + sh.r + '"' +
+        (sh.t === 'cf' ? ' fill="#374151" stroke="none"' : st) + '/>';
+    } else if (sh.t === 'x') {
+      s += '<circle cx="' + sh.cx + '" cy="' + sh.cy + '" r="' + sh.r + '"' + st + '/>' +
+        '<line x1="' + (sh.cx - sh.r) + '" y1="' + (sh.cy - sh.r) +
+        '" x2="' + (sh.cx + sh.r) + '" y2="' + (sh.cy + sh.r) + '"' + st + '/>' +
+        '<line x1="' + (sh.cx - sh.r) + '" y1="' + (sh.cy + sh.r) +
+        '" x2="' + (sh.cx + sh.r) + '" y2="' + (sh.cy - sh.r) + '"' + st + '/>';
+    } else if (sh.t === 'l') {
+      s += '<line x1="' + sh.x1 + '" y1="' + sh.y1 + '" x2="' + sh.x2 +
+        '" y2="' + sh.y2 + '"' + st + '/>';
+    } else if (sh.t === 'r') {
+      s += '<rect x="' + sh.x + '" y="' + sh.y + '" width="' + sh.w +
+        '" height="' + sh.h + '"' + st + '/>';
+    } else if (sh.t === 'tx') {
+      s += '<text x="' + sh.x + '" y="' + sh.y +
+        '" font-size="' + (sh.fs || 16) + '" fill="#374151">' +
+        escapeHtml(sh.s || '') + '</text>';
+    } else if (sh.t === 'grid') {
+      var x0 = sh.x, y0 = sh.y, cw = sh.cw;
+      for (var i = 0; i <= sh.cols; i++) {
+        s += '<line x1="' + (x0 + i * cw) + '" y1="' + y0 + '" x2="' +
+          (x0 + i * cw) + '" y2="' + (y0 + sh.rows * cw) + '" stroke="#9ca3af" stroke-width="1"/>';
+      }
+      for (var j = 0; j <= sh.rows; j++) {
+        s += '<line x1="' + x0 + '" y1="' + (y0 + j * cw) + '" x2="' +
+          (x0 + sh.cols * cw) + '" y2="' + (y0 + j * cw) + '" stroke="#9ca3af" stroke-width="1"/>';
+      }
+    }
+  });
+  return '<div class="paper-figure"><svg viewBox="0 0 ' + w + ' ' + h +
+    '" style="max-width:' + (w > 340 ? 340 : w) + 'px;width:100%">' + s + '</svg></div>';
 }
 
 function renderPaperExam() {

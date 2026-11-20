@@ -160,7 +160,7 @@ def grade_objective(q, user_answer):
 def submit(data_dir, user_id, paper_id, answers, self_assess, when=None):
     """提交整卷：判客观题 + 存自评 + 计分，返回 (result, error)
     answers: {qid: 用户输入}（choice 选 A/B/C/D；fill 文本）
-    self_assess: {qid: done|hint|fail}（解答题自评，可缺省=未做）
+    self_assess: {qid: done|hint|fail}（解答题/作图题自评，可缺省=未做）
     """
     paper = find_paper(data_dir, paper_id)
     if paper is None:
@@ -172,21 +172,22 @@ def submit(data_dir, user_id, paper_id, answers, self_assess, when=None):
     obj_score = 0.0
     for q in paper.get("questions", []):
         qid = q["id"]
-        if q.get("type") == "solve":
+        if q.get("type") in ("solve", "draw"):
+            # solve 解答题 / draw 作图题（人工判定）：同为自评计分
             result = self_assess.get(qid)
             if result not in _VALID_RESULTS:
                 result = None  # 未自评按未做处理
-            graded[qid] = {"type": "solve", "self": result}
+            graded[qid] = {"type": q.get("type"), "self": result}
         else:
             ok = grade_objective(q, answers.get(qid))
             graded[qid] = {"type": q.get("type"), "correct": ok}
             if ok:
                 obj_score += q.get("score") or 0
 
-    # 解答题按自评计分：done 满分 / hint 半分（向上取整）/ fail 0 分
+    # 解答题/作图题按自评计分：done 满分 / hint 半分（向上取整）/ fail 0 分
     solve_score = 0
     for q in paper.get("questions", []):
-        if q.get("type") != "solve":
+        if q.get("type") not in ("solve", "draw"):
             continue
         entry = graded.get(q["id"]) or {}
         if entry.get("self") == RESULT_DONE:
