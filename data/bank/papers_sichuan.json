@@ -8377,6 +8377,2091 @@
           "figure": null
         }
       ]
+    },
+    {
+      "id": "paper_g1_chengdu_gaoxin_2024b",
+      "grade": 1,
+      "region": "成都市高新区",
+      "year": "2024-2025学年下期",
+      "title": "一年级数学期末测试卷（二）",
+      "duration": 60,
+      "total_score": 100,
+      "note": "北师大版一年级下册：20以内加减法、100以内数的认识与加减、认识人民币、图形；口算12×2分+填空8×2分+判断5×2分+选择5×2分+看图列式与操作3×4分+解决问题4×7分",
+      "questions": [
+        {
+          "id": "paper_g1_chengdu_gaoxin_2024b_n1",
+          "no": 1,
+          "type": "fill",
+          "stem": "口算：50+10=",
+          "answer": "60",
+          "score": 2,
+          "analysis": "口算退位减用破十法，100以内加减按数位直接算（不进位、不退位）。",
+          "source": "成都市高新区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_chengdu_gaoxin_2024b_n2",
+          "no": 2,
+          "type": "fill",
+          "stem": "口算：20+10=",
+          "answer": "30",
+          "score": 2,
+          "analysis": "口算退位减用破十法，100以内加减按数位直接算（不进位、不退位）。",
+          "source": "成都市高新区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_chengdu_gaoxin_2024b_n3",
+          "no": 3,
+          "type": "fill",
+          "stem": "口算：62-2=",
+          "answer": "60",
+          "score": 2,
+          "analysis": "口算退位减用破十法，100以内加减按数位直接算（不进位、不退位）。",
+          "source": "成都市高新区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_chengdu_gaoxin_2024b_n4",
+          "no": 4,
+          "type": "fill",
+          "stem": "口算：34+3=",
+          "answer": "37",
+          "score": 2,
+          "analysis": "口算退位减用破十法，100以内加减按数位直接算（不进位、不退位）。",
+          "source": "成都市高新区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_chengdu_gaoxin_2024b_n5",
+          "no": 5,
+          "type": "fill",
+          "stem": "口算：60+20=",
+          "answer": "80",
+          "score": 2,
+          "analysis": "口算退位减用破十法，100以内加减按数位直接算（不进位、不退位）。",
+          "source": "成都市高新区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_chengdu_gaoxin_2024b_n6",
+          "no": 6,
+          "type": "fill",
+          "stem": "口算：66+3=",
+          "answer": "69",
+          "score": 2,
+          "analysis": "口算退位减用破十法，100以内加减按数位直接算（不进位、不退位）。",
+          "source": "成都市高新区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_chengdu_gaoxin_2024b_n7",
+          "no": 7,
+          "type": "fill",
+          "stem": "口算：85-1=",
+          "answer": "84",
+          "score": 2,
+          "analysis": "口算退位减用破十法，100以内加减按数位直接算（不进位、不退位）。",
+          "source": "成都市高新区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_chengdu_gaoxin_2024b_n8",
+          "no": 8,
+          "type": "fill",
+          "stem": "口算：11-3=",
+          "answer": "8",
+          "score": 2,
+          "analysis": "口算退位减用破十法，100以内加减按数位直接算（不进位、不退位）。",
+          "source": "成都市高新区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_chengdu_gaoxin_2024b_n9",
+          "no": 9,
+          "type": "fill",
+          "stem": "口算：84+1=",
+          "answer": "85",
+          "score": 2,
+          "analysis": "口算退位减用破十法，100以内加减按数位直接算（不进位、不退位）。",
+          "source": "成都市高新区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_chengdu_gaoxin_2024b_n10",
+          "no": 10,
+          "type": "fill",
+          "stem": "口算：74-30=",
+          "answer": "44",
+          "score": 2,
+          "analysis": "口算退位减用破十法，100以内加减按数位直接算（不进位、不退位）。",
+          "source": "成都市高新区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_chengdu_gaoxin_2024b_n11",
+          "no": 11,
+          "type": "fill",
+          "stem": "口算：7+4=",
+          "answer": "11",
+          "score": 2,
+          "analysis": "口算退位减用破十法，100以内加减按数位直接算（不进位、不退位）。",
+          "source": "成都市高新区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_chengdu_gaoxin_2024b_n12",
+          "no": 12,
+          "type": "fill",
+          "stem": "口算：9+4=",
+          "answer": "13",
+          "score": 2,
+          "analysis": "口算退位减用破十法，100以内加减按数位直接算（不进位、不退位）。",
+          "source": "成都市高新区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_chengdu_gaoxin_2024b_n13",
+          "no": 13,
+          "type": "fill",
+          "stem": "比43大10的数是（　）",
+          "answer": "53",
+          "score": 2,
+          "analysis": "求比一个数多几：43+10=53。",
+          "source": "成都市高新区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_chengdu_gaoxin_2024b_n14",
+          "no": 14,
+          "type": "fill",
+          "stem": "一个两位数，十位上是8，个位上是6，这个数是（　）",
+          "answer": "86",
+          "score": 2,
+          "analysis": "8个十和6个一合起来是86。",
+          "source": "成都市高新区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_chengdu_gaoxin_2024b_n15",
+          "no": 15,
+          "type": "fill",
+          "stem": "按规律填数：80、90、100、110、（　）",
+          "answer": "120",
+          "score": 2,
+          "analysis": "每次多10，110+10=120。",
+          "source": "成都市高新区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_chengdu_gaoxin_2024b_n16",
+          "no": 16,
+          "type": "fill",
+          "stem": "2张10元和2张5元合起来是（　）元",
+          "answer": "30",
+          "score": 2,
+          "analysis": "2张10元是20元，2张5元是10元，合起来20+10=30元。",
+          "source": "成都市高新区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_chengdu_gaoxin_2024b_n17",
+          "no": 17,
+          "type": "fill",
+          "stem": "与81相邻的两个数是（　）和（　）",
+          "answer": "80、82",
+          "score": 2,
+          "analysis": "前一个数比它小1是80，后一个数比它大1是82。",
+          "source": "成都市高新区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_chengdu_gaoxin_2024b_n18",
+          "no": 18,
+          "type": "fill",
+          "stem": "56-10=（　）",
+          "answer": "46",
+          "score": 2,
+          "analysis": "56-10=46。",
+          "source": "成都市高新区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_chengdu_gaoxin_2024b_n19",
+          "no": 19,
+          "type": "fill",
+          "stem": "十位上是5的两位数中，最大的是（　）",
+          "answer": "59",
+          "score": 2,
+          "analysis": "十位是5、个位最大是9，即59。",
+          "source": "成都市高新区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_chengdu_gaoxin_2024b_n20",
+          "no": 20,
+          "type": "fill",
+          "stem": "一个数减10是63，这个数是（　）",
+          "answer": "73",
+          "score": 2,
+          "analysis": "减10变63，反过来加10：63+10=73。",
+          "source": "成都市高新区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_chengdu_gaoxin_2024b_n21",
+          "no": 21,
+          "type": "judge",
+          "stem": "判断：45 里面有 4 个十和 5 个一。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "45 由 4 个十和 5 个一组成。",
+          "source": "成都市高新区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_chengdu_gaoxin_2024b_n22",
+          "no": 22,
+          "type": "judge",
+          "stem": "判断：12-7=5。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "12-7=5。",
+          "source": "成都市高新区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_chengdu_gaoxin_2024b_n23",
+          "no": 23,
+          "type": "judge",
+          "stem": "判断：1 元 = 10 角。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "元与角的进率是 10。",
+          "source": "成都市高新区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_chengdu_gaoxin_2024b_n24",
+          "no": 24,
+          "type": "judge",
+          "stem": "判断：最小的三位数是 100。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "三位数从 100 开始。",
+          "source": "成都市高新区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_chengdu_gaoxin_2024b_n25",
+          "no": 25,
+          "type": "judge",
+          "stem": "判断：45+20=65。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "45+20=65。",
+          "source": "成都市高新区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_chengdu_gaoxin_2024b_n26",
+          "no": 26,
+          "type": "choice",
+          "stem": "与60相邻的数是（　）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.59 B.61 C.62 D.58，正确答案为A。",
+          "source": "成都市高新区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_chengdu_gaoxin_2024b_n27",
+          "no": 27,
+          "type": "choice",
+          "stem": "买一把尺子8角，付1元，应找回（　）",
+          "answer": "B",
+          "score": 2,
+          "analysis": "选项：A.2分 B.2角 C.5角 D.1角，正确答案为B。",
+          "source": "成都市高新区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_chengdu_gaoxin_2024b_n28",
+          "no": 28,
+          "type": "choice",
+          "stem": "95-4=（　）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.91 B.90 C.92 D.81，正确答案为A。",
+          "source": "成都市高新区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_chengdu_gaoxin_2024b_n29",
+          "no": 29,
+          "type": "choice",
+          "stem": "数学书封面的形状是（　）",
+          "answer": "B",
+          "score": 2,
+          "analysis": "选项：A.正方形 B.长方形 C.圆 D.三角形，正确答案为B。",
+          "source": "成都市高新区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_chengdu_gaoxin_2024b_n30",
+          "no": 30,
+          "type": "choice",
+          "stem": "比65大10的数是（　）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.75 B.55 C.66 D.74，正确答案为A。",
+          "source": "成都市高新区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_chengdu_gaoxin_2024b_n31",
+          "no": 31,
+          "type": "draw",
+          "stem": "看图列式：左边有7个○，右边有9个○，一共有多少个○？写出加法算式。",
+          "answer": "7+9=16",
+          "score": 4,
+          "analysis": "左边 7 个，右边 9 个，合起来 16 个：7+9=16。",
+          "source": "成都市高新区2024-2025学年下期期末（组编）",
+          "figure": {
+            "w": 300,
+            "h": 70,
+            "shapes": [
+              {
+                "t": "c",
+                "cx": 25,
+                "cy": 35,
+                "r": 14
+              },
+              {
+                "t": "c",
+                "cx": 57,
+                "cy": 35,
+                "r": 14
+              },
+              {
+                "t": "c",
+                "cx": 89,
+                "cy": 35,
+                "r": 14
+              },
+              {
+                "t": "c",
+                "cx": 121,
+                "cy": 35,
+                "r": 14
+              },
+              {
+                "t": "c",
+                "cx": 153,
+                "cy": 35,
+                "r": 14
+              },
+              {
+                "t": "c",
+                "cx": 185,
+                "cy": 35,
+                "r": 14
+              },
+              {
+                "t": "c",
+                "cx": 217,
+                "cy": 35,
+                "r": 14
+              },
+              {
+                "t": "tx",
+                "x": 176,
+                "y": 42,
+                "s": "+",
+                "fs": 24
+              },
+              {
+                "t": "c",
+                "cx": 205,
+                "cy": 35,
+                "r": 14
+              },
+              {
+                "t": "c",
+                "cx": 237,
+                "cy": 35,
+                "r": 14
+              },
+              {
+                "t": "c",
+                "cx": 269,
+                "cy": 35,
+                "r": 14
+              },
+              {
+                "t": "c",
+                "cx": 301,
+                "cy": 35,
+                "r": 14
+              },
+              {
+                "t": "c",
+                "cx": 333,
+                "cy": 35,
+                "r": 14
+              },
+              {
+                "t": "c",
+                "cx": 365,
+                "cy": 35,
+                "r": 14
+              },
+              {
+                "t": "c",
+                "cx": 397,
+                "cy": 35,
+                "r": 14
+              },
+              {
+                "t": "c",
+                "cx": 429,
+                "cy": 35,
+                "r": 14
+              },
+              {
+                "t": "c",
+                "cx": 461,
+                "cy": 35,
+                "r": 14
+              }
+            ]
+          }
+        },
+        {
+          "id": "paper_g1_chengdu_gaoxin_2024b_n32",
+          "no": 32,
+          "type": "draw",
+          "stem": "看图列式：一共有15个○，划去了7个，还剩多少个○？写出减法算式。",
+          "answer": "15-7=8",
+          "score": 4,
+          "analysis": "一共 15 个，划去 7 个，还剩 8 个：15-7=8。",
+          "source": "成都市高新区2024-2025学年下期期末（组编）",
+          "figure": {
+            "w": 330,
+            "h": 70,
+            "shapes": [
+              {
+                "t": "c",
+                "cx": 22,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 42,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 62,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 82,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 102,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 122,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 142,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 162,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 182,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 202,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 222,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 242,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 262,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 282,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 302,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "x",
+                "cx": 182,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "x",
+                "cx": 202,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "x",
+                "cx": 222,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "x",
+                "cx": 242,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "x",
+                "cx": 262,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "x",
+                "cx": 282,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "x",
+                "cx": 302,
+                "cy": 35,
+                "r": 11
+              }
+            ]
+          }
+        },
+        {
+          "id": "paper_g1_chengdu_gaoxin_2024b_n33",
+          "no": 33,
+          "type": "draw",
+          "stem": "给从右边数第5个○涂上颜色。",
+          "answer": "涂从右数第 5 个○",
+          "score": 4,
+          "analysis": "先分清左右，再从右边开始数 1、2、…，把第 5 个涂色。",
+          "source": "成都市高新区2024-2025学年下期期末（组编）",
+          "figure": {
+            "w": 280,
+            "h": 70,
+            "shapes": [
+              {
+                "t": "c",
+                "cx": 30,
+                "cy": 35,
+                "r": 15
+              },
+              {
+                "t": "c",
+                "cx": 70,
+                "cy": 35,
+                "r": 15
+              },
+              {
+                "t": "c",
+                "cx": 110,
+                "cy": 35,
+                "r": 15
+              },
+              {
+                "t": "c",
+                "cx": 150,
+                "cy": 35,
+                "r": 15
+              },
+              {
+                "t": "c",
+                "cx": 190,
+                "cy": 35,
+                "r": 15
+              },
+              {
+                "t": "c",
+                "cx": 230,
+                "cy": 35,
+                "r": 15
+              }
+            ]
+          }
+        },
+        {
+          "id": "paper_g1_chengdu_gaoxin_2024b_n34",
+          "no": 34,
+          "type": "solve",
+          "stem": "停车场有20辆汽车，开走了9辆，还剩几辆？",
+          "answer": "20-9=11（辆）",
+          "score": 7,
+          "analysis": "求还剩多少用减法：20-9=11辆。",
+          "source": "成都市高新区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_chengdu_gaoxin_2024b_n35",
+          "no": 35,
+          "type": "solve",
+          "stem": "书架上有54本书，又买来10本，书架上现在有多少本书？",
+          "answer": "54+10=64（本）",
+          "score": 7,
+          "analysis": "求一共有多少用加法：54+10=64本。",
+          "source": "成都市高新区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_chengdu_gaoxin_2024b_n36",
+          "no": 36,
+          "type": "solve",
+          "stem": "一年级男生有51人，女生有44人，男生比女生多几人？",
+          "answer": "51-44=7（人）",
+          "score": 7,
+          "analysis": "比多少用减法：大数减小数，51-44=7人。",
+          "source": "成都市高新区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_chengdu_gaoxin_2024b_n37",
+          "no": 37,
+          "type": "solve",
+          "stem": "小明买一支钢笔用了5元，他付出10元，应找回几元？",
+          "answer": "10-5=5（元）",
+          "score": 7,
+          "analysis": "付出的减去用去的：10-5=5元。",
+          "source": "成都市高新区2024-2025学年下期期末（组编）",
+          "figure": null
+        }
+      ]
+    },
+    {
+      "id": "paper_g1_yibin_cuiping_2022b",
+      "grade": 1,
+      "region": "宜宾市翠屏区",
+      "year": "2022-2023学年下期",
+      "title": "一年级数学期末测试卷（三）",
+      "duration": 60,
+      "total_score": 100,
+      "note": "北师大版一年级下册：20以内加减法、100以内数的认识与加减、认识人民币、图形；口算12×2分+填空8×2分+判断5×2分+选择5×2分+看图列式与操作3×4分+解决问题4×7分",
+      "questions": [
+        {
+          "id": "paper_g1_yibin_cuiping_2022b_n1",
+          "no": 1,
+          "type": "fill",
+          "stem": "口算：82+3=",
+          "answer": "85",
+          "score": 2,
+          "analysis": "口算退位减用破十法，100以内加减按数位直接算（不进位、不退位）。",
+          "source": "宜宾市翠屏区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_yibin_cuiping_2022b_n2",
+          "no": 2,
+          "type": "fill",
+          "stem": "口算：50+20=",
+          "answer": "70",
+          "score": 2,
+          "analysis": "口算退位减用破十法，100以内加减按数位直接算（不进位、不退位）。",
+          "source": "宜宾市翠屏区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_yibin_cuiping_2022b_n3",
+          "no": 3,
+          "type": "fill",
+          "stem": "口算：79-9=",
+          "answer": "70",
+          "score": 2,
+          "analysis": "口算退位减用破十法，100以内加减按数位直接算（不进位、不退位）。",
+          "source": "宜宾市翠屏区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_yibin_cuiping_2022b_n4",
+          "no": 4,
+          "type": "fill",
+          "stem": "口算：9+8=",
+          "answer": "17",
+          "score": 2,
+          "analysis": "口算退位减用破十法，100以内加减按数位直接算（不进位、不退位）。",
+          "source": "宜宾市翠屏区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_yibin_cuiping_2022b_n5",
+          "no": 5,
+          "type": "fill",
+          "stem": "口算：7+9=",
+          "answer": "16",
+          "score": 2,
+          "analysis": "口算退位减用破十法，100以内加减按数位直接算（不进位、不退位）。",
+          "source": "宜宾市翠屏区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_yibin_cuiping_2022b_n6",
+          "no": 6,
+          "type": "fill",
+          "stem": "口算：48+1=",
+          "answer": "49",
+          "score": 2,
+          "analysis": "口算退位减用破十法，100以内加减按数位直接算（不进位、不退位）。",
+          "source": "宜宾市翠屏区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_yibin_cuiping_2022b_n7",
+          "no": 7,
+          "type": "fill",
+          "stem": "口算：14-9=",
+          "answer": "5",
+          "score": 2,
+          "analysis": "口算退位减用破十法，100以内加减按数位直接算（不进位、不退位）。",
+          "source": "宜宾市翠屏区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_yibin_cuiping_2022b_n8",
+          "no": 8,
+          "type": "fill",
+          "stem": "口算：40+10=",
+          "answer": "50",
+          "score": 2,
+          "analysis": "口算退位减用破十法，100以内加减按数位直接算（不进位、不退位）。",
+          "source": "宜宾市翠屏区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_yibin_cuiping_2022b_n9",
+          "no": 9,
+          "type": "fill",
+          "stem": "口算：18+30=",
+          "answer": "48",
+          "score": 2,
+          "analysis": "口算退位减用破十法，100以内加减按数位直接算（不进位、不退位）。",
+          "source": "宜宾市翠屏区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_yibin_cuiping_2022b_n10",
+          "no": 10,
+          "type": "fill",
+          "stem": "口算：12-7=",
+          "answer": "5",
+          "score": 2,
+          "analysis": "口算退位减用破十法，100以内加减按数位直接算（不进位、不退位）。",
+          "source": "宜宾市翠屏区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_yibin_cuiping_2022b_n11",
+          "no": 11,
+          "type": "fill",
+          "stem": "口算：40+20=",
+          "answer": "60",
+          "score": 2,
+          "analysis": "口算退位减用破十法，100以内加减按数位直接算（不进位、不退位）。",
+          "source": "宜宾市翠屏区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_yibin_cuiping_2022b_n12",
+          "no": 12,
+          "type": "fill",
+          "stem": "口算：7+6=",
+          "answer": "13",
+          "score": 2,
+          "analysis": "口算退位减用破十法，100以内加减按数位直接算（不进位、不退位）。",
+          "source": "宜宾市翠屏区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_yibin_cuiping_2022b_n13",
+          "no": 13,
+          "type": "fill",
+          "stem": "比63大10的数是（　）",
+          "answer": "73",
+          "score": 2,
+          "analysis": "求比一个数多几：63+10=73。",
+          "source": "宜宾市翠屏区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_yibin_cuiping_2022b_n14",
+          "no": 14,
+          "type": "fill",
+          "stem": "一个两位数，十位上是7，个位上是3，这个数是（　）",
+          "answer": "73",
+          "score": 2,
+          "analysis": "7个十和3个一合起来是73。",
+          "source": "宜宾市翠屏区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_yibin_cuiping_2022b_n15",
+          "no": 15,
+          "type": "fill",
+          "stem": "按规律填数：14、16、18、20、（　）",
+          "answer": "22",
+          "score": 2,
+          "analysis": "每次多2，20+2=22。",
+          "source": "宜宾市翠屏区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_yibin_cuiping_2022b_n16",
+          "no": 16,
+          "type": "fill",
+          "stem": "3张10元和1张5元合起来是（　）元",
+          "answer": "35",
+          "score": 2,
+          "analysis": "3张10元是30元，1张5元是5元，合起来30+5=35元。",
+          "source": "宜宾市翠屏区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_yibin_cuiping_2022b_n17",
+          "no": 17,
+          "type": "fill",
+          "stem": "与71相邻的两个数是（　）和（　）",
+          "answer": "70、72",
+          "score": 2,
+          "analysis": "前一个数比它小1是70，后一个数比它大1是72。",
+          "source": "宜宾市翠屏区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_yibin_cuiping_2022b_n18",
+          "no": 18,
+          "type": "fill",
+          "stem": "42+10=（　）",
+          "answer": "52",
+          "score": 2,
+          "analysis": "42+10=52。",
+          "source": "宜宾市翠屏区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_yibin_cuiping_2022b_n19",
+          "no": 19,
+          "type": "fill",
+          "stem": "比49大、比60小的整十数是（　）",
+          "answer": "50",
+          "score": 2,
+          "analysis": "整十数中只有50在49和60之间。",
+          "source": "宜宾市翠屏区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_yibin_cuiping_2022b_n20",
+          "no": 20,
+          "type": "fill",
+          "stem": "一个数减10是39，这个数是（　）",
+          "answer": "49",
+          "score": 2,
+          "analysis": "减10变39，反过来加10：39+10=49。",
+          "source": "宜宾市翠屏区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_yibin_cuiping_2022b_n21",
+          "no": 21,
+          "type": "judge",
+          "stem": "判断：66 中两个 6 表示的意思一样。",
+          "answer": "错",
+          "score": 2,
+          "analysis": "十位的 6 是 6 个十，个位的 6 是 6 个一。",
+          "source": "宜宾市翠屏区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_yibin_cuiping_2022b_n22",
+          "no": 22,
+          "type": "judge",
+          "stem": "判断：13-5=9。",
+          "answer": "错",
+          "score": 2,
+          "analysis": "13-5=8，不是 9。",
+          "source": "宜宾市翠屏区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_yibin_cuiping_2022b_n23",
+          "no": 23,
+          "type": "judge",
+          "stem": "判断：1 角 = 1 分。",
+          "answer": "错",
+          "score": 2,
+          "analysis": "1 角 = 10 分。",
+          "source": "宜宾市翠屏区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_yibin_cuiping_2022b_n24",
+          "no": 24,
+          "type": "judge",
+          "stem": "判断：98 比 89 大。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "先比十位，9>8，98>89。",
+          "source": "宜宾市翠屏区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_yibin_cuiping_2022b_n25",
+          "no": 25,
+          "type": "judge",
+          "stem": "判断：68-6=8。",
+          "answer": "错",
+          "score": 2,
+          "analysis": "68-6=62。",
+          "source": "宜宾市翠屏区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_yibin_cuiping_2022b_n26",
+          "no": 26,
+          "type": "choice",
+          "stem": "与53相邻的数是（　）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.52 B.54 C.55 D.51，正确答案为A。",
+          "source": "宜宾市翠屏区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_yibin_cuiping_2022b_n27",
+          "no": 27,
+          "type": "choice",
+          "stem": "10个1角是（　）",
+          "answer": "B",
+          "score": 2,
+          "analysis": "选项：A.1分 B.1元 C.10元 D.100元，正确答案为B。",
+          "source": "宜宾市翠屏区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_yibin_cuiping_2022b_n28",
+          "no": 28,
+          "type": "choice",
+          "stem": "69-7=（　）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.62 B.61 C.63 D.52，正确答案为A。",
+          "source": "宜宾市翠屏区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_yibin_cuiping_2022b_n29",
+          "no": 29,
+          "type": "choice",
+          "stem": "两个完全一样的正方形可以拼成一个（　）",
+          "answer": "B",
+          "score": 2,
+          "analysis": "选项：A.圆 B.长方形 C.三角形 D.圆柱，正确答案为B。",
+          "source": "宜宾市翠屏区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_yibin_cuiping_2022b_n30",
+          "no": 30,
+          "type": "choice",
+          "stem": "比71大10的数是（　）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.81 B.61 C.72 D.80，正确答案为A。",
+          "source": "宜宾市翠屏区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_yibin_cuiping_2022b_n31",
+          "no": 31,
+          "type": "draw",
+          "stem": "看图列式：左边有8个○，右边有7个○，一共有多少个○？写出加法算式。",
+          "answer": "8+7=15",
+          "score": 4,
+          "analysis": "左边 8 个，右边 7 个，合起来 15 个：8+7=15。",
+          "source": "宜宾市翠屏区2022-2023学年下期期末（组编）",
+          "figure": {
+            "w": 300,
+            "h": 70,
+            "shapes": [
+              {
+                "t": "c",
+                "cx": 25,
+                "cy": 35,
+                "r": 14
+              },
+              {
+                "t": "c",
+                "cx": 57,
+                "cy": 35,
+                "r": 14
+              },
+              {
+                "t": "c",
+                "cx": 89,
+                "cy": 35,
+                "r": 14
+              },
+              {
+                "t": "c",
+                "cx": 121,
+                "cy": 35,
+                "r": 14
+              },
+              {
+                "t": "c",
+                "cx": 153,
+                "cy": 35,
+                "r": 14
+              },
+              {
+                "t": "c",
+                "cx": 185,
+                "cy": 35,
+                "r": 14
+              },
+              {
+                "t": "c",
+                "cx": 217,
+                "cy": 35,
+                "r": 14
+              },
+              {
+                "t": "c",
+                "cx": 249,
+                "cy": 35,
+                "r": 14
+              },
+              {
+                "t": "tx",
+                "x": 176,
+                "y": 42,
+                "s": "+",
+                "fs": 24
+              },
+              {
+                "t": "c",
+                "cx": 205,
+                "cy": 35,
+                "r": 14
+              },
+              {
+                "t": "c",
+                "cx": 237,
+                "cy": 35,
+                "r": 14
+              },
+              {
+                "t": "c",
+                "cx": 269,
+                "cy": 35,
+                "r": 14
+              },
+              {
+                "t": "c",
+                "cx": 301,
+                "cy": 35,
+                "r": 14
+              },
+              {
+                "t": "c",
+                "cx": 333,
+                "cy": 35,
+                "r": 14
+              },
+              {
+                "t": "c",
+                "cx": 365,
+                "cy": 35,
+                "r": 14
+              },
+              {
+                "t": "c",
+                "cx": 397,
+                "cy": 35,
+                "r": 14
+              }
+            ]
+          }
+        },
+        {
+          "id": "paper_g1_yibin_cuiping_2022b_n32",
+          "no": 32,
+          "type": "draw",
+          "stem": "看图列式：一共有13个○，划去了9个，还剩多少个○？写出减法算式。",
+          "answer": "13-9=4",
+          "score": 4,
+          "analysis": "一共 13 个，划去 9 个，还剩 4 个：13-9=4。",
+          "source": "宜宾市翠屏区2022-2023学年下期期末（组编）",
+          "figure": {
+            "w": 330,
+            "h": 70,
+            "shapes": [
+              {
+                "t": "c",
+                "cx": 22,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 45,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 68,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 91,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 114,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 137,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 160,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 183,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 206,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 229,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 252,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 275,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 298,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "x",
+                "cx": 114,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "x",
+                "cx": 137,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "x",
+                "cx": 160,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "x",
+                "cx": 183,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "x",
+                "cx": 206,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "x",
+                "cx": 229,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "x",
+                "cx": 252,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "x",
+                "cx": 275,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "x",
+                "cx": 298,
+                "cy": 35,
+                "r": 11
+              }
+            ]
+          }
+        },
+        {
+          "id": "paper_g1_yibin_cuiping_2022b_n33",
+          "no": 33,
+          "type": "draw",
+          "stem": "给从右边数第3个○涂上颜色。",
+          "answer": "涂从右数第 3 个○",
+          "score": 4,
+          "analysis": "先分清左右，再从右边开始数 1、2、…，把第 3 个涂色。",
+          "source": "宜宾市翠屏区2022-2023学年下期期末（组编）",
+          "figure": {
+            "w": 280,
+            "h": 70,
+            "shapes": [
+              {
+                "t": "c",
+                "cx": 30,
+                "cy": 35,
+                "r": 15
+              },
+              {
+                "t": "c",
+                "cx": 70,
+                "cy": 35,
+                "r": 15
+              },
+              {
+                "t": "c",
+                "cx": 110,
+                "cy": 35,
+                "r": 15
+              },
+              {
+                "t": "c",
+                "cx": 150,
+                "cy": 35,
+                "r": 15
+              },
+              {
+                "t": "c",
+                "cx": 190,
+                "cy": 35,
+                "r": 15
+              },
+              {
+                "t": "c",
+                "cx": 230,
+                "cy": 35,
+                "r": 15
+              },
+              {
+                "t": "c",
+                "cx": 270,
+                "cy": 35,
+                "r": 15
+              }
+            ]
+          }
+        },
+        {
+          "id": "paper_g1_yibin_cuiping_2022b_n34",
+          "no": 34,
+          "type": "solve",
+          "stem": "停车场有16辆汽车，开走了8辆，还剩几辆？",
+          "answer": "16-8=8（辆）",
+          "score": 7,
+          "analysis": "求还剩多少用减法：16-8=8辆。",
+          "source": "宜宾市翠屏区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_yibin_cuiping_2022b_n35",
+          "no": 35,
+          "type": "solve",
+          "stem": "书架上有38本书，又买来20本，书架上现在有多少本书？",
+          "answer": "38+20=58（本）",
+          "score": 7,
+          "analysis": "求一共有多少用加法：38+20=58本。",
+          "source": "宜宾市翠屏区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_yibin_cuiping_2022b_n36",
+          "no": 36,
+          "type": "solve",
+          "stem": "一年级男生有46人，女生有39人，男生比女生多几人？",
+          "answer": "46-39=7（人）",
+          "score": 7,
+          "analysis": "比多少用减法：大数减小数，46-39=7人。",
+          "source": "宜宾市翠屏区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_yibin_cuiping_2022b_n37",
+          "no": 37,
+          "type": "solve",
+          "stem": "小明买一支钢笔用了8元，他付出10元，应找回几元？",
+          "answer": "10-8=2（元）",
+          "score": 7,
+          "analysis": "付出的减去用去的：10-8=2元。",
+          "source": "宜宾市翠屏区2022-2023学年下期期末（组编）",
+          "figure": null
+        }
+      ]
+    },
+    {
+      "id": "paper_g1_nanchong_shunqing_2021b",
+      "grade": 1,
+      "region": "南充市顺庆区",
+      "year": "2021-2022学年下期",
+      "title": "一年级数学期末测试卷（四）",
+      "duration": 60,
+      "total_score": 100,
+      "note": "北师大版一年级下册：20以内加减法、100以内数的认识与加减、认识人民币、图形；口算12×2分+填空8×2分+判断5×2分+选择5×2分+看图列式与操作3×4分+解决问题4×7分",
+      "questions": [
+        {
+          "id": "paper_g1_nanchong_shunqing_2021b_n1",
+          "no": 1,
+          "type": "fill",
+          "stem": "口算：6+6=",
+          "answer": "12",
+          "score": 2,
+          "analysis": "口算退位减用破十法，100以内加减按数位直接算（不进位、不退位）。",
+          "source": "南充市顺庆区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_nanchong_shunqing_2021b_n2",
+          "no": 2,
+          "type": "fill",
+          "stem": "口算：57+2=",
+          "answer": "59",
+          "score": 2,
+          "analysis": "口算退位减用破十法，100以内加减按数位直接算（不进位、不退位）。",
+          "source": "南充市顺庆区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_nanchong_shunqing_2021b_n3",
+          "no": 3,
+          "type": "fill",
+          "stem": "口算：14-8=",
+          "answer": "6",
+          "score": 2,
+          "analysis": "口算退位减用破十法，100以内加减按数位直接算（不进位、不退位）。",
+          "source": "南充市顺庆区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_nanchong_shunqing_2021b_n4",
+          "no": 4,
+          "type": "fill",
+          "stem": "口算：45-4=",
+          "answer": "41",
+          "score": 2,
+          "analysis": "口算退位减用破十法，100以内加减按数位直接算（不进位、不退位）。",
+          "source": "南充市顺庆区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_nanchong_shunqing_2021b_n5",
+          "no": 5,
+          "type": "fill",
+          "stem": "口算：15-6=",
+          "answer": "9",
+          "score": 2,
+          "analysis": "口算退位减用破十法，100以内加减按数位直接算（不进位、不退位）。",
+          "source": "南充市顺庆区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_nanchong_shunqing_2021b_n6",
+          "no": 6,
+          "type": "fill",
+          "stem": "口算：27+10=",
+          "answer": "37",
+          "score": 2,
+          "analysis": "口算退位减用破十法，100以内加减按数位直接算（不进位、不退位）。",
+          "source": "南充市顺庆区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_nanchong_shunqing_2021b_n7",
+          "no": 7,
+          "type": "fill",
+          "stem": "口算：18-9=",
+          "answer": "9",
+          "score": 2,
+          "analysis": "口算退位减用破十法，100以内加减按数位直接算（不进位、不退位）。",
+          "source": "南充市顺庆区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_nanchong_shunqing_2021b_n8",
+          "no": 8,
+          "type": "fill",
+          "stem": "口算：15-9=",
+          "answer": "6",
+          "score": 2,
+          "analysis": "口算退位减用破十法，100以内加减按数位直接算（不进位、不退位）。",
+          "source": "南充市顺庆区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_nanchong_shunqing_2021b_n9",
+          "no": 9,
+          "type": "fill",
+          "stem": "口算：6+5=",
+          "answer": "11",
+          "score": 2,
+          "analysis": "口算退位减用破十法，100以内加减按数位直接算（不进位、不退位）。",
+          "source": "南充市顺庆区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_nanchong_shunqing_2021b_n10",
+          "no": 10,
+          "type": "fill",
+          "stem": "口算：15-7=",
+          "answer": "8",
+          "score": 2,
+          "analysis": "口算退位减用破十法，100以内加减按数位直接算（不进位、不退位）。",
+          "source": "南充市顺庆区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_nanchong_shunqing_2021b_n11",
+          "no": 11,
+          "type": "fill",
+          "stem": "口算：60+10=",
+          "answer": "70",
+          "score": 2,
+          "analysis": "口算退位减用破十法，100以内加减按数位直接算（不进位、不退位）。",
+          "source": "南充市顺庆区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_nanchong_shunqing_2021b_n12",
+          "no": 12,
+          "type": "fill",
+          "stem": "口算：35+3=",
+          "answer": "38",
+          "score": 2,
+          "analysis": "口算退位减用破十法，100以内加减按数位直接算（不进位、不退位）。",
+          "source": "南充市顺庆区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_nanchong_shunqing_2021b_n13",
+          "no": 13,
+          "type": "fill",
+          "stem": "比30大20的数是（　）",
+          "answer": "50",
+          "score": 2,
+          "analysis": "求比一个数多几：30+20=50。",
+          "source": "南充市顺庆区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_nanchong_shunqing_2021b_n14",
+          "no": 14,
+          "type": "fill",
+          "stem": "一个两位数，十位上是5，个位上是9，这个数是（　）",
+          "answer": "59",
+          "score": 2,
+          "analysis": "5个十和9个一合起来是59。",
+          "source": "南充市顺庆区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_nanchong_shunqing_2021b_n15",
+          "no": 15,
+          "type": "fill",
+          "stem": "按规律填数：20、25、30、35、（　）",
+          "answer": "40",
+          "score": 2,
+          "analysis": "每次多5，35+5=40。",
+          "source": "南充市顺庆区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_nanchong_shunqing_2021b_n16",
+          "no": 16,
+          "type": "fill",
+          "stem": "1张10元和1张5元合起来是（　）元",
+          "answer": "15",
+          "score": 2,
+          "analysis": "1张10元是10元，1张5元是5元，合起来10+5=15元。",
+          "source": "南充市顺庆区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_nanchong_shunqing_2021b_n17",
+          "no": 17,
+          "type": "fill",
+          "stem": "与72相邻的两个数是（　）和（　）",
+          "answer": "71、73",
+          "score": 2,
+          "analysis": "前一个数比它小1是71，后一个数比它大1是73。",
+          "source": "南充市顺庆区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_nanchong_shunqing_2021b_n18",
+          "no": 18,
+          "type": "fill",
+          "stem": "82-20=（　）",
+          "answer": "62",
+          "score": 2,
+          "analysis": "82-20=62。",
+          "source": "南充市顺庆区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_nanchong_shunqing_2021b_n19",
+          "no": 19,
+          "type": "fill",
+          "stem": "最大的两位数比最小的两位数大（　）",
+          "answer": "89",
+          "score": 2,
+          "analysis": "99-10=89。",
+          "source": "南充市顺庆区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_nanchong_shunqing_2021b_n20",
+          "no": 20,
+          "type": "fill",
+          "stem": "一个数减10是30，这个数是（　）",
+          "answer": "40",
+          "score": 2,
+          "analysis": "减10变30，反过来加10：30+10=40。",
+          "source": "南充市顺庆区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_nanchong_shunqing_2021b_n21",
+          "no": 21,
+          "type": "judge",
+          "stem": "判断：90 里面有 9 个十。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "90 由 9 个十组成。",
+          "source": "南充市顺庆区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_nanchong_shunqing_2021b_n22",
+          "no": 22,
+          "type": "judge",
+          "stem": "判断：15-6=9。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "15-6=9。",
+          "source": "南充市顺庆区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_nanchong_shunqing_2021b_n23",
+          "no": 23,
+          "type": "judge",
+          "stem": "判断：一张 20 元可以换两张 10 元。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "20=10+10。",
+          "source": "南充市顺庆区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_nanchong_shunqing_2021b_n24",
+          "no": 24,
+          "type": "judge",
+          "stem": "判断：最大的两位数是 90。",
+          "answer": "错",
+          "score": 2,
+          "analysis": "最大的两位数是 99。",
+          "source": "南充市顺庆区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_nanchong_shunqing_2021b_n25",
+          "no": 25,
+          "type": "judge",
+          "stem": "判断：30+40=70。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "3 个十加 4 个十是 7 个十。",
+          "source": "南充市顺庆区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_nanchong_shunqing_2021b_n26",
+          "no": 26,
+          "type": "choice",
+          "stem": "与56相邻的数是（　）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.55 B.57 C.58 D.54，正确答案为A。",
+          "source": "南充市顺庆区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_nanchong_shunqing_2021b_n27",
+          "no": 27,
+          "type": "choice",
+          "stem": "1张20元和5张1元合起来是（　）元",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.25 B.21 C.205 D.15，正确答案为A。",
+          "source": "南充市顺庆区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_nanchong_shunqing_2021b_n28",
+          "no": 28,
+          "type": "choice",
+          "stem": "62-1=（　）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.61 B.60 C.62 D.51，正确答案为A。",
+          "source": "南充市顺庆区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_nanchong_shunqing_2021b_n29",
+          "no": 29,
+          "type": "choice",
+          "stem": "硬币的面是（　）形",
+          "answer": "C",
+          "score": 2,
+          "analysis": "选项：A.长方形 B.正方形 C.圆 D.三角形，正确答案为C。",
+          "source": "南充市顺庆区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_nanchong_shunqing_2021b_n30",
+          "no": 30,
+          "type": "choice",
+          "stem": "比36大10的数是（　）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.46 B.26 C.37 D.45，正确答案为A。",
+          "source": "南充市顺庆区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_nanchong_shunqing_2021b_n31",
+          "no": 31,
+          "type": "draw",
+          "stem": "看图列式：左边有5个○，右边有7个○，一共有多少个○？写出加法算式。",
+          "answer": "5+7=12",
+          "score": 4,
+          "analysis": "左边 5 个，右边 7 个，合起来 12 个：5+7=12。",
+          "source": "南充市顺庆区2021-2022学年下期期末（组编）",
+          "figure": {
+            "w": 300,
+            "h": 70,
+            "shapes": [
+              {
+                "t": "c",
+                "cx": 25,
+                "cy": 35,
+                "r": 14
+              },
+              {
+                "t": "c",
+                "cx": 57,
+                "cy": 35,
+                "r": 14
+              },
+              {
+                "t": "c",
+                "cx": 89,
+                "cy": 35,
+                "r": 14
+              },
+              {
+                "t": "c",
+                "cx": 121,
+                "cy": 35,
+                "r": 14
+              },
+              {
+                "t": "c",
+                "cx": 153,
+                "cy": 35,
+                "r": 14
+              },
+              {
+                "t": "tx",
+                "x": 176,
+                "y": 42,
+                "s": "+",
+                "fs": 24
+              },
+              {
+                "t": "c",
+                "cx": 205,
+                "cy": 35,
+                "r": 14
+              },
+              {
+                "t": "c",
+                "cx": 237,
+                "cy": 35,
+                "r": 14
+              },
+              {
+                "t": "c",
+                "cx": 269,
+                "cy": 35,
+                "r": 14
+              },
+              {
+                "t": "c",
+                "cx": 301,
+                "cy": 35,
+                "r": 14
+              },
+              {
+                "t": "c",
+                "cx": 333,
+                "cy": 35,
+                "r": 14
+              },
+              {
+                "t": "c",
+                "cx": 365,
+                "cy": 35,
+                "r": 14
+              },
+              {
+                "t": "c",
+                "cx": 397,
+                "cy": 35,
+                "r": 14
+              }
+            ]
+          }
+        },
+        {
+          "id": "paper_g1_nanchong_shunqing_2021b_n32",
+          "no": 32,
+          "type": "draw",
+          "stem": "看图列式：一共有12个○，划去了7个，还剩多少个○？写出减法算式。",
+          "answer": "12-7=5",
+          "score": 4,
+          "analysis": "一共 12 个，划去 7 个，还剩 5 个：12-7=5。",
+          "source": "南充市顺庆区2021-2022学年下期期末（组编）",
+          "figure": {
+            "w": 330,
+            "h": 70,
+            "shapes": [
+              {
+                "t": "c",
+                "cx": 22,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 47,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 72,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 97,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 122,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 147,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 172,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 197,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 222,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 247,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 272,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 297,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "x",
+                "cx": 147,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "x",
+                "cx": 172,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "x",
+                "cx": 197,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "x",
+                "cx": 222,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "x",
+                "cx": 247,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "x",
+                "cx": 272,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "x",
+                "cx": 297,
+                "cy": 35,
+                "r": 11
+              }
+            ]
+          }
+        },
+        {
+          "id": "paper_g1_nanchong_shunqing_2021b_n33",
+          "no": 33,
+          "type": "draw",
+          "stem": "给从右边数第2个○涂上颜色。",
+          "answer": "涂从右数第 2 个○",
+          "score": 4,
+          "analysis": "先分清左右，再从右边开始数 1、2、…，把第 2 个涂色。",
+          "source": "南充市顺庆区2021-2022学年下期期末（组编）",
+          "figure": {
+            "w": 280,
+            "h": 70,
+            "shapes": [
+              {
+                "t": "c",
+                "cx": 30,
+                "cy": 35,
+                "r": 15
+              },
+              {
+                "t": "c",
+                "cx": 70,
+                "cy": 35,
+                "r": 15
+              },
+              {
+                "t": "c",
+                "cx": 110,
+                "cy": 35,
+                "r": 15
+              },
+              {
+                "t": "c",
+                "cx": 150,
+                "cy": 35,
+                "r": 15
+              },
+              {
+                "t": "c",
+                "cx": 190,
+                "cy": 35,
+                "r": 15
+              },
+              {
+                "t": "c",
+                "cx": 230,
+                "cy": 35,
+                "r": 15
+              },
+              {
+                "t": "c",
+                "cx": 270,
+                "cy": 35,
+                "r": 15
+              },
+              {
+                "t": "c",
+                "cx": 310,
+                "cy": 35,
+                "r": 15
+              }
+            ]
+          }
+        },
+        {
+          "id": "paper_g1_nanchong_shunqing_2021b_n34",
+          "no": 34,
+          "type": "solve",
+          "stem": "停车场有17辆汽车，开走了8辆，还剩几辆？",
+          "answer": "17-8=9（辆）",
+          "score": 7,
+          "analysis": "求还剩多少用减法：17-8=9辆。",
+          "source": "南充市顺庆区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_nanchong_shunqing_2021b_n35",
+          "no": 35,
+          "type": "solve",
+          "stem": "书架上有44本书，又买来10本，书架上现在有多少本书？",
+          "answer": "44+10=54（本）",
+          "score": 7,
+          "analysis": "求一共有多少用加法：44+10=54本。",
+          "source": "南充市顺庆区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_nanchong_shunqing_2021b_n36",
+          "no": 36,
+          "type": "solve",
+          "stem": "一年级男生有50人，女生有36人，男生比女生多几人？",
+          "answer": "50-36=14（人）",
+          "score": 7,
+          "analysis": "比多少用减法：大数减小数，50-36=14人。",
+          "source": "南充市顺庆区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_nanchong_shunqing_2021b_n37",
+          "no": 37,
+          "type": "solve",
+          "stem": "小明买一支钢笔用了4元，他付出10元，应找回几元？",
+          "answer": "10-4=6（元）",
+          "score": 7,
+          "analysis": "付出的减去用去的：10-4=6元。",
+          "source": "南充市顺庆区2021-2022学年下期期末（组编）",
+          "figure": null
+        }
+      ]
     }
   ]
 }
