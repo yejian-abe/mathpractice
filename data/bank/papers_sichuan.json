@@ -25176,6 +25176,1566 @@
           "figure": null
         }
       ]
+    },
+    {
+      "id": "paper_g6_chengdu_gaoxin_2024b",
+      "grade": 6,
+      "region": "成都市高新区",
+      "year": "2024-2025学年下期",
+      "title": "六年级数学期末测试卷（二）",
+      "duration": 90,
+      "total_score": 100,
+      "note": "北师大版六年级下册：圆柱与圆锥、比例、图形的运动、正比例与反比例、总复习；口算10×1分+填空8×3分+判断5×2分+选择5×2分+计算4×4分+作图2×3分+解决问题6×4分",
+      "questions": [
+        {
+          "id": "paper_g6_chengdu_gaoxin_2024b_n1",
+          "no": 1,
+          "type": "fill",
+          "stem": "口算：1/2+1/4=",
+          "answer": "3/4",
+          "score": 1,
+          "analysis": "总复习口算：小数乘除按法则计算；分数加减先通分；百分数按意义转化为小数计算。",
+          "source": "成都市高新区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_chengdu_gaoxin_2024b_n2",
+          "no": 2,
+          "type": "fill",
+          "stem": "口算：33÷6=",
+          "answer": "5.5",
+          "score": 1,
+          "analysis": "总复习口算：小数乘除按法则计算；分数加减先通分；百分数按意义转化为小数计算。",
+          "source": "成都市高新区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_chengdu_gaoxin_2024b_n3",
+          "no": 3,
+          "type": "fill",
+          "stem": "口算：68÷8=",
+          "answer": "8.5",
+          "score": 1,
+          "analysis": "总复习口算：小数乘除按法则计算；分数加减先通分；百分数按意义转化为小数计算。",
+          "source": "成都市高新区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_chengdu_gaoxin_2024b_n4",
+          "no": 4,
+          "type": "fill",
+          "stem": "口算：1/2-1/10=",
+          "answer": "2/5",
+          "score": 1,
+          "analysis": "总复习口算：小数乘除按法则计算；分数加减先通分；百分数按意义转化为小数计算。",
+          "source": "成都市高新区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_chengdu_gaoxin_2024b_n5",
+          "no": 5,
+          "type": "fill",
+          "stem": "口算：0.5×9=",
+          "answer": "4.5",
+          "score": 1,
+          "analysis": "总复习口算：小数乘除按法则计算；分数加减先通分；百分数按意义转化为小数计算。",
+          "source": "成都市高新区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_chengdu_gaoxin_2024b_n6",
+          "no": 6,
+          "type": "fill",
+          "stem": "口算：1-40%=",
+          "answer": "0.6",
+          "score": 1,
+          "analysis": "总复习口算：小数乘除按法则计算；分数加减先通分；百分数按意义转化为小数计算。",
+          "source": "成都市高新区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_chengdu_gaoxin_2024b_n7",
+          "no": 7,
+          "type": "fill",
+          "stem": "口算：0.125×8=",
+          "answer": "1",
+          "score": 1,
+          "analysis": "总复习口算：小数乘除按法则计算；分数加减先通分；百分数按意义转化为小数计算。",
+          "source": "成都市高新区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_chengdu_gaoxin_2024b_n8",
+          "no": 8,
+          "type": "fill",
+          "stem": "口算：0.4×4=",
+          "answer": "1.6",
+          "score": 1,
+          "analysis": "总复习口算：小数乘除按法则计算；分数加减先通分；百分数按意义转化为小数计算。",
+          "source": "成都市高新区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_chengdu_gaoxin_2024b_n9",
+          "no": 9,
+          "type": "fill",
+          "stem": "口算：7×2/15=",
+          "answer": "14/15",
+          "score": 1,
+          "analysis": "总复习口算：小数乘除按法则计算；分数加减先通分；百分数按意义转化为小数计算。",
+          "source": "成都市高新区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_chengdu_gaoxin_2024b_n10",
+          "no": 10,
+          "type": "fill",
+          "stem": "口算：2.5×4=",
+          "answer": "10",
+          "score": 1,
+          "analysis": "总复习口算：小数乘除按法则计算；分数加减先通分；百分数按意义转化为小数计算。",
+          "source": "成都市高新区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_chengdu_gaoxin_2024b_n11",
+          "no": 11,
+          "type": "fill",
+          "stem": "圆柱的侧面沿高展开一般是（　）形",
+          "answer": "长方",
+          "score": 3,
+          "analysis": "圆柱侧面沿高展开得到长方形（长=底面周长，宽=高）。",
+          "source": "成都市高新区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_chengdu_gaoxin_2024b_n12",
+          "no": 12,
+          "type": "fill",
+          "stem": "一个圆锥的体积是28立方分米，与它等底等高的圆柱的体积是（　）立方分米",
+          "answer": "84",
+          "score": 3,
+          "analysis": "等底等高时圆柱体积是圆锥的3倍：28×3=84（立方分米）。",
+          "source": "成都市高新区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_chengdu_gaoxin_2024b_n13",
+          "no": 13,
+          "type": "fill",
+          "stem": "如果x:11=3:11，那么x=（　）",
+          "answer": "3",
+          "score": 3,
+          "analysis": "外项积=内项积：11x=3×11=33，x=3。",
+          "source": "成都市高新区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_chengdu_gaoxin_2024b_n14",
+          "no": 14,
+          "type": "fill",
+          "stem": "一幅地图的比例尺是1:1000000，图上1厘米表示实际（　）千米",
+          "answer": "10",
+          "score": 3,
+          "analysis": "实际距离=1000000厘米=10千米。",
+          "source": "成都市高新区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_chengdu_gaoxin_2024b_n15",
+          "no": 15,
+          "type": "fill",
+          "stem": "正方形的面积与它的边长（　）比例",
+          "answer": "不成",
+          "score": 3,
+          "analysis": "面积=边长×边长，比值不是常数，不成正比例。",
+          "source": "成都市高新区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_chengdu_gaoxin_2024b_n16",
+          "no": 16,
+          "type": "fill",
+          "stem": "一个圆柱的底面直径是5厘米，高是9厘米，它的侧面积是（　）平方厘米（π取3.14）",
+          "answer": "141.3",
+          "score": 3,
+          "analysis": "S侧=πdh：3.14×5×9=141.3（平方厘米）。",
+          "source": "成都市高新区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_chengdu_gaoxin_2024b_n17",
+          "no": 17,
+          "type": "fill",
+          "stem": "一个圆柱的底面半径是5分米，高是8分米，它的体积是（　）立方分米（π取3.14）",
+          "answer": "628",
+          "score": 3,
+          "analysis": "V=πr²h：3.14×5×5×8=628（立方分米）。",
+          "source": "成都市高新区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_chengdu_gaoxin_2024b_n18",
+          "no": 18,
+          "type": "fill",
+          "stem": "3个数的平均数是23，这3个数的总和是（　）",
+          "answer": "69",
+          "score": 3,
+          "analysis": "总和=平均数×个数：23×3=69。",
+          "source": "成都市高新区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_chengdu_gaoxin_2024b_n19",
+          "no": 19,
+          "type": "judge",
+          "stem": "判断：圆柱的侧面沿高展开一定是长方形。",
+          "answer": "错",
+          "score": 2,
+          "analysis": "当底面周长等于高时，展开图是正方形。",
+          "source": "成都市高新区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_chengdu_gaoxin_2024b_n20",
+          "no": 20,
+          "type": "judge",
+          "stem": "判断：在比例里，两个外项的积等于两个内项的积。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "这是比例的基本性质。",
+          "source": "成都市高新区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_chengdu_gaoxin_2024b_n21",
+          "no": 21,
+          "type": "judge",
+          "stem": "判断：圆的面积与它的半径成正比例。",
+          "answer": "错",
+          "score": 2,
+          "analysis": "面积与半径的平方成正比，与半径本身比值不是常数。",
+          "source": "成都市高新区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_chengdu_gaoxin_2024b_n22",
+          "no": 22,
+          "type": "judge",
+          "stem": "判断：一件商品打七五折出售，就是按原价的75%出售。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "七五折即原价的75%。",
+          "source": "成都市高新区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_chengdu_gaoxin_2024b_n23",
+          "no": 23,
+          "type": "judge",
+          "stem": "判断：图形按2:1放大后，周长也扩大到原来的2倍。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "对应边都放大2倍，周长同样放大2倍。",
+          "source": "成都市高新区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_chengdu_gaoxin_2024b_n24",
+          "no": 24,
+          "type": "choice",
+          "stem": "一个圆锥的底面半径是3厘米，高是9厘米，它的体积是（　）立方厘米（π取3.14）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.84.78 B.254.34 C.169.56 D.94.2，正确答案为A。",
+          "source": "成都市高新区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_chengdu_gaoxin_2024b_n25",
+          "no": 25,
+          "type": "choice",
+          "stem": "一个圆柱形水杯，从里面量底面半径是5厘米，高是10厘米。它最多能装水（　）升（π取3.14）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.0.785 B.785 C.785000 D.7.85，正确答案为A。",
+          "source": "成都市高新区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_chengdu_gaoxin_2024b_n26",
+          "no": 26,
+          "type": "choice",
+          "stem": "每袋大米质量一定，大米的总质量和袋数（　）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.成正比例 B.成反比例 C.不成比例 D.无法确定，正确答案为A。",
+          "source": "成都市高新区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_chengdu_gaoxin_2024b_n27",
+          "no": 27,
+          "type": "choice",
+          "stem": "在一幅比例尺为1:10000000的地图上，量得两地距离是3厘米，两地实际距离是（　）千米",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.100 B.300 C.33 D.103，正确答案为A。",
+          "source": "成都市高新区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_chengdu_gaoxin_2024b_n28",
+          "no": 28,
+          "type": "choice",
+          "stem": "把一个图形按3:1放大，放大后的图形与原图形对应边长的比是（　）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.3:1 B.1:3 C.9:1 D.6:1，正确答案为A。",
+          "source": "成都市高新区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_chengdu_gaoxin_2024b_n29",
+          "no": 29,
+          "type": "fill",
+          "stem": "脱式计算：0.8×99+0.8=",
+          "answer": "80",
+          "score": 4,
+          "analysis": "乘法分配律逆用：0.8×(99+1)=0.8×100=80。",
+          "source": "成都市高新区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_chengdu_gaoxin_2024b_n30",
+          "no": 30,
+          "type": "fill",
+          "stem": "脱式计算：5/6÷5/12×3/10=",
+          "answer": "3/5",
+          "score": 4,
+          "analysis": "5/6÷5/12=2，2×3/10=3/5。",
+          "source": "成都市高新区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_chengdu_gaoxin_2024b_n31",
+          "no": 31,
+          "type": "fill",
+          "stem": "解比例：x/2=3/2，x=（　）",
+          "answer": "3",
+          "score": 4,
+          "analysis": "内项积=外项积：2x=3×2=6，x=3。",
+          "source": "成都市高新区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_chengdu_gaoxin_2024b_n32",
+          "no": 32,
+          "type": "fill",
+          "stem": "解方程：9x-18=90，x=（　）",
+          "answer": "12",
+          "score": 4,
+          "analysis": "9x=90+18=108，x=108÷9=12。",
+          "source": "成都市高新区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_chengdu_gaoxin_2024b_n33",
+          "no": 33,
+          "type": "draw",
+          "stem": "在下面的方格纸上，按1:2画出长方形缩小后的图形（原长方形长6格、宽4格）。",
+          "answer": "长3格、宽2格的长方形",
+          "score": 3,
+          "analysis": "按1:2缩小，长6÷2=3格、宽4÷2=2格，画出长3格、宽2格的长方形。",
+          "source": "成都市高新区2024-2025学年下期期末（组编）",
+          "figure": {
+            "w": 210,
+            "h": 175,
+            "shapes": [
+              {
+                "t": "grid",
+                "x": 30,
+                "y": 20,
+                "cols": 8,
+                "rows": 6,
+                "cw": 22
+              },
+              {
+                "t": "r",
+                "x": 30,
+                "y": 64,
+                "w": 132,
+                "h": 88
+              },
+              {
+                "t": "tx",
+                "x": 30,
+                "y": 160,
+                "s": "原图（长6格、宽4格）",
+                "fs": 10
+              }
+            ]
+          }
+        },
+        {
+          "id": "paper_g6_chengdu_gaoxin_2024b_n34",
+          "no": 34,
+          "type": "draw",
+          "stem": "下表是某地某日6时至14时的气温变化记录（单位：℃）：16、19、21、21、23。请根据数据在方格纸上画出折线统计图。",
+          "answer": "按数据描点后用线段依次连接",
+          "score": 3,
+          "analysis": "根据气温数据在对应时刻位置描点，再用线段依次连接各点，并在图上标注数据。",
+          "source": "成都市高新区2024-2025学年下期期末（组编）",
+          "figure": {
+            "w": 200,
+            "h": 190,
+            "shapes": [
+              {
+                "t": "grid",
+                "x": 40,
+                "y": 20,
+                "cols": 6,
+                "rows": 6,
+                "cw": 24
+              },
+              {
+                "t": "l",
+                "x1": 40,
+                "y1": 20,
+                "x2": 40,
+                "y2": 164
+              },
+              {
+                "t": "l",
+                "x1": 40,
+                "y1": 164,
+                "x2": 184,
+                "y2": 164
+              },
+              {
+                "t": "tx",
+                "x": 96,
+                "y": 172,
+                "s": "6时 8时 10时 12时 14时",
+                "fs": 9
+              },
+              {
+                "t": "tx",
+                "x": 8,
+                "y": 90,
+                "s": "气温",
+                "fs": 11
+              }
+            ]
+          }
+        },
+        {
+          "id": "paper_g6_chengdu_gaoxin_2024b_n35",
+          "no": 35,
+          "type": "solve",
+          "stem": "一个圆柱形通风管的底面直径是8厘米，长是28厘米。做这节通风管至少需要铁皮多少平方厘米？（π取3.14）",
+          "answer": "703.36平方厘米",
+          "score": 4,
+          "analysis": "通风管只有侧面：S侧=πdh=3.14×8×28=703.36（平方厘米）。",
+          "source": "成都市高新区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_chengdu_gaoxin_2024b_n36",
+          "no": 36,
+          "type": "solve",
+          "stem": "一个圆柱形水桶，从里面量底面半径是10厘米，高是10厘米。这个水桶最多能装水多少升？（π取3.14）",
+          "answer": "3.14升",
+          "score": 4,
+          "analysis": "V=πr²h=3.14×10×10×10=3140立方厘米，3140立方厘米=3.14升，最多装水3.14升。",
+          "source": "成都市高新区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_chengdu_gaoxin_2024b_n37",
+          "no": 37,
+          "type": "solve",
+          "stem": "工地上有一堆圆锥形沙子，底面半径是4米，高是3米。这堆沙子的体积是多少立方米？（π取3.14）",
+          "answer": "50.24立方米",
+          "score": 4,
+          "analysis": "V锥=1/3×πr²h=1/3×3.14×4×4×3=50.24（立方米）。",
+          "source": "成都市高新区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_chengdu_gaoxin_2024b_n38",
+          "no": 38,
+          "type": "solve",
+          "stem": "在一幅比例尺为1:1000000的地图上，量得甲、乙两地的距离是3厘米。甲、乙两地的实际距离是多少千米？",
+          "answer": "30千米",
+          "score": 4,
+          "analysis": "实际距离=图上距离÷比例尺：3×1000000=3000000厘米=30千米。",
+          "source": "成都市高新区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_chengdu_gaoxin_2024b_n39",
+          "no": 39,
+          "type": "solve",
+          "stem": "一辆汽车匀速行驶，4小时行驶240千米。照这样的速度，5小时行驶多少千米？",
+          "answer": "300千米",
+          "score": 4,
+          "analysis": "速度一定，路程与时间成正比例：240÷4=60（千米/时），60×5=300（千米）。",
+          "source": "成都市高新区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_chengdu_gaoxin_2024b_n40",
+          "no": 40,
+          "type": "solve",
+          "stem": "一件上衣原价300元，商场促销打七五折出售。现价是多少元？",
+          "answer": "225元",
+          "score": 4,
+          "analysis": "七五折即原价的75%：300×75%=225（元）。",
+          "source": "成都市高新区2024-2025学年下期期末（组编）",
+          "figure": null
+        }
+      ]
+    },
+    {
+      "id": "paper_g6_yibin_cuiping_2022b",
+      "grade": 6,
+      "region": "宜宾市翠屏区",
+      "year": "2022-2023学年下期",
+      "title": "六年级数学期末测试卷（三）",
+      "duration": 90,
+      "total_score": 100,
+      "note": "北师大版六年级下册：圆柱与圆锥、比例、图形的运动、正比例与反比例、总复习；口算10×1分+填空8×3分+判断5×2分+选择5×2分+计算4×4分+作图2×3分+解决问题6×4分",
+      "questions": [
+        {
+          "id": "paper_g6_yibin_cuiping_2022b_n1",
+          "no": 1,
+          "type": "fill",
+          "stem": "口算：3/10+1/5=",
+          "answer": "1/2",
+          "score": 1,
+          "analysis": "总复习口算：小数乘除按法则计算；分数加减先通分；百分数按意义转化为小数计算。",
+          "source": "宜宾市翠屏区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_yibin_cuiping_2022b_n2",
+          "no": 2,
+          "type": "fill",
+          "stem": "口算：0.25×4=",
+          "answer": "1",
+          "score": 1,
+          "analysis": "总复习口算：小数乘除按法则计算；分数加减先通分；百分数按意义转化为小数计算。",
+          "source": "宜宾市翠屏区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_yibin_cuiping_2022b_n3",
+          "no": 3,
+          "type": "fill",
+          "stem": "口算：1/3+1/9=",
+          "answer": "4/9",
+          "score": 1,
+          "analysis": "总复习口算：小数乘除按法则计算；分数加减先通分；百分数按意义转化为小数计算。",
+          "source": "宜宾市翠屏区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_yibin_cuiping_2022b_n4",
+          "no": 4,
+          "type": "fill",
+          "stem": "口算：0.2×5=",
+          "answer": "1",
+          "score": 1,
+          "analysis": "总复习口算：小数乘除按法则计算；分数加减先通分；百分数按意义转化为小数计算。",
+          "source": "宜宾市翠屏区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_yibin_cuiping_2022b_n5",
+          "no": 5,
+          "type": "fill",
+          "stem": "口算：63÷7=",
+          "answer": "9",
+          "score": 1,
+          "analysis": "总复习口算：小数乘除按法则计算；分数加减先通分；百分数按意义转化为小数计算。",
+          "source": "宜宾市翠屏区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_yibin_cuiping_2022b_n6",
+          "no": 6,
+          "type": "fill",
+          "stem": "口算：8×1/11=",
+          "answer": "8/11",
+          "score": 1,
+          "analysis": "总复习口算：小数乘除按法则计算；分数加减先通分；百分数按意义转化为小数计算。",
+          "source": "宜宾市翠屏区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_yibin_cuiping_2022b_n7",
+          "no": 7,
+          "type": "fill",
+          "stem": "口算：0.3×7=",
+          "answer": "2.1",
+          "score": 1,
+          "analysis": "总复习口算：小数乘除按法则计算；分数加减先通分；百分数按意义转化为小数计算。",
+          "source": "宜宾市翠屏区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_yibin_cuiping_2022b_n8",
+          "no": 8,
+          "type": "fill",
+          "stem": "口算：1-85%=",
+          "answer": "0.15",
+          "score": 1,
+          "analysis": "总复习口算：小数乘除按法则计算；分数加减先通分；百分数按意义转化为小数计算。",
+          "source": "宜宾市翠屏区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_yibin_cuiping_2022b_n9",
+          "no": 9,
+          "type": "fill",
+          "stem": "口算：0.3×9=",
+          "answer": "2.7",
+          "score": 1,
+          "analysis": "总复习口算：小数乘除按法则计算；分数加减先通分；百分数按意义转化为小数计算。",
+          "source": "宜宾市翠屏区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_yibin_cuiping_2022b_n10",
+          "no": 10,
+          "type": "fill",
+          "stem": "口算：15÷5=",
+          "answer": "3",
+          "score": 1,
+          "analysis": "总复习口算：小数乘除按法则计算；分数加减先通分；百分数按意义转化为小数计算。",
+          "source": "宜宾市翠屏区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_yibin_cuiping_2022b_n11",
+          "no": 11,
+          "type": "fill",
+          "stem": "圆柱上下两个底面是完全相同的（　）",
+          "answer": "圆",
+          "score": 3,
+          "analysis": "圆柱的两个底面是面积相等的圆。",
+          "source": "宜宾市翠屏区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_yibin_cuiping_2022b_n12",
+          "no": 12,
+          "type": "fill",
+          "stem": "一个圆柱的体积是48立方分米，与它等底等高的圆锥的体积是（　）立方分米",
+          "answer": "16",
+          "score": 3,
+          "analysis": "等底等高时圆锥体积是圆柱的1/3：48÷3=16（立方分米）。",
+          "source": "宜宾市翠屏区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_yibin_cuiping_2022b_n13",
+          "no": 13,
+          "type": "fill",
+          "stem": "如果x:6=5:3，那么x=（　）",
+          "answer": "10",
+          "score": 3,
+          "analysis": "外项积=内项积：6x=5×3=15，x=10。",
+          "source": "宜宾市翠屏区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_yibin_cuiping_2022b_n14",
+          "no": 14,
+          "type": "fill",
+          "stem": "一幅地图的比例尺是1:200000，图上1厘米表示实际（　）千米",
+          "answer": "2",
+          "score": 3,
+          "analysis": "实际距离=200000厘米=2千米。",
+          "source": "宜宾市翠屏区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_yibin_cuiping_2022b_n15",
+          "no": 15,
+          "type": "fill",
+          "stem": "速度一定，路程与时间成（　）比例",
+          "answer": "正",
+          "score": 3,
+          "analysis": "路程÷时间=速度（一定），成正比例。",
+          "source": "宜宾市翠屏区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_yibin_cuiping_2022b_n16",
+          "no": 16,
+          "type": "fill",
+          "stem": "一个圆柱的底面直径是2厘米，高是11厘米，它的侧面积是（　）平方厘米（π取3.14）",
+          "answer": "69.08",
+          "score": 3,
+          "analysis": "S侧=πdh：3.14×2×11=69.08（平方厘米）。",
+          "source": "宜宾市翠屏区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_yibin_cuiping_2022b_n17",
+          "no": 17,
+          "type": "fill",
+          "stem": "一个圆柱的底面半径是2分米，高是8分米，它的体积是（　）立方分米（π取3.14）",
+          "answer": "100.48",
+          "score": 3,
+          "analysis": "V=πr²h：3.14×2×2×8=100.48（立方分米）。",
+          "source": "宜宾市翠屏区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_yibin_cuiping_2022b_n18",
+          "no": 18,
+          "type": "fill",
+          "stem": "4个数的平均数是27，这4个数的总和是（　）",
+          "answer": "108",
+          "score": 3,
+          "analysis": "总和=平均数×个数：27×4=108。",
+          "source": "宜宾市翠屏区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_yibin_cuiping_2022b_n19",
+          "no": 19,
+          "type": "judge",
+          "stem": "判断：圆锥的体积等于圆柱体积的1/3。",
+          "answer": "错",
+          "score": 2,
+          "analysis": "必须是等底等高的圆柱和圆锥，体积才是1/3关系。",
+          "source": "宜宾市翠屏区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_yibin_cuiping_2022b_n20",
+          "no": 20,
+          "type": "judge",
+          "stem": "判断：比例尺的前项总是1。",
+          "answer": "错",
+          "score": 2,
+          "analysis": "缩小比例尺前项为1，放大比例尺后项为1（如2:1）。",
+          "source": "宜宾市翠屏区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_yibin_cuiping_2022b_n21",
+          "no": 21,
+          "type": "judge",
+          "stem": "判断：速度一定，路程与时间成正比例。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "路程÷时间=速度（一定）。",
+          "source": "宜宾市翠屏区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_yibin_cuiping_2022b_n22",
+          "no": 22,
+          "type": "judge",
+          "stem": "判断：一件商品降价20%，就是打八折出售。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "降价20%后现价是原价的80%，即八折。",
+          "source": "宜宾市翠屏区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_yibin_cuiping_2022b_n23",
+          "no": 23,
+          "type": "judge",
+          "stem": "判断：图形按2:1放大后，面积也扩大到原来的2倍。",
+          "answer": "错",
+          "score": 2,
+          "analysis": "面积扩大到原来的2×2=4倍。",
+          "source": "宜宾市翠屏区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_yibin_cuiping_2022b_n24",
+          "no": 24,
+          "type": "choice",
+          "stem": "一个圆锥的底面半径是2厘米，高是9厘米，它的体积是（　）立方厘米（π取3.14）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.37.68 B.113.04 C.75.36 D.43.96，正确答案为A。",
+          "source": "宜宾市翠屏区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_yibin_cuiping_2022b_n25",
+          "no": 25,
+          "type": "choice",
+          "stem": "一个圆柱形水杯，从里面量底面半径是5厘米，高是20厘米。它最多能装水（　）升（π取3.14）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.1.57 B.1570 C.1.57e+06 D.15.7，正确答案为A。",
+          "source": "宜宾市翠屏区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_yibin_cuiping_2022b_n26",
+          "no": 26,
+          "type": "choice",
+          "stem": "长方形的周长一定，长和宽（　）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.不成比例 B.成正比例 C.成反比例 D.无法确定，正确答案为A。",
+          "source": "宜宾市翠屏区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_yibin_cuiping_2022b_n27",
+          "no": 27,
+          "type": "choice",
+          "stem": "在一幅比例尺为1:5000000的地图上，量得两地距离是3厘米，两地实际距离是（　）千米",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.50 B.150 C.16 D.53，正确答案为A。",
+          "source": "宜宾市翠屏区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_yibin_cuiping_2022b_n28",
+          "no": 28,
+          "type": "choice",
+          "stem": "把一个图形按1:2缩小，缩小后的图形与原图形面积的比是（　）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.1:4 B.1:2 C.1:8 D.4:1，正确答案为A。",
+          "source": "宜宾市翠屏区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_yibin_cuiping_2022b_n29",
+          "no": 29,
+          "type": "fill",
+          "stem": "脱式计算：2.5×1.25×0.8×4=",
+          "answer": "10",
+          "score": 4,
+          "analysis": "乘法交换结合律：(2.5×4)×(1.25×0.8)=10×1=10。",
+          "source": "宜宾市翠屏区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_yibin_cuiping_2022b_n30",
+          "no": 30,
+          "type": "fill",
+          "stem": "脱式计算：1/2+1/4-1/8=",
+          "answer": "5/8",
+          "score": 4,
+          "analysis": "通分：4/8+2/8-1/8=5/8。",
+          "source": "宜宾市翠屏区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_yibin_cuiping_2022b_n31",
+          "no": 31,
+          "type": "fill",
+          "stem": "解比例：x:9=4:3，x=（　）",
+          "answer": "12",
+          "score": 4,
+          "analysis": "内项积=外项积：9x=4×3=12，x=12。",
+          "source": "宜宾市翠屏区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_yibin_cuiping_2022b_n32",
+          "no": 32,
+          "type": "fill",
+          "stem": "解方程：5x-5=55，x=（　）",
+          "answer": "12",
+          "score": 4,
+          "analysis": "5x=55+5=60，x=60÷5=12。",
+          "source": "宜宾市翠屏区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_yibin_cuiping_2022b_n33",
+          "no": 33,
+          "type": "draw",
+          "stem": "在下面的方格纸上，按2:1画出长方形放大后的图形（原长方形长3格、宽2格）。",
+          "answer": "长6格、宽4格的长方形",
+          "score": 3,
+          "analysis": "按2:1放大，长3×2=6格、宽2×2=4格，画出长6格、宽4格的长方形。",
+          "source": "宜宾市翠屏区2022-2023学年下期期末（组编）",
+          "figure": {
+            "w": 210,
+            "h": 175,
+            "shapes": [
+              {
+                "t": "grid",
+                "x": 30,
+                "y": 20,
+                "cols": 8,
+                "rows": 6,
+                "cw": 22
+              },
+              {
+                "t": "r",
+                "x": 30,
+                "y": 108,
+                "w": 66,
+                "h": 44
+              },
+              {
+                "t": "tx",
+                "x": 30,
+                "y": 160,
+                "s": "原图（长3格、宽2格）",
+                "fs": 10
+              }
+            ]
+          }
+        },
+        {
+          "id": "paper_g6_yibin_cuiping_2022b_n34",
+          "no": 34,
+          "type": "draw",
+          "stem": "下表是某地某日6时至14时的气温变化记录（单位：℃）：18、22、23、22、28。请根据数据在方格纸上画出折线统计图。",
+          "answer": "按数据描点后用线段依次连接",
+          "score": 3,
+          "analysis": "根据气温数据在对应时刻位置描点，再用线段依次连接各点，并在图上标注数据。",
+          "source": "宜宾市翠屏区2022-2023学年下期期末（组编）",
+          "figure": {
+            "w": 200,
+            "h": 190,
+            "shapes": [
+              {
+                "t": "grid",
+                "x": 40,
+                "y": 20,
+                "cols": 6,
+                "rows": 6,
+                "cw": 24
+              },
+              {
+                "t": "l",
+                "x1": 40,
+                "y1": 20,
+                "x2": 40,
+                "y2": 164
+              },
+              {
+                "t": "l",
+                "x1": 40,
+                "y1": 164,
+                "x2": 184,
+                "y2": 164
+              },
+              {
+                "t": "tx",
+                "x": 96,
+                "y": 172,
+                "s": "6时 8时 10时 12时 14时",
+                "fs": 9
+              },
+              {
+                "t": "tx",
+                "x": 8,
+                "y": 90,
+                "s": "气温",
+                "fs": 11
+              }
+            ]
+          }
+        },
+        {
+          "id": "paper_g6_yibin_cuiping_2022b_n35",
+          "no": 35,
+          "type": "solve",
+          "stem": "一个圆柱形通风管的底面直径是8厘米，长是20厘米。做这节通风管至少需要铁皮多少平方厘米？（π取3.14）",
+          "answer": "502.4平方厘米",
+          "score": 4,
+          "analysis": "通风管只有侧面：S侧=πdh=3.14×8×20=502.4（平方厘米）。",
+          "source": "宜宾市翠屏区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_yibin_cuiping_2022b_n36",
+          "no": 36,
+          "type": "solve",
+          "stem": "一个圆柱形水桶，从里面量底面半径是5厘米，高是20厘米。这个水桶最多能装水多少升？（π取3.14）",
+          "answer": "1.57升",
+          "score": 4,
+          "analysis": "V=πr²h=3.14×5×5×20=1570立方厘米，1570立方厘米=1.57升，最多装水1.57升。",
+          "source": "宜宾市翠屏区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_yibin_cuiping_2022b_n37",
+          "no": 37,
+          "type": "solve",
+          "stem": "工地上有一堆圆锥形沙子，底面半径是2米，高是6米。这堆沙子的体积是多少立方米？（π取3.14）",
+          "answer": "25.12立方米",
+          "score": 4,
+          "analysis": "V锥=1/3×πr²h=1/3×3.14×2×2×6=25.12（立方米）。",
+          "source": "宜宾市翠屏区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_yibin_cuiping_2022b_n38",
+          "no": 38,
+          "type": "solve",
+          "stem": "在一幅比例尺为1:1000000的地图上，量得甲、乙两地的距离是4厘米。甲、乙两地的实际距离是多少千米？",
+          "answer": "40千米",
+          "score": 4,
+          "analysis": "实际距离=图上距离÷比例尺：4×1000000=4000000厘米=40千米。",
+          "source": "宜宾市翠屏区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_yibin_cuiping_2022b_n39",
+          "no": 39,
+          "type": "solve",
+          "stem": "一辆汽车匀速行驶，5小时行驶300千米。照这样的速度，6小时行驶多少千米？",
+          "answer": "360千米",
+          "score": 4,
+          "analysis": "速度一定，路程与时间成正比例：300÷5=60（千米/时），60×6=360（千米）。",
+          "source": "宜宾市翠屏区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_yibin_cuiping_2022b_n40",
+          "no": 40,
+          "type": "solve",
+          "stem": "一件上衣原价160元，商场促销打七五折出售。现价是多少元？",
+          "answer": "120元",
+          "score": 4,
+          "analysis": "七五折即原价的75%：160×75%=120（元）。",
+          "source": "宜宾市翠屏区2022-2023学年下期期末（组编）",
+          "figure": null
+        }
+      ]
+    },
+    {
+      "id": "paper_g6_nanchong_shunqing_2021b",
+      "grade": 6,
+      "region": "南充市顺庆区",
+      "year": "2021-2022学年下期",
+      "title": "六年级数学期末测试卷（四）",
+      "duration": 90,
+      "total_score": 100,
+      "note": "北师大版六年级下册：圆柱与圆锥、比例、图形的运动、正比例与反比例、总复习；口算10×1分+填空8×3分+判断5×2分+选择5×2分+计算4×4分+作图2×3分+解决问题6×4分",
+      "questions": [
+        {
+          "id": "paper_g6_nanchong_shunqing_2021b_n1",
+          "no": 1,
+          "type": "fill",
+          "stem": "口算：31.5÷7=",
+          "answer": "4.5",
+          "score": 1,
+          "analysis": "总复习口算：小数乘除按法则计算；分数加减先通分；百分数按意义转化为小数计算。",
+          "source": "南充市顺庆区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_nanchong_shunqing_2021b_n2",
+          "no": 2,
+          "type": "fill",
+          "stem": "口算：0.5×2=",
+          "answer": "1",
+          "score": 1,
+          "analysis": "总复习口算：小数乘除按法则计算；分数加减先通分；百分数按意义转化为小数计算。",
+          "source": "南充市顺庆区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_nanchong_shunqing_2021b_n3",
+          "no": 3,
+          "type": "fill",
+          "stem": "口算：0.5×17=",
+          "answer": "8.5",
+          "score": 1,
+          "analysis": "总复习口算：小数乘除按法则计算；分数加减先通分；百分数按意义转化为小数计算。",
+          "source": "南充市顺庆区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_nanchong_shunqing_2021b_n4",
+          "no": 4,
+          "type": "fill",
+          "stem": "口算：75%+25%=",
+          "answer": "1",
+          "score": 1,
+          "analysis": "总复习口算：小数乘除按法则计算；分数加减先通分；百分数按意义转化为小数计算。",
+          "source": "南充市顺庆区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_nanchong_shunqing_2021b_n5",
+          "no": 5,
+          "type": "fill",
+          "stem": "口算：0.3×4=",
+          "answer": "1.2",
+          "score": 1,
+          "analysis": "总复习口算：小数乘除按法则计算；分数加减先通分；百分数按意义转化为小数计算。",
+          "source": "南充市顺庆区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_nanchong_shunqing_2021b_n6",
+          "no": 6,
+          "type": "fill",
+          "stem": "口算：3/10-1/5=",
+          "answer": "1/10",
+          "score": 1,
+          "analysis": "总复习口算：小数乘除按法则计算；分数加减先通分；百分数按意义转化为小数计算。",
+          "source": "南充市顺庆区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_nanchong_shunqing_2021b_n7",
+          "no": 7,
+          "type": "fill",
+          "stem": "口算：5×1/8=",
+          "answer": "5/8",
+          "score": 1,
+          "analysis": "总复习口算：小数乘除按法则计算；分数加减先通分；百分数按意义转化为小数计算。",
+          "source": "南充市顺庆区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_nanchong_shunqing_2021b_n8",
+          "no": 8,
+          "type": "fill",
+          "stem": "口算：1/3-1/9=",
+          "answer": "2/9",
+          "score": 1,
+          "analysis": "总复习口算：小数乘除按法则计算；分数加减先通分；百分数按意义转化为小数计算。",
+          "source": "南充市顺庆区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_nanchong_shunqing_2021b_n9",
+          "no": 9,
+          "type": "fill",
+          "stem": "口算：7÷2=",
+          "answer": "3.5",
+          "score": 1,
+          "analysis": "总复习口算：小数乘除按法则计算；分数加减先通分；百分数按意义转化为小数计算。",
+          "source": "南充市顺庆区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_nanchong_shunqing_2021b_n10",
+          "no": 10,
+          "type": "fill",
+          "stem": "口算：0.3×2=",
+          "answer": "0.6",
+          "score": 1,
+          "analysis": "总复习口算：小数乘除按法则计算；分数加减先通分；百分数按意义转化为小数计算。",
+          "source": "南充市顺庆区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_nanchong_shunqing_2021b_n11",
+          "no": 11,
+          "type": "fill",
+          "stem": "圆柱两底面之间的距离叫做圆柱的（　）",
+          "answer": "高",
+          "score": 3,
+          "analysis": "圆柱两底面间的距离是圆柱的高。",
+          "source": "南充市顺庆区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_nanchong_shunqing_2021b_n12",
+          "no": 12,
+          "type": "fill",
+          "stem": "一个圆柱的体积是63立方分米，与它等底等高的圆锥的体积是（　）立方分米",
+          "answer": "21",
+          "score": 3,
+          "analysis": "等底等高时圆锥体积是圆柱的1/3：63÷3=21（立方分米）。",
+          "source": "南充市顺庆区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_nanchong_shunqing_2021b_n13",
+          "no": 13,
+          "type": "fill",
+          "stem": "如果x:12=2:3，那么x=（　）",
+          "answer": "8",
+          "score": 3,
+          "analysis": "外项积=内项积：12x=2×3=6，x=8。",
+          "source": "南充市顺庆区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_nanchong_shunqing_2021b_n14",
+          "no": 14,
+          "type": "fill",
+          "stem": "一幅地图的比例尺是1:500000，图上1厘米表示实际（　）千米",
+          "answer": "5",
+          "score": 3,
+          "analysis": "实际距离=500000厘米=5千米。",
+          "source": "南充市顺庆区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_nanchong_shunqing_2021b_n15",
+          "no": 15,
+          "type": "fill",
+          "stem": "总价一定，单价与数量成（　）比例",
+          "answer": "反",
+          "score": 3,
+          "analysis": "单价×数量=总价（一定），成反比例。",
+          "source": "南充市顺庆区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_nanchong_shunqing_2021b_n16",
+          "no": 16,
+          "type": "fill",
+          "stem": "一个圆柱的底面直径是4厘米，高是10厘米，它的侧面积是（　）平方厘米（π取3.14）",
+          "answer": "125.6",
+          "score": 3,
+          "analysis": "S侧=πdh：3.14×4×10=125.6（平方厘米）。",
+          "source": "南充市顺庆区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_nanchong_shunqing_2021b_n17",
+          "no": 17,
+          "type": "fill",
+          "stem": "一个圆柱的底面半径是5分米，高是10分米，它的体积是（　）立方分米（π取3.14）",
+          "answer": "785",
+          "score": 3,
+          "analysis": "V=πr²h：3.14×5×5×10=785（立方分米）。",
+          "source": "南充市顺庆区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_nanchong_shunqing_2021b_n18",
+          "no": 18,
+          "type": "fill",
+          "stem": "4个数的平均数是29，这4个数的总和是（　）",
+          "answer": "116",
+          "score": 3,
+          "analysis": "总和=平均数×个数：29×4=116。",
+          "source": "南充市顺庆区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_nanchong_shunqing_2021b_n19",
+          "no": 19,
+          "type": "judge",
+          "stem": "判断：圆柱的侧面展开后可能得到正方形。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "底面周长恰好等于高时，展开图是正方形。",
+          "source": "南充市顺庆区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_nanchong_shunqing_2021b_n20",
+          "no": 20,
+          "type": "judge",
+          "stem": "判断：图上距离÷实际距离=比例尺。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "比例尺的定义。",
+          "source": "南充市顺庆区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_nanchong_shunqing_2021b_n21",
+          "no": 21,
+          "type": "judge",
+          "stem": "判断：正方形的周长与它的边长成正比例。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "周长÷边长=4（一定）。",
+          "source": "南充市顺庆区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_nanchong_shunqing_2021b_n22",
+          "no": 22,
+          "type": "judge",
+          "stem": "判断：商品先涨价20%再降价20%，现价与原价相同。",
+          "answer": "错",
+          "score": 2,
+          "analysis": "现价是原价的1.2×0.8=96%，低于原价。",
+          "source": "南充市顺庆区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_nanchong_shunqing_2021b_n23",
+          "no": 23,
+          "type": "judge",
+          "stem": "判断：图形平移后，形状和大小都不改变。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "平移只改变位置。",
+          "source": "南充市顺庆区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_nanchong_shunqing_2021b_n24",
+          "no": 24,
+          "type": "choice",
+          "stem": "一个圆锥的底面半径是3厘米，高是3厘米，它的体积是（　）立方厘米（π取3.14）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.28.26 B.84.78 C.56.52 D.37.68，正确答案为A。",
+          "source": "南充市顺庆区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_nanchong_shunqing_2021b_n25",
+          "no": 25,
+          "type": "choice",
+          "stem": "一个圆柱形水杯，从里面量底面半径是10厘米，高是20厘米。它最多能装水（　）升（π取3.14）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.6.28 B.6280 C.6.28e+06 D.62.8，正确答案为A。",
+          "source": "南充市顺庆区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_nanchong_shunqing_2021b_n26",
+          "no": 26,
+          "type": "choice",
+          "stem": "全班人数一定，出勤人数和出勤率（　）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.成正比例 B.成反比例 C.不成比例 D.无法确定，正确答案为A。",
+          "source": "南充市顺庆区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_nanchong_shunqing_2021b_n27",
+          "no": 27,
+          "type": "choice",
+          "stem": "在一幅比例尺为1:2000000的地图上，量得两地距离是3厘米，两地实际距离是（　）千米",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.20 B.60 C.6 D.23，正确答案为A。",
+          "source": "南充市顺庆区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_nanchong_shunqing_2021b_n28",
+          "no": 28,
+          "type": "choice",
+          "stem": "钟面上，时针从\"3\"绕中心点旋转到\"6\"，旋转了（　）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.90° B.30° C.60° D.180°，正确答案为A。",
+          "source": "南充市顺庆区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_nanchong_shunqing_2021b_n29",
+          "no": 29,
+          "type": "fill",
+          "stem": "脱式计算：12.5×8÷12.5×8=",
+          "answer": "64",
+          "score": 4,
+          "analysis": "从左到右：12.5×8=100，100÷12.5=8，8×8=64。",
+          "source": "南充市顺庆区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_nanchong_shunqing_2021b_n30",
+          "no": 30,
+          "type": "fill",
+          "stem": "脱式计算：3/4×2/5+1/4×2/5=",
+          "answer": "2/5",
+          "score": 4,
+          "analysis": "乘法分配律：(3/4+1/4)×2/5=1×2/5=2/5。",
+          "source": "南充市顺庆区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_nanchong_shunqing_2021b_n31",
+          "no": 31,
+          "type": "fill",
+          "stem": "解比例：x/3=8/3，x=（　）",
+          "answer": "8",
+          "score": 4,
+          "analysis": "内项积=外项积：3x=8×3=24，x=8。",
+          "source": "南充市顺庆区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_nanchong_shunqing_2021b_n32",
+          "no": 32,
+          "type": "fill",
+          "stem": "解方程：9x-20=115，x=（　）",
+          "answer": "15",
+          "score": 4,
+          "analysis": "9x=115+20=135，x=135÷9=15。",
+          "source": "南充市顺庆区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_nanchong_shunqing_2021b_n33",
+          "no": 33,
+          "type": "draw",
+          "stem": "按要求作图：请在方格纸上按1:2画出原长方形缩小后的图形（原长方形长6格、宽4格）。",
+          "answer": "长3格、宽2格的长方形",
+          "score": 3,
+          "analysis": "按1:2缩小，长6÷2=3格、宽4÷2=2格，画出长3格、宽2格的长方形。",
+          "source": "南充市顺庆区2021-2022学年下期期末（组编）",
+          "figure": {
+            "w": 210,
+            "h": 175,
+            "shapes": [
+              {
+                "t": "grid",
+                "x": 30,
+                "y": 20,
+                "cols": 8,
+                "rows": 6,
+                "cw": 22
+              },
+              {
+                "t": "r",
+                "x": 30,
+                "y": 64,
+                "w": 132,
+                "h": 88
+              },
+              {
+                "t": "tx",
+                "x": 30,
+                "y": 160,
+                "s": "原图（长6格、宽4格）",
+                "fs": 10
+              }
+            ]
+          }
+        },
+        {
+          "id": "paper_g6_nanchong_shunqing_2021b_n34",
+          "no": 34,
+          "type": "draw",
+          "stem": "下表是某地某日6时至14时的气温变化记录（单位：℃）：16、19、21、23、23。请根据数据在方格纸上画出折线统计图。",
+          "answer": "按数据描点后用线段依次连接",
+          "score": 3,
+          "analysis": "根据气温数据在对应时刻位置描点，再用线段依次连接各点，并在图上标注数据。",
+          "source": "南充市顺庆区2021-2022学年下期期末（组编）",
+          "figure": {
+            "w": 200,
+            "h": 190,
+            "shapes": [
+              {
+                "t": "grid",
+                "x": 40,
+                "y": 20,
+                "cols": 6,
+                "rows": 6,
+                "cw": 24
+              },
+              {
+                "t": "l",
+                "x1": 40,
+                "y1": 20,
+                "x2": 40,
+                "y2": 164
+              },
+              {
+                "t": "l",
+                "x1": 40,
+                "y1": 164,
+                "x2": 184,
+                "y2": 164
+              },
+              {
+                "t": "tx",
+                "x": 96,
+                "y": 172,
+                "s": "6时 8时 10时 12时 14时",
+                "fs": 9
+              },
+              {
+                "t": "tx",
+                "x": 8,
+                "y": 90,
+                "s": "气温",
+                "fs": 11
+              }
+            ]
+          }
+        },
+        {
+          "id": "paper_g6_nanchong_shunqing_2021b_n35",
+          "no": 35,
+          "type": "solve",
+          "stem": "一个圆柱形通风管的底面直径是5厘米，长是30厘米。做这节通风管至少需要铁皮多少平方厘米？（π取3.14）",
+          "answer": "471平方厘米",
+          "score": 4,
+          "analysis": "通风管只有侧面：S侧=πdh=3.14×5×30=471（平方厘米）。",
+          "source": "南充市顺庆区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_nanchong_shunqing_2021b_n36",
+          "no": 36,
+          "type": "solve",
+          "stem": "一个圆柱形水桶，从里面量底面半径是10厘米，高是12厘米。这个水桶最多能装水多少升？（π取3.14）",
+          "answer": "3.768升",
+          "score": 4,
+          "analysis": "V=πr²h=3.14×10×10×12=3768立方厘米，3768立方厘米=3.768升，最多装水3.768升。",
+          "source": "南充市顺庆区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_nanchong_shunqing_2021b_n37",
+          "no": 37,
+          "type": "solve",
+          "stem": "工地上有一堆圆锥形沙子，底面半径是4米，高是6米。这堆沙子的体积是多少立方米？（π取3.14）",
+          "answer": "100.48立方米",
+          "score": 4,
+          "analysis": "V锥=1/3×πr²h=1/3×3.14×4×4×6=100.48（立方米）。",
+          "source": "南充市顺庆区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_nanchong_shunqing_2021b_n38",
+          "no": 38,
+          "type": "solve",
+          "stem": "在一幅比例尺为1:1000000的地图上，量得甲、乙两地的距离是8厘米。甲、乙两地的实际距离是多少千米？",
+          "answer": "80千米",
+          "score": 4,
+          "analysis": "实际距离=图上距离÷比例尺：8×1000000=8000000厘米=80千米。",
+          "source": "南充市顺庆区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_nanchong_shunqing_2021b_n39",
+          "no": 39,
+          "type": "solve",
+          "stem": "一辆汽车匀速行驶，3小时行驶270千米。照这样的速度，6小时行驶多少千米？",
+          "answer": "540千米",
+          "score": 4,
+          "analysis": "速度一定，路程与时间成正比例：270÷3=90（千米/时），90×6=540（千米）。",
+          "source": "南充市顺庆区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_nanchong_shunqing_2021b_n40",
+          "no": 40,
+          "type": "solve",
+          "stem": "一件上衣原价240元，商场促销打七五折出售。现价是多少元？",
+          "answer": "180元",
+          "score": 4,
+          "analysis": "七五折即原价的75%：240×75%=180（元）。",
+          "source": "南充市顺庆区2021-2022学年下期期末（组编）",
+          "figure": null
+        }
+      ]
     }
   ]
 }
