@@ -12468,6 +12468,1836 @@
           "figure": null
         }
       ]
+    },
+    {
+      "id": "paper_g2_chengdu_wuhou_2022b",
+      "grade": 2,
+      "region": "成都市武侯区",
+      "year": "2022-2023学年下期",
+      "title": "二年级数学期末测试卷（二）",
+      "duration": 60,
+      "total_score": 100,
+      "note": "北师大版二年级下册：有余数除法、万以内数的认识、三位数加减法、测量（分米毫米千米）、方向与位置、时分秒；口算12×2分+填空8×2分+判断5×2分+选择5×2分+看图列式与操作3×4分+解决问题4×7分",
+      "questions": [
+        {
+          "id": "paper_g2_chengdu_wuhou_2022b_n1",
+          "no": 1,
+          "type": "fill",
+          "stem": "口算：45÷9=",
+          "answer": "5",
+          "score": 2,
+          "analysis": "口算除法想口诀求商，三位数加减整十整百按数位直接算。",
+          "source": "成都市武侯区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_chengdu_wuhou_2022b_n2",
+          "no": 2,
+          "type": "fill",
+          "stem": "口算：91-4=",
+          "answer": "87",
+          "score": 2,
+          "analysis": "口算除法想口诀求商，三位数加减整十整百按数位直接算。",
+          "source": "成都市武侯区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_chengdu_wuhou_2022b_n3",
+          "no": 3,
+          "type": "fill",
+          "stem": "口算：447+40=",
+          "answer": "487",
+          "score": 2,
+          "analysis": "口算除法想口诀求商，三位数加减整十整百按数位直接算。",
+          "source": "成都市武侯区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_chengdu_wuhou_2022b_n4",
+          "no": 4,
+          "type": "fill",
+          "stem": "口算：283+40=",
+          "answer": "323",
+          "score": 2,
+          "analysis": "口算除法想口诀求商，三位数加减整十整百按数位直接算。",
+          "source": "成都市武侯区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_chengdu_wuhou_2022b_n5",
+          "no": 5,
+          "type": "fill",
+          "stem": "口算：54÷9=",
+          "answer": "6",
+          "score": 2,
+          "analysis": "口算除法想口诀求商，三位数加减整十整百按数位直接算。",
+          "source": "成都市武侯区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_chengdu_wuhou_2022b_n6",
+          "no": 6,
+          "type": "fill",
+          "stem": "口算：42-6=",
+          "answer": "36",
+          "score": 2,
+          "analysis": "口算除法想口诀求商，三位数加减整十整百按数位直接算。",
+          "source": "成都市武侯区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_chengdu_wuhou_2022b_n7",
+          "no": 7,
+          "type": "fill",
+          "stem": "口算：215+10=",
+          "answer": "225",
+          "score": 2,
+          "analysis": "口算除法想口诀求商，三位数加减整十整百按数位直接算。",
+          "source": "成都市武侯区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_chengdu_wuhou_2022b_n8",
+          "no": 8,
+          "type": "fill",
+          "stem": "口算：300+400=",
+          "answer": "700",
+          "score": 2,
+          "analysis": "口算除法想口诀求商，三位数加减整十整百按数位直接算。",
+          "source": "成都市武侯区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_chengdu_wuhou_2022b_n9",
+          "no": 9,
+          "type": "fill",
+          "stem": "口算：35÷5=",
+          "answer": "7",
+          "score": 2,
+          "analysis": "口算除法想口诀求商，三位数加减整十整百按数位直接算。",
+          "source": "成都市武侯区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_chengdu_wuhou_2022b_n10",
+          "no": 10,
+          "type": "fill",
+          "stem": "口算：434+10=",
+          "answer": "444",
+          "score": 2,
+          "analysis": "口算除法想口诀求商，三位数加减整十整百按数位直接算。",
+          "source": "成都市武侯区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_chengdu_wuhou_2022b_n11",
+          "no": 11,
+          "type": "fill",
+          "stem": "口算：57+3=",
+          "answer": "60",
+          "score": 2,
+          "analysis": "口算除法想口诀求商，三位数加减整十整百按数位直接算。",
+          "source": "成都市武侯区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_chengdu_wuhou_2022b_n12",
+          "no": 12,
+          "type": "fill",
+          "stem": "口算：47+4=",
+          "answer": "51",
+          "score": 2,
+          "analysis": "口算除法想口诀求商，三位数加减整十整百按数位直接算。",
+          "source": "成都市武侯区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_chengdu_wuhou_2022b_n13",
+          "no": 13,
+          "type": "fill",
+          "stem": "一支笔4元，17元最多能买（　）支",
+          "answer": "4",
+          "score": 2,
+          "analysis": "17÷4=4……1，剩下的钱不够再买 1 支，最多买 4 支。",
+          "source": "成都市武侯区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_chengdu_wuhou_2022b_n14",
+          "no": 14,
+          "type": "fill",
+          "stem": "由1个千、2个百和2个十组成的数是（　）",
+          "answer": "1220",
+          "score": 2,
+          "analysis": "1个千是1000，2个百是200，2个十是20，合起来是1220。",
+          "source": "成都市武侯区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_chengdu_wuhou_2022b_n15",
+          "no": 15,
+          "type": "fill",
+          "stem": "比2000小1的数是（　）",
+          "answer": "1999",
+          "score": 2,
+          "analysis": "2000-1=1999。",
+          "source": "成都市武侯区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_chengdu_wuhou_2022b_n16",
+          "no": 16,
+          "type": "fill",
+          "stem": "5分米=（　）厘米",
+          "answer": "50",
+          "score": 2,
+          "analysis": "1 分米 = 10 厘米，5 分米 = 50 厘米。",
+          "source": "成都市武侯区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_chengdu_wuhou_2022b_n17",
+          "no": 17,
+          "type": "fill",
+          "stem": "1分=（　）秒",
+          "answer": "60",
+          "score": 2,
+          "analysis": "1 分 = 60 秒。",
+          "source": "成都市武侯区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_chengdu_wuhou_2022b_n18",
+          "no": 18,
+          "type": "fill",
+          "stem": "面向北站立，左面是（　）",
+          "answer": "西",
+          "score": 2,
+          "analysis": "面向北时，左西右东。",
+          "source": "成都市武侯区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_chengdu_wuhou_2022b_n19",
+          "no": 19,
+          "type": "fill",
+          "stem": "最大的四位数是（　）",
+          "answer": "9999",
+          "score": 2,
+          "analysis": "四位数的每一位最大是 9。",
+          "source": "成都市武侯区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_chengdu_wuhou_2022b_n20",
+          "no": 20,
+          "type": "fill",
+          "stem": "450-50=（　）",
+          "answer": "400",
+          "score": 2,
+          "analysis": "450-50=400。",
+          "source": "成都市武侯区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_chengdu_wuhou_2022b_n21",
+          "no": 21,
+          "type": "judge",
+          "stem": "判断：17÷5=3……2。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "5×3=15，17-15=2。",
+          "source": "成都市武侯区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_chengdu_wuhou_2022b_n22",
+          "no": 22,
+          "type": "judge",
+          "stem": "判断：1000是最小的四位数。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "千位最小 1，其余为 0。",
+          "source": "成都市武侯区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_chengdu_wuhou_2022b_n23",
+          "no": 23,
+          "type": "judge",
+          "stem": "判断：1千米=1000米。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "千米与米的进率是 1000。",
+          "source": "成都市武侯区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_chengdu_wuhou_2022b_n24",
+          "no": 24,
+          "type": "judge",
+          "stem": "判断：太阳从东方升起。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "太阳东升西落。",
+          "source": "成都市武侯区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_chengdu_wuhou_2022b_n25",
+          "no": 25,
+          "type": "judge",
+          "stem": "判断：分针走一圈是1时。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "分针走 60 分即 1 时。",
+          "source": "成都市武侯区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_chengdu_wuhou_2022b_n26",
+          "no": 26,
+          "type": "choice",
+          "stem": "22个梨，每6个装一袋，装完后还剩（　）个",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.4 B.6 C.5 D.16，正确答案为A。",
+          "source": "成都市武侯区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_chengdu_wuhou_2022b_n27",
+          "no": 27,
+          "type": "choice",
+          "stem": "由6个千和3个百组成的数是（　）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.6300 B.9 C.6310 D.306，正确答案为A。",
+          "source": "成都市武侯区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_chengdu_wuhou_2022b_n28",
+          "no": 28,
+          "type": "choice",
+          "stem": "6分米=（　）厘米",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.60 B.6 C.16 D.600，正确答案为A。",
+          "source": "成都市武侯区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_chengdu_wuhou_2022b_n29",
+          "no": 29,
+          "type": "choice",
+          "stem": "与北相对的方向是（　）",
+          "answer": "B",
+          "score": 2,
+          "analysis": "选项：A.东 B.南 C.西 D.北，正确答案为B。",
+          "source": "成都市武侯区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_chengdu_wuhou_2022b_n30",
+          "no": 30,
+          "type": "choice",
+          "stem": "360-40=（　）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.320 B.310 C.330 D.260，正确答案为A。",
+          "source": "成都市武侯区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_chengdu_wuhou_2022b_n31",
+          "no": 31,
+          "type": "draw",
+          "stem": "看图圈一圈：图中有21个○，每6个圈成一组，写出带余数的除法算式。",
+          "answer": "21÷6=3……3",
+          "score": 4,
+          "analysis": "21÷6=3组余3个：21÷6=3……3。",
+          "source": "成都市武侯区2022-2023学年下期期末（组编）",
+          "figure": {
+            "w": 320,
+            "h": 70,
+            "shapes": [
+              {
+                "t": "c",
+                "cx": 22,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 42,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 62,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 82,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 102,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 122,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 142,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 162,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 182,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 202,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 222,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 242,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 262,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 282,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 302,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 322,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 342,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 362,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 382,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 402,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 422,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "r",
+                "x": 8,
+                "y": 18,
+                "w": 110,
+                "h": 34
+              },
+              {
+                "t": "r",
+                "x": 128,
+                "y": 18,
+                "w": 110,
+                "h": 34
+              },
+              {
+                "t": "r",
+                "x": 248,
+                "y": 18,
+                "w": 110,
+                "h": 34
+              }
+            ]
+          }
+        },
+        {
+          "id": "paper_g2_chengdu_wuhou_2022b_n32",
+          "no": 32,
+          "type": "draw",
+          "stem": "在下面的钟面上画出3时的时针（分针已画出）。",
+          "answer": "画3时的时针",
+          "score": 4,
+          "analysis": "时针指着 3，分针指着 12。",
+          "source": "成都市武侯区2022-2023学年下期期末（组编）",
+          "figure": {
+            "w": 180,
+            "h": 180,
+            "shapes": [
+              {
+                "t": "c",
+                "cx": 90,
+                "cy": 90,
+                "r": 80
+              },
+              {
+                "t": "tx",
+                "x": 90.0,
+                "y": 28.0,
+                "s": "12",
+                "fs": 13
+              },
+              {
+                "t": "tx",
+                "x": 152.0,
+                "y": 90.0,
+                "s": "3",
+                "fs": 13
+              },
+              {
+                "t": "tx",
+                "x": 89.99999999999999,
+                "y": 152.0,
+                "s": "6",
+                "fs": 13
+              },
+              {
+                "t": "tx",
+                "x": 28.0,
+                "y": 89.99999999999999,
+                "s": "9",
+                "fs": 13
+              },
+              {
+                "t": "l",
+                "x1": 90,
+                "y1": 90,
+                "x2": 90,
+                "y2": 25
+              }
+            ]
+          }
+        },
+        {
+          "id": "paper_g2_chengdu_wuhou_2022b_n33",
+          "no": 33,
+          "type": "draw",
+          "stem": "以下面这条线段为一条边，在纸上画一个角（再画一条与它相交的边）。",
+          "answer": "画法不唯一",
+          "score": 4,
+          "analysis": "再画一条与已知线段共用同一个端点、不重合的边，就组成一个角。",
+          "source": "成都市武侯区2022-2023学年下期期末（组编）",
+          "figure": {
+            "w": 200,
+            "h": 70,
+            "shapes": [
+              {
+                "t": "l",
+                "x1": 40,
+                "y1": 40,
+                "x2": 160,
+                "y2": 40
+              },
+              {
+                "t": "tx",
+                "x": 30,
+                "y": 46,
+                "s": "A",
+                "fs": 14
+              }
+            ]
+          }
+        },
+        {
+          "id": "paper_g2_chengdu_wuhou_2022b_n34",
+          "no": 34,
+          "type": "solve",
+          "stem": "二（1）班共有52名同学去划船，每条船最多坐8人，至少要租几条船？",
+          "answer": "52÷8=6……4，6+1=7（条）",
+          "score": 7,
+          "analysis": "余下的人也要坐船，用“进一法”：至少租 7 条船。",
+          "source": "成都市武侯区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_chengdu_wuhou_2022b_n35",
+          "no": 35,
+          "type": "solve",
+          "stem": "妈妈有35元，一个笔袋6元，最多能买几个笔袋？",
+          "answer": "35÷6=5……5，最多买5（个）",
+          "score": 7,
+          "analysis": "剩下的钱不够再买 1 个，用“去尾法”：最多买 5 个。",
+          "source": "成都市武侯区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_chengdu_wuhou_2022b_n36",
+          "no": 36,
+          "type": "solve",
+          "stem": "书店第一天卖出570本图书，第二天比第一天多卖出40本，第二天卖出多少本？",
+          "answer": "570+40=610（本）",
+          "score": 7,
+          "analysis": "求比一个数多几的数用加法：570+40=610本。",
+          "source": "成都市武侯区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_chengdu_wuhou_2022b_n37",
+          "no": 37,
+          "type": "solve",
+          "stem": "上课从8时10分开始，一节课40分钟，下课时是几时几分？",
+          "answer": "8时10分过40分是8时50分",
+          "score": 7,
+          "analysis": "8时10分再加40分钟：10分+40分=50分，即8时50分。",
+          "source": "成都市武侯区2022-2023学年下期期末（组编）",
+          "figure": null
+        }
+      ]
+    },
+    {
+      "id": "paper_g2_nanchong_shunqing_2024b",
+      "grade": 2,
+      "region": "南充市顺庆区",
+      "year": "2024-2025学年下期",
+      "title": "二年级数学期末测试卷（三）",
+      "duration": 60,
+      "total_score": 100,
+      "note": "北师大版二年级下册：有余数除法、万以内数的认识、三位数加减法、测量（分米毫米千米）、方向与位置、时分秒；口算12×2分+填空8×2分+判断5×2分+选择5×2分+看图列式与操作3×4分+解决问题4×7分",
+      "questions": [
+        {
+          "id": "paper_g2_nanchong_shunqing_2024b_n1",
+          "no": 1,
+          "type": "fill",
+          "stem": "口算：800-400=",
+          "answer": "400",
+          "score": 2,
+          "analysis": "口算除法想口诀求商，三位数加减整十整百按数位直接算。",
+          "source": "南充市顺庆区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_nanchong_shunqing_2024b_n2",
+          "no": 2,
+          "type": "fill",
+          "stem": "口算：68+3=",
+          "answer": "71",
+          "score": 2,
+          "analysis": "口算除法想口诀求商，三位数加减整十整百按数位直接算。",
+          "source": "南充市顺庆区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_nanchong_shunqing_2024b_n3",
+          "no": 3,
+          "type": "fill",
+          "stem": "口算：38+9=",
+          "answer": "47",
+          "score": 2,
+          "analysis": "口算除法想口诀求商，三位数加减整十整百按数位直接算。",
+          "source": "南充市顺庆区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_nanchong_shunqing_2024b_n4",
+          "no": 4,
+          "type": "fill",
+          "stem": "口算：700+200=",
+          "answer": "900",
+          "score": 2,
+          "analysis": "口算除法想口诀求商，三位数加减整十整百按数位直接算。",
+          "source": "南充市顺庆区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_nanchong_shunqing_2024b_n5",
+          "no": 5,
+          "type": "fill",
+          "stem": "口算：497+40=",
+          "answer": "537",
+          "score": 2,
+          "analysis": "口算除法想口诀求商，三位数加减整十整百按数位直接算。",
+          "source": "南充市顺庆区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_nanchong_shunqing_2024b_n6",
+          "no": 6,
+          "type": "fill",
+          "stem": "口算：14÷7=",
+          "answer": "2",
+          "score": 2,
+          "analysis": "口算除法想口诀求商，三位数加减整十整百按数位直接算。",
+          "source": "南充市顺庆区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_nanchong_shunqing_2024b_n7",
+          "no": 7,
+          "type": "fill",
+          "stem": "口算：50-9=",
+          "answer": "41",
+          "score": 2,
+          "analysis": "口算除法想口诀求商，三位数加减整十整百按数位直接算。",
+          "source": "南充市顺庆区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_nanchong_shunqing_2024b_n8",
+          "no": 8,
+          "type": "fill",
+          "stem": "口算：700+100=",
+          "answer": "800",
+          "score": 2,
+          "analysis": "口算除法想口诀求商，三位数加减整十整百按数位直接算。",
+          "source": "南充市顺庆区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_nanchong_shunqing_2024b_n9",
+          "no": 9,
+          "type": "fill",
+          "stem": "口算：59+7=",
+          "answer": "66",
+          "score": 2,
+          "analysis": "口算除法想口诀求商，三位数加减整十整百按数位直接算。",
+          "source": "南充市顺庆区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_nanchong_shunqing_2024b_n10",
+          "no": 10,
+          "type": "fill",
+          "stem": "口算：300+300=",
+          "answer": "600",
+          "score": 2,
+          "analysis": "口算除法想口诀求商，三位数加减整十整百按数位直接算。",
+          "source": "南充市顺庆区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_nanchong_shunqing_2024b_n11",
+          "no": 11,
+          "type": "fill",
+          "stem": "口算：12÷2=",
+          "answer": "6",
+          "score": 2,
+          "analysis": "口算除法想口诀求商，三位数加减整十整百按数位直接算。",
+          "source": "南充市顺庆区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_nanchong_shunqing_2024b_n12",
+          "no": 12,
+          "type": "fill",
+          "stem": "口算：67+3=",
+          "answer": "70",
+          "score": 2,
+          "analysis": "口算除法想口诀求商，三位数加减整十整百按数位直接算。",
+          "source": "南充市顺庆区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_nanchong_shunqing_2024b_n13",
+          "no": 13,
+          "type": "fill",
+          "stem": "一支笔5元，28元最多能买（　）支",
+          "answer": "5",
+          "score": 2,
+          "analysis": "28÷5=5……3，剩下的钱不够再买 1 支，最多买 5 支。",
+          "source": "南充市顺庆区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_nanchong_shunqing_2024b_n14",
+          "no": 14,
+          "type": "fill",
+          "stem": "由1个千、6个百和2个十组成的数是（　）",
+          "answer": "1620",
+          "score": 2,
+          "analysis": "1个千是1000，6个百是600，2个十是20，合起来是1620。",
+          "source": "南充市顺庆区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_nanchong_shunqing_2024b_n15",
+          "no": 15,
+          "type": "fill",
+          "stem": "比499大1的数是（　）",
+          "answer": "500",
+          "score": 2,
+          "analysis": "499+1=500。",
+          "source": "南充市顺庆区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_nanchong_shunqing_2024b_n16",
+          "no": 16,
+          "type": "fill",
+          "stem": "3分米=（　）厘米",
+          "answer": "30",
+          "score": 2,
+          "analysis": "1 分米 = 10 厘米，3 分米 = 30 厘米。",
+          "source": "南充市顺庆区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_nanchong_shunqing_2024b_n17",
+          "no": 17,
+          "type": "fill",
+          "stem": "120分=（　）时",
+          "answer": "2",
+          "score": 2,
+          "analysis": "60 分是 1 时，120 分 = 2 时。",
+          "source": "南充市顺庆区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_nanchong_shunqing_2024b_n18",
+          "no": 18,
+          "type": "fill",
+          "stem": "面向东站立，左面是（　）",
+          "answer": "北",
+          "score": 2,
+          "analysis": "面向东时，左北右南。",
+          "source": "南充市顺庆区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_nanchong_shunqing_2024b_n19",
+          "no": 19,
+          "type": "fill",
+          "stem": "最小的四位数是（　）",
+          "answer": "1000",
+          "score": 2,
+          "analysis": "千位最小 1，其余为 0。",
+          "source": "南充市顺庆区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_nanchong_shunqing_2024b_n20",
+          "no": 20,
+          "type": "fill",
+          "stem": "430+40=（　）",
+          "answer": "470",
+          "score": 2,
+          "analysis": "430+40=470。",
+          "source": "南充市顺庆区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_nanchong_shunqing_2024b_n21",
+          "no": 21,
+          "type": "judge",
+          "stem": "判断：在有余数除法中，余数要比除数大。",
+          "answer": "错",
+          "score": 2,
+          "analysis": "余数必须比除数小。",
+          "source": "南充市顺庆区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_nanchong_shunqing_2024b_n22",
+          "no": 22,
+          "type": "judge",
+          "stem": "判断：505读作五百零五。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "中间的 0 要读出来。",
+          "source": "南充市顺庆区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_nanchong_shunqing_2024b_n23",
+          "no": 23,
+          "type": "judge",
+          "stem": "判断：一张课桌高约7米。",
+          "answer": "错",
+          "score": 2,
+          "analysis": "课桌约 7 分米，米太长了。",
+          "source": "南充市顺庆区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_nanchong_shunqing_2024b_n24",
+          "no": 24,
+          "type": "judge",
+          "stem": "判断：面向南时，右面是西。",
+          "answer": "错",
+          "score": 2,
+          "analysis": "面向南时左东右西。",
+          "source": "南充市顺庆区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_nanchong_shunqing_2024b_n25",
+          "no": 25,
+          "type": "judge",
+          "stem": "判断：秒针走得最快。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "秒针 60 秒走一圈，走得最快。",
+          "source": "南充市顺庆区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_nanchong_shunqing_2024b_n26",
+          "no": 26,
+          "type": "choice",
+          "stem": "20个梨，每8个装一袋，装完后还剩（　）个",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.4 B.8 C.5 D.12，正确答案为A。",
+          "source": "南充市顺庆区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_nanchong_shunqing_2024b_n27",
+          "no": 27,
+          "type": "choice",
+          "stem": "由2个千和4个百组成的数是（　）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.2400 B.6 C.2410 D.402，正确答案为A。",
+          "source": "南充市顺庆区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_nanchong_shunqing_2024b_n28",
+          "no": 28,
+          "type": "choice",
+          "stem": "2分米=（　）厘米",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.20 B.2 C.12 D.200，正确答案为A。",
+          "source": "南充市顺庆区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_nanchong_shunqing_2024b_n29",
+          "no": 29,
+          "type": "choice",
+          "stem": "与东相对的方向是（　）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.西 B.南 C.北 D.东，正确答案为A。",
+          "source": "南充市顺庆区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_nanchong_shunqing_2024b_n30",
+          "no": 30,
+          "type": "choice",
+          "stem": "490+20=（　）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.510 B.520 C.500 D.590，正确答案为A。",
+          "source": "南充市顺庆区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_nanchong_shunqing_2024b_n31",
+          "no": 31,
+          "type": "draw",
+          "stem": "看图圈一圈：图中有13个○，每4个圈成一组，写出带余数的除法算式。",
+          "answer": "13÷4=3……1",
+          "score": 4,
+          "analysis": "13÷4=3组余1个：13÷4=3……1。",
+          "source": "南充市顺庆区2024-2025学年下期期末（组编）",
+          "figure": {
+            "w": 320,
+            "h": 70,
+            "shapes": [
+              {
+                "t": "c",
+                "cx": 22,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 43,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 64,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 85,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 106,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 127,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 148,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 169,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 190,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 211,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 232,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 253,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 274,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "r",
+                "x": 8,
+                "y": 18,
+                "w": 74,
+                "h": 34
+              },
+              {
+                "t": "r",
+                "x": 92,
+                "y": 18,
+                "w": 74,
+                "h": 34
+              },
+              {
+                "t": "r",
+                "x": 176,
+                "y": 18,
+                "w": 74,
+                "h": 34
+              }
+            ]
+          }
+        },
+        {
+          "id": "paper_g2_nanchong_shunqing_2024b_n32",
+          "no": 32,
+          "type": "draw",
+          "stem": "在下面的钟面上画出6时的时针（分针已画出）。",
+          "answer": "画6时的时针",
+          "score": 4,
+          "analysis": "时针指着 6，分针指着 12。",
+          "source": "南充市顺庆区2024-2025学年下期期末（组编）",
+          "figure": {
+            "w": 180,
+            "h": 180,
+            "shapes": [
+              {
+                "t": "c",
+                "cx": 90,
+                "cy": 90,
+                "r": 80
+              },
+              {
+                "t": "tx",
+                "x": 90.0,
+                "y": 28.0,
+                "s": "12",
+                "fs": 13
+              },
+              {
+                "t": "tx",
+                "x": 152.0,
+                "y": 90.0,
+                "s": "3",
+                "fs": 13
+              },
+              {
+                "t": "tx",
+                "x": 89.99999999999999,
+                "y": 152.0,
+                "s": "6",
+                "fs": 13
+              },
+              {
+                "t": "tx",
+                "x": 28.0,
+                "y": 89.99999999999999,
+                "s": "9",
+                "fs": 13
+              },
+              {
+                "t": "l",
+                "x1": 90,
+                "y1": 90,
+                "x2": 90,
+                "y2": 25
+              }
+            ]
+          }
+        },
+        {
+          "id": "paper_g2_nanchong_shunqing_2024b_n33",
+          "no": 33,
+          "type": "draw",
+          "stem": "以图中线段为一条边，画出另一个角。",
+          "answer": "画法不唯一",
+          "score": 4,
+          "analysis": "再画一条与已知线段共用同一个端点、不重合的边，就组成一个角。",
+          "source": "南充市顺庆区2024-2025学年下期期末（组编）",
+          "figure": {
+            "w": 200,
+            "h": 70,
+            "shapes": [
+              {
+                "t": "l",
+                "x1": 40,
+                "y1": 40,
+                "x2": 160,
+                "y2": 40
+              },
+              {
+                "t": "tx",
+                "x": 30,
+                "y": 46,
+                "s": "A",
+                "fs": 14
+              }
+            ]
+          }
+        },
+        {
+          "id": "paper_g2_nanchong_shunqing_2024b_n34",
+          "no": 34,
+          "type": "solve",
+          "stem": "二（1）班共有38名同学去划船，每条船最多坐8人，至少要租几条船？",
+          "answer": "38÷8=4……6，4+1=5（条）",
+          "score": 7,
+          "analysis": "余下的人也要坐船，用“进一法”：至少租 5 条船。",
+          "source": "南充市顺庆区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_nanchong_shunqing_2024b_n35",
+          "no": 35,
+          "type": "solve",
+          "stem": "妈妈有27元，一个笔袋5元，最多能买几个笔袋？",
+          "answer": "27÷5=5……2，最多买5（个）",
+          "score": 7,
+          "analysis": "剩下的钱不够再买 1 个，用“去尾法”：最多买 5 个。",
+          "source": "南充市顺庆区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_nanchong_shunqing_2024b_n36",
+          "no": 36,
+          "type": "solve",
+          "stem": "书店第一天卖出240本图书，第二天比第一天多卖出50本，第二天卖出多少本？",
+          "answer": "240+50=290（本）",
+          "score": 7,
+          "analysis": "求比一个数多几的数用加法：240+50=290本。",
+          "source": "南充市顺庆区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_nanchong_shunqing_2024b_n37",
+          "no": 37,
+          "type": "solve",
+          "stem": "上课从8时10分开始，一节课30分钟，下课时是几时几分？",
+          "answer": "8时10分过30分是8时40分",
+          "score": 7,
+          "analysis": "8时10分再加30分钟：10分+30分=40分，即8时40分。",
+          "source": "南充市顺庆区2024-2025学年下期期末（组编）",
+          "figure": null
+        }
+      ]
+    },
+    {
+      "id": "paper_g2_mianyang_fucheng_2021b",
+      "grade": 2,
+      "region": "绵阳市涪城区",
+      "year": "2021-2022学年下期",
+      "title": "二年级数学期末测试卷（四）",
+      "duration": 60,
+      "total_score": 100,
+      "note": "北师大版二年级下册：有余数除法、万以内数的认识、三位数加减法、测量（分米毫米千米）、方向与位置、时分秒；口算12×2分+填空8×2分+判断5×2分+选择5×2分+看图列式与操作3×4分+解决问题4×7分",
+      "questions": [
+        {
+          "id": "paper_g2_mianyang_fucheng_2021b_n1",
+          "no": 1,
+          "type": "fill",
+          "stem": "口算：53+9=",
+          "answer": "62",
+          "score": 2,
+          "analysis": "口算除法想口诀求商，三位数加减整十整百按数位直接算。",
+          "source": "绵阳市涪城区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_mianyang_fucheng_2021b_n2",
+          "no": 2,
+          "type": "fill",
+          "stem": "口算：400+300=",
+          "answer": "700",
+          "score": 2,
+          "analysis": "口算除法想口诀求商，三位数加减整十整百按数位直接算。",
+          "source": "绵阳市涪城区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_mianyang_fucheng_2021b_n3",
+          "no": 3,
+          "type": "fill",
+          "stem": "口算：88+6=",
+          "answer": "94",
+          "score": 2,
+          "analysis": "口算除法想口诀求商，三位数加减整十整百按数位直接算。",
+          "source": "绵阳市涪城区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_mianyang_fucheng_2021b_n4",
+          "no": 4,
+          "type": "fill",
+          "stem": "口算：40-5=",
+          "answer": "35",
+          "score": 2,
+          "analysis": "口算除法想口诀求商，三位数加减整十整百按数位直接算。",
+          "source": "绵阳市涪城区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_mianyang_fucheng_2021b_n5",
+          "no": 5,
+          "type": "fill",
+          "stem": "口算：800-200=",
+          "answer": "600",
+          "score": 2,
+          "analysis": "口算除法想口诀求商，三位数加减整十整百按数位直接算。",
+          "source": "绵阳市涪城区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_mianyang_fucheng_2021b_n6",
+          "no": 6,
+          "type": "fill",
+          "stem": "口算：347+40=",
+          "answer": "387",
+          "score": 2,
+          "analysis": "口算除法想口诀求商，三位数加减整十整百按数位直接算。",
+          "source": "绵阳市涪城区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_mianyang_fucheng_2021b_n7",
+          "no": 7,
+          "type": "fill",
+          "stem": "口算：342+10=",
+          "answer": "352",
+          "score": 2,
+          "analysis": "口算除法想口诀求商，三位数加减整十整百按数位直接算。",
+          "source": "绵阳市涪城区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_mianyang_fucheng_2021b_n8",
+          "no": 8,
+          "type": "fill",
+          "stem": "口算：12÷6=",
+          "answer": "2",
+          "score": 2,
+          "analysis": "口算除法想口诀求商，三位数加减整十整百按数位直接算。",
+          "source": "绵阳市涪城区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_mianyang_fucheng_2021b_n9",
+          "no": 9,
+          "type": "fill",
+          "stem": "口算：400+100=",
+          "answer": "500",
+          "score": 2,
+          "analysis": "口算除法想口诀求商，三位数加减整十整百按数位直接算。",
+          "source": "绵阳市涪城区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_mianyang_fucheng_2021b_n10",
+          "no": 10,
+          "type": "fill",
+          "stem": "口算：56÷7=",
+          "answer": "8",
+          "score": 2,
+          "analysis": "口算除法想口诀求商，三位数加减整十整百按数位直接算。",
+          "source": "绵阳市涪城区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_mianyang_fucheng_2021b_n11",
+          "no": 11,
+          "type": "fill",
+          "stem": "口算：18÷3=",
+          "answer": "6",
+          "score": 2,
+          "analysis": "口算除法想口诀求商，三位数加减整十整百按数位直接算。",
+          "source": "绵阳市涪城区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_mianyang_fucheng_2021b_n12",
+          "no": 12,
+          "type": "fill",
+          "stem": "口算：78+7=",
+          "answer": "85",
+          "score": 2,
+          "analysis": "口算除法想口诀求商，三位数加减整十整百按数位直接算。",
+          "source": "绵阳市涪城区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_mianyang_fucheng_2021b_n13",
+          "no": 13,
+          "type": "fill",
+          "stem": "一支笔5元，32元最多能买（　）支",
+          "answer": "6",
+          "score": 2,
+          "analysis": "32÷5=6……2，剩下的钱不够再买 1 支，最多买 6 支。",
+          "source": "绵阳市涪城区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_mianyang_fucheng_2021b_n14",
+          "no": 14,
+          "type": "fill",
+          "stem": "由1个千、0个百和5个十组成的数是（　）",
+          "answer": "1050",
+          "score": 2,
+          "analysis": "1个千是1000，0个百是0，5个十是50，合起来是1050。",
+          "source": "绵阳市涪城区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_mianyang_fucheng_2021b_n15",
+          "no": 15,
+          "type": "fill",
+          "stem": "比499小1的数是（　）",
+          "answer": "498",
+          "score": 2,
+          "analysis": "499-1=498。",
+          "source": "绵阳市涪城区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_mianyang_fucheng_2021b_n16",
+          "no": 16,
+          "type": "fill",
+          "stem": "2千米=（　）米",
+          "answer": "2000",
+          "score": 2,
+          "analysis": "1 千米 = 1000 米，2 千米 = 2000 米。",
+          "source": "绵阳市涪城区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_mianyang_fucheng_2021b_n17",
+          "no": 17,
+          "type": "fill",
+          "stem": "1时30分=（　）分",
+          "answer": "90",
+          "score": 2,
+          "analysis": "1 时是 60 分，再加 30 分是 90 分。",
+          "source": "绵阳市涪城区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_mianyang_fucheng_2021b_n18",
+          "no": 18,
+          "type": "fill",
+          "stem": "面向南站立，后面的方向是（　）",
+          "answer": "北",
+          "score": 2,
+          "analysis": "南北相对。",
+          "source": "绵阳市涪城区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_mianyang_fucheng_2021b_n19",
+          "no": 19,
+          "type": "fill",
+          "stem": "比最大的三位数大1的数是（　）",
+          "answer": "1000",
+          "score": 2,
+          "analysis": "999+1=1000。",
+          "source": "绵阳市涪城区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_mianyang_fucheng_2021b_n20",
+          "no": 20,
+          "type": "fill",
+          "stem": "350+40=（　）",
+          "answer": "390",
+          "score": 2,
+          "analysis": "350+40=390。",
+          "source": "绵阳市涪城区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_mianyang_fucheng_2021b_n21",
+          "no": 21,
+          "type": "judge",
+          "stem": "判断：31÷4=7……3。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "4×7=28，31-28=3。",
+          "source": "绵阳市涪城区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_mianyang_fucheng_2021b_n22",
+          "no": 22,
+          "type": "judge",
+          "stem": "判断：806中间的0不用读。",
+          "answer": "错",
+          "score": 2,
+          "analysis": "数中间的 0 要读“零”，读作八百零六。",
+          "source": "绵阳市涪城区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_mianyang_fucheng_2021b_n23",
+          "no": 23,
+          "type": "judge",
+          "stem": "判断：10分米=1米。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "分米与米的进率是 10。",
+          "source": "绵阳市涪城区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_mianyang_fucheng_2021b_n24",
+          "no": 24,
+          "type": "judge",
+          "stem": "判断：地图通常按上北、下南、左西、右东绘制。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "这是地图方向的规定。",
+          "source": "绵阳市涪城区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_mianyang_fucheng_2021b_n25",
+          "no": 25,
+          "type": "judge",
+          "stem": "判断：半小时是30分。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "1 时 = 60 分，半小时 = 30 分。",
+          "source": "绵阳市涪城区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_mianyang_fucheng_2021b_n26",
+          "no": 26,
+          "type": "choice",
+          "stem": "16个梨，每6个装一袋，装完后还剩（　）个",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.4 B.6 C.5 D.10，正确答案为A。",
+          "source": "绵阳市涪城区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_mianyang_fucheng_2021b_n27",
+          "no": 27,
+          "type": "choice",
+          "stem": "由4个千和5个百组成的数是（　）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.4500 B.9 C.4510 D.504，正确答案为A。",
+          "source": "绵阳市涪城区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_mianyang_fucheng_2021b_n28",
+          "no": 28,
+          "type": "choice",
+          "stem": "7分米=（　）厘米",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.70 B.7 C.17 D.700，正确答案为A。",
+          "source": "绵阳市涪城区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_mianyang_fucheng_2021b_n29",
+          "no": 29,
+          "type": "choice",
+          "stem": "早晨面对太阳，前面是（　）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.东 B.南 C.西 D.北，正确答案为A。",
+          "source": "绵阳市涪城区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_mianyang_fucheng_2021b_n30",
+          "no": 30,
+          "type": "choice",
+          "stem": "460-40=（　）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.420 B.410 C.430 D.360，正确答案为A。",
+          "source": "绵阳市涪城区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_mianyang_fucheng_2021b_n31",
+          "no": 31,
+          "type": "draw",
+          "stem": "看图圈一圈：图中有16个○，每5个圈成一组，写出带余数的除法算式。",
+          "answer": "16÷5=3……1",
+          "score": 4,
+          "analysis": "16÷5=3组余1个：16÷5=3……1。",
+          "source": "绵阳市涪城区2021-2022学年下期期末（组编）",
+          "figure": {
+            "w": 320,
+            "h": 70,
+            "shapes": [
+              {
+                "t": "c",
+                "cx": 22,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 42,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 62,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 82,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 102,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 122,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 142,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 162,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 182,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 202,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 222,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 242,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 262,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 282,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 302,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 322,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "r",
+                "x": 8,
+                "y": 18,
+                "w": 90,
+                "h": 34
+              },
+              {
+                "t": "r",
+                "x": 108,
+                "y": 18,
+                "w": 90,
+                "h": 34
+              },
+              {
+                "t": "r",
+                "x": 208,
+                "y": 18,
+                "w": 90,
+                "h": 34
+              }
+            ]
+          }
+        },
+        {
+          "id": "paper_g2_mianyang_fucheng_2021b_n32",
+          "no": 32,
+          "type": "draw",
+          "stem": "在下面的钟面上画出8时的时针（分针已画出）。",
+          "answer": "画8时的时针",
+          "score": 4,
+          "analysis": "时针指着 8，分针指着 12。",
+          "source": "绵阳市涪城区2021-2022学年下期期末（组编）",
+          "figure": {
+            "w": 180,
+            "h": 180,
+            "shapes": [
+              {
+                "t": "c",
+                "cx": 90,
+                "cy": 90,
+                "r": 80
+              },
+              {
+                "t": "tx",
+                "x": 90.0,
+                "y": 28.0,
+                "s": "12",
+                "fs": 13
+              },
+              {
+                "t": "tx",
+                "x": 152.0,
+                "y": 90.0,
+                "s": "3",
+                "fs": 13
+              },
+              {
+                "t": "tx",
+                "x": 89.99999999999999,
+                "y": 152.0,
+                "s": "6",
+                "fs": 13
+              },
+              {
+                "t": "tx",
+                "x": 28.0,
+                "y": 89.99999999999999,
+                "s": "9",
+                "fs": 13
+              },
+              {
+                "t": "l",
+                "x1": 90,
+                "y1": 90,
+                "x2": 90,
+                "y2": 25
+              }
+            ]
+          }
+        },
+        {
+          "id": "paper_g2_mianyang_fucheng_2021b_n33",
+          "no": 33,
+          "type": "draw",
+          "stem": "把图中线段当作角的一条边，试着补画一个完整的角。",
+          "answer": "画法不唯一",
+          "score": 4,
+          "analysis": "再画一条与已知线段共用同一个端点、不重合的边，就组成一个角。",
+          "source": "绵阳市涪城区2021-2022学年下期期末（组编）",
+          "figure": {
+            "w": 200,
+            "h": 70,
+            "shapes": [
+              {
+                "t": "l",
+                "x1": 40,
+                "y1": 40,
+                "x2": 160,
+                "y2": 40
+              },
+              {
+                "t": "tx",
+                "x": 30,
+                "y": 46,
+                "s": "A",
+                "fs": 14
+              }
+            ]
+          }
+        },
+        {
+          "id": "paper_g2_mianyang_fucheng_2021b_n34",
+          "no": 34,
+          "type": "solve",
+          "stem": "二（1）班共有25名同学去划船，每条船最多坐8人，至少要租几条船？",
+          "answer": "25÷8=3……1，3+1=4（条）",
+          "score": 7,
+          "analysis": "余下的人也要坐船，用“进一法”：至少租 4 条船。",
+          "source": "绵阳市涪城区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_mianyang_fucheng_2021b_n35",
+          "no": 35,
+          "type": "solve",
+          "stem": "妈妈有41元，一个笔袋6元，最多能买几个笔袋？",
+          "answer": "41÷6=6……5，最多买6（个）",
+          "score": 7,
+          "analysis": "剩下的钱不够再买 1 个，用“去尾法”：最多买 6 个。",
+          "source": "绵阳市涪城区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_mianyang_fucheng_2021b_n36",
+          "no": 36,
+          "type": "solve",
+          "stem": "书店第一天卖出210本图书，第二天比第一天多卖出60本，第二天卖出多少本？",
+          "answer": "210+60=270（本）",
+          "score": 7,
+          "analysis": "求比一个数多几的数用加法：210+60=270本。",
+          "source": "绵阳市涪城区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_mianyang_fucheng_2021b_n37",
+          "no": 37,
+          "type": "solve",
+          "stem": "上课从9时10分开始，一节课50分钟，下课时是几时几分？",
+          "answer": "9时10分过50分是9时60分",
+          "score": 7,
+          "analysis": "9时10分再加50分钟：10分+50分=60分，即9时60分。",
+          "source": "绵阳市涪城区2021-2022学年下期期末（组编）",
+          "figure": null
+        }
+      ]
     }
   ]
 }
