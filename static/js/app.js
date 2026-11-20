@@ -117,7 +117,7 @@ function route() {
   if (target === 'records') loadRecords();
   if (target === 'stats') loadStats();
   if (target === 'finale') loadFinale();
-  if (target === 'papers') loadPapers();
+  if (target === 'papers') loadPapers(null, true);
 }
 
 /* ---------- 做题页 ---------- */
@@ -1217,14 +1217,21 @@ var PAPER_RESULT_NAMES = { done: '做出来了', hint: '看了提示做出来',
 
 var paperState = {
   grade: 0,       // 列表筛选年级（0=全部）
+  vol: 0,         // 列表筛选册别（0=全部，1=上册，2=下册；按试卷 year 中的“上期/下期”匹配）
   list: null,     // /api/papers/list 返回
   paper: null,    // 当前打开的试卷（/api/papers/load 返回）
   answers: {},    // 客观题作答 {qid: value}
   self: {}        // 解答题自评 {qid: done|hint|fail}
 };
 
-function loadPapers(grade) {
-  if (typeof grade === 'number') paperState.grade = grade;
+/* 进入页面时默认筛选：用户所选年级 + 全局学期对应的册别 */
+function loadPapers(grade, resetDefaults) {
+  if (resetDefaults) {
+    paperState.grade = state.grade || 0;
+    paperState.vol = currentVolume();
+  } else if (typeof grade === 'number') {
+    paperState.grade = grade;
+  }
   var box = $('papers-content');
   if (!box) return;
   var g = paperState.grade ? '&grade=' + paperState.grade : '';
@@ -1251,6 +1258,11 @@ function paperGradeTabs() {
     html += '<button class="btn btn-sm paper-tab' + (paperState.grade === g ? ' primary' : '') +
       '" data-pgrade="' + g + '">' + GRADE_NAMES[g] + '</button>';
   }
+  html += '</div><div class="paper-tabs paper-tabs-vol">';
+  [[0, '上/下册全部'], [1, '上册'], [2, '下册']].forEach(function (v) {
+    html += '<button class="btn btn-sm paper-tab' + (paperState.vol === v[0] ? ' primary' : '') +
+      '" data-pvol="' + v[0] + '">' + v[1] + '</button>';
+  });
   return html + '</div>';
 }
 
@@ -1265,7 +1277,13 @@ function renderPapersList() {
     '<p class="tip">四川各地市（成都、绵阳、宜宾、南充、泸州）期末真题卷，按北师大版教材组编；' +
     '在线作答自动判分，解答题自评计分。</p>';
 
-  var items = d.items || [];
+  var items = (d.items || []).filter(function (p) {
+    if (!paperState.vol) return true;
+    /* year 形如“2023-2024学年上期”，按“上期/下期”映射册别 */
+    var v = (p.year || '').indexOf('上期') >= 0 ? 1 :
+            (p.year || '').indexOf('下期') >= 0 ? 2 : 0;
+    return v === 0 || v === paperState.vol;
+  });
   var byGrade = {};
   items.forEach(function (p) {
     (byGrade[p.grade] = byGrade[p.grade] || []).push(p);
@@ -1314,7 +1332,14 @@ function renderPapersList() {
 
   box.querySelectorAll('.paper-tab').forEach(function (btn) {
     btn.addEventListener('click', function () {
-      loadPapers(parseInt(btn.getAttribute('data-pgrade'), 10));
+      var pv = btn.getAttribute('data-pvol');
+      if (pv !== null) {
+        // 册别为本地筛选，切换后直接重渲染，无需重新请求列表
+        paperState.vol = parseInt(pv, 10) || 0;
+        renderPapersList();
+      } else {
+        loadPapers(parseInt(btn.getAttribute('data-pgrade'), 10));
+      }
     });
   });
   box.querySelectorAll('[data-popen]').forEach(function (btn) {
@@ -1625,6 +1650,8 @@ function onGradeChange() {
   updateExportLinks();
   loadDaily();
   loadStats();
+  // 停留在真题试卷页时按新年级默认筛选刷新
+  if ((location.hash || '').indexOf('#/papers') === 0) loadPapers(null, true);
 }
 
 function onUserChange() {
@@ -1636,8 +1663,8 @@ function onUserChange() {
   loadStats();
   // 当前停留在压轴专项页时刷新该页（进度按用户分开存储）
   if ((location.hash || '').indexOf('#/finale') === 0) loadFinale();
-  // 当前停留在真题试卷页时刷新该页（答卷按用户分开存储）
-  if ((location.hash || '').indexOf('#/papers') === 0) loadPapers();
+  // 当前停留在真题试卷页时刷新该页（按新用户的年级与册别默认筛选）
+  if ((location.hash || '').indexOf('#/papers') === 0) loadPapers(null, true);
   renderUserManage();
 }
 
@@ -1939,6 +1966,8 @@ function onSemesterChange() {
   updateExportInfo();   // 导出页学期为只读展示，跟随侧边栏全局值
   updateExportLinks();
   loadDaily();
+  // 停留在真题试卷页时按新学期对应册别默认筛选刷新
+  if ((location.hash || '').indexOf('#/papers') === 0) loadPapers(null, true);
 }
 
 function onKindChange() {

@@ -789,6 +789,9 @@ select:focus, input:focus {
   margin-bottom: 12px;
 }
 
+/* 册别筛选行（紧跟年级筛选行） */
+.paper-tabs-vol { margin-top: -4px; }
+
 .paper-tab { min-width: 64px; min-height: 40px; }
 
 .paper-grade-head { margin: 14px 0 8px; font-size: 16px; }
