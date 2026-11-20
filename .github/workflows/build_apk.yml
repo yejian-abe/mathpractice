@@ -40,6 +40,24 @@ jobs:
         # class file major version 69"。显式钉死 JDK 17（Gradle 8.14 与
         # p4a bootstrap 的 AGP 兼容区间最稳的 LTS 版本）
 
+      - name: Restore keystore
+        env:
+          KS_B64: ${{ secrets.ANDROID_KEYSTORE_B64 }}
+        run: |
+          # 固定签名密钥：由 Generate Android Keystore 工作流一次性生成后
+          # 存入仓库 Secrets。所有版本用同一 keystore 签名，升级不再报
+          # "签名不一致"。密钥库文件只存在于 runner 临时目录，不进仓库。
+          if [ -z "$KS_B64" ]; then
+            echo "ERROR: 未设置 Secret ANDROID_KEYSTORE_B64"
+            echo "请先运行 Generate Android Keystore 工作流生成密钥库，"
+            echo "并按其 artifact 说明设置 ANDROID_KEYSTORE_B64 / ANDROID_KEYSTORE_PASSWORD 两个 Secrets。"
+            exit 1
+          fi
+          echo "$KS_B64" | base64 -d > release.keystore
+          ls -l release.keystore
+          keytool -list -keystore release.keystore \
+            -storepass "${{ secrets.ANDROID_KEYSTORE_PASSWORD }}" | grep mathpractice
+
       - name: Add swap
         run: |
           # clang 编译 p4a android 模块的巨型生成 C 文件（_android.c）内存占用极高，
@@ -156,7 +174,7 @@ jobs:
           #    导致真正的报错（在末尾）永远看不到。
           #    注意：本步骤以 bash -e 运行，必须用 || CODE=$? 兜住退出码，
           #    否则 buildozer 失败时脚本立即退出，诊断输出会被吞掉（run #8 教训）
-          buildozer -v android debug > build_full.log 2>&1 || CODE=$?
+          buildozer -v android release > build_full.log 2>&1 || CODE=$?
           CODE=${CODE:-0}
           echo "=== buildozer exit code: $CODE ==="
           # run #20 教训：buildozer 失败后会 dump 约 80 行环境变量，把
@@ -171,6 +189,32 @@ jobs:
           tail -n 400 build_full.log
           exit $CODE
 
+      - name: Sign APK
+        env:
+          KS_PASS: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
+        run: |
+          # release 构建产物为 unsigned APK（gradle assembleRelease）。
+          # 用 build-tools 的 zipalign 对齐后以 apksigner 完成 v1+v2 签名，
+          # 产出固定签名的正式 APK（不依赖 buildozer 的签名配置键）。
+          UNSIGNED=$(ls bin/*release-unsigned*.apk 2>/dev/null | head -n1)
+          if [ -z "$UNSIGNED" ]; then
+            echo "ERROR: 未找到 unsigned release APK："; ls -l bin/ || true; exit 1
+          fi
+          echo "unsigned: $UNSIGNED"
+          BT=$(ls -d $HOME/.buildozer/android/platform/android-sdk/build-tools/*/ | sort -V | tail -n1)
+          echo "build-tools: $BT"
+          "$BT/zipalign" -f 4 "$UNSIGNED" bin/mathpractice-aligned.apk
+          "$BT/apksigner" sign \
+            --ks release.keystore \
+            --ks-key-alias mathpractice \
+            --ks-pass "pass:$KS_PASS" \
+            --key-pass "pass:$KS_PASS" \
+            --out bin/mathpractice-release.apk \
+            bin/mathpractice-aligned.apk
+          "$BT/apksigner" verify --print-certs bin/mathpractice-release.apk
+          rm -f bin/mathpractice-aligned.apk "$UNSIGNED"
+          ls -l bin/
+
       - name: Upload build log
         if: always()
         uses: actions/upload-artifact@v4
@@ -183,4 +227,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: mathpractice-apk
-          path: bin/*.apk
+          path: bin/mathpractice-release.apk
