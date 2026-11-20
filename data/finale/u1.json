@@ -1,0 +1,13 @@
+{
+ "user": "u1",
+ "assigned": [
+  {
+   "qid": "finale_bj_2022_26",
+   "week": "2026-W47",
+   "assigned_at": "2026-11-20",
+   "assessed": null,
+   "assessed_at": null
+  }
+ ],
+ "retry": []
+}

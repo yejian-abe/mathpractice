@@ -1385,7 +1385,17 @@ function paperQHtml(q, rec) {
       (graded.correct ? '正确' : '错误') + '</span>';
   }
   var html = '<div class="card paper-q">' + head;
-  if (q.type === 'choice') {
+  if (q.type === 'judge') {  // 判断题：固定"对/错"两选项，复用选择交互
+    html += '<div class="paper-choice">';
+    ['对', '错'].forEach(function (opt) {
+      var checked = paperState.answers[q.id] === opt ? ' checked' : '';
+      html += '<label class="paper-choice-item' +
+        (checked ? ' checked' : '') + '"><input type="radio" name="q-' +
+        escapeHtml(q.id) + '" value="' + opt + '"' + checked + '>' +
+        opt + '</label>';
+    });
+    html += '</div>';
+  } else if (q.type === 'choice') {
     html += '<div class="paper-choice">';
     (q.options || []).forEach(function (opt, i) {
       var letter = String.fromCharCode(65 + i);

@@ -133,10 +133,18 @@ def _parse_num(s):
 def grade_objective(q, user_answer):
     """客观题判分。
     choice：字母比较（大小写、全半角归一化）；
+    judge：判断题，答案归一化到"对/错"（兼容 √/×、正确/错误等写法）；
     fill：先做字符串归一化比较，再做数值（Fraction）精确比较（兼容
     分数/小数写法，如 1/2 与 0.5）。
     """
     expected = q.get("answer")
+    if q.get("type") == "judge":
+        # _norm_text 会把 × 归一化为乘号 *，故表按归一化后的写法建键
+        table = {"对": "对", "正确": "对", "√": "对", "是": "对",
+                 "错": "错", "错误": "错", "*": "错", "x": "错", "否": "错"}
+        ua = _norm_text(user_answer).lower()
+        ea = _norm_text(expected).lower()
+        return table.get(ua, ua) == table.get(ea, ea)
     if q.get("type") == "choice":
         return _norm_text(user_answer).upper() == _norm_text(expected).upper()
     # 填空：文本归一化相等（文字性答案如"长方形"、"厘米"）

@@ -292,6 +292,7 @@ def export_paper_pdf(paper, with_answers=False):
 
     questions = paper.get("questions") or []
     fills = [q for q in questions if q.get("type") == "fill"]
+    judges = [q for q in questions if q.get("type") == "judge"]
     choices = [q for q in questions if q.get("type") == "choice"]
     solves = [q for q in questions if q.get("type") == "solve"]
 
@@ -319,9 +320,10 @@ def export_paper_pdf(paper, with_answers=False):
             story.append(Paragraph(text, styles["body"]))
             story.append(Spacer(1, space_after))
 
-    _section(fills, "一、填空题（把答案写在横线或括号内）")
-    _section(choices, "二、选择题（把正确答案的字母填入括号内）", 0.4 * cm)
-    _section(solves, "三、解答题（写出解答过程）", 2.6 * cm)
+    _section(fills, "一、口算·填空·计算题（把答案写在横线或括号内）")
+    _section(judges, "二、判断题（对的打“√”，错的打“×”）", 0.5 * cm)
+    _section(choices, "三、选择题（把正确答案的字母填入括号内）", 0.4 * cm)
+    _section(solves, "四、解答题（写出解答过程）", 2.6 * cm)
 
     # ---- 参考答案页 ----
     if with_answers:
