@@ -10462,6 +10462,2012 @@
           "figure": null
         }
       ]
+    },
+    {
+      "id": "paper_g2_chengdu_qingyang_2022a",
+      "grade": 2,
+      "region": "成都市青羊区",
+      "year": "2022-2023学年上期",
+      "title": "二年级数学期末测试卷（二）",
+      "duration": 60,
+      "total_score": 100,
+      "note": "北师大版二年级上册：100以内加减法（进位退位）、乘法口诀、平均分与除法初步、倍的认识、测量（厘米米）；口算12×2分+填空8×2分+判断5×2分+选择5×2分+看图列式与操作3×4分+解决问题4×7分",
+      "questions": [
+        {
+          "id": "paper_g2_chengdu_qingyang_2022a_n1",
+          "no": 1,
+          "type": "fill",
+          "stem": "口算：39+7=",
+          "answer": "46",
+          "score": 2,
+          "analysis": "口算乘法用乘法口诀，除法想口诀求商，100以内加减注意进位退位。",
+          "source": "成都市青羊区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_chengdu_qingyang_2022a_n2",
+          "no": 2,
+          "type": "fill",
+          "stem": "口算：4×9=",
+          "answer": "36",
+          "score": 2,
+          "analysis": "口算乘法用乘法口诀，除法想口诀求商，100以内加减注意进位退位。",
+          "source": "成都市青羊区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_chengdu_qingyang_2022a_n3",
+          "no": 3,
+          "type": "fill",
+          "stem": "口算：59+6=",
+          "answer": "65",
+          "score": 2,
+          "analysis": "口算乘法用乘法口诀，除法想口诀求商，100以内加减注意进位退位。",
+          "source": "成都市青羊区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_chengdu_qingyang_2022a_n4",
+          "no": 4,
+          "type": "fill",
+          "stem": "口算：4×2=",
+          "answer": "8",
+          "score": 2,
+          "analysis": "口算乘法用乘法口诀，除法想口诀求商，100以内加减注意进位退位。",
+          "source": "成都市青羊区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_chengdu_qingyang_2022a_n5",
+          "no": 5,
+          "type": "fill",
+          "stem": "口算：61-8=",
+          "answer": "53",
+          "score": 2,
+          "analysis": "口算乘法用乘法口诀，除法想口诀求商，100以内加减注意进位退位。",
+          "source": "成都市青羊区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_chengdu_qingyang_2022a_n6",
+          "no": 6,
+          "type": "fill",
+          "stem": "口算：30÷5=",
+          "answer": "6",
+          "score": 2,
+          "analysis": "口算乘法用乘法口诀，除法想口诀求商，100以内加减注意进位退位。",
+          "source": "成都市青羊区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_chengdu_qingyang_2022a_n7",
+          "no": 7,
+          "type": "fill",
+          "stem": "口算：17+20=",
+          "answer": "37",
+          "score": 2,
+          "analysis": "口算乘法用乘法口诀，除法想口诀求商，100以内加减注意进位退位。",
+          "source": "成都市青羊区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_chengdu_qingyang_2022a_n8",
+          "no": 8,
+          "type": "fill",
+          "stem": "口算：25÷5=",
+          "answer": "5",
+          "score": 2,
+          "analysis": "口算乘法用乘法口诀，除法想口诀求商，100以内加减注意进位退位。",
+          "source": "成都市青羊区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_chengdu_qingyang_2022a_n9",
+          "no": 9,
+          "type": "fill",
+          "stem": "口算：71-6=",
+          "answer": "65",
+          "score": 2,
+          "analysis": "口算乘法用乘法口诀，除法想口诀求商，100以内加减注意进位退位。",
+          "source": "成都市青羊区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_chengdu_qingyang_2022a_n10",
+          "no": 10,
+          "type": "fill",
+          "stem": "口算：40÷5=",
+          "answer": "8",
+          "score": 2,
+          "analysis": "口算乘法用乘法口诀，除法想口诀求商，100以内加减注意进位退位。",
+          "source": "成都市青羊区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_chengdu_qingyang_2022a_n11",
+          "no": 11,
+          "type": "fill",
+          "stem": "口算：71+20=",
+          "answer": "91",
+          "score": 2,
+          "analysis": "口算乘法用乘法口诀，除法想口诀求商，100以内加减注意进位退位。",
+          "source": "成都市青羊区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_chengdu_qingyang_2022a_n12",
+          "no": 12,
+          "type": "fill",
+          "stem": "口算：7×9=",
+          "answer": "63",
+          "score": 2,
+          "analysis": "口算乘法用乘法口诀，除法想口诀求商，100以内加减注意进位退位。",
+          "source": "成都市青羊区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_chengdu_qingyang_2022a_n13",
+          "no": 13,
+          "type": "fill",
+          "stem": "五（　）三十五",
+          "answer": "七",
+          "score": 2,
+          "analysis": "五七三十五。",
+          "source": "成都市青羊区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_chengdu_qingyang_2022a_n14",
+          "no": 14,
+          "type": "fill",
+          "stem": "5×4-6=（　）",
+          "answer": "14",
+          "score": 2,
+          "analysis": "先算乘法 5×4=20，再减 6 得 14。",
+          "source": "成都市青羊区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_chengdu_qingyang_2022a_n15",
+          "no": 15,
+          "type": "fill",
+          "stem": "○有2个，□的个数是○的4倍，□有（　）个",
+          "answer": "8",
+          "score": 2,
+          "analysis": "2的4倍是8：2×4=8。",
+          "source": "成都市青羊区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_chengdu_qingyang_2022a_n16",
+          "no": 16,
+          "type": "fill",
+          "stem": "一根跳绳长约2（　）",
+          "answer": "米",
+          "score": 2,
+          "analysis": "跳绳长约 2 米，厘米太短。",
+          "source": "成都市青羊区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_chengdu_qingyang_2022a_n17",
+          "no": 17,
+          "type": "fill",
+          "stem": "把16个苹果平均分成4份，每份（　）个",
+          "answer": "4",
+          "score": 2,
+          "analysis": "平均分用除法：16÷4=4个。",
+          "source": "成都市青羊区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_chengdu_qingyang_2022a_n18",
+          "no": 18,
+          "type": "fill",
+          "stem": "72÷8=（　）",
+          "answer": "9",
+          "score": 2,
+          "analysis": "72÷8=9。",
+          "source": "成都市青羊区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_chengdu_qingyang_2022a_n19",
+          "no": 19,
+          "type": "fill",
+          "stem": "两个乘数都是6，积是（　）",
+          "answer": "36",
+          "score": 2,
+          "analysis": "6×6=36。",
+          "source": "成都市青羊区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_chengdu_qingyang_2022a_n20",
+          "no": 20,
+          "type": "fill",
+          "stem": "与47相邻的两个数是（　）和（　）",
+          "answer": "46、48",
+          "score": 2,
+          "analysis": "前一个数比它小1是46，后一个数比它大1是48。",
+          "source": "成都市青羊区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_chengdu_qingyang_2022a_n21",
+          "no": 21,
+          "type": "judge",
+          "stem": "判断：5×3 表示 3 个 5 相加。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "5×3 = 5+5+5。",
+          "source": "成都市青羊区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_chengdu_qingyang_2022a_n22",
+          "no": 22,
+          "type": "judge",
+          "stem": "判断：七八五十六。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "7×8=56。",
+          "source": "成都市青羊区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_chengdu_qingyang_2022a_n23",
+          "no": 23,
+          "type": "judge",
+          "stem": "判断：1 米比 1 厘米长。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "1 米 = 100 厘米。",
+          "source": "成都市青羊区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_chengdu_qingyang_2022a_n24",
+          "no": 24,
+          "type": "judge",
+          "stem": "判断：15÷5=3 读作 15 除以 5 等于 3。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "除法算式读作“15 除以 5 等于 3”。",
+          "source": "成都市青羊区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_chengdu_qingyang_2022a_n25",
+          "no": 25,
+          "type": "judge",
+          "stem": "判断：45+8=53。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "45+8=53。",
+          "source": "成都市青羊区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_chengdu_qingyang_2022a_n26",
+          "no": 26,
+          "type": "choice",
+          "stem": "9×5=（　）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.45 B.54 C.40 D.14，正确答案为A。",
+          "source": "成都市青羊区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_chengdu_qingyang_2022a_n27",
+          "no": 27,
+          "type": "choice",
+          "stem": "课桌高约70（　）",
+          "answer": "B",
+          "score": 2,
+          "analysis": "选项：A.米 B.厘米 C.元 D.角，正确答案为B。",
+          "source": "成都市青羊区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_chengdu_qingyang_2022a_n28",
+          "no": 28,
+          "type": "choice",
+          "stem": "6的3倍是（　）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.18 B.9 C.24 D.6，正确答案为A。",
+          "source": "成都市青羊区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_chengdu_qingyang_2022a_n29",
+          "no": 29,
+          "type": "choice",
+          "stem": "国旗升起是（　）现象",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.平移 B.旋转 C.除法 D.对称，正确答案为A。",
+          "source": "成都市青羊区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_chengdu_qingyang_2022a_n30",
+          "no": 30,
+          "type": "choice",
+          "stem": "24÷3=（　）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.8 B.9 C.7 D.11，正确答案为A。",
+          "source": "成都市青羊区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_chengdu_qingyang_2022a_n31",
+          "no": 31,
+          "type": "draw",
+          "stem": "看图列式：每组有2个○，共有3组，一共有多少个○？写出乘法算式。",
+          "answer": "2×3=6",
+          "score": 4,
+          "analysis": "3 组每组 2 个：2×3=6。",
+          "source": "成都市青羊区2022-2023学年上期期末（组编）",
+          "figure": {
+            "w": 380,
+            "h": 70,
+            "shapes": [
+              {
+                "t": "c",
+                "cx": 25,
+                "cy": 35,
+                "r": 12
+              },
+              {
+                "t": "c",
+                "cx": 57,
+                "cy": 35,
+                "r": 12
+              },
+              {
+                "t": "l",
+                "x1": 80,
+                "y1": 15,
+                "x2": 80,
+                "y2": 55
+              },
+              {
+                "t": "c",
+                "cx": 135,
+                "cy": 35,
+                "r": 12
+              },
+              {
+                "t": "c",
+                "cx": 167,
+                "cy": 35,
+                "r": 12
+              },
+              {
+                "t": "l",
+                "x1": 190,
+                "y1": 15,
+                "x2": 190,
+                "y2": 55
+              },
+              {
+                "t": "c",
+                "cx": 245,
+                "cy": 35,
+                "r": 12
+              },
+              {
+                "t": "c",
+                "cx": 277,
+                "cy": 35,
+                "r": 12
+              }
+            ]
+          }
+        },
+        {
+          "id": "paper_g2_chengdu_qingyang_2022a_n32",
+          "no": 32,
+          "type": "draw",
+          "stem": "看图列式：把12个○平均分成4份，每份是几个？写出除法算式。",
+          "answer": "12÷4=3",
+          "score": 4,
+          "analysis": "平均分成 4 份，每份 3 个：12÷4=3。",
+          "source": "成都市青羊区2022-2023学年上期期末（组编）",
+          "figure": {
+            "w": 320,
+            "h": 70,
+            "shapes": [
+              {
+                "t": "c",
+                "cx": 25,
+                "cy": 35,
+                "r": 12
+              },
+              {
+                "t": "c",
+                "cx": 48,
+                "cy": 35,
+                "r": 12
+              },
+              {
+                "t": "c",
+                "cx": 71,
+                "cy": 35,
+                "r": 12
+              },
+              {
+                "t": "c",
+                "cx": 94,
+                "cy": 35,
+                "r": 12
+              },
+              {
+                "t": "l",
+                "x1": 82.5,
+                "y1": 14,
+                "x2": 82.5,
+                "y2": 56
+              },
+              {
+                "t": "c",
+                "cx": 117,
+                "cy": 35,
+                "r": 12
+              },
+              {
+                "t": "c",
+                "cx": 140,
+                "cy": 35,
+                "r": 12
+              },
+              {
+                "t": "c",
+                "cx": 163,
+                "cy": 35,
+                "r": 12
+              },
+              {
+                "t": "l",
+                "x1": 151.5,
+                "y1": 14,
+                "x2": 151.5,
+                "y2": 56
+              },
+              {
+                "t": "c",
+                "cx": 186,
+                "cy": 35,
+                "r": 12
+              },
+              {
+                "t": "c",
+                "cx": 209,
+                "cy": 35,
+                "r": 12
+              },
+              {
+                "t": "c",
+                "cx": 232,
+                "cy": 35,
+                "r": 12
+              },
+              {
+                "t": "l",
+                "x1": 220.5,
+                "y1": 14,
+                "x2": 220.5,
+                "y2": 56
+              },
+              {
+                "t": "c",
+                "cx": 255,
+                "cy": 35,
+                "r": 12
+              },
+              {
+                "t": "c",
+                "cx": 278,
+                "cy": 35,
+                "r": 12
+              }
+            ]
+          }
+        },
+        {
+          "id": "paper_g2_chengdu_qingyang_2022a_n33",
+          "no": 33,
+          "type": "draw",
+          "stem": "看图圈一圈：图中有10个○，每2个圈成一组，一共能圈成几组？",
+          "answer": "5 组",
+          "score": 4,
+          "analysis": "10 个每 2 个一组：10÷2=5 组。",
+          "source": "成都市青羊区2022-2023学年上期期末（组编）",
+          "figure": {
+            "w": 370,
+            "h": 70,
+            "shapes": [
+              {
+                "t": "c",
+                "cx": 28,
+                "cy": 35,
+                "r": 12
+              },
+              {
+                "t": "c",
+                "cx": 62,
+                "cy": 35,
+                "r": 12
+              },
+              {
+                "t": "c",
+                "cx": 96,
+                "cy": 35,
+                "r": 12
+              },
+              {
+                "t": "c",
+                "cx": 130,
+                "cy": 35,
+                "r": 12
+              },
+              {
+                "t": "c",
+                "cx": 164,
+                "cy": 35,
+                "r": 12
+              },
+              {
+                "t": "c",
+                "cx": 198,
+                "cy": 35,
+                "r": 12
+              },
+              {
+                "t": "c",
+                "cx": 232,
+                "cy": 35,
+                "r": 12
+              },
+              {
+                "t": "c",
+                "cx": 266,
+                "cy": 35,
+                "r": 12
+              },
+              {
+                "t": "c",
+                "cx": 300,
+                "cy": 35,
+                "r": 12
+              },
+              {
+                "t": "c",
+                "cx": 334,
+                "cy": 35,
+                "r": 12
+              },
+              {
+                "t": "r",
+                "x": 13,
+                "y": 18,
+                "w": 60,
+                "h": 34
+              },
+              {
+                "t": "r",
+                "x": 81,
+                "y": 18,
+                "w": 60,
+                "h": 34
+              },
+              {
+                "t": "r",
+                "x": 149,
+                "y": 18,
+                "w": 60,
+                "h": 34
+              },
+              {
+                "t": "r",
+                "x": 217,
+                "y": 18,
+                "w": 60,
+                "h": 34
+              },
+              {
+                "t": "r",
+                "x": 285,
+                "y": 18,
+                "w": 60,
+                "h": 34
+              }
+            ]
+          }
+        },
+        {
+          "id": "paper_g2_chengdu_qingyang_2022a_n34",
+          "no": 34,
+          "type": "solve",
+          "stem": "每盒装有3支铅笔，3盒一共有多少支铅笔？",
+          "answer": "3×3=9（支）",
+          "score": 7,
+          "analysis": "每盒 3 支、共 3 盒：3×3=9支。",
+          "source": "成都市青羊区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_chengdu_qingyang_2022a_n35",
+          "no": 35,
+          "type": "solve",
+          "stem": "12个同学平均分成3组做游戏，每组有多少人？",
+          "answer": "12÷3=4（人）",
+          "score": 7,
+          "analysis": "平均分用除法：12÷3=4人。",
+          "source": "成都市青羊区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_chengdu_qingyang_2022a_n36",
+          "no": 36,
+          "type": "solve",
+          "stem": "商店有6个篮球，足球的个数是篮球的3倍，足球有多少个？",
+          "answer": "6×3=18（个）",
+          "score": 7,
+          "analysis": "求一个数的几倍用乘法：6×3=18个。",
+          "source": "成都市青羊区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_chengdu_qingyang_2022a_n37",
+          "no": 37,
+          "type": "solve",
+          "stem": "公交车上原有58人，到站后下去8人，又上来7人，车上现在有多少人？",
+          "answer": "58-8+7=57（人）",
+          "score": 7,
+          "analysis": "下去用减法、上来用加法，按从左往右算：58-8+7=57人。",
+          "source": "成都市青羊区2022-2023学年上期期末（组编）",
+          "figure": null
+        }
+      ]
+    },
+    {
+      "id": "paper_g2_yibin_cuiping_2024a",
+      "grade": 2,
+      "region": "宜宾市翠屏区",
+      "year": "2024-2025学年上期",
+      "title": "二年级数学期末测试卷（三）",
+      "duration": 60,
+      "total_score": 100,
+      "note": "北师大版二年级上册：100以内加减法（进位退位）、乘法口诀、平均分与除法初步、倍的认识、测量（厘米米）；口算12×2分+填空8×2分+判断5×2分+选择5×2分+看图列式与操作3×4分+解决问题4×7分",
+      "questions": [
+        {
+          "id": "paper_g2_yibin_cuiping_2024a_n1",
+          "no": 1,
+          "type": "fill",
+          "stem": "口算：66+8=",
+          "answer": "74",
+          "score": 2,
+          "analysis": "口算乘法用乘法口诀，除法想口诀求商，100以内加减注意进位退位。",
+          "source": "宜宾市翠屏区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_yibin_cuiping_2024a_n2",
+          "no": 2,
+          "type": "fill",
+          "stem": "口算：8÷2=",
+          "answer": "4",
+          "score": 2,
+          "analysis": "口算乘法用乘法口诀，除法想口诀求商，100以内加减注意进位退位。",
+          "source": "宜宾市翠屏区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_yibin_cuiping_2024a_n3",
+          "no": 3,
+          "type": "fill",
+          "stem": "口算：48÷8=",
+          "answer": "6",
+          "score": 2,
+          "analysis": "口算乘法用乘法口诀，除法想口诀求商，100以内加减注意进位退位。",
+          "source": "宜宾市翠屏区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_yibin_cuiping_2024a_n4",
+          "no": 4,
+          "type": "fill",
+          "stem": "口算：73-9=",
+          "answer": "64",
+          "score": 2,
+          "analysis": "口算乘法用乘法口诀，除法想口诀求商，100以内加减注意进位退位。",
+          "source": "宜宾市翠屏区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_yibin_cuiping_2024a_n5",
+          "no": 5,
+          "type": "fill",
+          "stem": "口算：38+20=",
+          "answer": "58",
+          "score": 2,
+          "analysis": "口算乘法用乘法口诀，除法想口诀求商，100以内加减注意进位退位。",
+          "source": "宜宾市翠屏区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_yibin_cuiping_2024a_n6",
+          "no": 6,
+          "type": "fill",
+          "stem": "口算：2×5=",
+          "answer": "10",
+          "score": 2,
+          "analysis": "口算乘法用乘法口诀，除法想口诀求商，100以内加减注意进位退位。",
+          "source": "宜宾市翠屏区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_yibin_cuiping_2024a_n7",
+          "no": 7,
+          "type": "fill",
+          "stem": "口算：21÷7=",
+          "answer": "3",
+          "score": 2,
+          "analysis": "口算乘法用乘法口诀，除法想口诀求商，100以内加减注意进位退位。",
+          "source": "宜宾市翠屏区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_yibin_cuiping_2024a_n8",
+          "no": 8,
+          "type": "fill",
+          "stem": "口算：20÷4=",
+          "answer": "5",
+          "score": 2,
+          "analysis": "口算乘法用乘法口诀，除法想口诀求商，100以内加减注意进位退位。",
+          "source": "宜宾市翠屏区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_yibin_cuiping_2024a_n9",
+          "no": 9,
+          "type": "fill",
+          "stem": "口算：3×8=",
+          "answer": "24",
+          "score": 2,
+          "analysis": "口算乘法用乘法口诀，除法想口诀求商，100以内加减注意进位退位。",
+          "source": "宜宾市翠屏区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_yibin_cuiping_2024a_n10",
+          "no": 10,
+          "type": "fill",
+          "stem": "口算：25+20=",
+          "answer": "45",
+          "score": 2,
+          "analysis": "口算乘法用乘法口诀，除法想口诀求商，100以内加减注意进位退位。",
+          "source": "宜宾市翠屏区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_yibin_cuiping_2024a_n11",
+          "no": 11,
+          "type": "fill",
+          "stem": "口算：55+30=",
+          "answer": "85",
+          "score": 2,
+          "analysis": "口算乘法用乘法口诀，除法想口诀求商，100以内加减注意进位退位。",
+          "source": "宜宾市翠屏区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_yibin_cuiping_2024a_n12",
+          "no": 12,
+          "type": "fill",
+          "stem": "口算：91-9=",
+          "answer": "82",
+          "score": 2,
+          "analysis": "口算乘法用乘法口诀，除法想口诀求商，100以内加减注意进位退位。",
+          "source": "宜宾市翠屏区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_yibin_cuiping_2024a_n13",
+          "no": 13,
+          "type": "fill",
+          "stem": "（　）八二十四",
+          "answer": "三",
+          "score": 2,
+          "analysis": "三八二十四。",
+          "source": "宜宾市翠屏区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_yibin_cuiping_2024a_n14",
+          "no": 14,
+          "type": "fill",
+          "stem": "3×8+5=（　）",
+          "answer": "29",
+          "score": 2,
+          "analysis": "先算乘法 3×8=24，再加 5 得 29。",
+          "source": "宜宾市翠屏区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_yibin_cuiping_2024a_n15",
+          "no": 15,
+          "type": "fill",
+          "stem": "○有4个，□的个数是○的4倍，□有（　）个",
+          "answer": "16",
+          "score": 2,
+          "analysis": "4的4倍是16：4×4=16。",
+          "source": "宜宾市翠屏区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_yibin_cuiping_2024a_n16",
+          "no": 16,
+          "type": "fill",
+          "stem": "数学课本长约26（　）",
+          "answer": "厘米",
+          "score": 2,
+          "analysis": "课本约 26 厘米，用厘米作单位。",
+          "source": "宜宾市翠屏区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_yibin_cuiping_2024a_n17",
+          "no": 17,
+          "type": "fill",
+          "stem": "把18个苹果平均分成3份，每份（　）个",
+          "answer": "6",
+          "score": 2,
+          "analysis": "平均分用除法：18÷3=6个。",
+          "source": "宜宾市翠屏区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_yibin_cuiping_2024a_n18",
+          "no": 18,
+          "type": "fill",
+          "stem": "10÷2=（　）",
+          "answer": "5",
+          "score": 2,
+          "analysis": "10÷2=5。",
+          "source": "宜宾市翠屏区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_yibin_cuiping_2024a_n19",
+          "no": 19,
+          "type": "fill",
+          "stem": "5×7=（　）",
+          "answer": "35",
+          "score": 2,
+          "analysis": "五七三十五。",
+          "source": "宜宾市翠屏区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_yibin_cuiping_2024a_n20",
+          "no": 20,
+          "type": "fill",
+          "stem": "与37相邻的两个数是（　）和（　）",
+          "answer": "36、38",
+          "score": 2,
+          "analysis": "前一个数比它小1是36，后一个数比它大1是38。",
+          "source": "宜宾市翠屏区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_yibin_cuiping_2024a_n21",
+          "no": 21,
+          "type": "judge",
+          "stem": "判断：4+4+4=4×4。",
+          "answer": "错",
+          "score": 2,
+          "analysis": "3 个 4 相加是 4×3=12，不是 4×4=16。",
+          "source": "宜宾市翠屏区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_yibin_cuiping_2024a_n22",
+          "no": 22,
+          "type": "judge",
+          "stem": "判断：六九四十八。",
+          "answer": "错",
+          "score": 2,
+          "analysis": "六九五十四，四十八是六八。",
+          "source": "宜宾市翠屏区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_yibin_cuiping_2024a_n23",
+          "no": 23,
+          "type": "judge",
+          "stem": "判断：小明身高约130厘米。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "130 厘米 = 1 米 30 厘米，符合二年级学生身高。",
+          "source": "宜宾市翠屏区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_yibin_cuiping_2024a_n24",
+          "no": 24,
+          "type": "judge",
+          "stem": "判断：12÷4=3 表示 12 里面有 3 个 4。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "除法可以表示包含关系。",
+          "source": "宜宾市翠屏区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_yibin_cuiping_2024a_n25",
+          "no": 25,
+          "type": "judge",
+          "stem": "判断：52-8=43。",
+          "answer": "错",
+          "score": 2,
+          "analysis": "52-8=44。",
+          "source": "宜宾市翠屏区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_yibin_cuiping_2024a_n26",
+          "no": 26,
+          "type": "choice",
+          "stem": "7×3=（　）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.21 B.28 C.18 D.10，正确答案为A。",
+          "source": "宜宾市翠屏区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_yibin_cuiping_2024a_n27",
+          "no": 27,
+          "type": "choice",
+          "stem": "教室门高约2（　）",
+          "answer": "C",
+          "score": 2,
+          "analysis": "选项：A.厘米 B.分 C.米 D.角，正确答案为C。",
+          "source": "宜宾市翠屏区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_yibin_cuiping_2024a_n28",
+          "no": 28,
+          "type": "choice",
+          "stem": "5的3倍是（　）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.15 B.8 C.20 D.5，正确答案为A。",
+          "source": "宜宾市翠屏区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_yibin_cuiping_2024a_n29",
+          "no": 29,
+          "type": "choice",
+          "stem": "风车转动是（　）现象",
+          "answer": "B",
+          "score": 2,
+          "analysis": "选项：A.平移 B.旋转 C.加法 D.对称，正确答案为B。",
+          "source": "宜宾市翠屏区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_yibin_cuiping_2024a_n30",
+          "no": 30,
+          "type": "choice",
+          "stem": "18÷3=（　）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.6 B.7 C.5 D.9，正确答案为A。",
+          "source": "宜宾市翠屏区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_yibin_cuiping_2024a_n31",
+          "no": 31,
+          "type": "draw",
+          "stem": "看图列式：每组有2个○，共有4组，一共有多少个○？写出乘法算式。",
+          "answer": "2×4=8",
+          "score": 4,
+          "analysis": "4 组每组 2 个：2×4=8。",
+          "source": "宜宾市翠屏区2024-2025学年上期期末（组编）",
+          "figure": {
+            "w": 490,
+            "h": 70,
+            "shapes": [
+              {
+                "t": "c",
+                "cx": 25,
+                "cy": 35,
+                "r": 12
+              },
+              {
+                "t": "c",
+                "cx": 57,
+                "cy": 35,
+                "r": 12
+              },
+              {
+                "t": "l",
+                "x1": 80,
+                "y1": 15,
+                "x2": 80,
+                "y2": 55
+              },
+              {
+                "t": "c",
+                "cx": 135,
+                "cy": 35,
+                "r": 12
+              },
+              {
+                "t": "c",
+                "cx": 167,
+                "cy": 35,
+                "r": 12
+              },
+              {
+                "t": "l",
+                "x1": 190,
+                "y1": 15,
+                "x2": 190,
+                "y2": 55
+              },
+              {
+                "t": "c",
+                "cx": 245,
+                "cy": 35,
+                "r": 12
+              },
+              {
+                "t": "c",
+                "cx": 277,
+                "cy": 35,
+                "r": 12
+              },
+              {
+                "t": "l",
+                "x1": 300,
+                "y1": 15,
+                "x2": 300,
+                "y2": 55
+              },
+              {
+                "t": "c",
+                "cx": 355,
+                "cy": 35,
+                "r": 12
+              },
+              {
+                "t": "c",
+                "cx": 387,
+                "cy": 35,
+                "r": 12
+              }
+            ]
+          }
+        },
+        {
+          "id": "paper_g2_yibin_cuiping_2024a_n32",
+          "no": 32,
+          "type": "draw",
+          "stem": "看图列式：把6个○平均分成2份，每份是几个？写出除法算式。",
+          "answer": "6÷2=3",
+          "score": 4,
+          "analysis": "平均分成 2 份，每份 3 个：6÷2=3。",
+          "source": "宜宾市翠屏区2024-2025学年上期期末（组编）",
+          "figure": {
+            "w": 320,
+            "h": 70,
+            "shapes": [
+              {
+                "t": "c",
+                "cx": 25,
+                "cy": 35,
+                "r": 12
+              },
+              {
+                "t": "c",
+                "cx": 71,
+                "cy": 35,
+                "r": 12
+              },
+              {
+                "t": "c",
+                "cx": 117,
+                "cy": 35,
+                "r": 12
+              },
+              {
+                "t": "c",
+                "cx": 163,
+                "cy": 35,
+                "r": 12
+              },
+              {
+                "t": "l",
+                "x1": 140.0,
+                "y1": 14,
+                "x2": 140.0,
+                "y2": 56
+              },
+              {
+                "t": "c",
+                "cx": 209,
+                "cy": 35,
+                "r": 12
+              },
+              {
+                "t": "c",
+                "cx": 255,
+                "cy": 35,
+                "r": 12
+              }
+            ]
+          }
+        },
+        {
+          "id": "paper_g2_yibin_cuiping_2024a_n33",
+          "no": 33,
+          "type": "draw",
+          "stem": "看图圈一圈：图中有9个○，每2个圈成一组，一共能圈成几组？",
+          "answer": "4 组",
+          "score": 4,
+          "analysis": "9 个每 2 个一组：9÷2=4 组。",
+          "source": "宜宾市翠屏区2024-2025学年上期期末（组编）",
+          "figure": {
+            "w": 336,
+            "h": 70,
+            "shapes": [
+              {
+                "t": "c",
+                "cx": 28,
+                "cy": 35,
+                "r": 12
+              },
+              {
+                "t": "c",
+                "cx": 62,
+                "cy": 35,
+                "r": 12
+              },
+              {
+                "t": "c",
+                "cx": 96,
+                "cy": 35,
+                "r": 12
+              },
+              {
+                "t": "c",
+                "cx": 130,
+                "cy": 35,
+                "r": 12
+              },
+              {
+                "t": "c",
+                "cx": 164,
+                "cy": 35,
+                "r": 12
+              },
+              {
+                "t": "c",
+                "cx": 198,
+                "cy": 35,
+                "r": 12
+              },
+              {
+                "t": "c",
+                "cx": 232,
+                "cy": 35,
+                "r": 12
+              },
+              {
+                "t": "c",
+                "cx": 266,
+                "cy": 35,
+                "r": 12
+              },
+              {
+                "t": "c",
+                "cx": 300,
+                "cy": 35,
+                "r": 12
+              },
+              {
+                "t": "r",
+                "x": 13,
+                "y": 18,
+                "w": 60,
+                "h": 34
+              },
+              {
+                "t": "r",
+                "x": 81,
+                "y": 18,
+                "w": 60,
+                "h": 34
+              },
+              {
+                "t": "r",
+                "x": 149,
+                "y": 18,
+                "w": 60,
+                "h": 34
+              },
+              {
+                "t": "r",
+                "x": 217,
+                "y": 18,
+                "w": 60,
+                "h": 34
+              }
+            ]
+          }
+        },
+        {
+          "id": "paper_g2_yibin_cuiping_2024a_n34",
+          "no": 34,
+          "type": "solve",
+          "stem": "每盒装有3支铅笔，4盒一共有多少支铅笔？",
+          "answer": "3×4=12（支）",
+          "score": 7,
+          "analysis": "每盒 3 支、共 4 盒：3×4=12支。",
+          "source": "宜宾市翠屏区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_yibin_cuiping_2024a_n35",
+          "no": 35,
+          "type": "solve",
+          "stem": "30个同学平均分成5组做游戏，每组有多少人？",
+          "answer": "30÷5=6（人）",
+          "score": 7,
+          "analysis": "平均分用除法：30÷5=6人。",
+          "source": "宜宾市翠屏区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_yibin_cuiping_2024a_n36",
+          "no": 36,
+          "type": "solve",
+          "stem": "商店有7个篮球，足球的个数是篮球的3倍，足球有多少个？",
+          "answer": "7×3=21（个）",
+          "score": 7,
+          "analysis": "求一个数的几倍用乘法：7×3=21个。",
+          "source": "宜宾市翠屏区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_yibin_cuiping_2024a_n37",
+          "no": 37,
+          "type": "solve",
+          "stem": "公交车上原有53人，到站后下去15人，又上来10人，车上现在有多少人？",
+          "answer": "53-15+10=48（人）",
+          "score": 7,
+          "analysis": "下去用减法、上来用加法，按从左往右算：53-15+10=48人。",
+          "source": "宜宾市翠屏区2024-2025学年上期期末（组编）",
+          "figure": null
+        }
+      ]
+    },
+    {
+      "id": "paper_g2_luzhou_jiangyang_2021a",
+      "grade": 2,
+      "region": "泸州市江阳区",
+      "year": "2021-2022学年上期",
+      "title": "二年级数学期末测试卷（四）",
+      "duration": 60,
+      "total_score": 100,
+      "note": "北师大版二年级上册：100以内加减法（进位退位）、乘法口诀、平均分与除法初步、倍的认识、测量（厘米米）；口算12×2分+填空8×2分+判断5×2分+选择5×2分+看图列式与操作3×4分+解决问题4×7分",
+      "questions": [
+        {
+          "id": "paper_g2_luzhou_jiangyang_2021a_n1",
+          "no": 1,
+          "type": "fill",
+          "stem": "口算：82-5=",
+          "answer": "77",
+          "score": 2,
+          "analysis": "口算乘法用乘法口诀，除法想口诀求商，100以内加减注意进位退位。",
+          "source": "泸州市江阳区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_luzhou_jiangyang_2021a_n2",
+          "no": 2,
+          "type": "fill",
+          "stem": "口算：6×4=",
+          "answer": "24",
+          "score": 2,
+          "analysis": "口算乘法用乘法口诀，除法想口诀求商，100以内加减注意进位退位。",
+          "source": "泸州市江阳区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_luzhou_jiangyang_2021a_n3",
+          "no": 3,
+          "type": "fill",
+          "stem": "口算：5×6=",
+          "answer": "30",
+          "score": 2,
+          "analysis": "口算乘法用乘法口诀，除法想口诀求商，100以内加减注意进位退位。",
+          "source": "泸州市江阳区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_luzhou_jiangyang_2021a_n4",
+          "no": 4,
+          "type": "fill",
+          "stem": "口算：52-9=",
+          "answer": "43",
+          "score": 2,
+          "analysis": "口算乘法用乘法口诀，除法想口诀求商，100以内加减注意进位退位。",
+          "source": "泸州市江阳区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_luzhou_jiangyang_2021a_n5",
+          "no": 5,
+          "type": "fill",
+          "stem": "口算：8×4=",
+          "answer": "32",
+          "score": 2,
+          "analysis": "口算乘法用乘法口诀，除法想口诀求商，100以内加减注意进位退位。",
+          "source": "泸州市江阳区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_luzhou_jiangyang_2021a_n6",
+          "no": 6,
+          "type": "fill",
+          "stem": "口算：5×8=",
+          "answer": "40",
+          "score": 2,
+          "analysis": "口算乘法用乘法口诀，除法想口诀求商，100以内加减注意进位退位。",
+          "source": "泸州市江阳区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_luzhou_jiangyang_2021a_n7",
+          "no": 7,
+          "type": "fill",
+          "stem": "口算：39+30=",
+          "answer": "69",
+          "score": 2,
+          "analysis": "口算乘法用乘法口诀，除法想口诀求商，100以内加减注意进位退位。",
+          "source": "泸州市江阳区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_luzhou_jiangyang_2021a_n8",
+          "no": 8,
+          "type": "fill",
+          "stem": "口算：76-8=",
+          "answer": "68",
+          "score": 2,
+          "analysis": "口算乘法用乘法口诀，除法想口诀求商，100以内加减注意进位退位。",
+          "source": "泸州市江阳区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_luzhou_jiangyang_2021a_n9",
+          "no": 9,
+          "type": "fill",
+          "stem": "口算：85+6=",
+          "answer": "91",
+          "score": 2,
+          "analysis": "口算乘法用乘法口诀，除法想口诀求商，100以内加减注意进位退位。",
+          "source": "泸州市江阳区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_luzhou_jiangyang_2021a_n10",
+          "no": 10,
+          "type": "fill",
+          "stem": "口算：27÷9=",
+          "answer": "3",
+          "score": 2,
+          "analysis": "口算乘法用乘法口诀，除法想口诀求商，100以内加减注意进位退位。",
+          "source": "泸州市江阳区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_luzhou_jiangyang_2021a_n11",
+          "no": 11,
+          "type": "fill",
+          "stem": "口算：81-9=",
+          "answer": "72",
+          "score": 2,
+          "analysis": "口算乘法用乘法口诀，除法想口诀求商，100以内加减注意进位退位。",
+          "source": "泸州市江阳区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_luzhou_jiangyang_2021a_n12",
+          "no": 12,
+          "type": "fill",
+          "stem": "口算：16÷8=",
+          "answer": "2",
+          "score": 2,
+          "analysis": "口算乘法用乘法口诀，除法想口诀求商，100以内加减注意进位退位。",
+          "source": "泸州市江阳区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_luzhou_jiangyang_2021a_n13",
+          "no": 13,
+          "type": "fill",
+          "stem": "六（　）四十二",
+          "answer": "七",
+          "score": 2,
+          "analysis": "六七四十二。",
+          "source": "泸州市江阳区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_luzhou_jiangyang_2021a_n14",
+          "no": 14,
+          "type": "fill",
+          "stem": "4×8+4=（　）",
+          "answer": "36",
+          "score": 2,
+          "analysis": "先算乘法 4×8=32，再加 4 得 36。",
+          "source": "泸州市江阳区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_luzhou_jiangyang_2021a_n15",
+          "no": 15,
+          "type": "fill",
+          "stem": "○有2个，□的个数是○的2倍，□有（　）个",
+          "answer": "4",
+          "score": 2,
+          "analysis": "2的2倍是4：2×2=4。",
+          "source": "泸州市江阳区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_luzhou_jiangyang_2021a_n16",
+          "no": 16,
+          "type": "fill",
+          "stem": "操场跑道长约100（　）",
+          "answer": "米",
+          "score": 2,
+          "analysis": "跑道约 100 米，用米作单位。",
+          "source": "泸州市江阳区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_luzhou_jiangyang_2021a_n17",
+          "no": 17,
+          "type": "fill",
+          "stem": "把20个苹果平均分成5份，每份（　）个",
+          "answer": "4",
+          "score": 2,
+          "analysis": "平均分用除法：20÷5=4个。",
+          "source": "泸州市江阳区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_luzhou_jiangyang_2021a_n18",
+          "no": 18,
+          "type": "fill",
+          "stem": "15÷5=（　）",
+          "answer": "3",
+          "score": 2,
+          "analysis": "15÷5=3。",
+          "source": "泸州市江阳区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_luzhou_jiangyang_2021a_n19",
+          "no": 19,
+          "type": "fill",
+          "stem": "两个乘数都是4，积是（　）",
+          "answer": "16",
+          "score": 2,
+          "analysis": "4×4=16。",
+          "source": "泸州市江阳区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_luzhou_jiangyang_2021a_n20",
+          "no": 20,
+          "type": "fill",
+          "stem": "与87相邻的两个数是（　）和（　）",
+          "answer": "86、88",
+          "score": 2,
+          "analysis": "前一个数比它小1是86，后一个数比它大1是88。",
+          "source": "泸州市江阳区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_luzhou_jiangyang_2021a_n21",
+          "no": 21,
+          "type": "judge",
+          "stem": "判断：6×2 和 2×6 的结果一样。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "乘数交换位置积不变。",
+          "source": "泸州市江阳区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_luzhou_jiangyang_2021a_n22",
+          "no": 22,
+          "type": "judge",
+          "stem": "判断：八九七十二。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "8×9=72。",
+          "source": "泸州市江阳区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_luzhou_jiangyang_2021a_n23",
+          "no": 23,
+          "type": "judge",
+          "stem": "判断：一块橡皮长约2米。",
+          "answer": "错",
+          "score": 2,
+          "analysis": "橡皮约 2 厘米。",
+          "source": "泸州市江阳区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_luzhou_jiangyang_2021a_n24",
+          "no": 24,
+          "type": "judge",
+          "stem": "判断：把8个橘子平均分成2份，每份4个。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "8÷2=4。",
+          "source": "泸州市江阳区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_luzhou_jiangyang_2021a_n25",
+          "no": 25,
+          "type": "judge",
+          "stem": "判断：36+7=43。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "36+7=43。",
+          "source": "泸州市江阳区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_luzhou_jiangyang_2021a_n26",
+          "no": 26,
+          "type": "choice",
+          "stem": "4×4=（　）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.16 B.20 C.12 D.8，正确答案为A。",
+          "source": "泸州市江阳区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_luzhou_jiangyang_2021a_n27",
+          "no": 27,
+          "type": "choice",
+          "stem": "一支铅笔长约18（　）",
+          "answer": "B",
+          "score": 2,
+          "analysis": "选项：A.米 B.厘米 C.元 D.时，正确答案为B。",
+          "source": "泸州市江阳区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_luzhou_jiangyang_2021a_n28",
+          "no": 28,
+          "type": "choice",
+          "stem": "2的3倍是（　）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.6 B.5 C.8 D.2，正确答案为A。",
+          "source": "泸州市江阳区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_luzhou_jiangyang_2021a_n29",
+          "no": 29,
+          "type": "choice",
+          "stem": "推拉抽屉是（　）现象",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.平移 B.旋转 C.乘法 D.对称，正确答案为A。",
+          "source": "泸州市江阳区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_luzhou_jiangyang_2021a_n30",
+          "no": 30,
+          "type": "choice",
+          "stem": "28÷4=（　）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.7 B.8 C.6 D.11，正确答案为A。",
+          "source": "泸州市江阳区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_luzhou_jiangyang_2021a_n31",
+          "no": 31,
+          "type": "draw",
+          "stem": "看图列式：每组有3个○，共有3组，一共有多少个○？写出乘法算式。",
+          "answer": "3×3=9",
+          "score": 4,
+          "analysis": "3 组每组 3 个：3×3=9。",
+          "source": "泸州市江阳区2021-2022学年上期期末（组编）",
+          "figure": {
+            "w": 380,
+            "h": 70,
+            "shapes": [
+              {
+                "t": "c",
+                "cx": 25,
+                "cy": 35,
+                "r": 12
+              },
+              {
+                "t": "c",
+                "cx": 57,
+                "cy": 35,
+                "r": 12
+              },
+              {
+                "t": "c",
+                "cx": 89,
+                "cy": 35,
+                "r": 12
+              },
+              {
+                "t": "l",
+                "x1": 80,
+                "y1": 15,
+                "x2": 80,
+                "y2": 55
+              },
+              {
+                "t": "c",
+                "cx": 135,
+                "cy": 35,
+                "r": 12
+              },
+              {
+                "t": "c",
+                "cx": 167,
+                "cy": 35,
+                "r": 12
+              },
+              {
+                "t": "c",
+                "cx": 199,
+                "cy": 35,
+                "r": 12
+              },
+              {
+                "t": "l",
+                "x1": 190,
+                "y1": 15,
+                "x2": 190,
+                "y2": 55
+              },
+              {
+                "t": "c",
+                "cx": 245,
+                "cy": 35,
+                "r": 12
+              },
+              {
+                "t": "c",
+                "cx": 277,
+                "cy": 35,
+                "r": 12
+              },
+              {
+                "t": "c",
+                "cx": 309,
+                "cy": 35,
+                "r": 12
+              }
+            ]
+          }
+        },
+        {
+          "id": "paper_g2_luzhou_jiangyang_2021a_n32",
+          "no": 32,
+          "type": "draw",
+          "stem": "看图列式：把20个○平均分成4份，每份是几个？写出除法算式。",
+          "answer": "20÷4=5",
+          "score": 4,
+          "analysis": "平均分成 4 份，每份 5 个：20÷4=5。",
+          "source": "泸州市江阳区2021-2022学年上期期末（组编）",
+          "figure": {
+            "w": 320,
+            "h": 70,
+            "shapes": [
+              {
+                "t": "c",
+                "cx": 25,
+                "cy": 35,
+                "r": 12
+              },
+              {
+                "t": "c",
+                "cx": 39,
+                "cy": 35,
+                "r": 12
+              },
+              {
+                "t": "c",
+                "cx": 53,
+                "cy": 35,
+                "r": 12
+              },
+              {
+                "t": "c",
+                "cx": 67,
+                "cy": 35,
+                "r": 12
+              },
+              {
+                "t": "c",
+                "cx": 81,
+                "cy": 35,
+                "r": 12
+              },
+              {
+                "t": "c",
+                "cx": 95,
+                "cy": 35,
+                "r": 12
+              },
+              {
+                "t": "l",
+                "x1": 88.0,
+                "y1": 14,
+                "x2": 88.0,
+                "y2": 56
+              },
+              {
+                "t": "c",
+                "cx": 109,
+                "cy": 35,
+                "r": 12
+              },
+              {
+                "t": "c",
+                "cx": 123,
+                "cy": 35,
+                "r": 12
+              },
+              {
+                "t": "c",
+                "cx": 137,
+                "cy": 35,
+                "r": 12
+              },
+              {
+                "t": "c",
+                "cx": 151,
+                "cy": 35,
+                "r": 12
+              },
+              {
+                "t": "c",
+                "cx": 165,
+                "cy": 35,
+                "r": 12
+              },
+              {
+                "t": "l",
+                "x1": 158.0,
+                "y1": 14,
+                "x2": 158.0,
+                "y2": 56
+              },
+              {
+                "t": "c",
+                "cx": 179,
+                "cy": 35,
+                "r": 12
+              },
+              {
+                "t": "c",
+                "cx": 193,
+                "cy": 35,
+                "r": 12
+              },
+              {
+                "t": "c",
+                "cx": 207,
+                "cy": 35,
+                "r": 12
+              },
+              {
+                "t": "c",
+                "cx": 221,
+                "cy": 35,
+                "r": 12
+              },
+              {
+                "t": "c",
+                "cx": 235,
+                "cy": 35,
+                "r": 12
+              },
+              {
+                "t": "l",
+                "x1": 228.0,
+                "y1": 14,
+                "x2": 228.0,
+                "y2": 56
+              },
+              {
+                "t": "c",
+                "cx": 249,
+                "cy": 35,
+                "r": 12
+              },
+              {
+                "t": "c",
+                "cx": 263,
+                "cy": 35,
+                "r": 12
+              },
+              {
+                "t": "c",
+                "cx": 277,
+                "cy": 35,
+                "r": 12
+              },
+              {
+                "t": "c",
+                "cx": 291,
+                "cy": 35,
+                "r": 12
+              }
+            ]
+          }
+        },
+        {
+          "id": "paper_g2_luzhou_jiangyang_2021a_n33",
+          "no": 33,
+          "type": "draw",
+          "stem": "看图圈一圈：图中有7个○，每2个圈成一组，一共能圈成几组？",
+          "answer": "3 组",
+          "score": 4,
+          "analysis": "7 个每 2 个一组：7÷2=3 组。",
+          "source": "泸州市江阳区2021-2022学年上期期末（组编）",
+          "figure": {
+            "w": 268,
+            "h": 70,
+            "shapes": [
+              {
+                "t": "c",
+                "cx": 28,
+                "cy": 35,
+                "r": 12
+              },
+              {
+                "t": "c",
+                "cx": 62,
+                "cy": 35,
+                "r": 12
+              },
+              {
+                "t": "c",
+                "cx": 96,
+                "cy": 35,
+                "r": 12
+              },
+              {
+                "t": "c",
+                "cx": 130,
+                "cy": 35,
+                "r": 12
+              },
+              {
+                "t": "c",
+                "cx": 164,
+                "cy": 35,
+                "r": 12
+              },
+              {
+                "t": "c",
+                "cx": 198,
+                "cy": 35,
+                "r": 12
+              },
+              {
+                "t": "c",
+                "cx": 232,
+                "cy": 35,
+                "r": 12
+              },
+              {
+                "t": "r",
+                "x": 13,
+                "y": 18,
+                "w": 60,
+                "h": 34
+              },
+              {
+                "t": "r",
+                "x": 81,
+                "y": 18,
+                "w": 60,
+                "h": 34
+              },
+              {
+                "t": "r",
+                "x": 149,
+                "y": 18,
+                "w": 60,
+                "h": 34
+              }
+            ]
+          }
+        },
+        {
+          "id": "paper_g2_luzhou_jiangyang_2021a_n34",
+          "no": 34,
+          "type": "solve",
+          "stem": "每盒装有6支铅笔，6盒一共有多少支铅笔？",
+          "answer": "6×6=36（支）",
+          "score": 7,
+          "analysis": "每盒 6 支、共 6 盒：6×6=36支。",
+          "source": "泸州市江阳区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_luzhou_jiangyang_2021a_n35",
+          "no": 35,
+          "type": "solve",
+          "stem": "12个同学平均分成4组做游戏，每组有多少人？",
+          "answer": "12÷4=3（人）",
+          "score": 7,
+          "analysis": "平均分用除法：12÷4=3人。",
+          "source": "泸州市江阳区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_luzhou_jiangyang_2021a_n36",
+          "no": 36,
+          "type": "solve",
+          "stem": "商店有8个篮球，足球的个数是篮球的4倍，足球有多少个？",
+          "answer": "8×4=32（个）",
+          "score": 7,
+          "analysis": "求一个数的几倍用乘法：8×4=32个。",
+          "source": "泸州市江阳区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g2_luzhou_jiangyang_2021a_n37",
+          "no": 37,
+          "type": "solve",
+          "stem": "公交车上原有39人，到站后下去9人，又上来12人，车上现在有多少人？",
+          "answer": "39-9+12=42（人）",
+          "score": 7,
+          "analysis": "下去用减法、上来用加法，按从左往右算：39-9+12=42人。",
+          "source": "泸州市江阳区2021-2022学年上期期末（组编）",
+          "figure": null
+        }
+      ]
     }
   ]
 }
