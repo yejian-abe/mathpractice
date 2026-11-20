@@ -6502,6 +6502,1881 @@
           "source": "泸州市江阳区2024-2025学年下期期末（组编）"
         }
       ]
+    },
+    {
+      "id": "paper_g1_chengdu_jinjiang_2022a",
+      "grade": 1,
+      "region": "成都市锦江区",
+      "year": "2022-2023学年上期",
+      "title": "一年级数学期末测试卷（二）",
+      "duration": 60,
+      "total_score": 100,
+      "note": "北师大版一年级上册：20以内加减法、认识数、认钟表、图形；口算12×2分+填空8×2分+判断5×2分+选择5×2分+看图列式与操作3×4分+解决问题4×7分",
+      "questions": [
+        {
+          "id": "paper_g1_chengdu_jinjiang_2022a_n1",
+          "no": 1,
+          "type": "fill",
+          "stem": "口算：8+5=",
+          "answer": "13",
+          "score": 2,
+          "analysis": "口算进位加用凑十法、退位减用破十法，按口诀或分解计算。",
+          "source": "成都市锦江区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_chengdu_jinjiang_2022a_n2",
+          "no": 2,
+          "type": "fill",
+          "stem": "口算：15+7-4=",
+          "answer": "18",
+          "score": 2,
+          "analysis": "口算进位加用凑十法、退位减用破十法，按口诀或分解计算。",
+          "source": "成都市锦江区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_chengdu_jinjiang_2022a_n3",
+          "no": 3,
+          "type": "fill",
+          "stem": "口算：9+9-3=",
+          "answer": "15",
+          "score": 2,
+          "analysis": "口算进位加用凑十法、退位减用破十法，按口诀或分解计算。",
+          "source": "成都市锦江区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_chengdu_jinjiang_2022a_n4",
+          "no": 4,
+          "type": "fill",
+          "stem": "口算：2+2+4=",
+          "answer": "8",
+          "score": 2,
+          "analysis": "口算进位加用凑十法、退位减用破十法，按口诀或分解计算。",
+          "source": "成都市锦江区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_chengdu_jinjiang_2022a_n5",
+          "no": 5,
+          "type": "fill",
+          "stem": "口算：7+7+1=",
+          "answer": "15",
+          "score": 2,
+          "analysis": "口算进位加用凑十法、退位减用破十法，按口诀或分解计算。",
+          "source": "成都市锦江区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_chengdu_jinjiang_2022a_n6",
+          "no": 6,
+          "type": "fill",
+          "stem": "口算：13-7-2=",
+          "answer": "4",
+          "score": 2,
+          "analysis": "口算进位加用凑十法、退位减用破十法，按口诀或分解计算。",
+          "source": "成都市锦江区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_chengdu_jinjiang_2022a_n7",
+          "no": 7,
+          "type": "fill",
+          "stem": "口算：15-7-2=",
+          "answer": "6",
+          "score": 2,
+          "analysis": "口算进位加用凑十法、退位减用破十法，按口诀或分解计算。",
+          "source": "成都市锦江区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_chengdu_jinjiang_2022a_n8",
+          "no": 8,
+          "type": "fill",
+          "stem": "口算：13-5=",
+          "answer": "8",
+          "score": 2,
+          "analysis": "口算进位加用凑十法、退位减用破十法，按口诀或分解计算。",
+          "source": "成都市锦江区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_chengdu_jinjiang_2022a_n9",
+          "no": 9,
+          "type": "fill",
+          "stem": "口算：13-6-4=",
+          "answer": "3",
+          "score": 2,
+          "analysis": "口算进位加用凑十法、退位减用破十法，按口诀或分解计算。",
+          "source": "成都市锦江区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_chengdu_jinjiang_2022a_n10",
+          "no": 10,
+          "type": "fill",
+          "stem": "口算：17-9=",
+          "answer": "8",
+          "score": 2,
+          "analysis": "口算进位加用凑十法、退位减用破十法，按口诀或分解计算。",
+          "source": "成都市锦江区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_chengdu_jinjiang_2022a_n11",
+          "no": 11,
+          "type": "fill",
+          "stem": "口算：2+7+2=",
+          "answer": "11",
+          "score": 2,
+          "analysis": "口算进位加用凑十法、退位减用破十法，按口诀或分解计算。",
+          "source": "成都市锦江区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_chengdu_jinjiang_2022a_n12",
+          "no": 12,
+          "type": "fill",
+          "stem": "口算：6+9=",
+          "answer": "15",
+          "score": 2,
+          "analysis": "口算进位加用凑十法、退位减用破十法，按口诀或分解计算。",
+          "source": "成都市锦江区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_chengdu_jinjiang_2022a_n13",
+          "no": 13,
+          "type": "fill",
+          "stem": "比4大3的数是（　）",
+          "answer": "7",
+          "score": 2,
+          "analysis": "求比一个数多几：4+3=7。",
+          "source": "成都市锦江区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_chengdu_jinjiang_2022a_n14",
+          "no": 14,
+          "type": "fill",
+          "stem": "一个两位数，十位上是1，个位上是6，这个数是（　）",
+          "answer": "16",
+          "score": 2,
+          "analysis": "1个十和6个一合起来是16。",
+          "source": "成都市锦江区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_chengdu_jinjiang_2022a_n15",
+          "no": 15,
+          "type": "fill",
+          "stem": "按规律填数：5、10、15、20、（　）",
+          "answer": "25",
+          "score": 2,
+          "analysis": "每次多5，20+5=25。",
+          "source": "成都市锦江区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_chengdu_jinjiang_2022a_n16",
+          "no": 16,
+          "type": "fill",
+          "stem": "钟面上，时针指着12，分针指着12，这时是（　）时",
+          "answer": "12",
+          "score": 2,
+          "analysis": "分针指着12表示整时，时针指着12就是12时。",
+          "source": "成都市锦江区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_chengdu_jinjiang_2022a_n17",
+          "no": 17,
+          "type": "fill",
+          "stem": "与18相邻的两个数是（　）和（　）",
+          "answer": "17、19",
+          "score": 2,
+          "analysis": "前一个数比它小1是17，后一个数比它大1是19。",
+          "source": "成都市锦江区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_chengdu_jinjiang_2022a_n18",
+          "no": 18,
+          "type": "fill",
+          "stem": "从7数起，第4个数是（　）",
+          "answer": "10",
+          "score": 2,
+          "analysis": "从7开始数：7、8、9、10，第4个是10。",
+          "source": "成都市锦江区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_chengdu_jinjiang_2022a_n19",
+          "no": 19,
+          "type": "fill",
+          "stem": "比10大、比20小的数中，最小的是（　）",
+          "answer": "11",
+          "score": 2,
+          "analysis": "比10大最小的数是11。",
+          "source": "成都市锦江区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_chengdu_jinjiang_2022a_n20",
+          "no": 20,
+          "type": "fill",
+          "stem": "排队做操，小明前面有3人，后面有2人，这一队一共有（　）人",
+          "answer": "6",
+          "score": 2,
+          "analysis": "前面3人+后面2人+小明自己1人=6人。",
+          "source": "成都市锦江区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_chengdu_jinjiang_2022a_n21",
+          "no": 21,
+          "type": "judge",
+          "stem": "判断：15 里面有 1 个十和 5 个一。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "15 由 1 个十和 5 个一组成。",
+          "source": "成都市锦江区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_chengdu_jinjiang_2022a_n22",
+          "no": 22,
+          "type": "judge",
+          "stem": "判断：16-7=9。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "16-7=9。",
+          "source": "成都市锦江区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_chengdu_jinjiang_2022a_n23",
+          "no": 23,
+          "type": "judge",
+          "stem": "判断：最大的一位数是 9。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "一位数最大是 9。",
+          "source": "成都市锦江区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_chengdu_jinjiang_2022a_n24",
+          "no": 24,
+          "type": "judge",
+          "stem": "判断：长方形的四条边一样长。",
+          "answer": "错",
+          "score": 2,
+          "analysis": "长方形对边相等，四条边不一定一样长。",
+          "source": "成都市锦江区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_chengdu_jinjiang_2022a_n25",
+          "no": 25,
+          "type": "judge",
+          "stem": "判断：时针指着3，分针指着12，是3时。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "分针指12是整时，时针指3即3时。",
+          "source": "成都市锦江区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_chengdu_jinjiang_2022a_n26",
+          "no": 26,
+          "type": "choice",
+          "stem": "与14相邻的数是（　）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.13 B.15 C.16 D.12，正确答案为A。",
+          "source": "成都市锦江区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_chengdu_jinjiang_2022a_n27",
+          "no": 27,
+          "type": "choice",
+          "stem": "5 个一和 1 个十组成的数是（　）",
+          "answer": "B",
+          "score": 2,
+          "analysis": "选项：A.51 B.15 C.6 D.10，正确答案为B。",
+          "source": "成都市锦江区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_chengdu_jinjiang_2022a_n28",
+          "no": 28,
+          "type": "choice",
+          "stem": "7+7=（　）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.14 B.15 C.13 D.24，正确答案为A。",
+          "source": "成都市锦江区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_chengdu_jinjiang_2022a_n29",
+          "no": 29,
+          "type": "choice",
+          "stem": "易拉罐的形状像（　）",
+          "answer": "B",
+          "score": 2,
+          "analysis": "选项：A.正方体 B.圆柱 C.球 D.长方体，正确答案为B。",
+          "source": "成都市锦江区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_chengdu_jinjiang_2022a_n30",
+          "no": 30,
+          "type": "choice",
+          "stem": "比13小 2 的数是（　）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.11 B.15 C.12 D.14，正确答案为A。",
+          "source": "成都市锦江区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_chengdu_jinjiang_2022a_n31",
+          "no": 31,
+          "type": "draw",
+          "stem": "看图列式：先数一数左边和右边的○各有几个，再列出加法算式。",
+          "answer": "3+3=6",
+          "score": 4,
+          "analysis": "左边 3 个○，右边 3 个○，合起来 6 个：3+3=6。",
+          "source": "成都市锦江区2022-2023学年上期期末（组编）",
+          "figure": {
+            "w": 300,
+            "h": 70,
+            "shapes": [
+              {
+                "t": "c",
+                "cx": 25,
+                "cy": 35,
+                "r": 14
+              },
+              {
+                "t": "c",
+                "cx": 57,
+                "cy": 35,
+                "r": 14
+              },
+              {
+                "t": "c",
+                "cx": 89,
+                "cy": 35,
+                "r": 14
+              },
+              {
+                "t": "tx",
+                "x": 176,
+                "y": 42,
+                "s": "+",
+                "fs": 24
+              },
+              {
+                "t": "c",
+                "cx": 205,
+                "cy": 35,
+                "r": 14
+              },
+              {
+                "t": "c",
+                "cx": 237,
+                "cy": 35,
+                "r": 14
+              },
+              {
+                "t": "c",
+                "cx": 269,
+                "cy": 35,
+                "r": 14
+              }
+            ]
+          }
+        },
+        {
+          "id": "paper_g1_chengdu_jinjiang_2022a_n32",
+          "no": 32,
+          "type": "draw",
+          "stem": "看图列式：数一数一共有几个○，划去了几个○，写出减法算式。",
+          "answer": "12-5=7",
+          "score": 4,
+          "analysis": "一共 12 个○，划去 5 个，还剩 7 个：12-5=7。",
+          "source": "成都市锦江区2022-2023学年上期期末（组编）",
+          "figure": {
+            "w": 330,
+            "h": 70,
+            "shapes": [
+              {
+                "t": "c",
+                "cx": 22,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 47,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 72,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 97,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 122,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 147,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 172,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 197,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 222,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 247,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 272,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 297,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "x",
+                "cx": 197,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "x",
+                "cx": 222,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "x",
+                "cx": 247,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "x",
+                "cx": 272,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "x",
+                "cx": 297,
+                "cy": 35,
+                "r": 11
+              }
+            ]
+          }
+        },
+        {
+          "id": "paper_g1_chengdu_jinjiang_2022a_n33",
+          "no": 33,
+          "type": "draw",
+          "stem": "把从左边数第 4 个○涂上颜色（在图上涂或写在纸上说给家长听）。",
+          "answer": "涂从左数第 4 个○",
+          "score": 4,
+          "analysis": "先分清左右，再从左边开始数 1、2、…，把第 4 个涂色。",
+          "source": "成都市锦江区2022-2023学年上期期末（组编）",
+          "figure": {
+            "w": 280,
+            "h": 70,
+            "shapes": [
+              {
+                "t": "c",
+                "cx": 30,
+                "cy": 35,
+                "r": 15
+              },
+              {
+                "t": "c",
+                "cx": 70,
+                "cy": 35,
+                "r": 15
+              },
+              {
+                "t": "c",
+                "cx": 110,
+                "cy": 35,
+                "r": 15
+              },
+              {
+                "t": "c",
+                "cx": 150,
+                "cy": 35,
+                "r": 15
+              },
+              {
+                "t": "c",
+                "cx": 190,
+                "cy": 35,
+                "r": 15
+              }
+            ]
+          }
+        },
+        {
+          "id": "paper_g1_chengdu_jinjiang_2022a_n34",
+          "no": 34,
+          "type": "solve",
+          "stem": "树上原来有9只小鸟，飞走了7只，还剩几只？",
+          "answer": "9-7=2（只）",
+          "score": 7,
+          "analysis": "求还剩多少用减法：9-7=2只。",
+          "source": "成都市锦江区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_chengdu_jinjiang_2022a_n35",
+          "no": 35,
+          "type": "solve",
+          "stem": "小明有6支铅笔，妈妈又给他买了8支，小明现在有多少支铅笔？",
+          "answer": "6+8=14（支）",
+          "score": 7,
+          "analysis": "求一共有多少用加法：6+8=14支。",
+          "source": "成都市锦江区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_chengdu_jinjiang_2022a_n36",
+          "no": 36,
+          "type": "solve",
+          "stem": "小红做了8朵花，小丽做了5朵花，小红比小丽多做几朵？",
+          "answer": "8-5=3（朵）",
+          "score": 7,
+          "analysis": "比多少用减法：大数减小数，8-5=3朵。",
+          "source": "成都市锦江区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_chengdu_jinjiang_2022a_n37",
+          "no": 37,
+          "type": "solve",
+          "stem": "公交车上有12人，到站后下去4人，又上来3人，车上现在有多少人？",
+          "answer": "12-4+3=11（人）",
+          "score": 7,
+          "analysis": "下去用减法、上来用加法，按从左往右算：12-4+3=11人。",
+          "source": "成都市锦江区2022-2023学年上期期末（组编）",
+          "figure": null
+        }
+      ]
+    },
+    {
+      "id": "paper_g1_mianyang_fucheng_2024a",
+      "grade": 1,
+      "region": "绵阳市涪城区",
+      "year": "2024-2025学年上期",
+      "title": "一年级数学期末测试卷（三）",
+      "duration": 60,
+      "total_score": 100,
+      "note": "北师大版一年级上册：20以内加减法、认识数、认钟表、图形；口算12×2分+填空8×2分+判断5×2分+选择5×2分+看图列式与操作3×4分+解决问题4×7分",
+      "questions": [
+        {
+          "id": "paper_g1_mianyang_fucheng_2024a_n1",
+          "no": 1,
+          "type": "fill",
+          "stem": "口算：11-9=",
+          "answer": "2",
+          "score": 2,
+          "analysis": "口算进位加用凑十法、退位减用破十法，按口诀或分解计算。",
+          "source": "绵阳市涪城区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_mianyang_fucheng_2024a_n2",
+          "no": 2,
+          "type": "fill",
+          "stem": "口算：2+5+2=",
+          "answer": "9",
+          "score": 2,
+          "analysis": "口算进位加用凑十法、退位减用破十法，按口诀或分解计算。",
+          "source": "绵阳市涪城区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_mianyang_fucheng_2024a_n3",
+          "no": 3,
+          "type": "fill",
+          "stem": "口算：5+9=",
+          "answer": "14",
+          "score": 2,
+          "analysis": "口算进位加用凑十法、退位减用破十法，按口诀或分解计算。",
+          "source": "绵阳市涪城区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_mianyang_fucheng_2024a_n4",
+          "no": 4,
+          "type": "fill",
+          "stem": "口算：4+6+1=",
+          "answer": "11",
+          "score": 2,
+          "analysis": "口算进位加用凑十法、退位减用破十法，按口诀或分解计算。",
+          "source": "绵阳市涪城区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_mianyang_fucheng_2024a_n5",
+          "no": 5,
+          "type": "fill",
+          "stem": "口算：13-5-3=",
+          "answer": "5",
+          "score": 2,
+          "analysis": "口算进位加用凑十法、退位减用破十法，按口诀或分解计算。",
+          "source": "绵阳市涪城区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_mianyang_fucheng_2024a_n6",
+          "no": 6,
+          "type": "fill",
+          "stem": "口算：14+3-4=",
+          "answer": "13",
+          "score": 2,
+          "analysis": "口算进位加用凑十法、退位减用破十法，按口诀或分解计算。",
+          "source": "绵阳市涪城区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_mianyang_fucheng_2024a_n7",
+          "no": 7,
+          "type": "fill",
+          "stem": "口算：6+8=",
+          "answer": "14",
+          "score": 2,
+          "analysis": "口算进位加用凑十法、退位减用破十法，按口诀或分解计算。",
+          "source": "绵阳市涪城区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_mianyang_fucheng_2024a_n8",
+          "no": 8,
+          "type": "fill",
+          "stem": "口算：9+4-3=",
+          "answer": "10",
+          "score": 2,
+          "analysis": "口算进位加用凑十法、退位减用破十法，按口诀或分解计算。",
+          "source": "绵阳市涪城区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_mianyang_fucheng_2024a_n9",
+          "no": 9,
+          "type": "fill",
+          "stem": "口算：10+6-2=",
+          "answer": "14",
+          "score": 2,
+          "analysis": "口算进位加用凑十法、退位减用破十法，按口诀或分解计算。",
+          "source": "绵阳市涪城区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_mianyang_fucheng_2024a_n10",
+          "no": 10,
+          "type": "fill",
+          "stem": "口算：9+8-4=",
+          "answer": "13",
+          "score": 2,
+          "analysis": "口算进位加用凑十法、退位减用破十法，按口诀或分解计算。",
+          "source": "绵阳市涪城区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_mianyang_fucheng_2024a_n11",
+          "no": 11,
+          "type": "fill",
+          "stem": "口算：3+5+2=",
+          "answer": "10",
+          "score": 2,
+          "analysis": "口算进位加用凑十法、退位减用破十法，按口诀或分解计算。",
+          "source": "绵阳市涪城区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_mianyang_fucheng_2024a_n12",
+          "no": 12,
+          "type": "fill",
+          "stem": "口算：7+7+4=",
+          "answer": "18",
+          "score": 2,
+          "analysis": "口算进位加用凑十法、退位减用破十法，按口诀或分解计算。",
+          "source": "绵阳市涪城区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_mianyang_fucheng_2024a_n13",
+          "no": 13,
+          "type": "fill",
+          "stem": "比7大2的数是（　）",
+          "answer": "9",
+          "score": 2,
+          "analysis": "求比一个数多几：7+2=9。",
+          "source": "绵阳市涪城区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_mianyang_fucheng_2024a_n14",
+          "no": 14,
+          "type": "fill",
+          "stem": "一个两位数，十位上是1，个位上是7，这个数是（　）",
+          "answer": "17",
+          "score": 2,
+          "analysis": "1个十和7个一合起来是17。",
+          "source": "绵阳市涪城区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_mianyang_fucheng_2024a_n15",
+          "no": 15,
+          "type": "fill",
+          "stem": "按规律填数：1、2、3、4、（　）",
+          "answer": "5",
+          "score": 2,
+          "analysis": "每次多1，4+1=5。",
+          "source": "绵阳市涪城区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_mianyang_fucheng_2024a_n16",
+          "no": 16,
+          "type": "fill",
+          "stem": "钟面上，时针指着11，分针指着12，这时是（　）时",
+          "answer": "11",
+          "score": 2,
+          "analysis": "分针指着12表示整时，时针指着11就是11时。",
+          "source": "绵阳市涪城区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_mianyang_fucheng_2024a_n17",
+          "no": 17,
+          "type": "fill",
+          "stem": "与17相邻的两个数是（　）和（　）",
+          "answer": "16、18",
+          "score": 2,
+          "analysis": "前一个数比它小1是16，后一个数比它大1是18。",
+          "source": "绵阳市涪城区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_mianyang_fucheng_2024a_n18",
+          "no": 18,
+          "type": "fill",
+          "stem": "从5数起，第4个数是（　）",
+          "answer": "8",
+          "score": 2,
+          "analysis": "从5开始数：5、6、7、8，第4个是8。",
+          "source": "绵阳市涪城区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_mianyang_fucheng_2024a_n19",
+          "no": 19,
+          "type": "fill",
+          "stem": "比9大、比13小的数有（　）个",
+          "answer": "3",
+          "score": 2,
+          "analysis": "10、11、12，共 3 个。",
+          "source": "绵阳市涪城区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_mianyang_fucheng_2024a_n20",
+          "no": 20,
+          "type": "fill",
+          "stem": "排队做操，小明前面有2人，后面有4人，这一队一共有（　）人",
+          "answer": "7",
+          "score": 2,
+          "analysis": "前面2人+后面4人+小明自己1人=7人。",
+          "source": "绵阳市涪城区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_mianyang_fucheng_2024a_n21",
+          "no": 21,
+          "type": "judge",
+          "stem": "判断：12 里面有 2 个十和 1 个一。",
+          "answer": "错",
+          "score": 2,
+          "analysis": "12 是 1 个十和 2 个一。",
+          "source": "绵阳市涪城区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_mianyang_fucheng_2024a_n22",
+          "no": 22,
+          "type": "judge",
+          "stem": "判断：14-6=7。",
+          "answer": "错",
+          "score": 2,
+          "analysis": "14-6=8，不是 7。",
+          "source": "绵阳市涪城区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_mianyang_fucheng_2024a_n23",
+          "no": 23,
+          "type": "judge",
+          "stem": "判断：最小的两位数是 10。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "两位数最小是 10。",
+          "source": "绵阳市涪城区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_mianyang_fucheng_2024a_n24",
+          "no": 24,
+          "type": "judge",
+          "stem": "判断：三角形有三条边。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "三角形由三条边围成。",
+          "source": "绵阳市涪城区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_mianyang_fucheng_2024a_n25",
+          "no": 25,
+          "type": "judge",
+          "stem": "判断：时针指着6，分针指着12，是6时半。",
+          "answer": "错",
+          "score": 2,
+          "analysis": "分针指12是整时，是6时，不是6时半。",
+          "source": "绵阳市涪城区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_mianyang_fucheng_2024a_n26",
+          "no": 26,
+          "type": "choice",
+          "stem": "与11相邻的数是（　）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.10 B.12 C.13 D.9，正确答案为A。",
+          "source": "绵阳市涪城区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_mianyang_fucheng_2024a_n27",
+          "no": 27,
+          "type": "choice",
+          "stem": "2 个十是（　）",
+          "answer": "B",
+          "score": 2,
+          "analysis": "选项：A.12 B.20 C.22 D.2，正确答案为B。",
+          "source": "绵阳市涪城区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_mianyang_fucheng_2024a_n28",
+          "no": 28,
+          "type": "choice",
+          "stem": "7+5=（　）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.12 B.13 C.11 D.22，正确答案为A。",
+          "source": "绵阳市涪城区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_mianyang_fucheng_2024a_n29",
+          "no": 29,
+          "type": "choice",
+          "stem": "魔方的形状是（　）",
+          "answer": "C",
+          "score": 2,
+          "analysis": "选项：A.圆柱 B.球 C.正方体 D.长方体，正确答案为C。",
+          "source": "绵阳市涪城区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_mianyang_fucheng_2024a_n30",
+          "no": 30,
+          "type": "choice",
+          "stem": "比16小 2 的数是（　）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.14 B.18 C.15 D.17，正确答案为A。",
+          "source": "绵阳市涪城区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_mianyang_fucheng_2024a_n31",
+          "no": 31,
+          "type": "draw",
+          "stem": "看图列式：把左边和右边的○合在一起，写出加法算式。",
+          "answer": "6+4=10",
+          "score": 4,
+          "analysis": "左边 6 个○，右边 4 个○，合起来 10 个：6+4=10。",
+          "source": "绵阳市涪城区2024-2025学年上期期末（组编）",
+          "figure": {
+            "w": 300,
+            "h": 70,
+            "shapes": [
+              {
+                "t": "c",
+                "cx": 25,
+                "cy": 35,
+                "r": 14
+              },
+              {
+                "t": "c",
+                "cx": 57,
+                "cy": 35,
+                "r": 14
+              },
+              {
+                "t": "c",
+                "cx": 89,
+                "cy": 35,
+                "r": 14
+              },
+              {
+                "t": "c",
+                "cx": 121,
+                "cy": 35,
+                "r": 14
+              },
+              {
+                "t": "c",
+                "cx": 153,
+                "cy": 35,
+                "r": 14
+              },
+              {
+                "t": "c",
+                "cx": 185,
+                "cy": 35,
+                "r": 14
+              },
+              {
+                "t": "tx",
+                "x": 176,
+                "y": 42,
+                "s": "+",
+                "fs": 24
+              },
+              {
+                "t": "c",
+                "cx": 205,
+                "cy": 35,
+                "r": 14
+              },
+              {
+                "t": "c",
+                "cx": 237,
+                "cy": 35,
+                "r": 14
+              },
+              {
+                "t": "c",
+                "cx": 269,
+                "cy": 35,
+                "r": 14
+              },
+              {
+                "t": "c",
+                "cx": 301,
+                "cy": 35,
+                "r": 14
+              }
+            ]
+          }
+        },
+        {
+          "id": "paper_g1_mianyang_fucheng_2024a_n32",
+          "no": 32,
+          "type": "draw",
+          "stem": "看图列式：划去了几个○？还剩几个○？在草稿纸上写出减法算式。",
+          "answer": "13-5=8",
+          "score": 4,
+          "analysis": "一共 13 个○，划去 5 个，还剩 8 个：13-5=8。",
+          "source": "绵阳市涪城区2024-2025学年上期期末（组编）",
+          "figure": {
+            "w": 330,
+            "h": 70,
+            "shapes": [
+              {
+                "t": "c",
+                "cx": 22,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 45,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 68,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 91,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 114,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 137,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 160,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 183,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 206,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 229,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 252,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 275,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 298,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "x",
+                "cx": 206,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "x",
+                "cx": 229,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "x",
+                "cx": 252,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "x",
+                "cx": 275,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "x",
+                "cx": 298,
+                "cy": 35,
+                "r": 11
+              }
+            ]
+          }
+        },
+        {
+          "id": "paper_g1_mianyang_fucheng_2024a_n33",
+          "no": 33,
+          "type": "draw",
+          "stem": "按要求涂一涂：把左边数的第 2 个○涂上你喜欢的颜色。",
+          "answer": "涂从左数第 2 个○",
+          "score": 4,
+          "analysis": "先分清左右，再从左边开始数 1、2、…，把第 2 个涂色。",
+          "source": "绵阳市涪城区2024-2025学年上期期末（组编）",
+          "figure": {
+            "w": 280,
+            "h": 70,
+            "shapes": [
+              {
+                "t": "c",
+                "cx": 30,
+                "cy": 35,
+                "r": 15
+              },
+              {
+                "t": "c",
+                "cx": 70,
+                "cy": 35,
+                "r": 15
+              },
+              {
+                "t": "c",
+                "cx": 110,
+                "cy": 35,
+                "r": 15
+              },
+              {
+                "t": "c",
+                "cx": 150,
+                "cy": 35,
+                "r": 15
+              },
+              {
+                "t": "c",
+                "cx": 190,
+                "cy": 35,
+                "r": 15
+              }
+            ]
+          }
+        },
+        {
+          "id": "paper_g1_mianyang_fucheng_2024a_n34",
+          "no": 34,
+          "type": "solve",
+          "stem": "树上原来有9只小鸟，飞走了6只，还剩几只？",
+          "answer": "9-6=3（只）",
+          "score": 7,
+          "analysis": "求还剩多少用减法：9-6=3只。",
+          "source": "绵阳市涪城区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_mianyang_fucheng_2024a_n35",
+          "no": 35,
+          "type": "solve",
+          "stem": "小明有9支铅笔，妈妈又给他买了8支，小明现在有多少支铅笔？",
+          "answer": "9+8=17（支）",
+          "score": 7,
+          "analysis": "求一共有多少用加法：9+8=17支。",
+          "source": "绵阳市涪城区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_mianyang_fucheng_2024a_n36",
+          "no": 36,
+          "type": "solve",
+          "stem": "小红做了14朵花，小丽做了6朵花，小红比小丽多做几朵？",
+          "answer": "14-6=8（朵）",
+          "score": 7,
+          "analysis": "比多少用减法：大数减小数，14-6=8朵。",
+          "source": "绵阳市涪城区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_mianyang_fucheng_2024a_n37",
+          "no": 37,
+          "type": "solve",
+          "stem": "公交车上有11人，到站后下去3人，又上来4人，车上现在有多少人？",
+          "answer": "11-3+4=12（人）",
+          "score": 7,
+          "analysis": "下去用减法、上来用加法，按从左往右算：11-3+4=12人。",
+          "source": "绵阳市涪城区2024-2025学年上期期末（组编）",
+          "figure": null
+        }
+      ]
+    },
+    {
+      "id": "paper_g1_nanchong_shunqing_2021a",
+      "grade": 1,
+      "region": "南充市顺庆区",
+      "year": "2021-2022学年上期",
+      "title": "一年级数学期末测试卷（四）",
+      "duration": 60,
+      "total_score": 100,
+      "note": "北师大版一年级上册：20以内加减法、认识数、认钟表、图形；口算12×2分+填空8×2分+判断5×2分+选择5×2分+看图列式与操作3×4分+解决问题4×7分",
+      "questions": [
+        {
+          "id": "paper_g1_nanchong_shunqing_2021a_n1",
+          "no": 1,
+          "type": "fill",
+          "stem": "口算：8+6=",
+          "answer": "14",
+          "score": 2,
+          "analysis": "口算进位加用凑十法、退位减用破十法，按口诀或分解计算。",
+          "source": "南充市顺庆区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_nanchong_shunqing_2021a_n2",
+          "no": 2,
+          "type": "fill",
+          "stem": "口算：2+5+5=",
+          "answer": "12",
+          "score": 2,
+          "analysis": "口算进位加用凑十法、退位减用破十法，按口诀或分解计算。",
+          "source": "南充市顺庆区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_nanchong_shunqing_2021a_n3",
+          "no": 3,
+          "type": "fill",
+          "stem": "口算：12-8=",
+          "answer": "4",
+          "score": 2,
+          "analysis": "口算进位加用凑十法、退位减用破十法，按口诀或分解计算。",
+          "source": "南充市顺庆区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_nanchong_shunqing_2021a_n4",
+          "no": 4,
+          "type": "fill",
+          "stem": "口算：8+4+5=",
+          "answer": "17",
+          "score": 2,
+          "analysis": "口算进位加用凑十法、退位减用破十法，按口诀或分解计算。",
+          "source": "南充市顺庆区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_nanchong_shunqing_2021a_n5",
+          "no": 5,
+          "type": "fill",
+          "stem": "口算：8+8=",
+          "answer": "16",
+          "score": 2,
+          "analysis": "口算进位加用凑十法、退位减用破十法，按口诀或分解计算。",
+          "source": "南充市顺庆区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_nanchong_shunqing_2021a_n6",
+          "no": 6,
+          "type": "fill",
+          "stem": "口算：12-5=",
+          "answer": "7",
+          "score": 2,
+          "analysis": "口算进位加用凑十法、退位减用破十法，按口诀或分解计算。",
+          "source": "南充市顺庆区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_nanchong_shunqing_2021a_n7",
+          "no": 7,
+          "type": "fill",
+          "stem": "口算：8+5-6=",
+          "answer": "7",
+          "score": 2,
+          "analysis": "口算进位加用凑十法、退位减用破十法，按口诀或分解计算。",
+          "source": "南充市顺庆区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_nanchong_shunqing_2021a_n8",
+          "no": 8,
+          "type": "fill",
+          "stem": "口算：7+7+2=",
+          "answer": "16",
+          "score": 2,
+          "analysis": "口算进位加用凑十法、退位减用破十法，按口诀或分解计算。",
+          "source": "南充市顺庆区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_nanchong_shunqing_2021a_n9",
+          "no": 9,
+          "type": "fill",
+          "stem": "口算：13+4-5=",
+          "answer": "12",
+          "score": 2,
+          "analysis": "口算进位加用凑十法、退位减用破十法，按口诀或分解计算。",
+          "source": "南充市顺庆区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_nanchong_shunqing_2021a_n10",
+          "no": 10,
+          "type": "fill",
+          "stem": "口算：15-6-4=",
+          "answer": "5",
+          "score": 2,
+          "analysis": "口算进位加用凑十法、退位减用破十法，按口诀或分解计算。",
+          "source": "南充市顺庆区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_nanchong_shunqing_2021a_n11",
+          "no": 11,
+          "type": "fill",
+          "stem": "口算：14-4-5=",
+          "answer": "5",
+          "score": 2,
+          "analysis": "口算进位加用凑十法、退位减用破十法，按口诀或分解计算。",
+          "source": "南充市顺庆区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_nanchong_shunqing_2021a_n12",
+          "no": 12,
+          "type": "fill",
+          "stem": "口算：14-4-6=",
+          "answer": "4",
+          "score": 2,
+          "analysis": "口算进位加用凑十法、退位减用破十法，按口诀或分解计算。",
+          "source": "南充市顺庆区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_nanchong_shunqing_2021a_n13",
+          "no": 13,
+          "type": "fill",
+          "stem": "比6大3的数是（　）",
+          "answer": "9",
+          "score": 2,
+          "analysis": "求比一个数多几：6+3=9。",
+          "source": "南充市顺庆区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_nanchong_shunqing_2021a_n14",
+          "no": 14,
+          "type": "fill",
+          "stem": "一个两位数，十位上是1，个位上是2，这个数是（　）",
+          "answer": "12",
+          "score": 2,
+          "analysis": "1个十和2个一合起来是12。",
+          "source": "南充市顺庆区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_nanchong_shunqing_2021a_n15",
+          "no": 15,
+          "type": "fill",
+          "stem": "按规律填数：2、4、6、8、（　）",
+          "answer": "10",
+          "score": 2,
+          "analysis": "每次多2，8+2=10。",
+          "source": "南充市顺庆区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_nanchong_shunqing_2021a_n16",
+          "no": 16,
+          "type": "fill",
+          "stem": "钟面上，时针指着6，分针指着12，这时是（　）时",
+          "answer": "6",
+          "score": 2,
+          "analysis": "分针指着12表示整时，时针指着6就是6时。",
+          "source": "南充市顺庆区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_nanchong_shunqing_2021a_n17",
+          "no": 17,
+          "type": "fill",
+          "stem": "与16相邻的两个数是（　）和（　）",
+          "answer": "15、17",
+          "score": 2,
+          "analysis": "前一个数比它小1是15，后一个数比它大1是17。",
+          "source": "南充市顺庆区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_nanchong_shunqing_2021a_n18",
+          "no": 18,
+          "type": "fill",
+          "stem": "从4数起，第4个数是（　）",
+          "answer": "7",
+          "score": 2,
+          "analysis": "从4开始数：4、5、6、7，第4个是7。",
+          "source": "南充市顺庆区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_nanchong_shunqing_2021a_n19",
+          "no": 19,
+          "type": "fill",
+          "stem": "个位是 0 的两位数中，最小的是（　）",
+          "answer": "10",
+          "score": 2,
+          "analysis": "个位是 0 的最小两位数是 10。",
+          "source": "南充市顺庆区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_nanchong_shunqing_2021a_n20",
+          "no": 20,
+          "type": "fill",
+          "stem": "排队做操，小明前面有2人，后面有3人，这一队一共有（　）人",
+          "answer": "6",
+          "score": 2,
+          "analysis": "前面2人+后面3人+小明自己1人=6人。",
+          "source": "南充市顺庆区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_nanchong_shunqing_2021a_n21",
+          "no": 21,
+          "type": "judge",
+          "stem": "判断：17 里面有 1 个十和 7 个一。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "17 由 1 个十和 7 个一组成。",
+          "source": "南充市顺庆区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_nanchong_shunqing_2021a_n22",
+          "no": 22,
+          "type": "judge",
+          "stem": "判断：13-9=4。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "13-9=4。",
+          "source": "南充市顺庆区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_nanchong_shunqing_2021a_n23",
+          "no": 23,
+          "type": "judge",
+          "stem": "判断：最大的两位数是 99。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "两位数最大是 99。",
+          "source": "南充市顺庆区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_nanchong_shunqing_2021a_n24",
+          "no": 24,
+          "type": "judge",
+          "stem": "判断：球可以来回滚动。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "球面是曲面，可以任意方向滚动。",
+          "source": "南充市顺庆区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_nanchong_shunqing_2021a_n25",
+          "no": 25,
+          "type": "judge",
+          "stem": "判断：钟面上有 12 个数。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "钟面一圈共 12 个数。",
+          "source": "南充市顺庆区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_nanchong_shunqing_2021a_n26",
+          "no": 26,
+          "type": "choice",
+          "stem": "与17相邻的数是（　）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.16 B.18 C.19 D.15，正确答案为A。",
+          "source": "南充市顺庆区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_nanchong_shunqing_2021a_n27",
+          "no": 27,
+          "type": "choice",
+          "stem": "17 里面有（　）",
+          "answer": "B",
+          "score": 2,
+          "analysis": "选项：A.7 个十和 1 个一 B.1 个十和 7 个一 C.17 个十 D.1 个一，正确答案为B。",
+          "source": "南充市顺庆区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_nanchong_shunqing_2021a_n28",
+          "no": 28,
+          "type": "choice",
+          "stem": "9+8=（　）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.17 B.18 C.16 D.27，正确答案为A。",
+          "source": "南充市顺庆区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_nanchong_shunqing_2021a_n29",
+          "no": 29,
+          "type": "choice",
+          "stem": "足球的形状是（　）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.球 B.圆柱 C.正方体 D.长方体，正确答案为A。",
+          "source": "南充市顺庆区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_nanchong_shunqing_2021a_n30",
+          "no": 30,
+          "type": "choice",
+          "stem": "比12小 2 的数是（　）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.10 B.14 C.11 D.13，正确答案为A。",
+          "source": "南充市顺庆区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_nanchong_shunqing_2021a_n31",
+          "no": 31,
+          "type": "draw",
+          "stem": "看图列式：数一数左右两边的○，在草稿纸上写出加法算式。",
+          "answer": "3+4=7",
+          "score": 4,
+          "analysis": "左边 3 个○，右边 4 个○，合起来 7 个：3+4=7。",
+          "source": "南充市顺庆区2021-2022学年上期期末（组编）",
+          "figure": {
+            "w": 300,
+            "h": 70,
+            "shapes": [
+              {
+                "t": "c",
+                "cx": 25,
+                "cy": 35,
+                "r": 14
+              },
+              {
+                "t": "c",
+                "cx": 57,
+                "cy": 35,
+                "r": 14
+              },
+              {
+                "t": "c",
+                "cx": 89,
+                "cy": 35,
+                "r": 14
+              },
+              {
+                "t": "tx",
+                "x": 176,
+                "y": 42,
+                "s": "+",
+                "fs": 24
+              },
+              {
+                "t": "c",
+                "cx": 205,
+                "cy": 35,
+                "r": 14
+              },
+              {
+                "t": "c",
+                "cx": 237,
+                "cy": 35,
+                "r": 14
+              },
+              {
+                "t": "c",
+                "cx": 269,
+                "cy": 35,
+                "r": 14
+              },
+              {
+                "t": "c",
+                "cx": 301,
+                "cy": 35,
+                "r": 14
+              }
+            ]
+          }
+        },
+        {
+          "id": "paper_g1_nanchong_shunqing_2021a_n32",
+          "no": 32,
+          "type": "draw",
+          "stem": "看图列式：原来的○划去了一部分，剩下几个？写出减法算式。",
+          "answer": "14-3=11",
+          "score": 4,
+          "analysis": "一共 14 个○，划去 3 个，还剩 11 个：14-3=11。",
+          "source": "南充市顺庆区2021-2022学年上期期末（组编）",
+          "figure": {
+            "w": 330,
+            "h": 70,
+            "shapes": [
+              {
+                "t": "c",
+                "cx": 22,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 43,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 64,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 85,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 106,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 127,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 148,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 169,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 190,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 211,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 232,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 253,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 274,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "c",
+                "cx": 295,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "x",
+                "cx": 253,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "x",
+                "cx": 274,
+                "cy": 35,
+                "r": 11
+              },
+              {
+                "t": "x",
+                "cx": 295,
+                "cy": 35,
+                "r": 11
+              }
+            ]
+          }
+        },
+        {
+          "id": "paper_g1_nanchong_shunqing_2021a_n33",
+          "no": 33,
+          "type": "draw",
+          "stem": "照样子数一数：从左边数起，给第 4 个○涂色。",
+          "answer": "涂从左数第 4 个○",
+          "score": 4,
+          "analysis": "先分清左右，再从左边开始数 1、2、…，把第 4 个涂色。",
+          "source": "南充市顺庆区2021-2022学年上期期末（组编）",
+          "figure": {
+            "w": 280,
+            "h": 70,
+            "shapes": [
+              {
+                "t": "c",
+                "cx": 30,
+                "cy": 35,
+                "r": 15
+              },
+              {
+                "t": "c",
+                "cx": 70,
+                "cy": 35,
+                "r": 15
+              },
+              {
+                "t": "c",
+                "cx": 110,
+                "cy": 35,
+                "r": 15
+              },
+              {
+                "t": "c",
+                "cx": 150,
+                "cy": 35,
+                "r": 15
+              },
+              {
+                "t": "c",
+                "cx": 190,
+                "cy": 35,
+                "r": 15
+              },
+              {
+                "t": "c",
+                "cx": 230,
+                "cy": 35,
+                "r": 15
+              },
+              {
+                "t": "c",
+                "cx": 270,
+                "cy": 35,
+                "r": 15
+              }
+            ]
+          }
+        },
+        {
+          "id": "paper_g1_nanchong_shunqing_2021a_n34",
+          "no": 34,
+          "type": "solve",
+          "stem": "树上原来有12只小鸟，飞走了6只，还剩几只？",
+          "answer": "12-6=6（只）",
+          "score": 7,
+          "analysis": "求还剩多少用减法：12-6=6只。",
+          "source": "南充市顺庆区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_nanchong_shunqing_2021a_n35",
+          "no": 35,
+          "type": "solve",
+          "stem": "小明有5支铅笔，妈妈又给他买了6支，小明现在有多少支铅笔？",
+          "answer": "5+6=11（支）",
+          "score": 7,
+          "analysis": "求一共有多少用加法：5+6=11支。",
+          "source": "南充市顺庆区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_nanchong_shunqing_2021a_n36",
+          "no": 36,
+          "type": "solve",
+          "stem": "小红做了11朵花，小丽做了7朵花，小红比小丽多做几朵？",
+          "answer": "11-7=4（朵）",
+          "score": 7,
+          "analysis": "比多少用减法：大数减小数，11-7=4朵。",
+          "source": "南充市顺庆区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g1_nanchong_shunqing_2021a_n37",
+          "no": 37,
+          "type": "solve",
+          "stem": "公交车上有9人，到站后下去4人，又上来4人，车上现在有多少人？",
+          "answer": "9-4+4=9（人）",
+          "score": 7,
+          "analysis": "下去用减法、上来用加法，按从左往右算：9-4+4=9人。",
+          "source": "南充市顺庆区2021-2022学年上期期末（组编）",
+          "figure": null
+        }
+      ]
     }
   ]
 }
