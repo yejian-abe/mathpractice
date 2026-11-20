@@ -22020,6 +22020,1524 @@
           "figure": null
         }
       ]
+    },
+    {
+      "id": "paper_g5_chengdu_jinjiang_2024b",
+      "grade": 5,
+      "region": "成都市锦江区",
+      "year": "2024-2025学年下期",
+      "title": "五年级数学期末测试卷（二）",
+      "duration": 90,
+      "total_score": 100,
+      "note": "北师大版五年级下册：分数加减法、长方体（一）、分数乘法、长方体（二）体积与容积、分数除法、确定位置、用方程解决问题、数据的表示和分析、数学好玩；口算10×1分+填空8×3分+判断5×2分+选择5×2分+计算4×4分+看图列式与操作2×3分+解决问题6×4分",
+      "questions": [
+        {
+          "id": "paper_g5_chengdu_jinjiang_2024b_n1",
+          "no": 1,
+          "type": "fill",
+          "stem": "口算：3×1/8=",
+          "answer": "3/8",
+          "score": 1,
+          "analysis": "同分母分数相加减分母不变只加减分子；异分母先通分；除以一个数等于乘它的倒数。",
+          "source": "成都市锦江区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_jinjiang_2024b_n2",
+          "no": 2,
+          "type": "fill",
+          "stem": "口算：1/2+1/3=",
+          "answer": "5/6",
+          "score": 1,
+          "analysis": "同分母分数相加减分母不变只加减分子；异分母先通分；除以一个数等于乘它的倒数。",
+          "source": "成都市锦江区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_jinjiang_2024b_n3",
+          "no": 3,
+          "type": "fill",
+          "stem": "口算：5/6-4/6=",
+          "answer": "1/6",
+          "score": 1,
+          "analysis": "同分母分数相加减分母不变只加减分子；异分母先通分；除以一个数等于乘它的倒数。",
+          "source": "成都市锦江区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_jinjiang_2024b_n4",
+          "no": 4,
+          "type": "fill",
+          "stem": "口算：5/10-4/10=",
+          "answer": "1/10",
+          "score": 1,
+          "analysis": "同分母分数相加减分母不变只加减分子；异分母先通分；除以一个数等于乘它的倒数。",
+          "source": "成都市锦江区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_jinjiang_2024b_n5",
+          "no": 5,
+          "type": "fill",
+          "stem": "口算：6×1/10=",
+          "answer": "3/5",
+          "score": 1,
+          "analysis": "同分母分数相加减分母不变只加减分子；异分母先通分；除以一个数等于乘它的倒数。",
+          "source": "成都市锦江区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_jinjiang_2024b_n6",
+          "no": 6,
+          "type": "fill",
+          "stem": "口算：6/10+3/10=",
+          "answer": "9/10",
+          "score": 1,
+          "analysis": "同分母分数相加减分母不变只加减分子；异分母先通分；除以一个数等于乘它的倒数。",
+          "source": "成都市锦江区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_jinjiang_2024b_n7",
+          "no": 7,
+          "type": "fill",
+          "stem": "口算：1/2+1/10=",
+          "answer": "3/5",
+          "score": 1,
+          "analysis": "同分母分数相加减分母不变只加减分子；异分母先通分；除以一个数等于乘它的倒数。",
+          "source": "成都市锦江区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_jinjiang_2024b_n8",
+          "no": 8,
+          "type": "fill",
+          "stem": "口算：7/11+3/11=",
+          "answer": "10/11",
+          "score": 1,
+          "analysis": "同分母分数相加减分母不变只加减分子；异分母先通分；除以一个数等于乘它的倒数。",
+          "source": "成都市锦江区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_jinjiang_2024b_n9",
+          "no": 9,
+          "type": "fill",
+          "stem": "口算：1/3-1/4=",
+          "answer": "1/12",
+          "score": 1,
+          "analysis": "同分母分数相加减分母不变只加减分子；异分母先通分；除以一个数等于乘它的倒数。",
+          "source": "成都市锦江区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_jinjiang_2024b_n10",
+          "no": 10,
+          "type": "fill",
+          "stem": "口算：1/3-1/12=",
+          "answer": "1/4",
+          "score": 1,
+          "analysis": "同分母分数相加减分母不变只加减分子；异分母先通分；除以一个数等于乘它的倒数。",
+          "source": "成都市锦江区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_jinjiang_2024b_n11",
+          "no": 11,
+          "type": "fill",
+          "stem": "5/8的分数单位是（　）",
+          "answer": "1/8",
+          "score": 3,
+          "analysis": "分母是 8，分数单位是 1/8。",
+          "source": "成都市锦江区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_jinjiang_2024b_n12",
+          "no": 12,
+          "type": "fill",
+          "stem": "4/10+6/10=（　）",
+          "answer": "1",
+          "score": 3,
+          "analysis": "4/10+6/10=10/10=1。",
+          "source": "成都市锦江区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_jinjiang_2024b_n13",
+          "no": 13,
+          "type": "fill",
+          "stem": "长方体有（　）个面",
+          "answer": "6",
+          "score": 3,
+          "analysis": "长方体有 6 个面，一般相对的面完全相同。",
+          "source": "成都市锦江区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_jinjiang_2024b_n14",
+          "no": 14,
+          "type": "fill",
+          "stem": "5立方分米=（　）立方厘米",
+          "answer": "5000",
+          "score": 3,
+          "analysis": "1立方分米=1000立方厘米：5×1000=5000立方厘米。",
+          "source": "成都市锦江区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_jinjiang_2024b_n15",
+          "no": 15,
+          "type": "fill",
+          "stem": "5×1/10=（　）",
+          "answer": "1/2",
+          "score": 3,
+          "analysis": "整数乘分数：分子乘整数：5×1=5，得5/10。",
+          "source": "成都市锦江区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_jinjiang_2024b_n16",
+          "no": 16,
+          "type": "fill",
+          "stem": "南偏西70°的方向也可以说成西偏南（　）°",
+          "answer": "20",
+          "score": 3,
+          "analysis": "南偏西70°与西偏南20°是同一方向，两个偏角之和为90°。",
+          "source": "成都市锦江区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_jinjiang_2024b_n17",
+          "no": 17,
+          "type": "fill",
+          "stem": "比x多55的数是115，x=（　）",
+          "answer": "60",
+          "score": 3,
+          "analysis": "x+55=115，x=60。",
+          "source": "成都市锦江区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_jinjiang_2024b_n18",
+          "no": 18,
+          "type": "fill",
+          "stem": "要清楚地表示数量的增减变化情况，应选用（　）统计图",
+          "answer": "折线",
+          "score": 3,
+          "analysis": "折线统计图能清楚地反映数量的增减变化。",
+          "source": "成都市锦江区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_jinjiang_2024b_n19",
+          "no": 19,
+          "type": "judge",
+          "stem": "判断：1/5+2/5=3/10。",
+          "answer": "错",
+          "score": 2,
+          "analysis": "同分母相加分母不变，1/5+2/5=3/5。",
+          "source": "成都市锦江区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_jinjiang_2024b_n20",
+          "no": 20,
+          "type": "judge",
+          "stem": "判断：一个数（0除外）乘真分数，积小于这个数。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "真分数小于1，乘真分数积变小。",
+          "source": "成都市锦江区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_jinjiang_2024b_n21",
+          "no": 21,
+          "type": "judge",
+          "stem": "判断：正方体是特殊的长方体。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "正方体是长、宽、高都相等的长方体。",
+          "source": "成都市锦江区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_jinjiang_2024b_n22",
+          "no": 22,
+          "type": "judge",
+          "stem": "判断：一个数（0除外）除以真分数，商大于这个数。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "除以小于1的数（0除外），商大于被除数。",
+          "source": "成都市锦江区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_jinjiang_2024b_n23",
+          "no": 23,
+          "type": "judge",
+          "stem": "判断：含有未知数的等式叫做方程。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "方程的定义。",
+          "source": "成都市锦江区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_jinjiang_2024b_n24",
+          "no": 24,
+          "type": "choice",
+          "stem": "一杯果汁，小明喝了它的2/5，还剩这杯果汁的（　）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.3/5 B.2/5 C.2/5 D.7/5，正确答案为A。",
+          "source": "成都市锦江区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_jinjiang_2024b_n25",
+          "no": 25,
+          "type": "choice",
+          "stem": "一个棱长4分米的正方体，它的体积是（　）立方分米",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.64 B.96 C.48 D.16，正确答案为A。",
+          "source": "成都市锦江区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_jinjiang_2024b_n26",
+          "no": 26,
+          "type": "choice",
+          "stem": "84÷1/4的商（　）84",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.大于 B.小于 C.等于 D.无法确定，正确答案为A。",
+          "source": "成都市锦江区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_jinjiang_2024b_n27",
+          "no": 27,
+          "type": "choice",
+          "stem": "把一个棱长6厘米的正方体木块切成两个完全一样的长方体，表面积一共增加了（　）平方厘米",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.72 B.36 C.144 D.216，正确答案为A。",
+          "source": "成都市锦江区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_jinjiang_2024b_n28",
+          "no": 28,
+          "type": "choice",
+          "stem": "要表示某地一周每天最高气温的变化情况，应选用（　）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.折线统计图 B.条形统计图 C.统计表 D.都无法表示，正确答案为A。",
+          "source": "成都市锦江区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_jinjiang_2024b_n29",
+          "no": 29,
+          "type": "fill",
+          "stem": "脱式计算：1/7+6/7-5/7=",
+          "answer": "2/7",
+          "score": 4,
+          "analysis": "脱式按运算顺序计算，结果化成最简分数；解方程根据等式性质求解并检验。",
+          "source": "成都市锦江区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_jinjiang_2024b_n30",
+          "no": 30,
+          "type": "fill",
+          "stem": "脱式计算：1/9+1/4+8/9=",
+          "answer": "5/4",
+          "score": 4,
+          "analysis": "脱式按运算顺序计算，结果化成最简分数；解方程根据等式性质求解并检验。",
+          "source": "成都市锦江区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_jinjiang_2024b_n31",
+          "no": 31,
+          "type": "fill",
+          "stem": "解方程：x+2/6=6/6，x=（　）",
+          "answer": "2/3",
+          "score": 4,
+          "analysis": "脱式按运算顺序计算，结果化成最简分数；解方程根据等式性质求解并检验。",
+          "source": "成都市锦江区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_jinjiang_2024b_n32",
+          "no": 32,
+          "type": "fill",
+          "stem": "解方程：7x=42，x=（　）",
+          "answer": "6",
+          "score": 4,
+          "analysis": "脱式按运算顺序计算，结果化成最简分数；解方程根据等式性质求解并检验。",
+          "source": "成都市锦江区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_jinjiang_2024b_n33",
+          "no": 33,
+          "type": "draw",
+          "stem": "在下面的方格纸中涂色表示1/2（一共有12格）。",
+          "answer": "涂6格",
+          "score": 3,
+          "analysis": "12格的1/2是6格：12÷2×1=6格（涂法不唯一）。",
+          "source": "成都市锦江区2024-2025学年下期期末（组编）",
+          "figure": {
+            "w": 170,
+            "h": 150,
+            "shapes": [
+              {
+                "t": "grid",
+                "x": 30,
+                "y": 30,
+                "cols": 4,
+                "rows": 3,
+                "cw": 26
+              }
+            ]
+          }
+        },
+        {
+          "id": "paper_g5_chengdu_jinjiang_2024b_n34",
+          "no": 34,
+          "type": "draw",
+          "stem": "下表是小亮第1～5次跳绳的成绩：130、125、121、145、136个。请根据表中数据，在方格纸上画出折线统计图。",
+          "answer": "按数据描点后用线段依次连接",
+          "score": 3,
+          "analysis": "根据数据在第1～5次对应的位置描点，再用线段依次连接各点，并在图上标注数据。",
+          "source": "成都市锦江区2024-2025学年下期期末（组编）",
+          "figure": {
+            "w": 200,
+            "h": 190,
+            "shapes": [
+              {
+                "t": "grid",
+                "x": 40,
+                "y": 20,
+                "cols": 6,
+                "rows": 6,
+                "cw": 24
+              },
+              {
+                "t": "l",
+                "x1": 40,
+                "y1": 20,
+                "x2": 40,
+                "y2": 164
+              },
+              {
+                "t": "l",
+                "x1": 40,
+                "y1": 164,
+                "x2": 184,
+                "y2": 164
+              },
+              {
+                "t": "tx",
+                "x": 96,
+                "y": 172,
+                "s": "第1次 第2次 第3次 第4次 第5次",
+                "fs": 9
+              },
+              {
+                "t": "tx",
+                "x": 8,
+                "y": 90,
+                "s": "个数",
+                "fs": 11
+              }
+            ]
+          }
+        },
+        {
+          "id": "paper_g5_chengdu_jinjiang_2024b_n35",
+          "no": 35,
+          "type": "solve",
+          "stem": "一杯水，明明上午喝了它的4/12，下午喝了它的7/12，这一天一共喝了这杯水的几分之几？",
+          "answer": "11/12",
+          "score": 4,
+          "analysis": "共喝了：4/12+7/12=11/12。",
+          "source": "成都市锦江区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_jinjiang_2024b_n36",
+          "no": 36,
+          "type": "solve",
+          "stem": "一个长方体礼品盒，长26厘米、宽17厘米、高7厘米。在它的表面贴满包装纸（接口处不计），至少需要包装纸多少平方厘米？",
+          "answer": "1486平方厘米",
+          "score": 4,
+          "analysis": "长方体表面积=(长×宽+长×高+宽×高)×2：(26×17+26×7+17×7)×2=1486（平方厘米）。",
+          "source": "成都市锦江区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_jinjiang_2024b_n37",
+          "no": 37,
+          "type": "solve",
+          "stem": "一个正方体水箱，从里面量棱长是7分米。这个水箱最多能装水多少升？",
+          "answer": "343升",
+          "score": 4,
+          "analysis": "正方体体积=棱长×棱长×棱长：7×7×7=343立方分米，1立方分米=1升，所以最多装水343升。",
+          "source": "成都市锦江区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_jinjiang_2024b_n38",
+          "no": 38,
+          "type": "solve",
+          "stem": "一本故事书共204页，小华第一天看了全书的2/6，第一天看了多少页？",
+          "answer": "68页",
+          "score": 4,
+          "analysis": "求一个数的几分之几是多少用乘法：204×2/6=68（页）。",
+          "source": "成都市锦江区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_jinjiang_2024b_n39",
+          "no": 39,
+          "type": "solve",
+          "stem": "学校图书馆买进30本童话书，正好占本月买书总数的2/4。本月一共买书多少本？",
+          "answer": "60本",
+          "score": 4,
+          "analysis": "已知一个数的2/4是30，求这个数用除法：30÷2/4=30×4=60（本）。",
+          "source": "成都市锦江区2024-2025学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_jinjiang_2024b_n40",
+          "no": 40,
+          "type": "solve",
+          "stem": "甲、乙两地相距360千米，一辆客车和一辆货车同时从两地相向开出，客车每小时行65千米，货车每小时行55千米。经过多少小时两车相遇？（列方程解答）",
+          "answer": "3小时",
+          "score": 4,
+          "analysis": "设经过x小时两车相遇，列方程：(65+55)x=360，120x=360，x=3。",
+          "source": "成都市锦江区2024-2025学年下期期末（组编）",
+          "figure": null
+        }
+      ]
+    },
+    {
+      "id": "paper_g5_chengdu_gaoxin_2022b",
+      "grade": 5,
+      "region": "成都市高新区",
+      "year": "2022-2023学年下期",
+      "title": "五年级数学期末测试卷（三）",
+      "duration": 90,
+      "total_score": 100,
+      "note": "北师大版五年级下册：分数加减法、长方体（一）、分数乘法、长方体（二）体积与容积、分数除法、确定位置、用方程解决问题、数据的表示和分析、数学好玩；口算10×1分+填空8×3分+判断5×2分+选择5×2分+计算4×4分+看图列式与操作2×3分+解决问题6×4分",
+      "questions": [
+        {
+          "id": "paper_g5_chengdu_gaoxin_2022b_n1",
+          "no": 1,
+          "type": "fill",
+          "stem": "口算：3/10-1/10=",
+          "answer": "1/5",
+          "score": 1,
+          "analysis": "同分母分数相加减分母不变只加减分子；异分母先通分；除以一个数等于乘它的倒数。",
+          "source": "成都市高新区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_gaoxin_2022b_n2",
+          "no": 2,
+          "type": "fill",
+          "stem": "口算：1/4+1/6=",
+          "answer": "5/12",
+          "score": 1,
+          "analysis": "同分母分数相加减分母不变只加减分子；异分母先通分；除以一个数等于乘它的倒数。",
+          "source": "成都市高新区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_gaoxin_2022b_n3",
+          "no": 3,
+          "type": "fill",
+          "stem": "口算：6/10-3/10=",
+          "answer": "3/10",
+          "score": 1,
+          "analysis": "同分母分数相加减分母不变只加减分子；异分母先通分；除以一个数等于乘它的倒数。",
+          "source": "成都市高新区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_gaoxin_2022b_n4",
+          "no": 4,
+          "type": "fill",
+          "stem": "口算：10/12-3/12=",
+          "answer": "7/12",
+          "score": 1,
+          "analysis": "同分母分数相加减分母不变只加减分子；异分母先通分；除以一个数等于乘它的倒数。",
+          "source": "成都市高新区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_gaoxin_2022b_n5",
+          "no": 5,
+          "type": "fill",
+          "stem": "口算：4×1/9=",
+          "answer": "4/9",
+          "score": 1,
+          "analysis": "同分母分数相加减分母不变只加减分子；异分母先通分；除以一个数等于乘它的倒数。",
+          "source": "成都市高新区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_gaoxin_2022b_n6",
+          "no": 6,
+          "type": "fill",
+          "stem": "口算：6/11÷2=",
+          "answer": "3/11",
+          "score": 1,
+          "analysis": "同分母分数相加减分母不变只加减分子；异分母先通分；除以一个数等于乘它的倒数。",
+          "source": "成都市高新区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_gaoxin_2022b_n7",
+          "no": 7,
+          "type": "fill",
+          "stem": "口算：1/4+1/12=",
+          "answer": "1/3",
+          "score": 1,
+          "analysis": "同分母分数相加减分母不变只加减分子；异分母先通分；除以一个数等于乘它的倒数。",
+          "source": "成都市高新区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_gaoxin_2022b_n8",
+          "no": 8,
+          "type": "fill",
+          "stem": "口算：1/2-1/4=",
+          "answer": "1/4",
+          "score": 1,
+          "analysis": "同分母分数相加减分母不变只加减分子；异分母先通分；除以一个数等于乘它的倒数。",
+          "source": "成都市高新区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_gaoxin_2022b_n9",
+          "no": 9,
+          "type": "fill",
+          "stem": "口算：3/5-1/5=",
+          "answer": "2/5",
+          "score": 1,
+          "analysis": "同分母分数相加减分母不变只加减分子；异分母先通分；除以一个数等于乘它的倒数。",
+          "source": "成都市高新区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_gaoxin_2022b_n10",
+          "no": 10,
+          "type": "fill",
+          "stem": "口算：7/12-4/12=",
+          "answer": "1/4",
+          "score": 1,
+          "analysis": "同分母分数相加减分母不变只加减分子；异分母先通分；除以一个数等于乘它的倒数。",
+          "source": "成都市高新区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_gaoxin_2022b_n11",
+          "no": 11,
+          "type": "fill",
+          "stem": "7/10里面有（　）个1/10",
+          "answer": "7",
+          "score": 3,
+          "analysis": "7/10 由 7 个 1/10 组成。",
+          "source": "成都市高新区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_gaoxin_2022b_n12",
+          "no": 12,
+          "type": "fill",
+          "stem": "1/11+4/11=（　）",
+          "answer": "5/11",
+          "score": 3,
+          "analysis": "同分母相加分母不变：1/11+4/11=5/11，化简得5/11。",
+          "source": "成都市高新区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_gaoxin_2022b_n13",
+          "no": 13,
+          "type": "fill",
+          "stem": "长方体有（　）个顶点",
+          "answer": "8",
+          "score": 3,
+          "analysis": "长方体有 8 个顶点。",
+          "source": "成都市高新区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_gaoxin_2022b_n14",
+          "no": 14,
+          "type": "fill",
+          "stem": "1000毫升=（　）升",
+          "answer": "1",
+          "score": 3,
+          "analysis": "1000÷1000=1升。",
+          "source": "成都市高新区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_gaoxin_2022b_n15",
+          "no": 15,
+          "type": "fill",
+          "stem": "8×1/3=（　）",
+          "answer": "8/3",
+          "score": 3,
+          "analysis": "整数乘分数：分子乘整数：8×1=8，得8/3。",
+          "source": "成都市高新区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_gaoxin_2022b_n16",
+          "no": 16,
+          "type": "fill",
+          "stem": "以观测点为中心，北偏东30°的方向也可以说成东偏北（　）°",
+          "answer": "60",
+          "score": 3,
+          "analysis": "北偏东30°与东偏北60°是同一方向，两个偏角之和为90°。",
+          "source": "成都市高新区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_gaoxin_2022b_n17",
+          "no": 17,
+          "type": "fill",
+          "stem": "比x多21的数是45，x=（　）",
+          "answer": "24",
+          "score": 3,
+          "analysis": "x+21=45，x=24。",
+          "source": "成都市高新区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_gaoxin_2022b_n18",
+          "no": 18,
+          "type": "fill",
+          "stem": "要清楚地表示各种数量的多少，应选用（　）统计图",
+          "answer": "条形",
+          "score": 3,
+          "analysis": "条形统计图能清楚地表示各种数量的多少。",
+          "source": "成都市高新区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_gaoxin_2022b_n19",
+          "no": 19,
+          "type": "judge",
+          "stem": "判断：异分母分数相加减，必须先通分。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "分母不同不能直接加减，要先通分。",
+          "source": "成都市高新区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_gaoxin_2022b_n20",
+          "no": 20,
+          "type": "judge",
+          "stem": "判断：一个数（0除外）乘假分数，积一定大于这个数。",
+          "answer": "错",
+          "score": 2,
+          "analysis": "假分数等于1时，积等于这个数。",
+          "source": "成都市高新区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_gaoxin_2022b_n21",
+          "no": 21,
+          "type": "judge",
+          "stem": "判断：棱长6厘米的正方体，表面积和体积相等。",
+          "answer": "错",
+          "score": 2,
+          "analysis": "表面积用平方厘米、体积用立方厘米，单位不同不能比较。",
+          "source": "成都市高新区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_gaoxin_2022b_n22",
+          "no": 22,
+          "type": "judge",
+          "stem": "判断：分数除以整数（0除外），等于分数乘这个整数的倒数。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "除以一个数等于乘它的倒数。",
+          "source": "成都市高新区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_gaoxin_2022b_n23",
+          "no": 23,
+          "type": "judge",
+          "stem": "判断：方程一定是等式，等式不一定是方程。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "等式只有含未知数才是方程。",
+          "source": "成都市高新区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_gaoxin_2022b_n24",
+          "no": 24,
+          "type": "choice",
+          "stem": "一杯果汁，小明喝了它的4/7，还剩这杯果汁的（　）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.3/7 B.4/7 C.2/7 D.11/7，正确答案为A。",
+          "source": "成都市高新区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_gaoxin_2022b_n25",
+          "no": 25,
+          "type": "choice",
+          "stem": "一个棱长3分米的正方体，它的体积是（　）立方分米",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.27 B.54 C.36 D.9，正确答案为A。",
+          "source": "成都市高新区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_gaoxin_2022b_n26",
+          "no": 26,
+          "type": "choice",
+          "stem": "84÷1/3的商（　）84",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.大于 B.小于 C.等于 D.无法确定，正确答案为A。",
+          "source": "成都市高新区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_gaoxin_2022b_n27",
+          "no": 27,
+          "type": "choice",
+          "stem": "把一个棱长3厘米的正方体木块切成两个完全一样的长方体，表面积一共增加了（　）平方厘米",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.18 B.9 C.36 D.27，正确答案为A。",
+          "source": "成都市高新区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_gaoxin_2022b_n28",
+          "no": 28,
+          "type": "choice",
+          "stem": "要表示五个年级各班的人数，应选用（　）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.条形统计图 B.折线统计图 C.统计表 D.都无法表示，正确答案为A。",
+          "source": "成都市高新区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_gaoxin_2022b_n29",
+          "no": 29,
+          "type": "fill",
+          "stem": "脱式计算：8/9-1/9-1/9=",
+          "answer": "2/3",
+          "score": 4,
+          "analysis": "脱式按运算顺序计算，结果化成最简分数；解方程根据等式性质求解并检验。",
+          "source": "成都市高新区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_gaoxin_2022b_n30",
+          "no": 30,
+          "type": "fill",
+          "stem": "脱式计算：4/8+1/3+4/8=",
+          "answer": "4/3",
+          "score": 4,
+          "analysis": "脱式按运算顺序计算，结果化成最简分数；解方程根据等式性质求解并检验。",
+          "source": "成都市高新区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_gaoxin_2022b_n31",
+          "no": 31,
+          "type": "fill",
+          "stem": "解方程：x+2/8=6/8，x=（　）",
+          "answer": "1/2",
+          "score": 4,
+          "analysis": "脱式按运算顺序计算，结果化成最简分数；解方程根据等式性质求解并检验。",
+          "source": "成都市高新区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_gaoxin_2022b_n32",
+          "no": 32,
+          "type": "fill",
+          "stem": "解方程：4x=72，x=（　）",
+          "answer": "18",
+          "score": 4,
+          "analysis": "脱式按运算顺序计算，结果化成最简分数；解方程根据等式性质求解并检验。",
+          "source": "成都市高新区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_gaoxin_2022b_n33",
+          "no": 33,
+          "type": "draw",
+          "stem": "在下面的方格纸中涂色表示2/3（一共有12格）。",
+          "answer": "涂8格",
+          "score": 3,
+          "analysis": "12格的2/3是8格：12÷3×2=8格（涂法不唯一）。",
+          "source": "成都市高新区2022-2023学年下期期末（组编）",
+          "figure": {
+            "w": 170,
+            "h": 150,
+            "shapes": [
+              {
+                "t": "grid",
+                "x": 30,
+                "y": 30,
+                "cols": 4,
+                "rows": 3,
+                "cw": 26
+              }
+            ]
+          }
+        },
+        {
+          "id": "paper_g5_chengdu_gaoxin_2022b_n34",
+          "no": 34,
+          "type": "draw",
+          "stem": "下表是小亮第1～5次跳绳的成绩：140、145、135、163、154个。请根据表中数据，在方格纸上画出折线统计图。",
+          "answer": "按数据描点后用线段依次连接",
+          "score": 3,
+          "analysis": "根据数据在第1～5次对应的位置描点，再用线段依次连接各点，并在图上标注数据。",
+          "source": "成都市高新区2022-2023学年下期期末（组编）",
+          "figure": {
+            "w": 200,
+            "h": 190,
+            "shapes": [
+              {
+                "t": "grid",
+                "x": 40,
+                "y": 20,
+                "cols": 6,
+                "rows": 6,
+                "cw": 24
+              },
+              {
+                "t": "l",
+                "x1": 40,
+                "y1": 20,
+                "x2": 40,
+                "y2": 164
+              },
+              {
+                "t": "l",
+                "x1": 40,
+                "y1": 164,
+                "x2": 184,
+                "y2": 164
+              },
+              {
+                "t": "tx",
+                "x": 96,
+                "y": 172,
+                "s": "第1次 第2次 第3次 第4次 第5次",
+                "fs": 9
+              },
+              {
+                "t": "tx",
+                "x": 8,
+                "y": 90,
+                "s": "个数",
+                "fs": 11
+              }
+            ]
+          }
+        },
+        {
+          "id": "paper_g5_chengdu_gaoxin_2022b_n35",
+          "no": 35,
+          "type": "solve",
+          "stem": "修一条路，第一天修了全长的2/6，第二天修了全长的1/6，两天一共修了全长的几分之几？",
+          "answer": "1/2",
+          "score": 4,
+          "analysis": "共修了：2/6+1/6=3/6。",
+          "source": "成都市高新区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_gaoxin_2022b_n36",
+          "no": 36,
+          "type": "solve",
+          "stem": "一个长方体礼品盒，长23厘米、宽18厘米、高9厘米。在它的表面贴满包装纸（接口处不计），至少需要包装纸多少平方厘米？",
+          "answer": "1566平方厘米",
+          "score": 4,
+          "analysis": "长方体表面积=(长×宽+长×高+宽×高)×2：(23×18+23×9+18×9)×2=1566（平方厘米）。",
+          "source": "成都市高新区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_gaoxin_2022b_n37",
+          "no": 37,
+          "type": "solve",
+          "stem": "一个正方体水箱，从里面量棱长是5分米。这个水箱最多能装水多少升？",
+          "answer": "125升",
+          "score": 4,
+          "analysis": "正方体体积=棱长×棱长×棱长：5×5×5=125立方分米，1立方分米=1升，所以最多装水125升。",
+          "source": "成都市高新区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_gaoxin_2022b_n38",
+          "no": 38,
+          "type": "solve",
+          "stem": "一本故事书共162页，小华第一天看了全书的2/6，第一天看了多少页？",
+          "answer": "54页",
+          "score": 4,
+          "analysis": "求一个数的几分之几是多少用乘法：162×2/6=54（页）。",
+          "source": "成都市高新区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_gaoxin_2022b_n39",
+          "no": 39,
+          "type": "solve",
+          "stem": "学校图书馆买进70本童话书，正好占本月买书总数的2/5。本月一共买书多少本？",
+          "answer": "175本",
+          "score": 4,
+          "analysis": "已知一个数的2/5是70，求这个数用除法：70÷2/5=70×5=175（本）。",
+          "source": "成都市高新区2022-2023学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_gaoxin_2022b_n40",
+          "no": 40,
+          "type": "solve",
+          "stem": "甲、乙两地相距408千米，一辆客车和一辆货车同时从两地相向开出，客车每小时行45千米，货车每小时行57千米。经过多少小时两车相遇？（列方程解答）",
+          "answer": "4小时",
+          "score": 4,
+          "analysis": "设经过x小时两车相遇，列方程：(45+57)x=408，102x=408，x=4。",
+          "source": "成都市高新区2022-2023学年下期期末（组编）",
+          "figure": null
+        }
+      ]
+    },
+    {
+      "id": "paper_g5_mianyang_fucheng_2021b",
+      "grade": 5,
+      "region": "绵阳市涪城区",
+      "year": "2021-2022学年下期",
+      "title": "五年级数学期末测试卷（四）",
+      "duration": 90,
+      "total_score": 100,
+      "note": "北师大版五年级下册：分数加减法、长方体（一）、分数乘法、长方体（二）体积与容积、分数除法、确定位置、用方程解决问题、数据的表示和分析、数学好玩；口算10×1分+填空8×3分+判断5×2分+选择5×2分+计算4×4分+看图列式与操作2×3分+解决问题6×4分",
+      "questions": [
+        {
+          "id": "paper_g5_mianyang_fucheng_2021b_n1",
+          "no": 1,
+          "type": "fill",
+          "stem": "口算：6/9-1/9=",
+          "answer": "5/9",
+          "score": 1,
+          "analysis": "同分母分数相加减分母不变只加减分子；异分母先通分；除以一个数等于乘它的倒数。",
+          "source": "绵阳市涪城区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_mianyang_fucheng_2021b_n2",
+          "no": 2,
+          "type": "fill",
+          "stem": "口算：3×2/10=",
+          "answer": "3/5",
+          "score": 1,
+          "analysis": "同分母分数相加减分母不变只加减分子；异分母先通分；除以一个数等于乘它的倒数。",
+          "source": "绵阳市涪城区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_mianyang_fucheng_2021b_n3",
+          "no": 3,
+          "type": "fill",
+          "stem": "口算：1/2+1/8=",
+          "answer": "5/8",
+          "score": 1,
+          "analysis": "同分母分数相加减分母不变只加减分子；异分母先通分；除以一个数等于乘它的倒数。",
+          "source": "绵阳市涪城区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_mianyang_fucheng_2021b_n4",
+          "no": 4,
+          "type": "fill",
+          "stem": "口算：8/12-2/12=",
+          "answer": "1/2",
+          "score": 1,
+          "analysis": "同分母分数相加减分母不变只加减分子；异分母先通分；除以一个数等于乘它的倒数。",
+          "source": "绵阳市涪城区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_mianyang_fucheng_2021b_n5",
+          "no": 5,
+          "type": "fill",
+          "stem": "口算：4/5-1/5=",
+          "answer": "3/5",
+          "score": 1,
+          "analysis": "同分母分数相加减分母不变只加减分子；异分母先通分；除以一个数等于乘它的倒数。",
+          "source": "绵阳市涪城区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_mianyang_fucheng_2021b_n6",
+          "no": 6,
+          "type": "fill",
+          "stem": "口算：4/6-1/6=",
+          "answer": "1/2",
+          "score": 1,
+          "analysis": "同分母分数相加减分母不变只加减分子；异分母先通分；除以一个数等于乘它的倒数。",
+          "source": "绵阳市涪城区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_mianyang_fucheng_2021b_n7",
+          "no": 7,
+          "type": "fill",
+          "stem": "口算：2/6+3/6=",
+          "answer": "5/6",
+          "score": 1,
+          "analysis": "同分母分数相加减分母不变只加减分子；异分母先通分；除以一个数等于乘它的倒数。",
+          "source": "绵阳市涪城区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_mianyang_fucheng_2021b_n8",
+          "no": 8,
+          "type": "fill",
+          "stem": "口算：1/2-1/8=",
+          "answer": "3/8",
+          "score": 1,
+          "analysis": "同分母分数相加减分母不变只加减分子；异分母先通分；除以一个数等于乘它的倒数。",
+          "source": "绵阳市涪城区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_mianyang_fucheng_2021b_n9",
+          "no": 9,
+          "type": "fill",
+          "stem": "口算：1/2+1/6=",
+          "answer": "2/3",
+          "score": 1,
+          "analysis": "同分母分数相加减分母不变只加减分子；异分母先通分；除以一个数等于乘它的倒数。",
+          "source": "绵阳市涪城区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_mianyang_fucheng_2021b_n10",
+          "no": 10,
+          "type": "fill",
+          "stem": "口算：1/4-1/12=",
+          "answer": "1/6",
+          "score": 1,
+          "analysis": "同分母分数相加减分母不变只加减分子；异分母先通分；除以一个数等于乘它的倒数。",
+          "source": "绵阳市涪城区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_mianyang_fucheng_2021b_n11",
+          "no": 11,
+          "type": "fill",
+          "stem": "1里面有（　）个1/5",
+          "answer": "5",
+          "score": 3,
+          "analysis": "1=5/5，含 5 个 1/5。",
+          "source": "绵阳市涪城区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_mianyang_fucheng_2021b_n12",
+          "no": 12,
+          "type": "fill",
+          "stem": "2/10+8/10=（　）",
+          "answer": "1",
+          "score": 3,
+          "analysis": "2/10+8/10=10/10=1。",
+          "source": "绵阳市涪城区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_mianyang_fucheng_2021b_n13",
+          "no": 13,
+          "type": "fill",
+          "stem": "正方体是特殊的（　）",
+          "answer": "长方体",
+          "score": 3,
+          "analysis": "正方体是长、宽、高都相等的长方体。",
+          "source": "绵阳市涪城区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_mianyang_fucheng_2021b_n14",
+          "no": 14,
+          "type": "fill",
+          "stem": "4立方分米=（　）立方厘米",
+          "answer": "4000",
+          "score": 3,
+          "analysis": "1立方分米=1000立方厘米：4×1000=4000立方厘米。",
+          "source": "绵阳市涪城区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_mianyang_fucheng_2021b_n15",
+          "no": 15,
+          "type": "fill",
+          "stem": "3×3/8=（　）",
+          "answer": "9/8",
+          "score": 3,
+          "analysis": "整数乘分数：分子乘整数：3×3=9，得9/8。",
+          "source": "绵阳市涪城区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_mianyang_fucheng_2021b_n16",
+          "no": 16,
+          "type": "fill",
+          "stem": "以观测点为中心，北偏东50°的方向也可以说成东偏北（　）°",
+          "answer": "40",
+          "score": 3,
+          "analysis": "北偏东50°与东偏北40°是同一方向，两个偏角之和为90°。",
+          "source": "绵阳市涪城区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_mianyang_fucheng_2021b_n17",
+          "no": 17,
+          "type": "fill",
+          "stem": "x减去43等于-4，x=（　）",
+          "answer": "39",
+          "score": 3,
+          "analysis": "x-43=-4，x=39。",
+          "source": "绵阳市涪城区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_mianyang_fucheng_2021b_n18",
+          "no": 18,
+          "type": "fill",
+          "stem": "绘制折线统计图时，先根据数据描点，再用（　）依次连接各点",
+          "answer": "线段",
+          "score": 3,
+          "analysis": "折线统计图用线段依次连接各点。",
+          "source": "绵阳市涪城区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_mianyang_fucheng_2021b_n19",
+          "no": 19,
+          "type": "judge",
+          "stem": "判断：分数加减法的结果要化成最简分数。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "计算结果一般要化成最简分数。",
+          "source": "绵阳市涪城区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_mianyang_fucheng_2021b_n20",
+          "no": 20,
+          "type": "judge",
+          "stem": "判断：两个真分数相乘，积一定还是真分数。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "真分数乘真分数分子仍小于分母，积是真分数。",
+          "source": "绵阳市涪城区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_mianyang_fucheng_2021b_n21",
+          "no": 21,
+          "type": "judge",
+          "stem": "判断：把一个长方体切成两个小长方体，总体积不变。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "切开只是形状变化，总体积不变。",
+          "source": "绵阳市涪城区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_mianyang_fucheng_2021b_n22",
+          "no": 22,
+          "type": "judge",
+          "stem": "判断：一个数（0除外）除以假分数，商一定小于这个数。",
+          "answer": "错",
+          "score": 2,
+          "analysis": "假分数等于1时商等于这个数。",
+          "source": "绵阳市涪城区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_mianyang_fucheng_2021b_n23",
+          "no": 23,
+          "type": "judge",
+          "stem": "判断：所有的等式都是方程。",
+          "answer": "错",
+          "score": 2,
+          "analysis": "不含未知数的等式不是方程，如3+4=7。",
+          "source": "绵阳市涪城区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_mianyang_fucheng_2021b_n24",
+          "no": 24,
+          "type": "choice",
+          "stem": "一杯果汁，小明喝了它的2/4，还剩这杯果汁的（　）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.1/2 B.1/2 C.1/4 D.3/2，正确答案为A。",
+          "source": "绵阳市涪城区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_mianyang_fucheng_2021b_n25",
+          "no": 25,
+          "type": "choice",
+          "stem": "一台冰箱的容积约是（　）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.240升 B.240毫升 C.240立方厘米 D.24升，正确答案为A。",
+          "source": "绵阳市涪城区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_mianyang_fucheng_2021b_n26",
+          "no": 26,
+          "type": "choice",
+          "stem": "38×1/4的积（　）38",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.小于 B.大于 C.等于 D.无法确定，正确答案为A。",
+          "source": "绵阳市涪城区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_mianyang_fucheng_2021b_n27",
+          "no": 27,
+          "type": "choice",
+          "stem": "把一个棱长5厘米的正方体木块切成两个完全一样的长方体，表面积一共增加了（　）平方厘米",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.50 B.25 C.100 D.125，正确答案为A。",
+          "source": "绵阳市涪城区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_mianyang_fucheng_2021b_n28",
+          "no": 28,
+          "type": "choice",
+          "stem": "要表示小明六次跳绳成绩的变化情况，应选用（　）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.折线统计图 B.条形统计图 C.统计表 D.都无法表示，正确答案为A。",
+          "source": "绵阳市涪城区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_mianyang_fucheng_2021b_n29",
+          "no": 29,
+          "type": "fill",
+          "stem": "脱式计算：7/10-1/10-1/10=",
+          "answer": "1/2",
+          "score": 4,
+          "analysis": "脱式按运算顺序计算，结果化成最简分数；解方程根据等式性质求解并检验。",
+          "source": "绵阳市涪城区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_mianyang_fucheng_2021b_n30",
+          "no": 30,
+          "type": "fill",
+          "stem": "脱式计算：4/7+2/5+3/7=",
+          "answer": "7/5",
+          "score": 4,
+          "analysis": "脱式按运算顺序计算，结果化成最简分数；解方程根据等式性质求解并检验。",
+          "source": "绵阳市涪城区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_mianyang_fucheng_2021b_n31",
+          "no": 31,
+          "type": "fill",
+          "stem": "解方程：x+1/6=6/6，x=（　）",
+          "answer": "5/6",
+          "score": 4,
+          "analysis": "脱式按运算顺序计算，结果化成最简分数；解方程根据等式性质求解并检验。",
+          "source": "绵阳市涪城区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_mianyang_fucheng_2021b_n32",
+          "no": 32,
+          "type": "fill",
+          "stem": "解方程：5x=135，x=（　）",
+          "answer": "27",
+          "score": 4,
+          "analysis": "脱式按运算顺序计算，结果化成最简分数；解方程根据等式性质求解并检验。",
+          "source": "绵阳市涪城区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_mianyang_fucheng_2021b_n33",
+          "no": 33,
+          "type": "draw",
+          "stem": "请在方格纸上涂色表示出1/2（每个小格面积相同，共12格）。",
+          "answer": "涂6格",
+          "score": 3,
+          "analysis": "12格的1/2是6格：12÷2×1=6格（涂法不唯一）。",
+          "source": "绵阳市涪城区2021-2022学年下期期末（组编）",
+          "figure": {
+            "w": 170,
+            "h": 150,
+            "shapes": [
+              {
+                "t": "grid",
+                "x": 30,
+                "y": 30,
+                "cols": 4,
+                "rows": 3,
+                "cw": 26
+              }
+            ]
+          }
+        },
+        {
+          "id": "paper_g5_mianyang_fucheng_2021b_n34",
+          "no": 34,
+          "type": "draw",
+          "stem": "下表是小亮第1～5次跳绳的成绩：150、159、169、143、149个。请根据表中数据，在方格纸上画出折线统计图。",
+          "answer": "按数据描点后用线段依次连接",
+          "score": 3,
+          "analysis": "根据数据在第1～5次对应的位置描点，再用线段依次连接各点，并在图上标注数据。",
+          "source": "绵阳市涪城区2021-2022学年下期期末（组编）",
+          "figure": {
+            "w": 200,
+            "h": 190,
+            "shapes": [
+              {
+                "t": "grid",
+                "x": 40,
+                "y": 20,
+                "cols": 6,
+                "rows": 6,
+                "cw": 24
+              },
+              {
+                "t": "l",
+                "x1": 40,
+                "y1": 20,
+                "x2": 40,
+                "y2": 164
+              },
+              {
+                "t": "l",
+                "x1": 40,
+                "y1": 164,
+                "x2": 184,
+                "y2": 164
+              },
+              {
+                "t": "tx",
+                "x": 96,
+                "y": 172,
+                "s": "第1次 第2次 第3次 第4次 第5次",
+                "fs": 9
+              },
+              {
+                "t": "tx",
+                "x": 8,
+                "y": 90,
+                "s": "个数",
+                "fs": 11
+              }
+            ]
+          }
+        },
+        {
+          "id": "paper_g5_mianyang_fucheng_2021b_n35",
+          "no": 35,
+          "type": "solve",
+          "stem": "妈妈买来一袋大米，第一周吃了它的2/10，第二周吃了它的3/10，两周一共吃了这袋大米的几分之几？",
+          "answer": "1/2",
+          "score": 4,
+          "analysis": "共吃了：2/10+3/10=5/10。",
+          "source": "绵阳市涪城区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_mianyang_fucheng_2021b_n36",
+          "no": 36,
+          "type": "solve",
+          "stem": "一个长方体礼品盒，长18厘米、宽17厘米、高8厘米。在它的表面贴满包装纸（接口处不计），至少需要包装纸多少平方厘米？",
+          "answer": "1172平方厘米",
+          "score": 4,
+          "analysis": "长方体表面积=(长×宽+长×高+宽×高)×2：(18×17+18×8+17×8)×2=1172（平方厘米）。",
+          "source": "绵阳市涪城区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_mianyang_fucheng_2021b_n37",
+          "no": 37,
+          "type": "solve",
+          "stem": "一个正方体水箱，从里面量棱长是8分米。这个水箱最多能装水多少升？",
+          "answer": "512升",
+          "score": 4,
+          "analysis": "正方体体积=棱长×棱长×棱长：8×8×8=512立方分米，1立方分米=1升，所以最多装水512升。",
+          "source": "绵阳市涪城区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_mianyang_fucheng_2021b_n38",
+          "no": 38,
+          "type": "solve",
+          "stem": "一本故事书共240页，小华第一天看了全书的3/6，第一天看了多少页？",
+          "answer": "120页",
+          "score": 4,
+          "analysis": "求一个数的几分之几是多少用乘法：240×3/6=120（页）。",
+          "source": "绵阳市涪城区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_mianyang_fucheng_2021b_n39",
+          "no": 39,
+          "type": "solve",
+          "stem": "学校图书馆买进54本童话书，正好占本月买书总数的2/5。本月一共买书多少本？",
+          "answer": "135本",
+          "score": 4,
+          "analysis": "已知一个数的2/5是54，求这个数用除法：54÷2/5=54×5=135（本）。",
+          "source": "绵阳市涪城区2021-2022学年下期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_mianyang_fucheng_2021b_n40",
+          "no": 40,
+          "type": "solve",
+          "stem": "甲、乙两地相距485千米，一辆客车和一辆货车同时从两地相向开出，客车每小时行43千米，货车每小时行54千米。经过多少小时两车相遇？（列方程解答）",
+          "answer": "5小时",
+          "score": 4,
+          "analysis": "设经过x小时两车相遇，列方程：(43+54)x=485，97x=485，x=5。",
+          "source": "绵阳市涪城区2021-2022学年下期期末（组编）",
+          "figure": null
+        }
+      ]
     }
   ]
 }
