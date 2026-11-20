@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 340" font-family="sans-serif">
+  <rect x="0" y="0" width="400" height="340" fill="white"/>
+  <g stroke="#888" stroke-width="1.2" fill="none">
+    <line x1="40" y1="180" x2="380" y2="180"/>
+    <line x1="200" y1="330" x2="200" y2="30"/>
+    <path d="M 380 180 l -8 -3 l 0 6 Z" fill="#888"/>
+    <path d="M 200 30 l -3 8 l 6 0 Z" fill="#888"/>
+  </g>
+  <polyline points="68,295 80,270 110,225 140,195 170,158 200,150 230,158 260,180 290,218 320,270 332,295"
+            fill="none" stroke="#333" stroke-width="1.8"/>
+  <line x1="60" y1="285" x2="340" y2="75" stroke="#4a7ebb" stroke-width="1.4"/>
+  <g fill="#333">
+    <circle cx="200" cy="150" r="3"/><circle cx="320" cy="270" r="3"/>
+    <circle cx="80" cy="270" r="3"/><circle cx="230" cy="158" r="3"/><circle cx="200" cy="180" r="3"/>
+  </g>
+  <g font-size="15" fill="#333">
+    <text x="208" y="144">A(0,1)</text><text x="326" y="288">P(4,−3)</text>
+    <text x="66" y="290">B</text><text x="238" y="150">C</text><text x="186" y="200">O</text>
+  </g>
+  <text x="20" y="326" font-size="13" fill="#777">抛物线 y = −¼x² + 1（示意取 k = 3/4），直线 y = kx 交抛物线于 B、C</text>
+</svg>

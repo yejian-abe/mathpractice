@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 340" font-family="sans-serif">
+  <rect x="0" y="0" width="760" height="340" fill="white"/>
+  <text x="20" y="22" font-size="15" fill="#333">图 1</text>
+  <g transform="translate(20,20)">
+    <g stroke="#333" stroke-width="1.8" fill="none">
+      <path d="M 160 80 L 320 220 L 160 220 Z"/>
+      <line x1="320" y1="220" x2="0" y2="220"/>
+      <line x1="215" y1="195" x2="105" y2="245"/>
+      <line x1="160" y1="80" x2="0" y2="220"/>
+      <line x1="105" y1="245" x2="0" y2="220"/>
+      <line x1="320" y1="220" x2="215" y2="195"/>
+    </g>
+    <rect x="8" y="208" width="10" height="10" fill="none" stroke="#999" stroke-width="1.2"/>
+    <g fill="#333">
+      <circle cx="160" cy="80" r="3"/><circle cx="320" cy="220" r="3"/><circle cx="160" cy="220" r="3"/>
+      <circle cx="215" cy="195" r="3"/><circle cx="105" cy="245" r="3"/><circle cx="0" cy="220" r="3"/>
+    </g>
+    <g font-size="15" fill="#333">
+      <text x="152" y="70">A</text><text x="328" y="235">B</text><text x="150" y="240">C</text>
+      <text x="222" y="188">D</text><text x="95" y="262">E</text><text x="6" y="240">F</text>
+    </g>
+    <text x="150" y="300" font-size="13" fill="#777">AF ⊥ EF（AF ⊥ BD 为待证）</text>
+  </g>
+  <text x="410" y="22" font-size="15" fill="#333">图 2（补全后）</text>
+  <g transform="translate(390,20)">
+    <g stroke="#333" stroke-width="1.8" fill="none">
+      <path d="M 160 80 L 320 220 L 160 220 Z"/>
+      <line x1="160" y1="80" x2="80" y2="240"/>
+      <line x1="320" y1="220" x2="129" y2="172"/>
+      <line x1="160" y1="220" x2="129" y2="172"/>
+    </g>
+    <g stroke="#999" stroke-width="1.4" fill="none" stroke-dasharray="6 4">
+      <line x1="240" y1="200" x2="80" y2="240"/>
+    </g>
+    <g fill="#333">
+      <circle cx="160" cy="80" r="3"/><circle cx="320" cy="220" r="3"/><circle cx="160" cy="220" r="3"/>
+      <circle cx="240" cy="200" r="3"/><circle cx="80" cy="240" r="3"/><circle cx="129" cy="172" r="3"/>
+    </g>
+    <g font-size="15" fill="#333">
+      <text x="152" y="70">A</text><text x="328" y="235">B</text><text x="150" y="240">C</text>
+      <text x="247" y="193">D</text><text x="70" y="258">E</text><text x="118" y="164">H</text>
+    </g>
+    <text x="150" y="300" font-size="13" fill="#777">AE 与 BD 的延长线交于 H，连接 CH（虚线：DC 延长至 E）</text>
+  </g>
+</svg>

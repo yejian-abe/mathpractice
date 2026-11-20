@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 930 330" font-family="sans-serif">
+  <rect x="0" y="0" width="930" height="330" fill="white"/>
+  <text x="30" y="22" font-size="15" fill="#333">图①（n = 1）</text>
+  <g transform="translate(20,0)">
+    <g stroke="#333" stroke-width="1.8" fill="none">
+      <path d="M 60 260 L 180 260 L 60 140 Z"/>
+      <line x1="150" y1="260" x2="120" y2="200"/>
+      <line x1="120" y1="200" x2="60" y2="230"/>
+    </g>
+    <rect x="110" y="196" width="9" height="9" fill="none" stroke="#999" stroke-width="1.2" transform="rotate(45 114.5 200.5)"/>
+    <g fill="#333">
+      <circle cx="60" cy="260" r="3"/><circle cx="180" cy="260" r="3"/><circle cx="60" cy="140" r="3"/>
+      <circle cx="120" cy="200" r="3"/><circle cx="150" cy="260" r="3"/><circle cx="60" cy="230" r="3"/>
+    </g>
+    <g font-size="14" fill="#333">
+      <text x="186" y="268">A</text><text x="44" y="134">B</text><text x="44" y="276">C</text>
+      <text x="128" y="194">D</text><text x="146" y="276">E</text><text x="44" y="236">F</text>
+    </g>
+  </g>
+  <text x="340" y="22" font-size="15" fill="#333">图②（n = 2，F 在线段 BC 上）</text>
+  <g transform="translate(330,0)">
+    <g stroke="#333" stroke-width="1.8" fill="none">
+      <path d="M 60 260 L 180 260 L 60 140 Z"/>
+      <line x1="155" y1="260" x2="140" y2="220"/>
+      <line x1="140" y1="220" x2="60" y2="250"/>
+    </g>
+    <rect x="130" y="216" width="9" height="9" fill="none" stroke="#999" stroke-width="1.2" transform="rotate(45 134.5 220.5)"/>
+    <g fill="#333">
+      <circle cx="60" cy="260" r="3"/><circle cx="180" cy="260" r="3"/><circle cx="60" cy="140" r="3"/>
+      <circle cx="140" cy="220" r="3"/><circle cx="155" cy="260" r="3"/><circle cx="60" cy="250" r="3"/>
+    </g>
+    <g font-size="14" fill="#333">
+      <text x="186" y="268">A</text><text x="44" y="134">B</text><text x="44" y="276">C</text>
+      <text x="146" y="214">D</text><text x="150" y="276">E</text><text x="44" y="256">F</text>
+    </g>
+  </g>
+  <text x="650" y="22" font-size="15" fill="#333">图③（E 运动，M 为 EF 中点）</text>
+  <g transform="translate(640,0)">
+    <g stroke="#333" stroke-width="1.8" fill="none">
+      <path d="M 60 260 L 180 260 L 60 140 Z"/>
+      <line x1="150" y1="260" x2="140" y2="220"/>
+      <line x1="140" y1="220" x2="60" y2="240"/>
+      <line x1="100" y1="260" x2="140" y2="220"/>
+      <line x1="140" y1="220" x2="60" y2="300"/>
+    </g>
+    <g stroke="#999" stroke-width="1.3" fill="none" stroke-dasharray="6 4">
+      <line x1="150" y1="260" x2="60" y2="240"/>
+      <line x1="100" y1="260" x2="60" y2="300"/>
+      <line x1="130" y1="222" x2="58" y2="306"/>
+    </g>
+    <g fill="#333">
+      <circle cx="60" cy="260" r="3"/><circle cx="180" cy="260" r="3"/><circle cx="60" cy="140" r="3"/>
+      <circle cx="140" cy="220" r="3"/><circle cx="150" cy="260" r="3"/><circle cx="100" cy="260" r="3"/>
+      <circle cx="60" cy="240" r="3"/><circle cx="60" cy="300" r="3"/>
+      <circle cx="105" cy="250" r="3.5"/><circle cx="80" cy="280" r="3.5"/>
+    </g>
+    <g font-size="14" fill="#333">
+      <text x="186" y="268">A</text><text x="44" y="134">B</text><text x="44" y="276">C</text>
+      <text x="146" y="214">D</text><text x="146" y="276">E₁</text><text x="94" y="276">E₂</text>
+      <text x="44" y="244">F₁</text><text x="44" y="308">F₂</text><text x="112" y="248">M₁</text><text x="88" y="296">M₂</text>
+    </g>
+    <text x="30" y="322" font-size="12" fill="#777">虚线：EF 及 M 的轨迹</text>
+  </g>
+</svg>

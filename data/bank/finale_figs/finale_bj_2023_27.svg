@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" font-family="sans-serif">
+  <rect x="0" y="0" width="400" height="300" fill="white"/>
+  <text x="20" y="22" font-size="15" fill="#333">图 1</text>
+  <g stroke="#333" stroke-width="1.8" fill="none">
+    <path d="M 200 165 L 60 240 L 340 240 Z"/>
+    <line x1="200" y1="165" x2="200" y2="240"/>
+    <line x1="216" y1="211" x2="235" y2="240"/>
+    <line x1="216" y1="211" x2="200" y2="165"/>
+    <line x1="216" y1="211" x2="130" y2="240"/>
+  </g>
+  <g stroke="#999" stroke-width="1.4" fill="none" stroke-dasharray="6 4">
+    <line x1="216" y1="211" x2="200" y2="240"/>
+  </g>
+  <rect x="192" y="232" width="8" height="8" fill="none" stroke="#999" stroke-width="1.2"/>
+  <g fill="#333">
+    <circle cx="200" cy="165" r="3"/><circle cx="60" cy="240" r="3"/><circle cx="340" cy="240" r="3"/>
+    <circle cx="200" cy="240" r="3"/><circle cx="130" cy="240" r="3"/><circle cx="235" cy="240" r="3"/>
+    <circle cx="216" cy="211" r="3"/>
+  </g>
+  <g font-size="15" fill="#333">
+    <text x="196" y="155">A</text><text x="48" y="256">B</text><text x="344" y="256">C</text>
+    <text x="196" y="262">D</text><text x="120" y="262">E</text><text x="232" y="262">F</text><text x="222" y="206">G</text>
+  </g>
+  <text x="20" y="290" font-size="13" fill="#777">AD ⊥ BC，F 为 EC 中点，GF = DF，∠GFD = 2α（虚线：GD）</text>
+</svg>

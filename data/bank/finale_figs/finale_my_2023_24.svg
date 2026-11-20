@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" font-family="sans-serif">
+  <rect x="0" y="0" width="480" height="360" fill="white"/>
+  <text x="20" y="22" font-size="14" fill="#777">按 R = 2 精确布点：O(0,0) A(0,2) B(2,0) C(0,−2) D(−2,0) E(−3,2) F(−6/5,−8/5) G(0,−1)</text>
+  <circle cx="240" cy="170" r="110" fill="none" stroke="#333" stroke-width="1.8"/>
+  <g stroke="#333" stroke-width="1.6" fill="none">
+    <line x1="240" y1="60" x2="240" y2="280"/>
+    <line x1="130" y1="170" x2="350" y2="170"/>
+    <line x1="75" y1="60" x2="174" y2="258"/>
+    <line x1="350" y1="170" x2="174" y2="258"/>
+  </g>
+  <g stroke="#4a7ebb" stroke-width="1.4" fill="none">
+    <line x1="60" y1="60" x2="300" y2="60"/>
+  </g>
+  <rect x="228" y="48" width="12" height="12" fill="none" stroke="#999" stroke-width="1.2"/>
+  <g fill="#333">
+    <circle cx="240" cy="170" r="3"/><circle cx="240" cy="60" r="3.5"/><circle cx="350" cy="170" r="3.5"/>
+    <circle cx="240" cy="280" r="3.5"/><circle cx="130" cy="170" r="3.5"/><circle cx="75" cy="60" r="3.5"/>
+    <circle cx="174" cy="258" r="3.5"/><circle cx="240" cy="225" r="3.5"/>
+  </g>
+  <g font-size="15" fill="#333">
+    <text x="228" y="192">O</text><text x="234" y="48">A</text><text x="358" y="164">B</text>
+    <text x="232" y="300">C</text><text x="108" y="180">D</text><text x="58" y="52">E</text>
+    <text x="168" y="274">F</text><text x="248" y="220">G</text>
+  </g>
+  <text x="20" y="340" font-size="13" fill="#777">蓝色：过 A 的切线 AE；AC、BD 为互相垂直的直径，A、B、C、D 四等分圆周</text>
+</svg>

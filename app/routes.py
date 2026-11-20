@@ -22,6 +22,7 @@ from flask import Blueprint, current_app, jsonify, request, send_file
 from app import config as config_mod, heartbeat
 from app.services import bank, daily_set, export_docx, export_pdf, grading, \
     stats, users
+from app.services import finale as finale_svc
 from app.services import units as units_svc
 
 api_bp = Blueprint("api", __name__)
@@ -366,3 +367,43 @@ def api_heartbeat():
     """页面存活心跳：前端定时上报，页面全部关闭后服务自动退出"""
     heartbeat.record()
     return jsonify({"ok": True})
+
+
+# ---------- 压轴专项（初中每周一题） ----------
+
+@api_bp.route("/finale/current")
+def api_finale_current():
+    """当前应推送的压轴题：status=active|completed|upcoming|empty
+    force=1 未到推送日（周六）时允许提前查看本周题"""
+    uid = _user_id_from(request.args.get("user_id"))
+    force = request.args.get("force") in ("1", "true", "yes")
+    return jsonify(finale_svc.get_current(_data_dir(), uid, force=force))
+
+
+@api_bp.route("/finale/assess", methods=["POST"])
+def api_finale_assess():
+    """自评三态：done=做出来了 / hint=看了提示做出来 / fail=没做出来"""
+    body = request.get_json(force=True, silent=True) or {}
+    uid = _user_id_from(body.get("user_id"))
+    qid = (body.get("qid") or "").strip()
+    result = (body.get("result") or "").strip()
+    ok, err = finale_svc.assess(_data_dir(), uid, qid, result)
+    if not ok:
+        return jsonify({"error": err}), 400
+    return jsonify({"ok": True})
+
+
+@api_bp.route("/finale/history")
+def api_finale_history():
+    """压轴题完成记录（含自评结果）"""
+    uid = _user_id_from(request.args.get("user_id"))
+    return jsonify(finale_svc.list_history(_data_dir(), uid))
+
+
+@api_bp.route("/finale/fig/<name>")
+def api_finale_fig(name):
+    """压轴题 SVG 示意图（只读，仅允许 finale_figs/ 下真实存在的文件名）"""
+    path = finale_svc.fig_path(_data_dir(), name)
+    if path is None:
+        return jsonify({"error": "配图不存在"}), 404
+    return send_file(path, mimetype="image/svg+xml")

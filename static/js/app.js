@@ -7,7 +7,7 @@ var GRADE_NAMES = { 1: '一年级', 2: '二年级', 3: '三年级', 4: '四年�
 var TYPE_NAMES = { calc: '计算题', vertical: '竖式计算',
                    equation: '解方程', word: '应用题' };
 
-var VIEWS = ['practice', 'records', 'stats', 'export', 'settings', 'users'];
+var VIEWS = ['practice', 'finale', 'records', 'stats', 'export', 'settings', 'users'];
 
 /* 学期名称（侧边栏全局学期选择器，做题 / 生成导出共用） */
 var SEMESTER_NAMES = { '0': '自动（按学期）', '1': '上册', '2': '下册' };
@@ -116,6 +116,7 @@ function route() {
   });
   if (target === 'records') loadRecords();
   if (target === 'stats') loadStats();
+  if (target === 'finale') loadFinale();
 }
 
 /* ---------- 做题页 ---------- */
@@ -1026,6 +1027,188 @@ function closeRecordModal() {
   $('record-modal').classList.add('hidden');
 }
 
+/* ---------- 压轴专项（初中每周一题） ---------- */
+
+var FINALE_RESULT_NAMES = { done: '做出来了', hint: '看了提示做出来',
+                            fail: '没做出来' };
+var FINALE_TYPE_NAMES = { quadratic: '二次函数', geometry: '几何综合' };
+
+function loadFinale(force) {
+  var box = $('finale-content');
+  if (!box) return;
+  var url = '/api/finale/current?user_id=' + encodeURIComponent(state.user) +
+    (force ? '&force=1' : '');
+  box.innerHTML = '<p class="tip">加载中…</p>';
+  fetchJSON(url).then(function (d) {
+    renderFinale(d);
+    loadFinaleHistory();
+  }).catch(function () {
+    box.innerHTML = '<p class="tip">加载失败，请检查服务是否正常。</p>';
+  });
+}
+
+function finaleTag(text) {
+  return '<span class="cat-tag">' + escapeHtml(text) + '</span>';
+}
+
+/* 分步引导区：每步默认只显示引导问题，"看提示"/"看本步答案"逐级揭示 */
+function finaleStepsHtml(steps) {
+  var html = '<h3 class="finale-steps-title">分步引导</h3>';
+  steps.forEach(function (s, i) {
+    html += '<div class="finale-step">' +
+      '<div class="finale-step-prompt">' + escapeHtml(s.prompt || '') + '</div>' +
+      '<div class="finale-step-actions">' +
+      '<button class="btn btn-sm" data-reveal="hint-' + i + '">看提示</button>' +
+      '<button class="btn btn-sm" data-reveal="answer-' + i + '">看本步答案</button>' +
+      '</div>' +
+      '<div class="finale-reveal hidden" id="finale-hint-' + i + '"><b>提示：</b>' +
+      escapeHtml(s.hint || '') + '</div>' +
+      '<div class="finale-reveal hidden" id="finale-answer-' + i + '"><b>本步答案：</b>' +
+      escapeHtml(s.answer || '') + '</div>' +
+      '</div>';
+  });
+  return html;
+}
+
+function bindFinaleReveal() {
+  var box = $('finale-content');
+  box.querySelectorAll('[data-reveal]').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var target = $('finale-' + btn.getAttribute('data-reveal'));
+      if (!target) return;
+      target.classList.toggle('hidden');
+      btn.textContent = target.classList.contains('hidden')
+        ? (btn.getAttribute('data-reveal').indexOf('hint') === 0 ? '看提示' : '看本步答案')
+        : '收起';
+    });
+  });
+  var ana = $('btn-finale-analysis');
+  if (ana) {
+    ana.addEventListener('click', function () {
+      $('finale-analysis').classList.toggle('hidden');
+    });
+  }
+  box.querySelectorAll('[data-assess]').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      assessFinale(btn.getAttribute('data-assess'), btn);
+    });
+  });
+}
+
+function assessFinale(result, btn) {
+  var q = state.finaleQuestion;
+  if (!q) return;
+  var tips = { done: '独立做出来了，太棒了！', hint: '看提示做出来，也很不错！',
+               fail: '没关系，这道题 3 周后会推送一道同类型新题。' };
+  btn.disabled = true;
+  fetchJSON('/api/finale/assess', {
+    method: 'POST',
+    body: JSON.stringify({ user_id: state.user, qid: q.id, result: result })
+  }).then(function (res) {
+    if (res.error) { alert(res.error); btn.disabled = false; return; }
+    openSubmitModal('自评完成', '<p>' + escapeHtml(tips[result] || '') + '</p>',
+      [{ text: '好的', cls: 'primary', fn: function () { loadFinale(); } }]);
+  }).catch(function () { btn.disabled = false; });
+}
+
+function renderFinale(d) {
+  var box = $('finale-content');
+  if (!box) return;
+  if (d.status === 'active' && d.question) {
+    var q = d.question;
+    state.finaleQuestion = q;
+    var meta = finaleTag(FINALE_TYPE_NAMES[q.type] || q.type) + ' ' +
+      finaleTag(q.region || '') + ' ' + finaleTag('难度 ' + q.difficulty);
+    (q.topics || []).forEach(function (t) { meta += ' ' + finaleTag(t); });
+    var figHtml = q.figure
+      ? '<img class="finale-fig" src="/api/finale/fig/' +
+        encodeURIComponent(q.figure) + '" alt="示意图">'
+      : '';
+    var assessHtml;
+    if (d.assessed) {
+      // 已自评完成（跨周展示期间不会出现，防御性展示）
+      assessHtml = '<div class="result-box ok">已自评：' +
+        escapeHtml(FINALE_RESULT_NAMES[d.assessed] || d.assessed) + '</div>';
+    } else {
+      assessHtml = '<div class="finale-assess">' +
+        '<span class="finale-assess-label">做完后自评：</span>' +
+        '<button class="btn primary" data-assess="done">做出来了</button>' +
+        '<button class="btn" data-assess="hint">看了提示做出来</button>' +
+        '<button class="btn danger" data-assess="fail">没做出来</button>' +
+        '</div>';
+    }
+    box.innerHTML =
+      '<div class="card finale-card">' +
+      '<div class="finale-source">' + escapeHtml(q.source || '') + '</div>' +
+      '<div class="finale-meta">' + meta + '</div>' +
+      '<div class="finale-stem">' + escapeHtml(q.stem || '') + '</div>' +
+      figHtml +
+      finaleStepsHtml(q.steps || []) +
+      '<div class="finale-actions">' +
+      '<button id="btn-finale-analysis" class="btn primary">查看完整解析</button>' +
+      '</div>' +
+      '<div id="finale-analysis" class="solution-box hidden">' +
+      '<h4>最终答案</h4><p>' + escapeHtml(q.final_answer || '') + '</p>' +
+      '<h4>完整解析</h4><p>' + escapeHtml(q.analysis || '') + '</p>' +
+      ((q.knowledge || []).length
+        ? '<h4>考查知识点</h4><p>' + escapeHtml(q.knowledge.join('、')) + '</p>'
+        : '') +
+      '</div>' +
+      assessHtml +
+      '<p class="tip">先独立思考并动笔，再逐步展开提示；建议完整写出过程后再对照解析。</p>' +
+      '</div>';
+    bindFinaleReveal();
+    return;
+  }
+  state.finaleQuestion = null;
+  if (d.status === 'completed') {
+    box.innerHTML = '<div class="card finale-card finale-status">' +
+      '<p>🎉 本周压轴题已完成，下次推送：<b>' + escapeHtml(d.next_push || '') +
+      '</b>（周六）。</p>' +
+      '<p class="tip">做错的题会在约 3 周后自动推送一道同类型新题。</p></div>';
+  } else if (d.status === 'upcoming') {
+    box.innerHTML = '<div class="card finale-card finale-status">' +
+      '<p>本周压轴题将于 <b>' + escapeHtml(d.next_push || '') +
+      '</b>（周六）推送，也可以现在提前查看：</p>' +
+      '<p><button id="btn-finale-early" class="btn primary">提前查看本周题</button></p>' +
+      '</div>';
+    var early = $('btn-finale-early');
+    if (early) early.addEventListener('click', function () { loadFinale(true); });
+  } else {
+    box.innerHTML = '<div class="card finale-card finale-status">' +
+      '<p>题库中的题目已全部完成，敬请期待后续更新。</p></div>';
+  }
+}
+
+function loadFinaleHistory() {
+  var box = $('finale-history');
+  if (!box) return;
+  fetchJSON('/api/finale/history?user_id=' + encodeURIComponent(state.user))
+    .then(function (d) {
+      var items = d.items || [];
+      if (!items.length) {
+        box.innerHTML = '<p class="tip">暂无完成记录，完成本周题后这里会显示历史。</p>';
+        return;
+      }
+      var html = '<h3>完成记录</h3><table class="records-table"><thead><tr>' +
+        '<th>推送周</th><th>题目来源</th><th>类型</th><th>难度</th>' +
+        '<th>自评</th><th>完成时间</th></tr></thead><tbody>';
+      items.forEach(function (it) {
+        var cls = it.result === 'done' ? 'ok' : (it.result === 'fail' ? 'wrong' : 'none');
+        html += '<tr>' +
+          '<td>' + escapeHtml(it.week || '') + '</td>' +
+          '<td>' + escapeHtml(it.source || '') + '</td>' +
+          '<td>' + escapeHtml(FINALE_TYPE_NAMES[it.type] || it.type || '') + '</td>' +
+          '<td>' + escapeHtml(String(it.difficulty == null ? '' : it.difficulty)) + '</td>' +
+          '<td><span class="rec-status ' + cls + '">' +
+          escapeHtml(FINALE_RESULT_NAMES[it.result] || it.result || '') + '</span></td>' +
+          '<td>' + escapeHtml((it.assessed_at || '').slice(0, 10)) + '</td>' +
+          '</tr>';
+      });
+      box.innerHTML = html + '</tbody></table>';
+    });
+}
+
 /* ---------- 设置页 ---------- */
 
 /* 最近一次保存的题量配置：输入框被清空（平板触摸易误触）时，
@@ -1129,6 +1312,8 @@ function onUserChange() {
   loadDaily();
   loadRecords();
   loadStats();
+  // 当前停留在压轴专项页时刷新该页（进度按用户分开存储）
+  if ((location.hash || '').indexOf('#/finale') === 0) loadFinale();
   renderUserManage();
 }
 

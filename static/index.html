@@ -20,6 +20,7 @@
   <symbol id="i-users" viewBox="0 0 24 24"><circle cx="9" cy="8" r="4"/><path d="M2 21c0-4 3.1-6.5 7-6.5s7 2.5 7 6.5"/><path d="M16.5 4.6a4 4 0 0 1 0 6.8"/><path d="M17.8 14.9c2.5.9 4.2 3 4.2 6.1"/></symbol>
   <symbol id="i-book" viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></symbol>
   <symbol id="i-sem" viewBox="0 0 24 24"><rect x="3" y="4.5" width="18" height="17" rx="2"/><line x1="3" y1="10" x2="21" y2="10"/><line x1="8" y1="2" x2="8" y2="6.5"/><line x1="16" y1="2" x2="16" y2="6.5"/><line x1="7.5" y1="14.5" x2="10.5" y2="14.5"/><line x1="13.5" y1="14.5" x2="16.5" y2="14.5"/><line x1="7.5" y1="18" x2="10.5" y2="18"/></symbol>
+  <symbol id="i-finale" viewBox="0 0 24 24"><circle cx="12" cy="9" r="5.5"/><path d="M8.8 13.8 7 21l5-2.6L17 21l-1.8-7.2"/><path d="M12 6.5l1 2 2.2.3-1.6 1.5.4 2.2-2-1-2 1 .4-2.2L8.8 8.8 11 8.5z"/></symbol>
 </svg>
 <div class="layout">
   <!-- 侧边导航 -->
@@ -43,6 +44,7 @@
     </div>
     <nav>
       <a href="#/practice" class="nav-item" data-view="practice"><svg class="icon" viewBox="0 0 24 24"><use href="#i-practice"/></svg>做题</a>
+      <a href="#/finale" class="nav-item" data-view="finale"><svg class="icon" viewBox="0 0 24 24"><use href="#i-finale"/></svg>压轴专项</a>
       <a href="#/records" class="nav-item" data-view="records"><svg class="icon" viewBox="0 0 24 24"><use href="#i-records"/></svg>练习记录</a>
       <a href="#/stats" class="nav-item" data-view="stats"><svg class="icon" viewBox="0 0 24 24"><use href="#i-stats"/></svg>学情</a>
       <a href="#/export" class="nav-item" data-view="export"><svg class="icon" viewBox="0 0 24 24"><use href="#i-export"/></svg>生成 / 导出</a>
@@ -70,6 +72,15 @@
       </div>
       <div id="focus-tip" class="focus-tip hidden"></div>
       <div id="problem-list"></div>
+    </section>
+
+    <!-- ============ 压轴专项页（初中每周一题） ============ -->
+    <section id="view-finale" class="view hidden">
+      <div class="page-header">
+        <h2>压轴专项 <span class="finale-sub">初中 · 每周一题</span></h2>
+      </div>
+      <div id="finale-content"><p class="tip">加载中…</p></div>
+      <div id="finale-history" class="card finale-history"></div>
     </section>
 
     <!-- ============ 练习记录页 ============ -->
