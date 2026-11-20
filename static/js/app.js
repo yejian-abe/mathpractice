@@ -1966,8 +1966,11 @@ function onSemesterChange() {
   updateExportInfo();   // 导出页学期为只读展示，跟随侧边栏全局值
   updateExportLinks();
   loadDaily();
-  // 停留在真题试卷页时按新学期对应册别默认筛选刷新
-  if ((location.hash || '').indexOf('#/papers') === 0) loadPapers(null, true);
+  // 停留在真题试卷页时按新学期对应册别刷新（保持页面内已选年级）
+  if ((location.hash || '').indexOf('#/papers') === 0) {
+    paperState.vol = currentVolume();
+    loadPapers();
+  }
 }
 
 function onKindChange() {
