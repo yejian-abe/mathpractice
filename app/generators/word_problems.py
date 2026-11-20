@@ -138,41 +138,44 @@ def _tpl_work(grade):
 # ---------- 模板 4：盈亏问题（3-9 年级） ----------
 
 def _tpl_surplus(grade):
+    # 正确盈亏结构：每人分得多的那一次不够分（缺），每人分得少的那一次有富余（多出），
+    # 人数 = (缺 + 多出) ÷ 每人分配差。旧版方向写反（分得多的多出、分得少的还缺），
+    # 两方程无公共解，属错题，2026-11-20 修正。
     while True:
-        m = random.randint(4, 8)          # 第一种分法：每人 m 个
-        n = random.randint(2, m - 1)     # 第二种分法：每人 n 个
-        p = random.randint(0, m - 1)     # 第一种分法多出 p 个
+        m = random.randint(4, 8)          # 第一种分法：每人 m 个（不够分）
+        n = random.randint(2, m - 1)      # 第二种分法：每人 n 个（有富余）
+        lack = random.randint(1, m - 1)   # 第一种分法缺 lack 个
         people = random.randint(8, 25)
-        lack = people * (m - n) - p      # 第二种分法缺 lack 个
-        if 1 <= lack <= 30:
+        extra = (m - n) * people - lack   # 第二种分法多出 extra 个
+        if 1 <= extra <= 30:
             break
-    total = people * m + p
-    q = ("老师把一些苹果分给小朋友。如果每人分 %d 个，那么多出 %d 个；"
-         "如果每人分 %d 个，那么还缺 %d 个。一共有多少个小朋友？这些苹果一共有多少个？"
-         % (m, p, n, lack))
+    total = m * people - lack
+    q = ("老师把一些苹果分给小朋友。如果每人分 %d 个，那么还缺 %d 个；"
+         "如果每人分 %d 个，那么多出 %d 个。一共有多少个小朋友？这些苹果一共有多少个？"
+         % (m, lack, n, extra))
     steps = [
-        {"hint": "第二种分法比第一种分法每人少分多少个？", "answer": str(m - n)},
-        {"hint": "第一种分法多出的 %d 个，加上第二种分法缺少的 %d 个，总差额是多少个？" % (p, lack),
-         "answer": str(p + lack)},
+        {"hint": "第一种分法比第二种分法每人多分多少个？", "answer": str(m - n)},
+        {"hint": "第一种分法缺少的 %d 个，加上第二种分法多出的 %d 个，总差额是多少个？" % (lack, extra),
+         "answer": str(lack + extra)},
         {"hint": "小朋友一共有多少人？", "answer": str(people)},
         {"hint": "这些苹果一共有多少个？", "answer": str(total)},
     ]
     if grade >= 7:
         solution = [
             "思路：设有 x 个小朋友。",
-            "苹果总数不变，列方程：%dx + %d = %dx - %d" % (m, p, n, lack),
-            "移项：(%d - %d)x = %d + %d，即 %dx = %d" % (m, n, p, lack, m - n, p + lack),
-            "解得 x = %d，苹果总数 = %d × %d + %d = %d 个。"
-            "答：一共有 %d 个小朋友，苹果共 %d 个。" % (people, m, p, people, total, people, total),
+            "苹果总数不变，列方程：%dx - %d = %dx + %d" % (m, lack, n, extra),
+            "移项：(%d - %d)x = %d + %d，即 %dx = %d" % (m, n, lack, extra, m - n, lack + extra),
+            "解得 x = %d，苹果总数 = %d × %d - %d = %d 个。"
+            "答：一共有 %d 个小朋友，苹果共 %d 个。" % (people, m, people, lack, total, people, total),
         ]
     else:
         solution = [
-            "思路（盈亏问题）：总差额 = 盈 + 亏。",
-            "两次分法相差总数：%d + %d = %d 个。" % (p, lack, p + lack),
+            "思路（盈亏问题）：总差额 = 亏 + 盈。",
+            "两次分法相差总数：%d + %d = %d 个。" % (lack, extra, lack + extra),
             "每人相差：%d - %d = %d 个，所以人数 = %d ÷ %d = %d 人。"
-            % (m, n, m - n, p + lack, m - n, people),
-            "苹果总数 = %d × %d + %d = %d 个。答：一共有 %d 个小朋友，苹果共 %d 个。"
-            % (m, people, p, total, people, total),
+            % (m, n, m - n, lack + extra, m - n, people),
+            "苹果总数 = %d × %d - %d = %d 个。答：一共有 %d 个小朋友，苹果共 %d 个。"
+            % (m, people, lack, total, people, total),
         ]
     return {
         "question": q, "steps": steps,
