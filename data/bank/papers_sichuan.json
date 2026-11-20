@@ -20589,6 +20589,1437 @@
           "figure": null
         }
       ]
+    },
+    {
+      "id": "paper_g5_nanchong_shunqing_2022a",
+      "grade": 5,
+      "region": "南充市顺庆区",
+      "year": "2022-2023学年上期",
+      "title": "五年级数学期末测试卷（二）",
+      "duration": 90,
+      "total_score": 100,
+      "note": "北师大版五年级上册：小数除法、轴对称和平移、倍数与因数、多边形的面积、分数的意义、组合图形的面积、可能性、鸡兔同笼；口算10×1分+填空8×3分+判断5×2分+选择5×2分+计算4×4分+看图列式与操作2×3分+解决问题6×4分",
+      "questions": [
+        {
+          "id": "paper_g5_nanchong_shunqing_2022a_n1",
+          "no": 1,
+          "type": "fill",
+          "stem": "口算：8.4÷100=",
+          "answer": "0.084",
+          "score": 1,
+          "analysis": "小数除法按整数除法计算，商的小数点与被除数对齐；除以 10/100 小数点左移一/两位。",
+          "source": "南充市顺庆区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_nanchong_shunqing_2022a_n2",
+          "no": 2,
+          "type": "fill",
+          "stem": "口算：1.5×3=",
+          "answer": "4.5",
+          "score": 1,
+          "analysis": "小数除法按整数除法计算，商的小数点与被除数对齐；除以 10/100 小数点左移一/两位。",
+          "source": "南充市顺庆区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_nanchong_shunqing_2022a_n3",
+          "no": 3,
+          "type": "fill",
+          "stem": "口算：6.4÷4=",
+          "answer": "1.6",
+          "score": 1,
+          "analysis": "小数除法按整数除法计算，商的小数点与被除数对齐；除以 10/100 小数点左移一/两位。",
+          "source": "南充市顺庆区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_nanchong_shunqing_2022a_n4",
+          "no": 4,
+          "type": "fill",
+          "stem": "口算：28.8÷4=",
+          "answer": "7.2",
+          "score": 1,
+          "analysis": "小数除法按整数除法计算，商的小数点与被除数对齐；除以 10/100 小数点左移一/两位。",
+          "source": "南充市顺庆区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_nanchong_shunqing_2022a_n5",
+          "no": 5,
+          "type": "fill",
+          "stem": "口算：3.4÷10=",
+          "answer": "0.34",
+          "score": 1,
+          "analysis": "小数除法按整数除法计算，商的小数点与被除数对齐；除以 10/100 小数点左移一/两位。",
+          "source": "南充市顺庆区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_nanchong_shunqing_2022a_n6",
+          "no": 6,
+          "type": "fill",
+          "stem": "口算：37÷5=",
+          "answer": "7.4",
+          "score": 1,
+          "analysis": "小数除法按整数除法计算，商的小数点与被除数对齐；除以 10/100 小数点左移一/两位。",
+          "source": "南充市顺庆区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_nanchong_shunqing_2022a_n7",
+          "no": 7,
+          "type": "fill",
+          "stem": "口算：61×10=",
+          "answer": "610",
+          "score": 1,
+          "analysis": "小数除法按整数除法计算，商的小数点与被除数对齐；除以 10/100 小数点左移一/两位。",
+          "source": "南充市顺庆区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_nanchong_shunqing_2022a_n8",
+          "no": 8,
+          "type": "fill",
+          "stem": "口算：13.6÷4=",
+          "answer": "3.4",
+          "score": 1,
+          "analysis": "小数除法按整数除法计算，商的小数点与被除数对齐；除以 10/100 小数点左移一/两位。",
+          "source": "南充市顺庆区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_nanchong_shunqing_2022a_n9",
+          "no": 9,
+          "type": "fill",
+          "stem": "口算：11÷5=",
+          "answer": "2.2",
+          "score": 1,
+          "analysis": "小数除法按整数除法计算，商的小数点与被除数对齐；除以 10/100 小数点左移一/两位。",
+          "source": "南充市顺庆区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_nanchong_shunqing_2022a_n10",
+          "no": 10,
+          "type": "fill",
+          "stem": "口算：1.5×2=",
+          "answer": "3",
+          "score": 1,
+          "analysis": "小数除法按整数除法计算，商的小数点与被除数对齐；除以 10/100 小数点左移一/两位。",
+          "source": "南充市顺庆区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_nanchong_shunqing_2022a_n11",
+          "no": 11,
+          "type": "fill",
+          "stem": "20的最小倍数是（　）",
+          "answer": "20",
+          "score": 3,
+          "analysis": "一个数的最小倍数是它本身，即 20。",
+          "source": "南充市顺庆区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_nanchong_shunqing_2022a_n12",
+          "no": 12,
+          "type": "fill",
+          "stem": "既是2的倍数又是5的倍数的数，个位一定是（　）",
+          "answer": "0",
+          "score": 3,
+          "analysis": "2 的倍数个位是 0/2/4/6/8，5 的倍数个位是 0/5，公共的是 0。",
+          "source": "南充市顺庆区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_nanchong_shunqing_2022a_n13",
+          "no": 13,
+          "type": "fill",
+          "stem": "平行四边形的面积=（　）",
+          "answer": "底×高",
+          "score": 3,
+          "analysis": "平行四边形面积=底×高。",
+          "source": "南充市顺庆区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_nanchong_shunqing_2022a_n14",
+          "no": 14,
+          "type": "fill",
+          "stem": "3/4的分数单位是（　）",
+          "answer": "1/4",
+          "score": 3,
+          "analysis": "分母是 4，分数单位是 1/4。",
+          "source": "南充市顺庆区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_nanchong_shunqing_2022a_n15",
+          "no": 15,
+          "type": "fill",
+          "stem": "1/4=（　）（填小数）",
+          "answer": "0.25",
+          "score": 3,
+          "analysis": "1/4 = 0.25。",
+          "source": "南充市顺庆区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_nanchong_shunqing_2022a_n16",
+          "no": 16,
+          "type": "fill",
+          "stem": "等腰三角形有（　）条对称轴",
+          "answer": "1",
+          "score": 3,
+          "analysis": "等腰三角形只有 1 条对称轴（底边的垂直平分线）。",
+          "source": "南充市顺庆区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_nanchong_shunqing_2022a_n17",
+          "no": 17,
+          "type": "fill",
+          "stem": "10.6÷2=（　）",
+          "answer": "5.3",
+          "score": 3,
+          "analysis": "10.6÷2=5.3。",
+          "source": "南充市顺庆区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_nanchong_shunqing_2022a_n18",
+          "no": 18,
+          "type": "fill",
+          "stem": "掷一枚硬币，正面朝上的可能性与反面朝上的可能性（　）（填“相等”或“不相等”）",
+          "answer": "相等",
+          "score": 3,
+          "analysis": "硬币只有正反两面，可能性相等。",
+          "source": "南充市顺庆区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_nanchong_shunqing_2022a_n19",
+          "no": 19,
+          "type": "judge",
+          "stem": "判断：一个数的最小倍数是它本身。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "一个数的最小倍数就是它本身。",
+          "source": "南充市顺庆区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_nanchong_shunqing_2022a_n20",
+          "no": 20,
+          "type": "judge",
+          "stem": "判断：假分数都大于1。",
+          "answer": "错",
+          "score": 2,
+          "analysis": "分子等于分母的假分数等于 1。",
+          "source": "南充市顺庆区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_nanchong_shunqing_2022a_n21",
+          "no": 21,
+          "type": "judge",
+          "stem": "判断：0.25÷0.5的商比被除数大。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "除以小于 1 的数（0 除外），商比被除数大。",
+          "source": "南充市顺庆区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_nanchong_shunqing_2022a_n22",
+          "no": 22,
+          "type": "judge",
+          "stem": "判断：平行四边形的面积等于底乘高。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "S=底×高。",
+          "source": "南充市顺庆区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_nanchong_shunqing_2022a_n23",
+          "no": 23,
+          "type": "judge",
+          "stem": "判断：轴对称图形沿对称轴对折后两边完全重合。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "轴对称图形的定义。",
+          "source": "南充市顺庆区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_nanchong_shunqing_2022a_n24",
+          "no": 24,
+          "type": "choice",
+          "stem": "在下面各数中，3的倍数是（　）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.39 B.40 C.38 D.41，正确答案为A。",
+          "source": "南充市顺庆区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_nanchong_shunqing_2022a_n25",
+          "no": 25,
+          "type": "choice",
+          "stem": "下面全是质数的一组是（　）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.3、5、7 B.9、11、13 C.2、4、6 D.1、2、3，正确答案为A。",
+          "source": "南充市顺庆区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_nanchong_shunqing_2022a_n26",
+          "no": 26,
+          "type": "choice",
+          "stem": "比较两个分数：1/8 和 5/8，较大的分数是（　）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.5/8 B.1/8 C.一样大 D.无法比较，正确答案为A。",
+          "source": "南充市顺庆区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_nanchong_shunqing_2022a_n27",
+          "no": 27,
+          "type": "choice",
+          "stem": "1.4÷0.5的商（　）被除数",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.大于 B.小于 C.等于 D.无法确定，正确答案为A。",
+          "source": "南充市顺庆区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_nanchong_shunqing_2022a_n28",
+          "no": 28,
+          "type": "choice",
+          "stem": "一个梯形上底5厘米、下底6厘米、高8厘米，面积是（　）平方厘米",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.44 B.88 C.88 D.19，正确答案为A。",
+          "source": "南充市顺庆区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_nanchong_shunqing_2022a_n29",
+          "no": 29,
+          "type": "fill",
+          "stem": "用竖式计算：9.2÷2=",
+          "answer": "4.6",
+          "score": 4,
+          "analysis": "小数除法竖式商的小数点与被除数的小数点对齐；脱式先算括号内，再算除法。",
+          "source": "南充市顺庆区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_nanchong_shunqing_2022a_n30",
+          "no": 30,
+          "type": "fill",
+          "stem": "用竖式计算：17.75÷5=",
+          "answer": "3.55",
+          "score": 4,
+          "analysis": "小数除法竖式商的小数点与被除数的小数点对齐；脱式先算括号内，再算除法。",
+          "source": "南充市顺庆区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_nanchong_shunqing_2022a_n31",
+          "no": 31,
+          "type": "fill",
+          "stem": "用竖式计算：5.7×4=",
+          "answer": "22.8",
+          "score": 4,
+          "analysis": "小数除法竖式商的小数点与被除数的小数点对齐；脱式先算括号内，再算除法。",
+          "source": "南充市顺庆区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_nanchong_shunqing_2022a_n32",
+          "no": 32,
+          "type": "fill",
+          "stem": "脱式计算：(3.3-1.3)÷0.4=",
+          "answer": "5",
+          "score": 4,
+          "analysis": "小数除法竖式商的小数点与被除数的小数点对齐；脱式先算括号内，再算除法。",
+          "source": "南充市顺庆区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_nanchong_shunqing_2022a_n33",
+          "no": 33,
+          "type": "draw",
+          "stem": "画出下面长方形的对称轴（共几条画几条）。",
+          "answer": "2 条对称轴（过两组对边中点）",
+          "score": 3,
+          "analysis": "长方形有 2 条对称轴：两组对边中点的连线。",
+          "source": "南充市顺庆区2022-2023学年上期期末（组编）",
+          "figure": {
+            "w": 240,
+            "h": 160,
+            "shapes": [
+              {
+                "t": "r",
+                "x": 60,
+                "y": 40,
+                "w": 120,
+                "h": 80
+              }
+            ]
+          }
+        },
+        {
+          "id": "paper_g5_nanchong_shunqing_2022a_n34",
+          "no": 34,
+          "type": "draw",
+          "stem": "在方格纸上画一个面积是18平方厘米的平行四边形（每个小格面积1平方厘米）。",
+          "answer": "底与高的乘积为18即可，如底18格、高1格（画法不唯一）",
+          "score": 3,
+          "analysis": "平行四边形面积=底×高，取底 18 格、高 1 格即面积 18。",
+          "source": "南充市顺庆区2022-2023学年上期期末（组编）",
+          "figure": {
+            "w": 300,
+            "h": 200,
+            "shapes": [
+              {
+                "t": "grid",
+                "x": 20,
+                "y": 10,
+                "cols": 11,
+                "rows": 6,
+                "cw": 24
+              }
+            ]
+          }
+        },
+        {
+          "id": "paper_g5_nanchong_shunqing_2022a_n35",
+          "no": 35,
+          "type": "solve",
+          "stem": "妈妈买了3千克苹果，一共花了12.9元，每千克苹果多少元？",
+          "answer": "4.3元",
+          "score": 4,
+          "analysis": "总价÷数量=单价：12.9÷3=4.3（元）。",
+          "source": "南充市顺庆区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_nanchong_shunqing_2022a_n36",
+          "no": 36,
+          "type": "solve",
+          "stem": "一个油壶最多装4.5升油，现在有28.5升油，全部装完至少需要多少个这样的油壶？",
+          "answer": "7个",
+          "score": 4,
+          "analysis": "28.5÷4.5=6（个）……1.5升，剩下的油也需要1个壶，共7个（进一法）。",
+          "source": "南充市顺庆区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_nanchong_shunqing_2022a_n37",
+          "no": 37,
+          "type": "solve",
+          "stem": "做一件衣服要用2.4米布，现在有22.8米布，最多能做多少件这样的衣服？",
+          "answer": "9件",
+          "score": 4,
+          "analysis": "22.8÷2.4=9（件）……1.2米，剩下的布不够做一件，共9件（去尾法）。",
+          "source": "南充市顺庆区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_nanchong_shunqing_2022a_n38",
+          "no": 38,
+          "type": "solve",
+          "stem": "出租车起步价8元（含2千米），超过2千米后每千米1.5元。小明乘出租车行了11千米，要付多少钱？",
+          "answer": "21.5元",
+          "score": 4,
+          "analysis": "起步价8元，超出的9千米按每千米1.5元：8+(11-2)×1.5=8+13.5=21.5（元）。",
+          "source": "南充市顺庆区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_nanchong_shunqing_2022a_n39",
+          "no": 39,
+          "type": "solve",
+          "stem": "笼子里有若干只鸡和兔，从上面数有5个头，从下面数有16只脚，鸡和兔各有几只？",
+          "answer": "鸡2只，兔3只",
+          "score": 4,
+          "analysis": "假设全是鸡，共5×2=10只脚，少了16-10=6只脚，每只兔少算2只脚，兔有6÷2=3只，鸡有5-3=2只。",
+          "source": "南充市顺庆区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_nanchong_shunqing_2022a_n40",
+          "no": 40,
+          "type": "solve",
+          "stem": "一块平行四边形菜地，底是28米，高是4米，这块菜地的面积是多少平方米？",
+          "answer": "112平方米",
+          "score": 4,
+          "analysis": "平行四边形面积=底×高：28×4=112（平方米）。",
+          "source": "南充市顺庆区2022-2023学年上期期末（组编）",
+          "figure": null
+        }
+      ]
+    },
+    {
+      "id": "paper_g5_chengdu_qingyang_2024a",
+      "grade": 5,
+      "region": "成都市青羊区",
+      "year": "2024-2025学年上期",
+      "title": "五年级数学期末测试卷（三）",
+      "duration": 90,
+      "total_score": 100,
+      "note": "北师大版五年级上册：小数除法、轴对称和平移、倍数与因数、多边形的面积、分数的意义、组合图形的面积、可能性、鸡兔同笼；口算10×1分+填空8×3分+判断5×2分+选择5×2分+计算4×4分+看图列式与操作2×3分+解决问题6×4分",
+      "questions": [
+        {
+          "id": "paper_g5_chengdu_qingyang_2024a_n1",
+          "no": 1,
+          "type": "fill",
+          "stem": "口算：2÷100=",
+          "answer": "0.02",
+          "score": 1,
+          "analysis": "小数除法按整数除法计算，商的小数点与被除数对齐；除以 10/100 小数点左移一/两位。",
+          "source": "成都市青羊区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_qingyang_2024a_n2",
+          "no": 2,
+          "type": "fill",
+          "stem": "口算：29.6÷4=",
+          "answer": "7.4",
+          "score": 1,
+          "analysis": "小数除法按整数除法计算，商的小数点与被除数对齐；除以 10/100 小数点左移一/两位。",
+          "source": "成都市青羊区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_qingyang_2024a_n3",
+          "no": 3,
+          "type": "fill",
+          "stem": "口算：3.6×2=",
+          "answer": "7.2",
+          "score": 1,
+          "analysis": "小数除法按整数除法计算，商的小数点与被除数对齐；除以 10/100 小数点左移一/两位。",
+          "source": "成都市青羊区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_qingyang_2024a_n4",
+          "no": 4,
+          "type": "fill",
+          "stem": "口算：0.5×3=",
+          "answer": "1.5",
+          "score": 1,
+          "analysis": "小数除法按整数除法计算，商的小数点与被除数对齐；除以 10/100 小数点左移一/两位。",
+          "source": "成都市青羊区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_qingyang_2024a_n5",
+          "no": 5,
+          "type": "fill",
+          "stem": "口算：5.4-1.3=",
+          "answer": "4.1",
+          "score": 1,
+          "analysis": "小数除法按整数除法计算，商的小数点与被除数对齐；除以 10/100 小数点左移一/两位。",
+          "source": "成都市青羊区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_qingyang_2024a_n6",
+          "no": 6,
+          "type": "fill",
+          "stem": "口算：6.3÷3=",
+          "answer": "2.1",
+          "score": 1,
+          "analysis": "小数除法按整数除法计算，商的小数点与被除数对齐；除以 10/100 小数点左移一/两位。",
+          "source": "成都市青羊区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_qingyang_2024a_n7",
+          "no": 7,
+          "type": "fill",
+          "stem": "口算：0.2×3=",
+          "answer": "0.6",
+          "score": 1,
+          "analysis": "小数除法按整数除法计算，商的小数点与被除数对齐；除以 10/100 小数点左移一/两位。",
+          "source": "成都市青羊区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_qingyang_2024a_n8",
+          "no": 8,
+          "type": "fill",
+          "stem": "口算：4.2÷10=",
+          "answer": "0.42",
+          "score": 1,
+          "analysis": "小数除法按整数除法计算，商的小数点与被除数对齐；除以 10/100 小数点左移一/两位。",
+          "source": "成都市青羊区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_qingyang_2024a_n9",
+          "no": 9,
+          "type": "fill",
+          "stem": "口算：4.4÷10=",
+          "answer": "0.44",
+          "score": 1,
+          "analysis": "小数除法按整数除法计算，商的小数点与被除数对齐；除以 10/100 小数点左移一/两位。",
+          "source": "成都市青羊区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_qingyang_2024a_n10",
+          "no": 10,
+          "type": "fill",
+          "stem": "口算：54×20=",
+          "answer": "1080",
+          "score": 1,
+          "analysis": "小数除法按整数除法计算，商的小数点与被除数对齐；除以 10/100 小数点左移一/两位。",
+          "source": "成都市青羊区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_qingyang_2024a_n11",
+          "no": 11,
+          "type": "fill",
+          "stem": "25的最大因数是（　）",
+          "answer": "25",
+          "score": 3,
+          "analysis": "一个数的最大因数是它本身，即 25。",
+          "source": "成都市青羊区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_qingyang_2024a_n12",
+          "no": 12,
+          "type": "fill",
+          "stem": "最小的合数是（　）",
+          "answer": "4",
+          "score": 3,
+          "analysis": "4=2×2，是最小的合数。",
+          "source": "成都市青羊区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_qingyang_2024a_n13",
+          "no": 13,
+          "type": "fill",
+          "stem": "三角形的面积=（　）",
+          "answer": "底×高÷2",
+          "score": 3,
+          "analysis": "三角形面积=底×高÷2。",
+          "source": "成都市青羊区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_qingyang_2024a_n14",
+          "no": 14,
+          "type": "fill",
+          "stem": "5/9里面有（　）个1/9",
+          "answer": "5",
+          "score": 3,
+          "analysis": "5/9 由 5 个 1/9 组成。",
+          "source": "成都市青羊区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_qingyang_2024a_n15",
+          "no": 15,
+          "type": "fill",
+          "stem": "1/2=（　）（填小数）",
+          "answer": "0.5",
+          "score": 3,
+          "analysis": "1/2 = 0.5。",
+          "source": "成都市青羊区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_qingyang_2024a_n16",
+          "no": 16,
+          "type": "fill",
+          "stem": "角是轴对称图形吗？如果是，它有（　）条对称轴",
+          "answer": "1",
+          "score": 3,
+          "analysis": "角是轴对称图形，对称轴是角平分线所在直线，1 条。",
+          "source": "成都市青羊区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_qingyang_2024a_n17",
+          "no": 17,
+          "type": "fill",
+          "stem": "27÷5=（　）",
+          "answer": "5.4",
+          "score": 3,
+          "analysis": "27÷5=5.4。",
+          "source": "成都市青羊区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_qingyang_2024a_n18",
+          "no": 18,
+          "type": "fill",
+          "stem": "盒子里有5个红球和1个白球，摸到（　）球的可能性大",
+          "answer": "红",
+          "score": 3,
+          "analysis": "红球个数多，可能性大。",
+          "source": "成都市青羊区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_qingyang_2024a_n19",
+          "no": 19,
+          "type": "judge",
+          "stem": "判断：1是任何非零自然数的因数。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "任何非零自然数都能被 1 整除。",
+          "source": "成都市青羊区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_qingyang_2024a_n20",
+          "no": 20,
+          "type": "judge",
+          "stem": "判断：分子比分母小的分数叫真分数。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "真分数小于 1。",
+          "source": "成都市青羊区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_qingyang_2024a_n21",
+          "no": 21,
+          "type": "judge",
+          "stem": "判断：两个数相除，商一定小于被除数。",
+          "answer": "错",
+          "score": 2,
+          "analysis": "除以小于 1 的数时商反而大，如 2÷0.5=4。",
+          "source": "成都市青羊区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_qingyang_2024a_n22",
+          "no": 22,
+          "type": "judge",
+          "stem": "判断：三角形的面积是平行四边形面积的一半。",
+          "answer": "错",
+          "score": 2,
+          "analysis": "必须是等底等高的三角形和平行四边形才是一半。",
+          "source": "成都市青羊区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_qingyang_2024a_n23",
+          "no": 23,
+          "type": "judge",
+          "stem": "判断：平行四边形是轴对称图形。",
+          "answer": "错",
+          "score": 2,
+          "analysis": "一般平行四边形沿任何直线对折都不能完全重合。",
+          "source": "成都市青羊区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_qingyang_2024a_n24",
+          "no": 24,
+          "type": "choice",
+          "stem": "下面各数中，是3的倍数的是（　）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.66 B.67 C.65 D.68，正确答案为A。",
+          "source": "成都市青羊区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_qingyang_2024a_n25",
+          "no": 25,
+          "type": "choice",
+          "stem": "20以内的质数一共有（　）个",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.8 B.9 C.7 D.10，正确答案为A。",
+          "source": "成都市青羊区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_qingyang_2024a_n26",
+          "no": 26,
+          "type": "choice",
+          "stem": "比较两个分数：5/10 和 6/10，较大的分数是（　）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.6/10 B.5/10 C.一样大 D.无法比较，正确答案为A。",
+          "source": "成都市青羊区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_qingyang_2024a_n27",
+          "no": 27,
+          "type": "choice",
+          "stem": "3.4÷0.5的商（　）被除数",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.大于 B.小于 C.等于 D.无法确定，正确答案为A。",
+          "source": "成都市青羊区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_qingyang_2024a_n28",
+          "no": 28,
+          "type": "choice",
+          "stem": "一个平行四边形底7厘米、高3厘米，面积是（　）平方厘米",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.21 B.20 C.11 D.10，正确答案为A。",
+          "source": "成都市青羊区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_qingyang_2024a_n29",
+          "no": 29,
+          "type": "fill",
+          "stem": "用竖式计算：30.4÷8=",
+          "answer": "3.8",
+          "score": 4,
+          "analysis": "小数除法竖式商的小数点与被除数的小数点对齐；脱式先算括号内，再算除法。",
+          "source": "成都市青羊区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_qingyang_2024a_n30",
+          "no": 30,
+          "type": "fill",
+          "stem": "用竖式计算：12.65÷5=",
+          "answer": "2.53",
+          "score": 4,
+          "analysis": "小数除法竖式商的小数点与被除数的小数点对齐；脱式先算括号内，再算除法。",
+          "source": "成都市青羊区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_qingyang_2024a_n31",
+          "no": 31,
+          "type": "fill",
+          "stem": "用竖式计算：8.7×8=",
+          "answer": "69.6",
+          "score": 4,
+          "analysis": "小数除法竖式商的小数点与被除数的小数点对齐；脱式先算括号内，再算除法。",
+          "source": "成都市青羊区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_qingyang_2024a_n32",
+          "no": 32,
+          "type": "fill",
+          "stem": "脱式计算：(8.8-2.8)÷0.5=",
+          "answer": "12",
+          "score": 4,
+          "analysis": "小数除法竖式商的小数点与被除数的小数点对齐；脱式先算括号内，再算除法。",
+          "source": "成都市青羊区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_qingyang_2024a_n33",
+          "no": 33,
+          "type": "draw",
+          "stem": "画出下面长方形的所有对称轴。",
+          "answer": "2 条对称轴（过两组对边中点）",
+          "score": 3,
+          "analysis": "过对边中点画 2 条对称轴。",
+          "source": "成都市青羊区2024-2025学年上期期末（组编）",
+          "figure": {
+            "w": 240,
+            "h": 160,
+            "shapes": [
+              {
+                "t": "r",
+                "x": 60,
+                "y": 40,
+                "w": 120,
+                "h": 80
+              }
+            ]
+          }
+        },
+        {
+          "id": "paper_g5_chengdu_qingyang_2024a_n34",
+          "no": 34,
+          "type": "draw",
+          "stem": "在方格纸上画一个面积是24平方厘米的平行四边形（每个小格面积1平方厘米）。",
+          "answer": "底与高的乘积为24即可，如底24格、高1格（画法不唯一）",
+          "score": 3,
+          "analysis": "平行四边形面积=底×高，取底 24 格、高 1 格即面积 24。",
+          "source": "成都市青羊区2024-2025学年上期期末（组编）",
+          "figure": {
+            "w": 300,
+            "h": 200,
+            "shapes": [
+              {
+                "t": "grid",
+                "x": 20,
+                "y": 10,
+                "cols": 11,
+                "rows": 6,
+                "cw": 24
+              }
+            ]
+          }
+        },
+        {
+          "id": "paper_g5_chengdu_qingyang_2024a_n35",
+          "no": 35,
+          "type": "solve",
+          "stem": "妈妈买了3千克苹果，一共花了13.2元，每千克苹果多少元？",
+          "answer": "4.4元",
+          "score": 4,
+          "analysis": "总价÷数量=单价：13.2÷3=4.4（元）。",
+          "source": "成都市青羊区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_qingyang_2024a_n36",
+          "no": 36,
+          "type": "solve",
+          "stem": "一个油壶最多装2.5升油，现在有16升油，全部装完至少需要多少个这样的油壶？",
+          "answer": "7个",
+          "score": 4,
+          "analysis": "16÷2.5=6（个）……1升，剩下的油也需要1个壶，共7个（进一法）。",
+          "source": "成都市青羊区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_qingyang_2024a_n37",
+          "no": 37,
+          "type": "solve",
+          "stem": "做一件衣服要用3.5米布，现在有29.5米布，最多能做多少件这样的衣服？",
+          "answer": "8件",
+          "score": 4,
+          "analysis": "29.5÷3.5=8（件）……1.5米，剩下的布不够做一件，共8件（去尾法）。",
+          "source": "成都市青羊区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_qingyang_2024a_n38",
+          "no": 38,
+          "type": "solve",
+          "stem": "出租车起步价8元（含2千米），超过2千米后每千米1.5元。小明乘出租车行了5千米，要付多少钱？",
+          "answer": "12.5元",
+          "score": 4,
+          "analysis": "起步价8元，超出的3千米按每千米1.5元：8+(5-2)×1.5=8+4.5=12.5（元）。",
+          "source": "成都市青羊区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_qingyang_2024a_n39",
+          "no": 39,
+          "type": "solve",
+          "stem": "笼子里有若干只鸡和兔，从上面数有9个头，从下面数有30只脚，鸡和兔各有几只？",
+          "answer": "鸡3只，兔6只",
+          "score": 4,
+          "analysis": "假设全是鸡，共9×2=18只脚，少了30-18=12只脚，每只兔少算2只脚，兔有12÷2=6只，鸡有9-6=3只。",
+          "source": "成都市青羊区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_chengdu_qingyang_2024a_n40",
+          "no": 40,
+          "type": "solve",
+          "stem": "一条红领巾是三角形，底16厘米，高14厘米，它的面积是多少平方厘米？",
+          "answer": "112平方厘米",
+          "score": 4,
+          "analysis": "三角形面积=底×高÷2：16×14÷2=112（平方厘米）。",
+          "source": "成都市青羊区2024-2025学年上期期末（组编）",
+          "figure": null
+        }
+      ]
+    },
+    {
+      "id": "paper_g5_yibin_cuiping_2021a",
+      "grade": 5,
+      "region": "宜宾市翠屏区",
+      "year": "2021-2022学年上期",
+      "title": "五年级数学期末测试卷（四）",
+      "duration": 90,
+      "total_score": 100,
+      "note": "北师大版五年级上册：小数除法、轴对称和平移、倍数与因数、多边形的面积、分数的意义、组合图形的面积、可能性、鸡兔同笼；口算10×1分+填空8×3分+判断5×2分+选择5×2分+计算4×4分+看图列式与操作2×3分+解决问题6×4分",
+      "questions": [
+        {
+          "id": "paper_g5_yibin_cuiping_2021a_n1",
+          "no": 1,
+          "type": "fill",
+          "stem": "口算：56×30=",
+          "answer": "1680",
+          "score": 1,
+          "analysis": "小数除法按整数除法计算，商的小数点与被除数对齐；除以 10/100 小数点左移一/两位。",
+          "source": "宜宾市翠屏区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_yibin_cuiping_2021a_n2",
+          "no": 2,
+          "type": "fill",
+          "stem": "口算：5.7÷3=",
+          "answer": "1.9",
+          "score": 1,
+          "analysis": "小数除法按整数除法计算，商的小数点与被除数对齐；除以 10/100 小数点左移一/两位。",
+          "source": "宜宾市翠屏区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_yibin_cuiping_2021a_n3",
+          "no": 3,
+          "type": "fill",
+          "stem": "口算：8.5÷5=",
+          "answer": "1.7",
+          "score": 1,
+          "analysis": "小数除法按整数除法计算，商的小数点与被除数对齐；除以 10/100 小数点左移一/两位。",
+          "source": "宜宾市翠屏区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_yibin_cuiping_2021a_n4",
+          "no": 4,
+          "type": "fill",
+          "stem": "口算：4.7÷100=",
+          "answer": "0.047",
+          "score": 1,
+          "analysis": "小数除法按整数除法计算，商的小数点与被除数对齐；除以 10/100 小数点左移一/两位。",
+          "source": "宜宾市翠屏区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_yibin_cuiping_2021a_n5",
+          "no": 5,
+          "type": "fill",
+          "stem": "口算：7.9÷100=",
+          "answer": "0.079",
+          "score": 1,
+          "analysis": "小数除法按整数除法计算，商的小数点与被除数对齐；除以 10/100 小数点左移一/两位。",
+          "source": "宜宾市翠屏区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_yibin_cuiping_2021a_n6",
+          "no": 6,
+          "type": "fill",
+          "stem": "口算：3.6×6=",
+          "answer": "21.6",
+          "score": 1,
+          "analysis": "小数除法按整数除法计算，商的小数点与被除数对齐；除以 10/100 小数点左移一/两位。",
+          "source": "宜宾市翠屏区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_yibin_cuiping_2021a_n7",
+          "no": 7,
+          "type": "fill",
+          "stem": "口算：9.2÷2=",
+          "answer": "4.6",
+          "score": 1,
+          "analysis": "小数除法按整数除法计算，商的小数点与被除数对齐；除以 10/100 小数点左移一/两位。",
+          "source": "宜宾市翠屏区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_yibin_cuiping_2021a_n8",
+          "no": 8,
+          "type": "fill",
+          "stem": "口算：4.2+1.2=",
+          "answer": "5.4",
+          "score": 1,
+          "analysis": "小数除法按整数除法计算，商的小数点与被除数对齐；除以 10/100 小数点左移一/两位。",
+          "source": "宜宾市翠屏区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_yibin_cuiping_2021a_n9",
+          "no": 9,
+          "type": "fill",
+          "stem": "口算：67×20=",
+          "answer": "1340",
+          "score": 1,
+          "analysis": "小数除法按整数除法计算，商的小数点与被除数对齐；除以 10/100 小数点左移一/两位。",
+          "source": "宜宾市翠屏区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_yibin_cuiping_2021a_n10",
+          "no": 10,
+          "type": "fill",
+          "stem": "口算：27÷5=",
+          "answer": "5.4",
+          "score": 1,
+          "analysis": "小数除法按整数除法计算，商的小数点与被除数对齐；除以 10/100 小数点左移一/两位。",
+          "source": "宜宾市翠屏区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_yibin_cuiping_2021a_n11",
+          "no": 11,
+          "type": "fill",
+          "stem": "21的最小倍数是（　）",
+          "answer": "21",
+          "score": 3,
+          "analysis": "一个数的最小倍数是它本身，即 21。",
+          "source": "宜宾市翠屏区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_yibin_cuiping_2021a_n12",
+          "no": 12,
+          "type": "fill",
+          "stem": "20以内最大的质数是（　）",
+          "answer": "19",
+          "score": 3,
+          "analysis": "20 以内的质数最大是 19。",
+          "source": "宜宾市翠屏区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_yibin_cuiping_2021a_n13",
+          "no": 13,
+          "type": "fill",
+          "stem": "梯形的面积=（　）",
+          "answer": "(上底+下底)×高÷2",
+          "score": 3,
+          "analysis": "梯形面积=(上底+下底)×高÷2。",
+          "source": "宜宾市翠屏区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_yibin_cuiping_2021a_n14",
+          "no": 14,
+          "type": "fill",
+          "stem": "分母是8的最大真分数是（　）",
+          "answer": "7/8",
+          "score": 3,
+          "analysis": "真分数分子小于分母，最大是 7/8。",
+          "source": "宜宾市翠屏区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_yibin_cuiping_2021a_n15",
+          "no": 15,
+          "type": "fill",
+          "stem": "6/10=（　）（填小数）",
+          "answer": "0.6",
+          "score": 3,
+          "analysis": "6/10 = 0.6。",
+          "source": "宜宾市翠屏区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_yibin_cuiping_2021a_n16",
+          "no": 16,
+          "type": "fill",
+          "stem": "对称轴两侧的对应点到对称轴的距离（　）",
+          "answer": "相等",
+          "score": 3,
+          "analysis": "轴对称图形对应点到对称轴的距离相等。",
+          "source": "宜宾市翠屏区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_yibin_cuiping_2021a_n17",
+          "no": 17,
+          "type": "fill",
+          "stem": "36÷5=（　）",
+          "answer": "7.2",
+          "score": 3,
+          "analysis": "36÷5=7.2。",
+          "source": "宜宾市翠屏区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_yibin_cuiping_2021a_n18",
+          "no": 18,
+          "type": "fill",
+          "stem": "掷一枚骰子，点数大于4的点有（　）种",
+          "answer": "2",
+          "score": 3,
+          "analysis": "大于 4 的点数是 5 和 6，共 2 种。",
+          "source": "宜宾市翠屏区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_yibin_cuiping_2021a_n19",
+          "no": 19,
+          "type": "judge",
+          "stem": "判断：所有偶数都是合数。",
+          "answer": "错",
+          "score": 2,
+          "analysis": "2 是偶数，但 2 是质数。",
+          "source": "宜宾市翠屏区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_yibin_cuiping_2021a_n20",
+          "no": 20,
+          "type": "judge",
+          "stem": "判断：分数单位是1/8的最大真分数是7/8。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "分母是 8 的真分数最大是 7/8。",
+          "source": "宜宾市翠屏区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_yibin_cuiping_2021a_n21",
+          "no": 21,
+          "type": "judge",
+          "stem": "判断：循环小数是有限小数。",
+          "answer": "错",
+          "score": 2,
+          "analysis": "循环小数位数无限，是无限小数。",
+          "source": "宜宾市翠屏区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_yibin_cuiping_2021a_n22",
+          "no": 22,
+          "type": "judge",
+          "stem": "判断：两个完全一样的梯形可以拼成一个平行四边形。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "完全一样的梯形可拼成平行四边形。",
+          "source": "宜宾市翠屏区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_yibin_cuiping_2021a_n23",
+          "no": 23,
+          "type": "judge",
+          "stem": "判断：正方形有4条对称轴。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "正方形有 4 条对称轴。",
+          "source": "宜宾市翠屏区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_yibin_cuiping_2021a_n24",
+          "no": 24,
+          "type": "choice",
+          "stem": "在下面各数中，5的倍数是（　）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.125 B.126 C.124 D.127，正确答案为A。",
+          "source": "宜宾市翠屏区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_yibin_cuiping_2021a_n25",
+          "no": 25,
+          "type": "choice",
+          "stem": "两个质数相乘的积一共有（　）个因数",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.4 B.2 C.3 D.6，正确答案为A。",
+          "source": "宜宾市翠屏区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_yibin_cuiping_2021a_n26",
+          "no": 26,
+          "type": "choice",
+          "stem": "比较两个分数：1/8 和 6/8，较大的分数是（　）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.6/8 B.1/8 C.一样大 D.无法比较，正确答案为A。",
+          "source": "宜宾市翠屏区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_yibin_cuiping_2021a_n27",
+          "no": 27,
+          "type": "choice",
+          "stem": "2.7÷0.2的商（　）被除数",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.大于 B.小于 C.等于 D.无法确定，正确答案为A。",
+          "source": "宜宾市翠屏区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_yibin_cuiping_2021a_n28",
+          "no": 28,
+          "type": "choice",
+          "stem": "一个梯形上底9厘米、下底7厘米、高3厘米，面积是（　）平方厘米",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.24 B.48 C.48 D.19，正确答案为A。",
+          "source": "宜宾市翠屏区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_yibin_cuiping_2021a_n29",
+          "no": 29,
+          "type": "fill",
+          "stem": "用竖式计算：34.4÷4=",
+          "answer": "8.6",
+          "score": 4,
+          "analysis": "小数除法竖式商的小数点与被除数的小数点对齐；脱式先算括号内，再算除法。",
+          "source": "宜宾市翠屏区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_yibin_cuiping_2021a_n30",
+          "no": 30,
+          "type": "fill",
+          "stem": "用竖式计算：4.96÷4=",
+          "answer": "1.24",
+          "score": 4,
+          "analysis": "小数除法竖式商的小数点与被除数的小数点对齐；脱式先算括号内，再算除法。",
+          "source": "宜宾市翠屏区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_yibin_cuiping_2021a_n31",
+          "no": 31,
+          "type": "fill",
+          "stem": "用竖式计算：5×2=",
+          "answer": "10",
+          "score": 4,
+          "analysis": "小数除法竖式商的小数点与被除数的小数点对齐；脱式先算括号内，再算除法。",
+          "source": "宜宾市翠屏区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_yibin_cuiping_2021a_n32",
+          "no": 32,
+          "type": "fill",
+          "stem": "脱式计算：(11.5-3.5)÷0.2=",
+          "answer": "40",
+          "score": 4,
+          "analysis": "小数除法竖式商的小数点与被除数的小数点对齐；脱式先算括号内，再算除法。",
+          "source": "宜宾市翠屏区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_yibin_cuiping_2021a_n33",
+          "no": 33,
+          "type": "draw",
+          "stem": "请画出下面长方形的对称轴，并数一数共有几条。",
+          "answer": "2 条对称轴（过两组对边中点）",
+          "score": 3,
+          "analysis": "长方形共 2 条对称轴，过两组对边中点。",
+          "source": "宜宾市翠屏区2021-2022学年上期期末（组编）",
+          "figure": {
+            "w": 240,
+            "h": 160,
+            "shapes": [
+              {
+                "t": "r",
+                "x": 60,
+                "y": 40,
+                "w": 120,
+                "h": 80
+              }
+            ]
+          }
+        },
+        {
+          "id": "paper_g5_yibin_cuiping_2021a_n34",
+          "no": 34,
+          "type": "draw",
+          "stem": "在方格纸上画一个面积是12平方厘米的平行四边形（每个小格面积1平方厘米）。",
+          "answer": "底与高的乘积为12即可，如底12格、高1格（画法不唯一）",
+          "score": 3,
+          "analysis": "平行四边形面积=底×高，取底 12 格、高 1 格即面积 12。",
+          "source": "宜宾市翠屏区2021-2022学年上期期末（组编）",
+          "figure": {
+            "w": 300,
+            "h": 200,
+            "shapes": [
+              {
+                "t": "grid",
+                "x": 20,
+                "y": 10,
+                "cols": 11,
+                "rows": 6,
+                "cw": 24
+              }
+            ]
+          }
+        },
+        {
+          "id": "paper_g5_yibin_cuiping_2021a_n35",
+          "no": 35,
+          "type": "solve",
+          "stem": "妈妈买了6千克苹果，一共花了22.8元，每千克苹果多少元？",
+          "answer": "3.8元",
+          "score": 4,
+          "analysis": "总价÷数量=单价：22.8÷6=3.8（元）。",
+          "source": "宜宾市翠屏区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_yibin_cuiping_2021a_n36",
+          "no": 36,
+          "type": "solve",
+          "stem": "一个油壶最多装2.5升油，现在有11升油，全部装完至少需要多少个这样的油壶？",
+          "answer": "5个",
+          "score": 4,
+          "analysis": "11÷2.5=4（个）……1升，剩下的油也需要1个壶，共5个（进一法）。",
+          "source": "宜宾市翠屏区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_yibin_cuiping_2021a_n37",
+          "no": 37,
+          "type": "solve",
+          "stem": "做一件衣服要用2.4米布，现在有15.9米布，最多能做多少件这样的衣服？",
+          "answer": "6件",
+          "score": 4,
+          "analysis": "15.9÷2.4=6（件）……1.5米，剩下的布不够做一件，共6件（去尾法）。",
+          "source": "宜宾市翠屏区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_yibin_cuiping_2021a_n38",
+          "no": 38,
+          "type": "solve",
+          "stem": "出租车起步价6元（含2千米），超过2千米后每千米1.5元。小明乘出租车行了5千米，要付多少钱？",
+          "answer": "10.5元",
+          "score": 4,
+          "analysis": "起步价6元，超出的3千米按每千米1.5元：6+(5-2)×1.5=6+4.5=10.5（元）。",
+          "source": "宜宾市翠屏区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_yibin_cuiping_2021a_n39",
+          "no": 39,
+          "type": "solve",
+          "stem": "笼子里有若干只鸡和兔，从上面数有11个头，从下面数有30只脚，鸡和兔各有几只？",
+          "answer": "鸡7只，兔4只",
+          "score": 4,
+          "analysis": "假设全是鸡，共11×2=22只脚，少了30-22=8只脚，每只兔少算2只脚，兔有8÷2=4只，鸡有11-4=7只。",
+          "source": "宜宾市翠屏区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g5_yibin_cuiping_2021a_n40",
+          "no": 40,
+          "type": "solve",
+          "stem": "一块平行四边形菜地，底是10米，高是8米，这块菜地的面积是多少平方米？",
+          "answer": "80平方米",
+          "score": 4,
+          "analysis": "平行四边形面积=底×高：10×8=80（平方米）。",
+          "source": "宜宾市翠屏区2021-2022学年上期期末（组编）",
+          "figure": null
+        }
+      ]
     }
   ]
 }
