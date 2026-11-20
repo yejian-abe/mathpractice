@@ -110,8 +110,9 @@ jobs:
           cp -a "$SDKLATEST" $SDK/cmdline-tools/latest
           ln -sf $SDK/cmdline-tools/latest/bin/sdkmanager $SDK/tools/bin/sdkmanager
           ln -sf $SDK/cmdline-tools/latest/bin/avdmanager $SDK/tools/bin/avdmanager
-          # 显式保险：确保 android-31 与 build-tools 落在 $SDK（许可已写，无提示）
-          "$SDKM" --sdk_root=$SDK "platforms;android-31" >/dev/null || true
+          # 显式保险：确保 android-34（targetSdk，见 buildozer.spec android.api）
+          # 与 build-tools 落在 $SDK（许可已写，无提示）
+          "$SDKM" --sdk_root=$SDK "platforms;android-34" >/dev/null || true
           "$SDKM" --sdk_root=$SDK "build-tools;37.0.0" >/dev/null || true
           ls $SDK/platforms $SDK/build-tools || echo "WARNING: buildozer 会自行补装"
           # 2) 关键修复（run #16 根因）：手动预克隆 p4a master 到 buildozer

@@ -33,7 +33,9 @@ fullscreen = False
 orientation = all
 
 # Android 配置
-android.api = 31
+# targetSdk 31 触发 release 构建 Lint fatal（ExpiredTargetSdkVersion，要求 ≥33），
+# 提到 34：runner 预装 SDK 已有 android-34 平台，且为 2024-25 年 Google Play 要求线
+android.api = 34
 android.minapi = 24
 android.archs = arm64-v8a,armeabi-v7a
 android.permissions = INTERNET
