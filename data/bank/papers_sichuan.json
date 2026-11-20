@@ -14298,6 +14298,1518 @@
           "figure": null
         }
       ]
+    },
+    {
+      "id": "paper_g3_chengdu_gaoxin_2024a",
+      "grade": 3,
+      "region": "成都市高新区",
+      "year": "2024-2025学年上期",
+      "title": "三年级数学期末测试卷（二）",
+      "duration": 90,
+      "total_score": 100,
+      "note": "北师大版三年级上册：混合运算、三位数加减法、口算乘除、周长、两三位数乘一位数、年月日、认识小数；口算10×1分+填空8×3分+判断5×2分+选择5×2分+计算4×4分+看图列式与操作2×3分+解决问题6×4分",
+      "questions": [
+        {
+          "id": "paper_g3_chengdu_gaoxin_2024a_n1",
+          "no": 1,
+          "type": "fill",
+          "stem": "口算：30×3=",
+          "answer": "90",
+          "score": 1,
+          "analysis": "口算乘除：整十整百数乘除一位数先算表内乘除再添 0。",
+          "source": "成都市高新区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_chengdu_gaoxin_2024a_n2",
+          "no": 2,
+          "type": "fill",
+          "stem": "口算：450÷9=",
+          "answer": "50",
+          "score": 1,
+          "analysis": "口算乘除：整十整百数乘除一位数先算表内乘除再添 0。",
+          "source": "成都市高新区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_chengdu_gaoxin_2024a_n3",
+          "no": 3,
+          "type": "fill",
+          "stem": "口算：69÷3=",
+          "answer": "23",
+          "score": 1,
+          "analysis": "口算乘除：整十整百数乘除一位数先算表内乘除再添 0。",
+          "source": "成都市高新区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_chengdu_gaoxin_2024a_n4",
+          "no": 4,
+          "type": "fill",
+          "stem": "口算：40÷4=",
+          "answer": "10",
+          "score": 1,
+          "analysis": "口算乘除：整十整百数乘除一位数先算表内乘除再添 0。",
+          "source": "成都市高新区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_chengdu_gaoxin_2024a_n5",
+          "no": 5,
+          "type": "fill",
+          "stem": "口算：140÷7=",
+          "answer": "20",
+          "score": 1,
+          "analysis": "口算乘除：整十整百数乘除一位数先算表内乘除再添 0。",
+          "source": "成都市高新区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_chengdu_gaoxin_2024a_n6",
+          "no": 6,
+          "type": "fill",
+          "stem": "口算：12×3=",
+          "answer": "36",
+          "score": 1,
+          "analysis": "口算乘除：整十整百数乘除一位数先算表内乘除再添 0。",
+          "source": "成都市高新区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_chengdu_gaoxin_2024a_n7",
+          "no": 7,
+          "type": "fill",
+          "stem": "口算：20×3=",
+          "answer": "60",
+          "score": 1,
+          "analysis": "口算乘除：整十整百数乘除一位数先算表内乘除再添 0。",
+          "source": "成都市高新区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_chengdu_gaoxin_2024a_n8",
+          "no": 8,
+          "type": "fill",
+          "stem": "口算：43×2=",
+          "answer": "86",
+          "score": 1,
+          "analysis": "口算乘除：整十整百数乘除一位数先算表内乘除再添 0。",
+          "source": "成都市高新区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_chengdu_gaoxin_2024a_n9",
+          "no": 9,
+          "type": "fill",
+          "stem": "口算：280÷4=",
+          "answer": "70",
+          "score": 1,
+          "analysis": "口算乘除：整十整百数乘除一位数先算表内乘除再添 0。",
+          "source": "成都市高新区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_chengdu_gaoxin_2024a_n10",
+          "no": 10,
+          "type": "fill",
+          "stem": "口算：300×5=",
+          "answer": "1500",
+          "score": 1,
+          "analysis": "口算乘除：整十整百数乘除一位数先算表内乘除再添 0。",
+          "source": "成都市高新区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_chengdu_gaoxin_2024a_n11",
+          "no": 11,
+          "type": "fill",
+          "stem": "计算 5×6+4 时，先算（　）法",
+          "answer": "乘",
+          "score": 3,
+          "analysis": "先乘后加。",
+          "source": "成都市高新区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_chengdu_gaoxin_2024a_n12",
+          "no": 12,
+          "type": "fill",
+          "stem": "一年有（　）个月",
+          "answer": "12",
+          "score": 3,
+          "analysis": "一年 12 个月。",
+          "source": "成都市高新区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_chengdu_gaoxin_2024a_n13",
+          "no": 13,
+          "type": "fill",
+          "stem": "一个长方形的长是7厘米，宽是4厘米，周长是（　）厘米",
+          "answer": "22",
+          "score": 3,
+          "analysis": "长方形周长=（长+宽）×2=(7+4)×2=22厘米。",
+          "source": "成都市高新区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_chengdu_gaoxin_2024a_n14",
+          "no": 14,
+          "type": "fill",
+          "stem": "8元2角=（　）元（填小数）",
+          "answer": "8.2",
+          "score": 3,
+          "analysis": "2 角是 0.2 元，合起来是 8.2 元。",
+          "source": "成都市高新区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_chengdu_gaoxin_2024a_n15",
+          "no": 15,
+          "type": "fill",
+          "stem": "324+（　）=771",
+          "answer": "447",
+          "score": 3,
+          "analysis": "和减去一个加数得另一个加数：771-324=447。",
+          "source": "成都市高新区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_chengdu_gaoxin_2024a_n16",
+          "no": 16,
+          "type": "fill",
+          "stem": "最大的一位数乘最小的三位数，积是（　）",
+          "answer": "900",
+          "score": 3,
+          "analysis": "9×100=900。",
+          "source": "成都市高新区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_chengdu_gaoxin_2024a_n17",
+          "no": 17,
+          "type": "fill",
+          "stem": "一个正方形的边长是5米，周长是（　）米",
+          "answer": "20",
+          "score": 3,
+          "analysis": "正方形周长=边长×4=5×4=20米。",
+          "source": "成都市高新区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_chengdu_gaoxin_2024a_n18",
+          "no": 18,
+          "type": "fill",
+          "stem": "24-4×3=（　）",
+          "answer": "12",
+          "score": 3,
+          "analysis": "先算乘法 4×3=12，再减得 12。",
+          "source": "成都市高新区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_chengdu_gaoxin_2024a_n19",
+          "no": 19,
+          "type": "judge",
+          "stem": "判断：计算 30-18÷3 时，先算除法。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "先乘除后加减。",
+          "source": "成都市高新区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_chengdu_gaoxin_2024a_n20",
+          "no": 20,
+          "type": "judge",
+          "stem": "判断：平年一年有365天。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "平年 365 天，闰年 366 天。",
+          "source": "成都市高新区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_chengdu_gaoxin_2024a_n21",
+          "no": 21,
+          "type": "judge",
+          "stem": "判断：正方形边长5厘米，周长20厘米。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "5×4=20 厘米。",
+          "source": "成都市高新区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_chengdu_gaoxin_2024a_n22",
+          "no": 22,
+          "type": "judge",
+          "stem": "判断：0.5元=5角。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "0.5 元就是 5 角。",
+          "source": "成都市高新区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_chengdu_gaoxin_2024a_n23",
+          "no": 23,
+          "type": "judge",
+          "stem": "判断：0乘任何数都得0。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "0 的乘法特性。",
+          "source": "成都市高新区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_chengdu_gaoxin_2024a_n24",
+          "no": 24,
+          "type": "choice",
+          "stem": "(2+6)×3=（　）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.24 B.20 C.12 D.25，正确答案为A。",
+          "source": "成都市高新区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_chengdu_gaoxin_2024a_n25",
+          "no": 25,
+          "type": "choice",
+          "stem": "一年中连续的两个大月是（　）",
+          "answer": "B",
+          "score": 2,
+          "analysis": "选项：A.6月和7月 B.7月和8月 C.8月和9月 D.1月和2月，正确答案为B。",
+          "source": "成都市高新区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_chengdu_gaoxin_2024a_n26",
+          "no": 26,
+          "type": "choice",
+          "stem": "正方形边长5厘米，周长是（　）厘米",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.20 B.25 C.10 D.24，正确答案为A。",
+          "source": "成都市高新区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_chengdu_gaoxin_2024a_n27",
+          "no": 27,
+          "type": "choice",
+          "stem": "1元2角写成小数是（　）元",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.1.2 B.12 C.0.12 D.2.1，正确答案为A。",
+          "source": "成都市高新区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_chengdu_gaoxin_2024a_n28",
+          "no": 28,
+          "type": "choice",
+          "stem": "853-232=（　）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.621 B.631 C.521 D.1085，正确答案为A。",
+          "source": "成都市高新区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_chengdu_gaoxin_2024a_n29",
+          "no": 29,
+          "type": "fill",
+          "stem": "用竖式计算：338×3=",
+          "answer": "1014",
+          "score": 4,
+          "analysis": "按运算顺序计算：有括号先算括号里，无括号先乘除后加减、从左往右。",
+          "source": "成都市高新区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_chengdu_gaoxin_2024a_n30",
+          "no": 30,
+          "type": "fill",
+          "stem": "用竖式计算：615-371=",
+          "answer": "244",
+          "score": 4,
+          "analysis": "按运算顺序计算：有括号先算括号里，无括号先乘除后加减、从左往右。",
+          "source": "成都市高新区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_chengdu_gaoxin_2024a_n31",
+          "no": 31,
+          "type": "fill",
+          "stem": "脱式计算：9×3+26=",
+          "answer": "53",
+          "score": 4,
+          "analysis": "按运算顺序计算：有括号先算括号里，无括号先乘除后加减、从左往右。",
+          "source": "成都市高新区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_chengdu_gaoxin_2024a_n32",
+          "no": 32,
+          "type": "fill",
+          "stem": "脱式计算：(25-7)×4=",
+          "answer": "72",
+          "score": 4,
+          "analysis": "按运算顺序计算：有括号先算括号里，无括号先乘除后加减、从左往右。",
+          "source": "成都市高新区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_chengdu_gaoxin_2024a_n33",
+          "no": 33,
+          "type": "draw",
+          "stem": "在下面的方格纸上画一个长7厘米、宽2厘米的长方形（每个小格边长表示1厘米）。",
+          "answer": "长7格宽2格的长方形",
+          "score": 3,
+          "analysis": "沿方格线画：横向数 7 格、纵向数 2 格。周长为 (7+2)×2=18 厘米。",
+          "source": "成都市高新区2024-2025学年上期期末（组编）",
+          "figure": {
+            "w": 300,
+            "h": 220,
+            "shapes": [
+              {
+                "t": "grid",
+                "x": 20,
+                "y": 10,
+                "cols": 9,
+                "rows": 6,
+                "cw": 30
+              }
+            ]
+          }
+        },
+        {
+          "id": "paper_g3_chengdu_gaoxin_2024a_n34",
+          "no": 34,
+          "type": "draw",
+          "stem": "在钟面上画出9时的时针和分针。",
+          "answer": "画9时的时针和分针",
+          "score": 3,
+          "analysis": "时针指 9，分针指 12。",
+          "source": "成都市高新区2024-2025学年上期期末（组编）",
+          "figure": {
+            "w": 180,
+            "h": 180,
+            "shapes": [
+              {
+                "t": "c",
+                "cx": 90,
+                "cy": 90,
+                "r": 80
+              },
+              {
+                "t": "tx",
+                "x": 90,
+                "y": 28,
+                "s": "12",
+                "fs": 13
+              },
+              {
+                "t": "tx",
+                "x": 152,
+                "y": 90,
+                "s": "3",
+                "fs": 13
+              },
+              {
+                "t": "tx",
+                "x": 90,
+                "y": 152,
+                "s": "6",
+                "fs": 13
+              },
+              {
+                "t": "tx",
+                "x": 28,
+                "y": 90,
+                "s": "9",
+                "fs": 13
+              }
+            ]
+          }
+        },
+        {
+          "id": "paper_g3_chengdu_gaoxin_2024a_n35",
+          "no": 35,
+          "type": "solve",
+          "stem": "每盒彩笔有20支，学校买了5盒，一共买了多少支？",
+          "answer": "20×5=100（支）",
+          "score": 4,
+          "analysis": "每盒 20 支、共 5 盒：20×5=100支。",
+          "source": "成都市高新区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_chengdu_gaoxin_2024a_n36",
+          "no": 36,
+          "type": "solve",
+          "stem": "果园里共有849个苹果，运走了243个，还剩多少个？",
+          "answer": "849-243=606（个）",
+          "score": 4,
+          "analysis": "求还剩用减法：849-243=606个。",
+          "source": "成都市高新区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_chengdu_gaoxin_2024a_n37",
+          "no": 37,
+          "type": "solve",
+          "stem": "一块长方形菜地，长8米，宽6米，要沿四周围篱笆，篱笆一共长多少米？",
+          "answer": "(8+6)×2=28（米）",
+          "score": 4,
+          "analysis": "长方形周长=（长+宽）×2=(8+6)×2=28米。",
+          "source": "成都市高新区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_chengdu_gaoxin_2024a_n38",
+          "no": 38,
+          "type": "solve",
+          "stem": "图书馆上午8时开门，下午5时关门，每天开放多长时间？",
+          "answer": "9小时",
+          "score": 4,
+          "analysis": "下午5时用24时计时法是17时0分，开放时间=17时0分-8时0分=9小时。",
+          "source": "成都市高新区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_chengdu_gaoxin_2024a_n39",
+          "no": 39,
+          "type": "solve",
+          "stem": "买一袋盐2.3元，一袋糖4.9元，一共要付多少元？",
+          "answer": "7.2元",
+          "score": 4,
+          "analysis": "2.3+4.9=7.2（元）。",
+          "source": "成都市高新区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_chengdu_gaoxin_2024a_n40",
+          "no": 40,
+          "type": "solve",
+          "stem": "每层楼住5户，一栋楼有6层，6栋这样的楼一共住多少户？",
+          "answer": "5×6×6=180（户）",
+          "score": 4,
+          "analysis": "先算一栋楼住的户数 5×6=30 户，再乘 6 栋得 180 户。",
+          "source": "成都市高新区2024-2025学年上期期末（组编）",
+          "figure": null
+        }
+      ]
+    },
+    {
+      "id": "paper_g3_mianyang_fucheng_2022a",
+      "grade": 3,
+      "region": "绵阳市涪城区",
+      "year": "2022-2023学年上期",
+      "title": "三年级数学期末测试卷（三）",
+      "duration": 90,
+      "total_score": 100,
+      "note": "北师大版三年级上册：混合运算、三位数加减法、口算乘除、周长、两三位数乘一位数、年月日、认识小数；口算10×1分+填空8×3分+判断5×2分+选择5×2分+计算4×4分+看图列式与操作2×3分+解决问题6×4分",
+      "questions": [
+        {
+          "id": "paper_g3_mianyang_fucheng_2022a_n1",
+          "no": 1,
+          "type": "fill",
+          "stem": "口算：66÷6=",
+          "answer": "11",
+          "score": 1,
+          "analysis": "口算乘除：整十整百数乘除一位数先算表内乘除再添 0。",
+          "source": "绵阳市涪城区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_mianyang_fucheng_2022a_n2",
+          "no": 2,
+          "type": "fill",
+          "stem": "口算：140÷2=",
+          "answer": "70",
+          "score": 1,
+          "analysis": "口算乘除：整十整百数乘除一位数先算表内乘除再添 0。",
+          "source": "绵阳市涪城区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_mianyang_fucheng_2022a_n3",
+          "no": 3,
+          "type": "fill",
+          "stem": "口算：50×3=",
+          "answer": "150",
+          "score": 1,
+          "analysis": "口算乘除：整十整百数乘除一位数先算表内乘除再添 0。",
+          "source": "绵阳市涪城区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_mianyang_fucheng_2022a_n4",
+          "no": 4,
+          "type": "fill",
+          "stem": "口算：200÷5=",
+          "answer": "40",
+          "score": 1,
+          "analysis": "口算乘除：整十整百数乘除一位数先算表内乘除再添 0。",
+          "source": "绵阳市涪城区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_mianyang_fucheng_2022a_n5",
+          "no": 5,
+          "type": "fill",
+          "stem": "口算：200×9=",
+          "answer": "1800",
+          "score": 1,
+          "analysis": "口算乘除：整十整百数乘除一位数先算表内乘除再添 0。",
+          "source": "绵阳市涪城区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_mianyang_fucheng_2022a_n6",
+          "no": 6,
+          "type": "fill",
+          "stem": "口算：39÷3=",
+          "answer": "13",
+          "score": 1,
+          "analysis": "口算乘除：整十整百数乘除一位数先算表内乘除再添 0。",
+          "source": "绵阳市涪城区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_mianyang_fucheng_2022a_n7",
+          "no": 7,
+          "type": "fill",
+          "stem": "口算：80×6=",
+          "answer": "480",
+          "score": 1,
+          "analysis": "口算乘除：整十整百数乘除一位数先算表内乘除再添 0。",
+          "source": "绵阳市涪城区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_mianyang_fucheng_2022a_n8",
+          "no": 8,
+          "type": "fill",
+          "stem": "口算：120÷6=",
+          "answer": "20",
+          "score": 1,
+          "analysis": "口算乘除：整十整百数乘除一位数先算表内乘除再添 0。",
+          "source": "绵阳市涪城区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_mianyang_fucheng_2022a_n9",
+          "no": 9,
+          "type": "fill",
+          "stem": "口算：100÷2=",
+          "answer": "50",
+          "score": 1,
+          "analysis": "口算乘除：整十整百数乘除一位数先算表内乘除再添 0。",
+          "source": "绵阳市涪城区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_mianyang_fucheng_2022a_n10",
+          "no": 10,
+          "type": "fill",
+          "stem": "口算：11×2=",
+          "answer": "22",
+          "score": 1,
+          "analysis": "口算乘除：整十整百数乘除一位数先算表内乘除再添 0。",
+          "source": "绵阳市涪城区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_mianyang_fucheng_2022a_n11",
+          "no": 11,
+          "type": "fill",
+          "stem": "计算 48-24÷6 时，先算（　）法",
+          "answer": "除",
+          "score": 3,
+          "analysis": "先除后减。",
+          "source": "绵阳市涪城区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_mianyang_fucheng_2022a_n12",
+          "no": 12,
+          "type": "fill",
+          "stem": "11月有（　）天",
+          "answer": "30",
+          "score": 3,
+          "analysis": "11 月是小月，30 天。",
+          "source": "绵阳市涪城区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_mianyang_fucheng_2022a_n13",
+          "no": 13,
+          "type": "fill",
+          "stem": "一个长方形的长是16厘米，宽是13厘米，周长是（　）厘米",
+          "answer": "58",
+          "score": 3,
+          "analysis": "长方形周长=（长+宽）×2=(16+13)×2=58厘米。",
+          "source": "绵阳市涪城区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_mianyang_fucheng_2022a_n14",
+          "no": 14,
+          "type": "fill",
+          "stem": "2元2角=（　）元（填小数）",
+          "answer": "2.2",
+          "score": 3,
+          "analysis": "2 角是 0.2 元，合起来是 2.2 元。",
+          "source": "绵阳市涪城区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_mianyang_fucheng_2022a_n15",
+          "no": 15,
+          "type": "fill",
+          "stem": "388+（　）=998",
+          "answer": "610",
+          "score": 3,
+          "analysis": "和减去一个加数得另一个加数：998-388=610。",
+          "source": "绵阳市涪城区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_mianyang_fucheng_2022a_n16",
+          "no": 16,
+          "type": "fill",
+          "stem": "最小的两位数乘最大的两位数，积是（　）",
+          "answer": "990",
+          "score": 3,
+          "analysis": "10×99=990。",
+          "source": "绵阳市涪城区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_mianyang_fucheng_2022a_n17",
+          "no": 17,
+          "type": "fill",
+          "stem": "一个正方形的边长是7米，周长是（　）米",
+          "answer": "28",
+          "score": 3,
+          "analysis": "正方形周长=边长×4=7×4=28米。",
+          "source": "绵阳市涪城区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_mianyang_fucheng_2022a_n18",
+          "no": 18,
+          "type": "fill",
+          "stem": "261÷3×5=（　）",
+          "answer": "435",
+          "score": 3,
+          "analysis": "从左往右算：261÷3=87，再乘5得435。",
+          "source": "绵阳市涪城区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_mianyang_fucheng_2022a_n19",
+          "no": 19,
+          "type": "judge",
+          "stem": "判断：4+5×2=18。",
+          "answer": "错",
+          "score": 2,
+          "analysis": "4+5×2=4+10=14。",
+          "source": "绵阳市涪城区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_mianyang_fucheng_2022a_n20",
+          "no": 20,
+          "type": "judge",
+          "stem": "判断：7月是大月。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "7 月有 31 天。",
+          "source": "绵阳市涪城区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_mianyang_fucheng_2022a_n21",
+          "no": 21,
+          "type": "judge",
+          "stem": "判断：周长相等的两个长方形，长和宽一定相等。",
+          "answer": "错",
+          "score": 2,
+          "analysis": "周长相等长宽可以不同。",
+          "source": "绵阳市涪城区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_mianyang_fucheng_2022a_n22",
+          "no": 22,
+          "type": "judge",
+          "stem": "判断：3.2元就是3元2角。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "整数部分是元、十分位是角。",
+          "source": "绵阳市涪城区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_mianyang_fucheng_2022a_n23",
+          "no": 23,
+          "type": "judge",
+          "stem": "判断：三位数乘一位数，积一定是四位数。",
+          "answer": "错",
+          "score": 2,
+          "analysis": "如 100×3=300 还是三位数。",
+          "source": "绵阳市涪城区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_mianyang_fucheng_2022a_n24",
+          "no": 24,
+          "type": "choice",
+          "stem": "(3+4)×5=（　）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.35 B.23 C.19 D.36，正确答案为A。",
+          "source": "绵阳市涪城区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_mianyang_fucheng_2022a_n25",
+          "no": 25,
+          "type": "choice",
+          "stem": "8月有（　）天",
+          "answer": "B",
+          "score": 2,
+          "analysis": "选项：A.30 B.31 C.28 D.29，正确答案为B。",
+          "source": "绵阳市涪城区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_mianyang_fucheng_2022a_n26",
+          "no": 26,
+          "type": "choice",
+          "stem": "正方形边长11厘米，周长是（　）厘米",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.44 B.121 C.22 D.48，正确答案为A。",
+          "source": "绵阳市涪城区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_mianyang_fucheng_2022a_n27",
+          "no": 27,
+          "type": "choice",
+          "stem": "5角写成小数是（　）元",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.0.5 B.5 C.0.05 D.1.5，正确答案为A。",
+          "source": "绵阳市涪城区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_mianyang_fucheng_2022a_n28",
+          "no": 28,
+          "type": "choice",
+          "stem": "519+169=（　）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.688 B.678 C.788 D.350，正确答案为A。",
+          "source": "绵阳市涪城区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_mianyang_fucheng_2022a_n29",
+          "no": 29,
+          "type": "fill",
+          "stem": "用竖式计算：28×3=",
+          "answer": "84",
+          "score": 4,
+          "analysis": "按运算顺序计算：有括号先算括号里，无括号先乘除后加减、从左往右。",
+          "source": "绵阳市涪城区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_mianyang_fucheng_2022a_n30",
+          "no": 30,
+          "type": "fill",
+          "stem": "用竖式计算：840-114=",
+          "answer": "726",
+          "score": 4,
+          "analysis": "按运算顺序计算：有括号先算括号里，无括号先乘除后加减、从左往右。",
+          "source": "绵阳市涪城区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_mianyang_fucheng_2022a_n31",
+          "no": 31,
+          "type": "fill",
+          "stem": "脱式计算：6×5+21=",
+          "answer": "51",
+          "score": 4,
+          "analysis": "按运算顺序计算：有括号先算括号里，无括号先乘除后加减、从左往右。",
+          "source": "绵阳市涪城区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_mianyang_fucheng_2022a_n32",
+          "no": 32,
+          "type": "fill",
+          "stem": "脱式计算：(16-4)×6=",
+          "answer": "72",
+          "score": 4,
+          "analysis": "按运算顺序计算：有括号先算括号里，无括号先乘除后加减、从左往右。",
+          "source": "绵阳市涪城区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_mianyang_fucheng_2022a_n33",
+          "no": 33,
+          "type": "draw",
+          "stem": "在下面的方格纸上画一个长5厘米、宽2厘米的长方形（每个小格边长表示1厘米）。",
+          "answer": "长5格宽2格的长方形",
+          "score": 3,
+          "analysis": "沿方格线画：横向数 5 格、纵向数 2 格。周长为 (5+2)×2=14 厘米。",
+          "source": "绵阳市涪城区2022-2023学年上期期末（组编）",
+          "figure": {
+            "w": 300,
+            "h": 220,
+            "shapes": [
+              {
+                "t": "grid",
+                "x": 20,
+                "y": 10,
+                "cols": 9,
+                "rows": 6,
+                "cw": 30
+              }
+            ]
+          }
+        },
+        {
+          "id": "paper_g3_mianyang_fucheng_2022a_n34",
+          "no": 34,
+          "type": "draw",
+          "stem": "在钟面上画出11时半的时针和分针。",
+          "answer": "画11时半的时针和分针",
+          "score": 3,
+          "analysis": "时针指 11 和 12 之间，分针指 6。",
+          "source": "绵阳市涪城区2022-2023学年上期期末（组编）",
+          "figure": {
+            "w": 180,
+            "h": 180,
+            "shapes": [
+              {
+                "t": "c",
+                "cx": 90,
+                "cy": 90,
+                "r": 80
+              },
+              {
+                "t": "tx",
+                "x": 90,
+                "y": 28,
+                "s": "12",
+                "fs": 13
+              },
+              {
+                "t": "tx",
+                "x": 152,
+                "y": 90,
+                "s": "3",
+                "fs": 13
+              },
+              {
+                "t": "tx",
+                "x": 90,
+                "y": 152,
+                "s": "6",
+                "fs": 13
+              },
+              {
+                "t": "tx",
+                "x": 28,
+                "y": 90,
+                "s": "9",
+                "fs": 13
+              }
+            ]
+          }
+        },
+        {
+          "id": "paper_g3_mianyang_fucheng_2022a_n35",
+          "no": 35,
+          "type": "solve",
+          "stem": "每盒彩笔有18支，学校买了3盒，一共买了多少支？",
+          "answer": "18×3=54（支）",
+          "score": 4,
+          "analysis": "每盒 18 支、共 3 盒：18×3=54支。",
+          "source": "绵阳市涪城区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_mianyang_fucheng_2022a_n36",
+          "no": 36,
+          "type": "solve",
+          "stem": "果园里共有537个苹果，运走了284个，还剩多少个？",
+          "answer": "537-284=253（个）",
+          "score": 4,
+          "analysis": "求还剩用减法：537-284=253个。",
+          "source": "绵阳市涪城区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_mianyang_fucheng_2022a_n37",
+          "no": 37,
+          "type": "solve",
+          "stem": "一块长方形菜地，长18米，宽7米，要沿四周围篱笆，篱笆一共长多少米？",
+          "answer": "(18+7)×2=50（米）",
+          "score": 4,
+          "analysis": "长方形周长=（长+宽）×2=(18+7)×2=50米。",
+          "source": "绵阳市涪城区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_mianyang_fucheng_2022a_n38",
+          "no": 38,
+          "type": "solve",
+          "stem": "图书馆上午9时30分开门，下午6时30分关门，每天开放多长时间？",
+          "answer": "9小时",
+          "score": 4,
+          "analysis": "下午6时30分用24时计时法是18时30分，开放时间=18时30分-9时30分=9小时。",
+          "source": "绵阳市涪城区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_mianyang_fucheng_2022a_n39",
+          "no": 39,
+          "type": "solve",
+          "stem": "买一袋盐4.4元，一袋糖8.5元，一共要付多少元？",
+          "answer": "12.9元",
+          "score": 4,
+          "analysis": "4.4+8.5=12.9（元）。",
+          "source": "绵阳市涪城区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_mianyang_fucheng_2022a_n40",
+          "no": 40,
+          "type": "solve",
+          "stem": "每层楼住4户，一栋楼有4层，5栋这样的楼一共住多少户？",
+          "answer": "4×4×5=80（户）",
+          "score": 4,
+          "analysis": "先算一栋楼住的户数 4×4=16 户，再乘 5 栋得 80 户。",
+          "source": "绵阳市涪城区2022-2023学年上期期末（组编）",
+          "figure": null
+        }
+      ]
+    },
+    {
+      "id": "paper_g3_yibin_cuiping_2021a",
+      "grade": 3,
+      "region": "宜宾市翠屏区",
+      "year": "2021-2022学年上期",
+      "title": "三年级数学期末测试卷（四）",
+      "duration": 90,
+      "total_score": 100,
+      "note": "北师大版三年级上册：混合运算、三位数加减法、口算乘除、周长、两三位数乘一位数、年月日、认识小数；口算10×1分+填空8×3分+判断5×2分+选择5×2分+计算4×4分+看图列式与操作2×3分+解决问题6×4分",
+      "questions": [
+        {
+          "id": "paper_g3_yibin_cuiping_2021a_n1",
+          "no": 1,
+          "type": "fill",
+          "stem": "口算：180÷2=",
+          "answer": "90",
+          "score": 1,
+          "analysis": "口算乘除：整十整百数乘除一位数先算表内乘除再添 0。",
+          "source": "宜宾市翠屏区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_yibin_cuiping_2021a_n2",
+          "no": 2,
+          "type": "fill",
+          "stem": "口算：120÷4=",
+          "answer": "30",
+          "score": 1,
+          "analysis": "口算乘除：整十整百数乘除一位数先算表内乘除再添 0。",
+          "source": "宜宾市翠屏区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_yibin_cuiping_2021a_n3",
+          "no": 3,
+          "type": "fill",
+          "stem": "口算：24÷2=",
+          "answer": "12",
+          "score": 1,
+          "analysis": "口算乘除：整十整百数乘除一位数先算表内乘除再添 0。",
+          "source": "宜宾市翠屏区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_yibin_cuiping_2021a_n4",
+          "no": 4,
+          "type": "fill",
+          "stem": "口算：200×5=",
+          "answer": "1000",
+          "score": 1,
+          "analysis": "口算乘除：整十整百数乘除一位数先算表内乘除再添 0。",
+          "source": "宜宾市翠屏区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_yibin_cuiping_2021a_n5",
+          "no": 5,
+          "type": "fill",
+          "stem": "口算：23×3=",
+          "answer": "69",
+          "score": 1,
+          "analysis": "口算乘除：整十整百数乘除一位数先算表内乘除再添 0。",
+          "source": "宜宾市翠屏区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_yibin_cuiping_2021a_n6",
+          "no": 6,
+          "type": "fill",
+          "stem": "口算：400÷5=",
+          "answer": "80",
+          "score": 1,
+          "analysis": "口算乘除：整十整百数乘除一位数先算表内乘除再添 0。",
+          "source": "宜宾市翠屏区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_yibin_cuiping_2021a_n7",
+          "no": 7,
+          "type": "fill",
+          "stem": "口算：55÷5=",
+          "answer": "11",
+          "score": 1,
+          "analysis": "口算乘除：整十整百数乘除一位数先算表内乘除再添 0。",
+          "source": "宜宾市翠屏区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_yibin_cuiping_2021a_n8",
+          "no": 8,
+          "type": "fill",
+          "stem": "口算：11×9=",
+          "answer": "99",
+          "score": 1,
+          "analysis": "口算乘除：整十整百数乘除一位数先算表内乘除再添 0。",
+          "source": "宜宾市翠屏区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_yibin_cuiping_2021a_n9",
+          "no": 9,
+          "type": "fill",
+          "stem": "口算：300×6=",
+          "answer": "1800",
+          "score": 1,
+          "analysis": "口算乘除：整十整百数乘除一位数先算表内乘除再添 0。",
+          "source": "宜宾市翠屏区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_yibin_cuiping_2021a_n10",
+          "no": 10,
+          "type": "fill",
+          "stem": "口算：300×8=",
+          "answer": "2400",
+          "score": 1,
+          "analysis": "口算乘除：整十整百数乘除一位数先算表内乘除再添 0。",
+          "source": "宜宾市翠屏区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_yibin_cuiping_2021a_n11",
+          "no": 11,
+          "type": "fill",
+          "stem": "计算 (10+4)×3 时，先算（　）法",
+          "answer": "加",
+          "score": 3,
+          "analysis": "有括号先算括号里。",
+          "source": "宜宾市翠屏区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_yibin_cuiping_2021a_n12",
+          "no": 12,
+          "type": "fill",
+          "stem": "闰年的二月有（　）天",
+          "answer": "29",
+          "score": 3,
+          "analysis": "闰年 2 月 29 天。",
+          "source": "宜宾市翠屏区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_yibin_cuiping_2021a_n13",
+          "no": 13,
+          "type": "fill",
+          "stem": "一个长方形的长是8厘米，宽是7厘米，周长是（　）厘米",
+          "answer": "30",
+          "score": 3,
+          "analysis": "长方形周长=（长+宽）×2=(8+7)×2=30厘米。",
+          "source": "宜宾市翠屏区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_yibin_cuiping_2021a_n14",
+          "no": 14,
+          "type": "fill",
+          "stem": "0.7元=（　）角",
+          "answer": "7",
+          "score": 3,
+          "analysis": "0.x 元就是 x 角。",
+          "source": "宜宾市翠屏区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_yibin_cuiping_2021a_n15",
+          "no": 15,
+          "type": "fill",
+          "stem": "288+（　）=517",
+          "answer": "229",
+          "score": 3,
+          "analysis": "和减去一个加数得另一个加数：517-288=229。",
+          "source": "宜宾市翠屏区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_yibin_cuiping_2021a_n16",
+          "no": 16,
+          "type": "fill",
+          "stem": "125×8=（　）",
+          "answer": "1000",
+          "score": 3,
+          "analysis": "125×8=1000。",
+          "source": "宜宾市翠屏区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_yibin_cuiping_2021a_n17",
+          "no": 17,
+          "type": "fill",
+          "stem": "一个正方形的边长是6米，周长是（　）米",
+          "answer": "24",
+          "score": 3,
+          "analysis": "正方形周长=边长×4=6×4=24米。",
+          "source": "宜宾市翠屏区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_yibin_cuiping_2021a_n18",
+          "no": 18,
+          "type": "fill",
+          "stem": "46-3×6=（　）",
+          "answer": "28",
+          "score": 3,
+          "analysis": "先算乘法 3×6=18，再减得 28。",
+          "source": "宜宾市翠屏区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_yibin_cuiping_2021a_n19",
+          "no": 19,
+          "type": "judge",
+          "stem": "判断：算式里有括号，要先算括号里面的。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "括号优先。",
+          "source": "宜宾市翠屏区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_yibin_cuiping_2021a_n20",
+          "no": 20,
+          "type": "judge",
+          "stem": "判断：2月每年都是30天。",
+          "answer": "错",
+          "score": 2,
+          "analysis": "2 月平年 28 天、闰年 29 天。",
+          "source": "宜宾市翠屏区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_yibin_cuiping_2021a_n21",
+          "no": 21,
+          "type": "judge",
+          "stem": "判断：长方形的周长=（长+宽）×2。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "周长公式。",
+          "source": "宜宾市翠屏区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_yibin_cuiping_2021a_n22",
+          "no": 22,
+          "type": "judge",
+          "stem": "判断：小数都比1小。",
+          "answer": "错",
+          "score": 2,
+          "analysis": "如 3.5 就比 1 大。",
+          "source": "宜宾市翠屏区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_yibin_cuiping_2021a_n23",
+          "no": 23,
+          "type": "judge",
+          "stem": "判断：125×0=125。",
+          "answer": "错",
+          "score": 2,
+          "analysis": "125×0=0。",
+          "source": "宜宾市翠屏区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_yibin_cuiping_2021a_n24",
+          "no": 24,
+          "type": "choice",
+          "stem": "(2+4)×7=（　）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.42 B.30 C.18 D.43，正确答案为A。",
+          "source": "宜宾市翠屏区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_yibin_cuiping_2021a_n25",
+          "no": 25,
+          "type": "choice",
+          "stem": "儿童节是6月1日，那个月有（　）天",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.30 B.31 C.28 D.29，正确答案为A。",
+          "source": "宜宾市翠屏区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_yibin_cuiping_2021a_n26",
+          "no": 26,
+          "type": "choice",
+          "stem": "正方形边长3厘米，周长是（　）厘米",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.12 B.9 C.6 D.16，正确答案为A。",
+          "source": "宜宾市翠屏区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_yibin_cuiping_2021a_n27",
+          "no": 27,
+          "type": "choice",
+          "stem": "2.6元就是（　）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.2元6角 B.26角 C.2元06分 D.6元2角，正确答案为A。",
+          "source": "宜宾市翠屏区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_yibin_cuiping_2021a_n28",
+          "no": 28,
+          "type": "choice",
+          "stem": "457+201=（　）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.658 B.648 C.758 D.256，正确答案为A。",
+          "source": "宜宾市翠屏区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_yibin_cuiping_2021a_n29",
+          "no": 29,
+          "type": "fill",
+          "stem": "用竖式计算：306×3=",
+          "answer": "918",
+          "score": 4,
+          "analysis": "按运算顺序计算：有括号先算括号里，无括号先乘除后加减、从左往右。",
+          "source": "宜宾市翠屏区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_yibin_cuiping_2021a_n30",
+          "no": 30,
+          "type": "fill",
+          "stem": "用竖式计算：788+132=",
+          "answer": "920",
+          "score": 4,
+          "analysis": "按运算顺序计算：有括号先算括号里，无括号先乘除后加减、从左往右。",
+          "source": "宜宾市翠屏区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_yibin_cuiping_2021a_n31",
+          "no": 31,
+          "type": "fill",
+          "stem": "脱式计算：3×8-23=",
+          "answer": "1",
+          "score": 4,
+          "analysis": "按运算顺序计算：有括号先算括号里，无括号先乘除后加减、从左往右。",
+          "source": "宜宾市翠屏区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_yibin_cuiping_2021a_n32",
+          "no": 32,
+          "type": "fill",
+          "stem": "脱式计算：(16-3)×6=",
+          "answer": "78",
+          "score": 4,
+          "analysis": "按运算顺序计算：有括号先算括号里，无括号先乘除后加减、从左往右。",
+          "source": "宜宾市翠屏区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_yibin_cuiping_2021a_n33",
+          "no": 33,
+          "type": "draw",
+          "stem": "在下面的方格纸上画一个长4厘米、宽3厘米的长方形（每个小格边长表示1厘米）。",
+          "answer": "长4格宽3格的长方形",
+          "score": 3,
+          "analysis": "沿方格线画：横向数 4 格、纵向数 3 格。周长为 (4+3)×2=14 厘米。",
+          "source": "宜宾市翠屏区2021-2022学年上期期末（组编）",
+          "figure": {
+            "w": 300,
+            "h": 220,
+            "shapes": [
+              {
+                "t": "grid",
+                "x": 20,
+                "y": 10,
+                "cols": 9,
+                "rows": 6,
+                "cw": 30
+              }
+            ]
+          }
+        },
+        {
+          "id": "paper_g3_yibin_cuiping_2021a_n34",
+          "no": 34,
+          "type": "draw",
+          "stem": "在钟面上画出10时的时针和分针。",
+          "answer": "画10时的时针和分针",
+          "score": 3,
+          "analysis": "时针指 10，分针指 12。",
+          "source": "宜宾市翠屏区2021-2022学年上期期末（组编）",
+          "figure": {
+            "w": 180,
+            "h": 180,
+            "shapes": [
+              {
+                "t": "c",
+                "cx": 90,
+                "cy": 90,
+                "r": 80
+              },
+              {
+                "t": "tx",
+                "x": 90,
+                "y": 28,
+                "s": "12",
+                "fs": 13
+              },
+              {
+                "t": "tx",
+                "x": 152,
+                "y": 90,
+                "s": "3",
+                "fs": 13
+              },
+              {
+                "t": "tx",
+                "x": 90,
+                "y": 152,
+                "s": "6",
+                "fs": 13
+              },
+              {
+                "t": "tx",
+                "x": 28,
+                "y": 90,
+                "s": "9",
+                "fs": 13
+              }
+            ]
+          }
+        },
+        {
+          "id": "paper_g3_yibin_cuiping_2021a_n35",
+          "no": 35,
+          "type": "solve",
+          "stem": "每盒彩笔有18支，学校买了5盒，一共买了多少支？",
+          "answer": "18×5=90（支）",
+          "score": 4,
+          "analysis": "每盒 18 支、共 5 盒：18×5=90支。",
+          "source": "宜宾市翠屏区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_yibin_cuiping_2021a_n36",
+          "no": 36,
+          "type": "solve",
+          "stem": "果园里共有466个苹果，运走了330个，还剩多少个？",
+          "answer": "466-330=136（个）",
+          "score": 4,
+          "analysis": "求还剩用减法：466-330=136个。",
+          "source": "宜宾市翠屏区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_yibin_cuiping_2021a_n37",
+          "no": 37,
+          "type": "solve",
+          "stem": "一块长方形菜地，长14米，宽7米，要沿四周围篱笆，篱笆一共长多少米？",
+          "answer": "(14+7)×2=42（米）",
+          "score": 4,
+          "analysis": "长方形周长=（长+宽）×2=(14+7)×2=42米。",
+          "source": "宜宾市翠屏区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_yibin_cuiping_2021a_n38",
+          "no": 38,
+          "type": "solve",
+          "stem": "图书馆上午8时30分开门，下午3时30分关门，每天开放多长时间？",
+          "answer": "7小时",
+          "score": 4,
+          "analysis": "下午3时30分用24时计时法是15时30分，开放时间=15时30分-8时30分=7小时。",
+          "source": "宜宾市翠屏区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_yibin_cuiping_2021a_n39",
+          "no": 39,
+          "type": "solve",
+          "stem": "买一袋盐2.7元，一袋糖6.0元，一共要付多少元？",
+          "answer": "8.7元",
+          "score": 4,
+          "analysis": "2.7+6.0=8.7（元）。",
+          "source": "宜宾市翠屏区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g3_yibin_cuiping_2021a_n40",
+          "no": 40,
+          "type": "solve",
+          "stem": "每层楼住4户，一栋楼有4层，8栋这样的楼一共住多少户？",
+          "answer": "4×4×8=128（户）",
+          "score": 4,
+          "analysis": "先算一栋楼住的户数 4×4=16 户，再乘 8 栋得 128 户。",
+          "source": "宜宾市翠屏区2021-2022学年上期期末（组编）",
+          "figure": null
+        }
+      ]
     }
   ]
 }
