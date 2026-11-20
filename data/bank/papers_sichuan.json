@@ -23538,6 +23538,1644 @@
           "figure": null
         }
       ]
+    },
+    {
+      "id": "paper_g6_yibin_cuiping_2022a",
+      "grade": 6,
+      "region": "宜宾市翠屏区",
+      "year": "2022-2023学年上期",
+      "title": "六年级数学期末测试卷（二）",
+      "duration": 90,
+      "total_score": 100,
+      "note": "北师大版六年级上册：圆、分数混合运算、观察物体、百分数、数据处理、比的认识、百分数的应用；口算10×1分+填空8×3分+判断5×2分+选择5×2分+计算4×4分+作图2×3分+解决问题6×4分",
+      "questions": [
+        {
+          "id": "paper_g6_yibin_cuiping_2022a_n1",
+          "no": 1,
+          "type": "fill",
+          "stem": "口算：2/30×6/5=",
+          "answer": "2/25",
+          "score": 1,
+          "analysis": "分数乘法：分子相乘、分母相乘，能约分先约分；分数除法：除以一个数等于乘它的倒数。",
+          "source": "宜宾市翠屏区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_yibin_cuiping_2022a_n2",
+          "no": 2,
+          "type": "fill",
+          "stem": "口算：3/2÷6/8=",
+          "answer": "2",
+          "score": 1,
+          "analysis": "分数乘法：分子相乘、分母相乘，能约分先约分；分数除法：除以一个数等于乘它的倒数。",
+          "source": "宜宾市翠屏区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_yibin_cuiping_2022a_n3",
+          "no": 3,
+          "type": "fill",
+          "stem": "口算：12÷4/2=",
+          "answer": "6",
+          "score": 1,
+          "analysis": "分数乘法：分子相乘、分母相乘，能约分先约分；分数除法：除以一个数等于乘它的倒数。",
+          "source": "宜宾市翠屏区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_yibin_cuiping_2022a_n4",
+          "no": 4,
+          "type": "fill",
+          "stem": "口算：17/30×6/5=",
+          "answer": "17/25",
+          "score": 1,
+          "analysis": "分数乘法：分子相乘、分母相乘，能约分先约分；分数除法：除以一个数等于乘它的倒数。",
+          "source": "宜宾市翠屏区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_yibin_cuiping_2022a_n5",
+          "no": 5,
+          "type": "fill",
+          "stem": "口算：18/21÷6=",
+          "answer": "1/7",
+          "score": 1,
+          "analysis": "分数乘法：分子相乘、分母相乘，能约分先约分；分数除法：除以一个数等于乘它的倒数。",
+          "source": "宜宾市翠屏区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_yibin_cuiping_2022a_n6",
+          "no": 6,
+          "type": "fill",
+          "stem": "口算：2÷2/5=",
+          "answer": "5",
+          "score": 1,
+          "analysis": "分数乘法：分子相乘、分母相乘，能约分先约分；分数除法：除以一个数等于乘它的倒数。",
+          "source": "宜宾市翠屏区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_yibin_cuiping_2022a_n7",
+          "no": 7,
+          "type": "fill",
+          "stem": "口算：1/3÷6/3=",
+          "answer": "1/6",
+          "score": 1,
+          "analysis": "分数乘法：分子相乘、分母相乘，能约分先约分；分数除法：除以一个数等于乘它的倒数。",
+          "source": "宜宾市翠屏区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_yibin_cuiping_2022a_n8",
+          "no": 8,
+          "type": "fill",
+          "stem": "口算：13/24×6/5=",
+          "answer": "13/20",
+          "score": 1,
+          "analysis": "分数乘法：分子相乘、分母相乘，能约分先约分；分数除法：除以一个数等于乘它的倒数。",
+          "source": "宜宾市翠屏区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_yibin_cuiping_2022a_n9",
+          "no": 9,
+          "type": "fill",
+          "stem": "口算：7/2×1/5=",
+          "answer": "7/10",
+          "score": 1,
+          "analysis": "分数乘法：分子相乘、分母相乘，能约分先约分；分数除法：除以一个数等于乘它的倒数。",
+          "source": "宜宾市翠屏区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_yibin_cuiping_2022a_n10",
+          "no": 10,
+          "type": "fill",
+          "stem": "口算：3/6÷2/3=",
+          "answer": "3/4",
+          "score": 1,
+          "analysis": "分数乘法：分子相乘、分母相乘，能约分先约分；分数除法：除以一个数等于乘它的倒数。",
+          "source": "宜宾市翠屏区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_yibin_cuiping_2022a_n11",
+          "no": 11,
+          "type": "fill",
+          "stem": "在同一个圆里，直径是半径的（　）倍",
+          "answer": "2",
+          "score": 3,
+          "analysis": "同圆中 d=2r，直径是半径的 2 倍。",
+          "source": "宜宾市翠屏区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_yibin_cuiping_2022a_n12",
+          "no": 12,
+          "type": "fill",
+          "stem": "一个圆的半径是10厘米，它的周长是（　）厘米（π取3.14）",
+          "answer": "62.8",
+          "score": 3,
+          "analysis": "C=2πr：2×3.14×10=62.8（厘米）。",
+          "source": "宜宾市翠屏区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_yibin_cuiping_2022a_n13",
+          "no": 13,
+          "type": "fill",
+          "stem": "5:8的比值是（　）",
+          "answer": "5/8",
+          "score": 3,
+          "analysis": "比的前项除以后项：5÷8=5/8。",
+          "source": "宜宾市翠屏区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_yibin_cuiping_2022a_n14",
+          "no": 14,
+          "type": "fill",
+          "stem": "0.07=（　）%",
+          "answer": "7",
+          "score": 3,
+          "analysis": "小数化百分数：小数点右移两位，0.07=7%。",
+          "source": "宜宾市翠屏区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_yibin_cuiping_2022a_n15",
+          "no": 15,
+          "type": "fill",
+          "stem": "把20个苹果按2:3分给甲、乙两人，乙分得（　）个",
+          "answer": "12",
+          "score": 3,
+          "analysis": "总份数2+3=5，每份4个，乙得4×3=12个。",
+          "source": "宜宾市翠屏区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_yibin_cuiping_2022a_n16",
+          "no": 16,
+          "type": "fill",
+          "stem": "抽检200件商品，其中184件合格，这批商品的合格率是（　）%",
+          "answer": "92",
+          "score": 3,
+          "analysis": "合格率=合格数÷总数×100%：184÷200×100%=92%。",
+          "source": "宜宾市翠屏区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_yibin_cuiping_2022a_n17",
+          "no": 17,
+          "type": "fill",
+          "stem": "一个圆的半径是20厘米，它的面积是（　）平方厘米（π取3.14）",
+          "answer": "1256",
+          "score": 3,
+          "analysis": "S=πr²：3.14×20×20=1256（平方厘米）。",
+          "source": "宜宾市翠屏区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_yibin_cuiping_2022a_n18",
+          "no": 18,
+          "type": "fill",
+          "stem": "要反映各部分数量与总数之间的关系，应选用（　）统计图",
+          "answer": "扇形",
+          "score": 3,
+          "analysis": "扇形统计图能清楚地表示部分与整体的关系。",
+          "source": "宜宾市翠屏区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_yibin_cuiping_2022a_n19",
+          "no": 19,
+          "type": "judge",
+          "stem": "判断：两端都在圆上的线段都是直径。",
+          "answer": "错",
+          "score": 2,
+          "analysis": "必须通过圆心才是直径，不过圆心的弦不是直径。",
+          "source": "宜宾市翠屏区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_yibin_cuiping_2022a_n20",
+          "no": 20,
+          "type": "judge",
+          "stem": "判断：分数混合运算的顺序与整数混合运算的顺序相同。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "先乘除后加减，有括号先算括号。",
+          "source": "宜宾市翠屏区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_yibin_cuiping_2022a_n21",
+          "no": 21,
+          "type": "judge",
+          "stem": "判断：3:4也可以写成3/4，读作四分之三。",
+          "answer": "错",
+          "score": 2,
+          "analysis": "3:4写作3/4时仍读作三比四。",
+          "source": "宜宾市翠屏区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_yibin_cuiping_2022a_n22",
+          "no": 22,
+          "type": "judge",
+          "stem": "判断：百分数的分子可以大于100。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "如120%表示超过单位\"1\"的量。",
+          "source": "宜宾市翠屏区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_yibin_cuiping_2022a_n23",
+          "no": 23,
+          "type": "judge",
+          "stem": "判断：从不同方向观察球，看到的形状都不同。",
+          "answer": "错",
+          "score": 2,
+          "analysis": "球各个方向看到的都是圆，形状相同。",
+          "source": "宜宾市翠屏区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_yibin_cuiping_2022a_n24",
+          "no": 24,
+          "type": "choice",
+          "stem": "一个圆的周长是31.4厘米，它的直径是（　）厘米（π取3.14）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.10 B.20 C.5 D.11，正确答案为A。",
+          "source": "宜宾市翠屏区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_yibin_cuiping_2022a_n25",
+          "no": 25,
+          "type": "choice",
+          "stem": "甲、乙两数的比是18:24，甲数是18，乙数是（　）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.24 B.18 C.42 D.30，正确答案为A。",
+          "source": "宜宾市翠屏区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_yibin_cuiping_2022a_n26",
+          "no": 26,
+          "type": "choice",
+          "stem": "在0.6、60%、6/10这三个数中，大小关系是（　）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.相等 B.0.6最大 C.60%最大 D.6/10最小，正确答案为A。",
+          "source": "宜宾市翠屏区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_yibin_cuiping_2022a_n27",
+          "no": 27,
+          "type": "choice",
+          "stem": "把48个球按3:5分给两个班，较多的一个班分得（　）个",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.30 B.18 C.48 D.36，正确答案为A。",
+          "source": "宜宾市翠屏区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_yibin_cuiping_2022a_n28",
+          "no": 28,
+          "type": "choice",
+          "stem": "观察一个正方体，一次最多能看到（　）个面",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.3 B.2 C.1 D.6，正确答案为A。",
+          "source": "宜宾市翠屏区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_yibin_cuiping_2022a_n29",
+          "no": 29,
+          "type": "fill",
+          "stem": "脱式计算：3/4÷3/8×1/2=",
+          "answer": "1",
+          "score": 4,
+          "analysis": "3/4÷3/8=3/4×8/3=2，2×1/2=1。",
+          "source": "宜宾市翠屏区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_yibin_cuiping_2022a_n30",
+          "no": 30,
+          "type": "fill",
+          "stem": "脱式计算：(1/2+1/3)×6=",
+          "answer": "5",
+          "score": 4,
+          "analysis": "乘法分配律：1/2×6+1/3×6=3+2=5。",
+          "source": "宜宾市翠屏区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_yibin_cuiping_2022a_n31",
+          "no": 31,
+          "type": "fill",
+          "stem": "解方程：x+2/3x=20，x=（　）",
+          "answer": "12",
+          "score": 4,
+          "analysis": "合并：(1+2/3)x=20，5/3x=20，x=20×3/5=12。",
+          "source": "宜宾市翠屏区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_yibin_cuiping_2022a_n32",
+          "no": 32,
+          "type": "fill",
+          "stem": "解方程：5x+7=82，x=（　）",
+          "answer": "15",
+          "score": 4,
+          "analysis": "5x=82-7=75，x=75÷5=15。",
+          "source": "宜宾市翠屏区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_yibin_cuiping_2022a_n33",
+          "no": 33,
+          "type": "draw",
+          "stem": "观察下图：点O是圆心，线段OA的长度就是半径。请以点O为圆心、线段OA的长为半径，画出一个完整的圆，并标出圆心O和半径。",
+          "answer": "以O为圆心、OA长为半径画圆",
+          "score": 3,
+          "analysis": "用圆规有针的一脚固定在O点，两脚间距离等于OA的长，旋转一周画出圆。",
+          "source": "宜宾市翠屏区2022-2023学年上期期末（组编）",
+          "figure": {
+            "w": 180,
+            "h": 140,
+            "shapes": [
+              {
+                "t": "cf",
+                "cx": 60,
+                "cy": 70,
+                "r": 2
+              },
+              {
+                "t": "l",
+                "x1": 60,
+                "y1": 70,
+                "x2": 110,
+                "y2": 70
+              },
+              {
+                "t": "tx",
+                "x": 50,
+                "y": 58,
+                "s": "O",
+                "fs": 12
+              },
+              {
+                "t": "tx",
+                "x": 80,
+                "y": 75,
+                "s": "A",
+                "fs": 12
+              }
+            ]
+          }
+        },
+        {
+          "id": "paper_g6_yibin_cuiping_2022a_n34",
+          "no": 34,
+          "type": "draw",
+          "stem": "下面是四（1）班同学最喜欢的运动项目统计图（每格表示2人），其中喜欢踢毽子的有6人，图中只画出了\"跳绳\"一项。请在图中补画\"踢毽子\"的条形。",
+          "answer": "补画高度为3格的条形",
+          "score": 3,
+          "analysis": "每格表示2人，6÷2=3格，在\"踢毽子\"位置画出3格高的条形。",
+          "source": "宜宾市翠屏区2022-2023学年上期期末（组编）",
+          "figure": {
+            "w": 200,
+            "h": 175,
+            "shapes": [
+              {
+                "t": "grid",
+                "x": 50,
+                "y": 20,
+                "cols": 5,
+                "rows": 6,
+                "cw": 22
+              },
+              {
+                "t": "l",
+                "x1": 50,
+                "y1": 20,
+                "x2": 50,
+                "y2": 152
+              },
+              {
+                "t": "l",
+                "x1": 50,
+                "y1": 152,
+                "x2": 160,
+                "y2": 152
+              },
+              {
+                "t": "r",
+                "x": 62,
+                "y": 86,
+                "w": 22,
+                "h": 66
+              },
+              {
+                "t": "tx",
+                "x": 66,
+                "y": 160,
+                "s": "跳绳  踢毽",
+                "fs": 10
+              },
+              {
+                "t": "tx",
+                "x": 14,
+                "y": 90,
+                "s": "人数",
+                "fs": 11
+              },
+              {
+                "t": "tx",
+                "x": 24,
+                "y": 148,
+                "s": "4",
+                "fs": 9
+              },
+              {
+                "t": "tx",
+                "x": 24,
+                "y": 126,
+                "s": "8",
+                "fs": 9
+              }
+            ]
+          }
+        },
+        {
+          "id": "paper_g6_yibin_cuiping_2022a_n35",
+          "no": 35,
+          "type": "solve",
+          "stem": "一本故事书共240页，第一天看了全书的1/6，第二天看了全书的1/4，还剩多少页没有看？",
+          "answer": "140页",
+          "score": 4,
+          "analysis": "两天共看全书的1/6+1/4=5/12，还剩240×(1-5/12)=140页。",
+          "source": "宜宾市翠屏区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_yibin_cuiping_2022a_n36",
+          "no": 36,
+          "type": "solve",
+          "stem": "一个圆形花坛的直径是8米。绕花坛走一圈大约是多少米？小明绕花坛走了7圈，大约走了多少米？（π取3.14）",
+          "answer": "一圈25.12米，7圈175.84米",
+          "score": 4,
+          "analysis": "C=πd=3.14×8=25.12（米）；7圈：25.12×7=175.84（米）。",
+          "source": "宜宾市翠屏区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_yibin_cuiping_2022a_n37",
+          "no": 37,
+          "type": "solve",
+          "stem": "一个圆形餐桌的半径是5米。这张餐桌的桌面面积是多少平方米？（π取3.14）",
+          "answer": "78.5平方米",
+          "score": 4,
+          "analysis": "S=πr²=3.14×5×5=78.5（平方米）。",
+          "source": "宜宾市翠屏区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_yibin_cuiping_2022a_n38",
+          "no": 38,
+          "type": "solve",
+          "stem": "学校买来45本课外书，按2:3分给五、六年级，五年级分得多少本？六年级分得多少本？",
+          "answer": "五年级18本，六年级27本",
+          "score": 4,
+          "analysis": "总份数2+3=5，每份9本：五年级9×2=18本，六年级9×3=27本。",
+          "source": "宜宾市翠屏区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_yibin_cuiping_2022a_n39",
+          "no": 39,
+          "type": "solve",
+          "stem": "王阿姨把5000元存入银行，定期3年，年利率是2.00%。到期后可以获得利息多少元？",
+          "answer": "300元",
+          "score": 4,
+          "analysis": "利息=本金×利率×存期：5000×2%×3=300（元）。",
+          "source": "宜宾市翠屏区2022-2023学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_yibin_cuiping_2022a_n40",
+          "no": 40,
+          "type": "solve",
+          "stem": "一根绳子用去3/4，正好用了42米。这根绳子原来长多少米？",
+          "answer": "56米",
+          "score": 4,
+          "analysis": "已知一个数的3/4是42，求这个数用除法：42÷3/4=42×4=56（米）。",
+          "source": "宜宾市翠屏区2022-2023学年上期期末（组编）",
+          "figure": null
+        }
+      ]
+    },
+    {
+      "id": "paper_g6_nanchong_shunqing_2024a",
+      "grade": 6,
+      "region": "南充市顺庆区",
+      "year": "2024-2025学年上期",
+      "title": "六年级数学期末测试卷（三）",
+      "duration": 90,
+      "total_score": 100,
+      "note": "北师大版六年级上册：圆、分数混合运算、观察物体、百分数、数据处理、比的认识、百分数的应用；口算10×1分+填空8×3分+判断5×2分+选择5×2分+计算4×4分+作图2×3分+解决问题6×4分",
+      "questions": [
+        {
+          "id": "paper_g6_nanchong_shunqing_2024a_n1",
+          "no": 1,
+          "type": "fill",
+          "stem": "口算：6/9÷5/9=",
+          "answer": "6/5",
+          "score": 1,
+          "analysis": "分数乘法：分子相乘、分母相乘，能约分先约分；分数除法：除以一个数等于乘它的倒数。",
+          "source": "南充市顺庆区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_nanchong_shunqing_2024a_n2",
+          "no": 2,
+          "type": "fill",
+          "stem": "口算：14/20×4/5=",
+          "answer": "14/25",
+          "score": 1,
+          "analysis": "分数乘法：分子相乘、分母相乘，能约分先约分；分数除法：除以一个数等于乘它的倒数。",
+          "source": "南充市顺庆区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_nanchong_shunqing_2024a_n3",
+          "no": 3,
+          "type": "fill",
+          "stem": "口算：12/20÷4=",
+          "answer": "3/20",
+          "score": 1,
+          "analysis": "分数乘法：分子相乘、分母相乘，能约分先约分；分数除法：除以一个数等于乘它的倒数。",
+          "source": "南充市顺庆区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_nanchong_shunqing_2024a_n4",
+          "no": 4,
+          "type": "fill",
+          "stem": "口算：2÷2/4=",
+          "answer": "4",
+          "score": 1,
+          "analysis": "分数乘法：分子相乘、分母相乘，能约分先约分；分数除法：除以一个数等于乘它的倒数。",
+          "source": "南充市顺庆区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_nanchong_shunqing_2024a_n5",
+          "no": 5,
+          "type": "fill",
+          "stem": "口算：1/7÷1/3=",
+          "answer": "3/7",
+          "score": 1,
+          "analysis": "分数乘法：分子相乘、分母相乘，能约分先约分；分数除法：除以一个数等于乘它的倒数。",
+          "source": "南充市顺庆区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_nanchong_shunqing_2024a_n6",
+          "no": 6,
+          "type": "fill",
+          "stem": "口算：2/4÷5/3=",
+          "answer": "3/10",
+          "score": 1,
+          "analysis": "分数乘法：分子相乘、分母相乘，能约分先约分；分数除法：除以一个数等于乘它的倒数。",
+          "source": "南充市顺庆区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_nanchong_shunqing_2024a_n7",
+          "no": 7,
+          "type": "fill",
+          "stem": "口算：5/3×1/2=",
+          "answer": "5/6",
+          "score": 1,
+          "analysis": "分数乘法：分子相乘、分母相乘，能约分先约分；分数除法：除以一个数等于乘它的倒数。",
+          "source": "南充市顺庆区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_nanchong_shunqing_2024a_n8",
+          "no": 8,
+          "type": "fill",
+          "stem": "口算：4÷4/5=",
+          "answer": "5",
+          "score": 1,
+          "analysis": "分数乘法：分子相乘、分母相乘，能约分先约分；分数除法：除以一个数等于乘它的倒数。",
+          "source": "南充市顺庆区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_nanchong_shunqing_2024a_n9",
+          "no": 9,
+          "type": "fill",
+          "stem": "口算：13/12×3/4=",
+          "answer": "13/16",
+          "score": 1,
+          "analysis": "分数乘法：分子相乘、分母相乘，能约分先约分；分数除法：除以一个数等于乘它的倒数。",
+          "source": "南充市顺庆区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_nanchong_shunqing_2024a_n10",
+          "no": 10,
+          "type": "fill",
+          "stem": "口算：5/15×5/2=",
+          "answer": "5/6",
+          "score": 1,
+          "analysis": "分数乘法：分子相乘、分母相乘，能约分先约分；分数除法：除以一个数等于乘它的倒数。",
+          "source": "南充市顺庆区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_nanchong_shunqing_2024a_n11",
+          "no": 11,
+          "type": "fill",
+          "stem": "决定圆的大小的是（　）",
+          "answer": "半径",
+          "score": 3,
+          "analysis": "圆心决定圆的位置，半径决定圆的大小。",
+          "source": "南充市顺庆区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_nanchong_shunqing_2024a_n12",
+          "no": 12,
+          "type": "fill",
+          "stem": "一个圆的半径是1厘米，它的周长是（　）厘米（π取3.14）",
+          "answer": "6.28",
+          "score": 3,
+          "analysis": "C=2πr：2×3.14×1=6.28（厘米）。",
+          "source": "南充市顺庆区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_nanchong_shunqing_2024a_n13",
+          "no": 13,
+          "type": "fill",
+          "stem": "2:5的比值是（　）",
+          "answer": "2/5",
+          "score": 3,
+          "analysis": "比的前项除以后项：2÷5=2/5。",
+          "source": "南充市顺庆区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_nanchong_shunqing_2024a_n14",
+          "no": 14,
+          "type": "fill",
+          "stem": "8%=（　）（填小数）",
+          "answer": "0.08",
+          "score": 3,
+          "analysis": "百分数化小数：小数点左移两位，8%=0.08。",
+          "source": "南充市顺庆区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_nanchong_shunqing_2024a_n15",
+          "no": 15,
+          "type": "fill",
+          "stem": "把12个苹果按1:3分给甲、乙两人，乙分得（　）个",
+          "answer": "9",
+          "score": 3,
+          "analysis": "总份数1+3=4，每份3个，乙得3×3=9个。",
+          "source": "南充市顺庆区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_nanchong_shunqing_2024a_n16",
+          "no": 16,
+          "type": "fill",
+          "stem": "抽检100件商品，其中90件合格，这批商品的合格率是（　）%",
+          "answer": "90",
+          "score": 3,
+          "analysis": "合格率=合格数÷总数×100%：90÷100×100%=90%。",
+          "source": "南充市顺庆区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_nanchong_shunqing_2024a_n17",
+          "no": 17,
+          "type": "fill",
+          "stem": "一个圆的半径是5厘米，它的面积是（　）平方厘米（π取3.14）",
+          "answer": "78.5",
+          "score": 3,
+          "analysis": "S=πr²：3.14×5×5=78.5（平方厘米）。",
+          "source": "南充市顺庆区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_nanchong_shunqing_2024a_n18",
+          "no": 18,
+          "type": "fill",
+          "stem": "要表示果园里各种果树棵数占总数的百分比，应选用（　）统计图",
+          "answer": "扇形",
+          "score": 3,
+          "analysis": "表示部分占总数的百分比，用扇形统计图。",
+          "source": "南充市顺庆区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_nanchong_shunqing_2024a_n19",
+          "no": 19,
+          "type": "judge",
+          "stem": "判断：圆周率π大于3.14。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "π≈3.14159…，大于3.14。",
+          "source": "南充市顺庆区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_nanchong_shunqing_2024a_n20",
+          "no": 20,
+          "type": "judge",
+          "stem": "判断：3/4×4/5÷4/5×3/4=1。",
+          "answer": "错",
+          "score": 2,
+          "analysis": "应从左到右依次计算，结果为9/16，不能把中间的数直接约掉。",
+          "source": "南充市顺庆区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_nanchong_shunqing_2024a_n21",
+          "no": 21,
+          "type": "judge",
+          "stem": "判断：比的后项不能为0。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "比的后项相当于除数，除数不能为0。",
+          "source": "南充市顺庆区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_nanchong_shunqing_2024a_n22",
+          "no": 22,
+          "type": "judge",
+          "stem": "判断：一根绳子长35%米。",
+          "answer": "错",
+          "score": 2,
+          "analysis": "百分数表示两个量的关系，不能带单位。",
+          "source": "南充市顺庆区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_nanchong_shunqing_2024a_n23",
+          "no": 23,
+          "type": "judge",
+          "stem": "判断：从不同方向观察同一个物体，看到的形状可能相同。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "如观察球，各个方向看到的都是圆。",
+          "source": "南充市顺庆区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_nanchong_shunqing_2024a_n24",
+          "no": 24,
+          "type": "choice",
+          "stem": "一个圆的周长是12.56厘米，它的直径是（　）厘米（π取3.14）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.4 B.8 C.2 D.5，正确答案为A。",
+          "source": "南充市顺庆区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_nanchong_shunqing_2024a_n25",
+          "no": 25,
+          "type": "choice",
+          "stem": "甲、乙两数的比是20:24，甲数是20，乙数是（　）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.24 B.20 C.44 D.28，正确答案为A。",
+          "source": "南充市顺庆区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_nanchong_shunqing_2024a_n26",
+          "no": 26,
+          "type": "choice",
+          "stem": "在0.75、75%、9/10这三个数中，最大的是（　）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.9/10 B.0.75 C.75% D.一样大，正确答案为A。",
+          "source": "南充市顺庆区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_nanchong_shunqing_2024a_n27",
+          "no": 27,
+          "type": "choice",
+          "stem": "把24个球按1:2分给两个班，较多的一个班分得（　）个",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.16 B.8 C.24 D.32，正确答案为A。",
+          "source": "南充市顺庆区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_nanchong_shunqing_2024a_n28",
+          "no": 28,
+          "type": "choice",
+          "stem": "观察一个长方体，从一个方向最多能看到（　）个面",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.3 B.1 C.2 D.6，正确答案为A。",
+          "source": "南充市顺庆区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_nanchong_shunqing_2024a_n29",
+          "no": 29,
+          "type": "fill",
+          "stem": "脱式计算：1/3÷2/3+1/2=",
+          "answer": "1",
+          "score": 4,
+          "analysis": "1/3÷2/3=1/2，1/2+1/2=1。",
+          "source": "南充市顺庆区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_nanchong_shunqing_2024a_n30",
+          "no": 30,
+          "type": "fill",
+          "stem": "脱式计算：5/7×3/8+5/7×5/8=",
+          "answer": "5/7",
+          "score": 4,
+          "analysis": "逆用乘法分配律：5/7×(3/8+5/8)=5/7×1=5/7。",
+          "source": "南充市顺庆区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_nanchong_shunqing_2024a_n31",
+          "no": 31,
+          "type": "fill",
+          "stem": "解方程：x+2/5x=28，x=（　）",
+          "answer": "20",
+          "score": 4,
+          "analysis": "合并：(1+2/5)x=28，7/5x=28，x=28×5/7=20。",
+          "source": "南充市顺庆区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_nanchong_shunqing_2024a_n32",
+          "no": 32,
+          "type": "fill",
+          "stem": "解方程：5x+29=94，x=（　）",
+          "answer": "13",
+          "score": 4,
+          "analysis": "5x=94-29=65，x=65÷5=13。",
+          "source": "南充市顺庆区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_nanchong_shunqing_2024a_n33",
+          "no": 33,
+          "type": "draw",
+          "stem": "以图中点O为圆心、OA为半径画圆，画完后标出圆心O和一条半径r。",
+          "answer": "以O为圆心、OA长为半径画圆",
+          "score": 3,
+          "analysis": "用圆规有针的一脚固定在O点，两脚间距离等于OA的长，旋转一周画出圆。",
+          "source": "南充市顺庆区2024-2025学年上期期末（组编）",
+          "figure": {
+            "w": 180,
+            "h": 140,
+            "shapes": [
+              {
+                "t": "cf",
+                "cx": 60,
+                "cy": 70,
+                "r": 2
+              },
+              {
+                "t": "l",
+                "x1": 60,
+                "y1": 70,
+                "x2": 110,
+                "y2": 70
+              },
+              {
+                "t": "tx",
+                "x": 50,
+                "y": 58,
+                "s": "O",
+                "fs": 12
+              },
+              {
+                "t": "tx",
+                "x": 80,
+                "y": 75,
+                "s": "A",
+                "fs": 12
+              }
+            ]
+          }
+        },
+        {
+          "id": "paper_g6_nanchong_shunqing_2024a_n34",
+          "no": 34,
+          "type": "draw",
+          "stem": "某班同学最喜欢的运动项目统计图如下（每格2人），已知喜欢踢毽子的共6人，请把\"踢毽子\"的条形在图中补画完整。",
+          "answer": "补画高度为3格的条形",
+          "score": 3,
+          "analysis": "每格表示2人，6÷2=3格，在\"踢毽子\"位置画出3格高的条形。",
+          "source": "南充市顺庆区2024-2025学年上期期末（组编）",
+          "figure": {
+            "w": 200,
+            "h": 175,
+            "shapes": [
+              {
+                "t": "grid",
+                "x": 50,
+                "y": 20,
+                "cols": 5,
+                "rows": 6,
+                "cw": 22
+              },
+              {
+                "t": "l",
+                "x1": 50,
+                "y1": 20,
+                "x2": 50,
+                "y2": 152
+              },
+              {
+                "t": "l",
+                "x1": 50,
+                "y1": 152,
+                "x2": 160,
+                "y2": 152
+              },
+              {
+                "t": "r",
+                "x": 62,
+                "y": 86,
+                "w": 22,
+                "h": 66
+              },
+              {
+                "t": "tx",
+                "x": 66,
+                "y": 160,
+                "s": "跳绳  踢毽",
+                "fs": 10
+              },
+              {
+                "t": "tx",
+                "x": 14,
+                "y": 90,
+                "s": "人数",
+                "fs": 11
+              },
+              {
+                "t": "tx",
+                "x": 24,
+                "y": 148,
+                "s": "4",
+                "fs": 9
+              },
+              {
+                "t": "tx",
+                "x": 24,
+                "y": 126,
+                "s": "8",
+                "fs": 9
+              }
+            ]
+          }
+        },
+        {
+          "id": "paper_g6_nanchong_shunqing_2024a_n35",
+          "no": 35,
+          "type": "solve",
+          "stem": "一本故事书共180页，第一天看了全书的1/3，第二天看了全书的1/4，还剩多少页没有看？",
+          "answer": "75页",
+          "score": 4,
+          "analysis": "两天共看全书的1/3+1/4=7/12，还剩180×(1-7/12)=75页。",
+          "source": "南充市顺庆区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_nanchong_shunqing_2024a_n36",
+          "no": 36,
+          "type": "solve",
+          "stem": "一个圆形花坛的直径是6米。绕花坛走一圈大约是多少米？小明绕花坛走了10圈，大约走了多少米？（π取3.14）",
+          "answer": "一圈18.84米，10圈188.4米",
+          "score": 4,
+          "analysis": "C=πd=3.14×6=18.84（米）；10圈：18.84×10=188.4（米）。",
+          "source": "南充市顺庆区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_nanchong_shunqing_2024a_n37",
+          "no": 37,
+          "type": "solve",
+          "stem": "一个圆形餐桌的半径是3米。这张餐桌的桌面面积是多少平方米？（π取3.14）",
+          "answer": "28.26平方米",
+          "score": 4,
+          "analysis": "S=πr²=3.14×3×3=28.26（平方米）。",
+          "source": "南充市顺庆区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_nanchong_shunqing_2024a_n38",
+          "no": 38,
+          "type": "solve",
+          "stem": "学校买来36本课外书，按1:3分给五、六年级，五年级分得多少本？六年级分得多少本？",
+          "answer": "五年级9本，六年级27本",
+          "score": 4,
+          "analysis": "总份数1+3=4，每份9本：五年级9×1=9本，六年级9×3=27本。",
+          "source": "南充市顺庆区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_nanchong_shunqing_2024a_n39",
+          "no": 39,
+          "type": "solve",
+          "stem": "王阿姨把10000元存入银行，定期3年，年利率是2.00%。到期后可以获得利息多少元？",
+          "answer": "600元",
+          "score": 4,
+          "analysis": "利息=本金×利率×存期：10000×2%×3=600（元）。",
+          "source": "南充市顺庆区2024-2025学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_nanchong_shunqing_2024a_n40",
+          "no": 40,
+          "type": "solve",
+          "stem": "一根绳子用去2/3，正好用了32米。这根绳子原来长多少米？",
+          "answer": "48米",
+          "score": 4,
+          "analysis": "已知一个数的2/3是32，求这个数用除法：32÷2/3=32×3=48（米）。",
+          "source": "南充市顺庆区2024-2025学年上期期末（组编）",
+          "figure": null
+        }
+      ]
+    },
+    {
+      "id": "paper_g6_chengdu_qingyang_2021a",
+      "grade": 6,
+      "region": "成都市青羊区",
+      "year": "2021-2022学年上期",
+      "title": "六年级数学期末测试卷（四）",
+      "duration": 90,
+      "total_score": 100,
+      "note": "北师大版六年级上册：圆、分数混合运算、观察物体、百分数、数据处理、比的认识、百分数的应用；口算10×1分+填空8×3分+判断5×2分+选择5×2分+计算4×4分+作图2×3分+解决问题6×4分",
+      "questions": [
+        {
+          "id": "paper_g6_chengdu_qingyang_2021a_n1",
+          "no": 1,
+          "type": "fill",
+          "stem": "口算：1/30×6/5=",
+          "answer": "1/25",
+          "score": 1,
+          "analysis": "分数乘法：分子相乘、分母相乘，能约分先约分；分数除法：除以一个数等于乘它的倒数。",
+          "source": "成都市青羊区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_chengdu_qingyang_2021a_n2",
+          "no": 2,
+          "type": "fill",
+          "stem": "口算：11/20×5/6=",
+          "answer": "11/24",
+          "score": 1,
+          "analysis": "分数乘法：分子相乘、分母相乘，能约分先约分；分数除法：除以一个数等于乘它的倒数。",
+          "source": "成都市青羊区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_chengdu_qingyang_2021a_n3",
+          "no": 3,
+          "type": "fill",
+          "stem": "口算：6/6÷3/4=",
+          "answer": "4/3",
+          "score": 1,
+          "analysis": "分数乘法：分子相乘、分母相乘，能约分先约分；分数除法：除以一个数等于乘它的倒数。",
+          "source": "成都市青羊区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_chengdu_qingyang_2021a_n4",
+          "no": 4,
+          "type": "fill",
+          "stem": "口算：8÷4/3=",
+          "answer": "6",
+          "score": 1,
+          "analysis": "分数乘法：分子相乘、分母相乘，能约分先约分；分数除法：除以一个数等于乘它的倒数。",
+          "source": "成都市青羊区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_chengdu_qingyang_2021a_n5",
+          "no": 5,
+          "type": "fill",
+          "stem": "口算：2÷2/3=",
+          "answer": "3",
+          "score": 1,
+          "analysis": "分数乘法：分子相乘、分母相乘，能约分先约分；分数除法：除以一个数等于乘它的倒数。",
+          "source": "成都市青羊区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_chengdu_qingyang_2021a_n6",
+          "no": 6,
+          "type": "fill",
+          "stem": "口算：6/13÷3=",
+          "answer": "2/13",
+          "score": 1,
+          "analysis": "分数乘法：分子相乘、分母相乘，能约分先约分；分数除法：除以一个数等于乘它的倒数。",
+          "source": "成都市青羊区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_chengdu_qingyang_2021a_n7",
+          "no": 7,
+          "type": "fill",
+          "stem": "口算：5/10×5/4=",
+          "answer": "5/8",
+          "score": 1,
+          "analysis": "分数乘法：分子相乘、分母相乘，能约分先约分；分数除法：除以一个数等于乘它的倒数。",
+          "source": "成都市青羊区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_chengdu_qingyang_2021a_n8",
+          "no": 8,
+          "type": "fill",
+          "stem": "口算：3/9÷3/5=",
+          "answer": "5/9",
+          "score": 1,
+          "analysis": "分数乘法：分子相乘、分母相乘，能约分先约分；分数除法：除以一个数等于乘它的倒数。",
+          "source": "成都市青羊区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_chengdu_qingyang_2021a_n9",
+          "no": 9,
+          "type": "fill",
+          "stem": "口算：4/5÷6/9=",
+          "answer": "6/5",
+          "score": 1,
+          "analysis": "分数乘法：分子相乘、分母相乘，能约分先约分；分数除法：除以一个数等于乘它的倒数。",
+          "source": "成都市青羊区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_chengdu_qingyang_2021a_n10",
+          "no": 10,
+          "type": "fill",
+          "stem": "口算：19/24×6/5=",
+          "answer": "19/20",
+          "score": 1,
+          "analysis": "分数乘法：分子相乘、分母相乘，能约分先约分；分数除法：除以一个数等于乘它的倒数。",
+          "source": "成都市青羊区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_chengdu_qingyang_2021a_n11",
+          "no": 11,
+          "type": "fill",
+          "stem": "圆有（　）条对称轴",
+          "answer": "无数",
+          "score": 3,
+          "analysis": "圆是轴对称图形，每条直径所在直线都是对称轴。",
+          "source": "成都市青羊区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_chengdu_qingyang_2021a_n12",
+          "no": 12,
+          "type": "fill",
+          "stem": "一个圆的半径是5厘米，它的周长是（　）厘米（π取3.14）",
+          "answer": "31.4",
+          "score": 3,
+          "analysis": "C=2πr：2×3.14×5=31.4（厘米）。",
+          "source": "成都市青羊区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_chengdu_qingyang_2021a_n13",
+          "no": 13,
+          "type": "fill",
+          "stem": "把10:25化成最简整数比是（　）",
+          "answer": "2:5",
+          "score": 3,
+          "analysis": "前项和后项同时除以最大公因数5：10:25=2:5。",
+          "source": "成都市青羊区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_chengdu_qingyang_2021a_n14",
+          "no": 14,
+          "type": "fill",
+          "stem": "1/4=（　）%",
+          "answer": "25",
+          "score": 3,
+          "analysis": "1/4=25/100=25%。",
+          "source": "成都市青羊区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_chengdu_qingyang_2021a_n15",
+          "no": 15,
+          "type": "fill",
+          "stem": "把20个苹果按1:3分给甲、乙两人，乙分得（　）个",
+          "answer": "15",
+          "score": 3,
+          "analysis": "总份数1+3=4，每份5个，乙得5×3=15个。",
+          "source": "成都市青羊区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_chengdu_qingyang_2021a_n16",
+          "no": 16,
+          "type": "fill",
+          "stem": "抽检400件商品，其中380件合格，这批商品的合格率是（　）%",
+          "answer": "95",
+          "score": 3,
+          "analysis": "合格率=合格数÷总数×100%：380÷400×100%=95%。",
+          "source": "成都市青羊区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_chengdu_qingyang_2021a_n17",
+          "no": 17,
+          "type": "fill",
+          "stem": "一个圆的半径是2厘米，它的面积是（　）平方厘米（π取3.14）",
+          "answer": "12.56",
+          "score": 3,
+          "analysis": "S=πr²：3.14×2×2=12.56（平方厘米）。",
+          "source": "成都市青羊区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_chengdu_qingyang_2021a_n18",
+          "no": 18,
+          "type": "fill",
+          "stem": "扇形统计图用整个圆表示（　），用每个扇形表示各部分数量",
+          "answer": "总数",
+          "score": 3,
+          "analysis": "扇形统计图中，整个圆表示总数（单位\"1\"）。",
+          "source": "成都市青羊区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_chengdu_qingyang_2021a_n19",
+          "no": 19,
+          "type": "judge",
+          "stem": "判断：两端都在圆上的线段中，最长的一条是半径。",
+          "answer": "错",
+          "score": 2,
+          "analysis": "最长的是直径，直径是半径的2倍。",
+          "source": "成都市青羊区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_chengdu_qingyang_2021a_n20",
+          "no": 20,
+          "type": "judge",
+          "stem": "判断：计算(1/2+1/3)×6时，可以用乘法分配律使计算简便。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "分配律对分数同样适用。",
+          "source": "成都市青羊区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_chengdu_qingyang_2021a_n21",
+          "no": 21,
+          "type": "judge",
+          "stem": "判断：比的前项和后项同时乘一个相同的数（0除外），比值不变。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "这是比的基本性质。",
+          "source": "成都市青羊区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_chengdu_qingyang_2021a_n22",
+          "no": 22,
+          "type": "judge",
+          "stem": "判断：一件商品先涨价10%，再降价10%，价格与原来相同。",
+          "answer": "错",
+          "score": 2,
+          "analysis": "降价是在涨价后的基础上降，现价是原价的1.1×0.9=99%。",
+          "source": "成都市青羊区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_chengdu_qingyang_2021a_n23",
+          "no": 23,
+          "type": "judge",
+          "stem": "判断：观察一个正方体，一次最多能看到它的3个面。",
+          "answer": "对",
+          "score": 2,
+          "analysis": "从一个角度最多同时看到3个面。",
+          "source": "成都市青羊区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_chengdu_qingyang_2021a_n24",
+          "no": 24,
+          "type": "choice",
+          "stem": "一个圆的周长是15.7厘米，它的直径是（　）厘米（π取3.14）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.5 B.10 C.2.5 D.6，正确答案为A。",
+          "source": "成都市青羊区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_chengdu_qingyang_2021a_n25",
+          "no": 25,
+          "type": "choice",
+          "stem": "甲、乙两数的比是9:12，甲数是9，乙数是（　）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.12 B.9 C.21 D.15，正确答案为A。",
+          "source": "成都市青羊区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_chengdu_qingyang_2021a_n26",
+          "no": 26,
+          "type": "choice",
+          "stem": "在0.4、40%、1/2这三个数中，最小的是（　）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.0.4和40% B.1/2 C.40% D.无法比较，正确答案为A。",
+          "source": "成都市青羊区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_chengdu_qingyang_2021a_n27",
+          "no": 27,
+          "type": "choice",
+          "stem": "把25个球按1:4分给两个班，较多的一个班分得（　）个",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.20 B.5 C.25 D.15，正确答案为A。",
+          "source": "成都市青羊区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_chengdu_qingyang_2021a_n28",
+          "no": 28,
+          "type": "choice",
+          "stem": "从上面观察一个圆柱体，看到的形状是（　）",
+          "answer": "A",
+          "score": 2,
+          "analysis": "选项：A.圆 B.长方形 C.正方形 D.三角形，正确答案为A。",
+          "source": "成都市青羊区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_chengdu_qingyang_2021a_n29",
+          "no": 29,
+          "type": "fill",
+          "stem": "脱式计算：7/8-1/2×2/3=",
+          "answer": "13/24",
+          "score": 4,
+          "analysis": "1/2×2/3=1/3，7/8-1/3=21/24-8/24=13/24。",
+          "source": "成都市青羊区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_chengdu_qingyang_2021a_n30",
+          "no": 30,
+          "type": "fill",
+          "stem": "脱式计算：4/9×5+4/9×4=",
+          "answer": "4",
+          "score": 4,
+          "analysis": "4/9×(5+4)=4/9×9=4。",
+          "source": "成都市青羊区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_chengdu_qingyang_2021a_n31",
+          "no": 31,
+          "type": "fill",
+          "stem": "解方程：x-1/4x=9，x=（　）",
+          "answer": "12",
+          "score": 4,
+          "analysis": "合并：(1-1/4)x=9，3/4x=9，x=12。",
+          "source": "成都市青羊区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_chengdu_qingyang_2021a_n32",
+          "no": 32,
+          "type": "fill",
+          "stem": "解方程：3x-5=49，x=（　）",
+          "answer": "18",
+          "score": 4,
+          "analysis": "3x=49+5=54，x=54÷3=18。",
+          "source": "成都市青羊区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_chengdu_qingyang_2021a_n33",
+          "no": 33,
+          "type": "draw",
+          "stem": "请利用圆规，以O点为圆心、OA线段的长为半径画一个圆，并标明圆心和半径。",
+          "answer": "以O为圆心、OA长为半径画圆",
+          "score": 3,
+          "analysis": "用圆规有针的一脚固定在O点，两脚间距离等于OA的长，旋转一周画出圆。",
+          "source": "成都市青羊区2021-2022学年上期期末（组编）",
+          "figure": {
+            "w": 180,
+            "h": 140,
+            "shapes": [
+              {
+                "t": "cf",
+                "cx": 60,
+                "cy": 70,
+                "r": 2
+              },
+              {
+                "t": "l",
+                "x1": 60,
+                "y1": 70,
+                "x2": 110,
+                "y2": 70
+              },
+              {
+                "t": "tx",
+                "x": 50,
+                "y": 58,
+                "s": "O",
+                "fs": 12
+              },
+              {
+                "t": "tx",
+                "x": 80,
+                "y": 75,
+                "s": "A",
+                "fs": 12
+              }
+            ]
+          }
+        },
+        {
+          "id": "paper_g6_chengdu_qingyang_2021a_n34",
+          "no": 34,
+          "type": "draw",
+          "stem": "下图是同学们喜欢的运动项目统计图，纵轴每格代表2人。喜欢踢毽子的有6人，请根据这个数据补画出\"踢毽子\"对应的条形。",
+          "answer": "补画高度为3格的条形",
+          "score": 3,
+          "analysis": "每格表示2人，6÷2=3格，在\"踢毽子\"位置画出3格高的条形。",
+          "source": "成都市青羊区2021-2022学年上期期末（组编）",
+          "figure": {
+            "w": 200,
+            "h": 175,
+            "shapes": [
+              {
+                "t": "grid",
+                "x": 50,
+                "y": 20,
+                "cols": 5,
+                "rows": 6,
+                "cw": 22
+              },
+              {
+                "t": "l",
+                "x1": 50,
+                "y1": 20,
+                "x2": 50,
+                "y2": 152
+              },
+              {
+                "t": "l",
+                "x1": 50,
+                "y1": 152,
+                "x2": 160,
+                "y2": 152
+              },
+              {
+                "t": "r",
+                "x": 62,
+                "y": 86,
+                "w": 22,
+                "h": 66
+              },
+              {
+                "t": "tx",
+                "x": 66,
+                "y": 160,
+                "s": "跳绳  踢毽",
+                "fs": 10
+              },
+              {
+                "t": "tx",
+                "x": 14,
+                "y": 90,
+                "s": "人数",
+                "fs": 11
+              },
+              {
+                "t": "tx",
+                "x": 24,
+                "y": 148,
+                "s": "4",
+                "fs": 9
+              },
+              {
+                "t": "tx",
+                "x": 24,
+                "y": 126,
+                "s": "8",
+                "fs": 9
+              }
+            ]
+          }
+        },
+        {
+          "id": "paper_g6_chengdu_qingyang_2021a_n35",
+          "no": 35,
+          "type": "solve",
+          "stem": "一本故事书共120页，第一天看了全书的1/6，第二天看了全书的1/3，还剩多少页没有看？",
+          "answer": "60页",
+          "score": 4,
+          "analysis": "两天共看全书的1/6+1/3=1/2，还剩120×(1-1/2)=60页。",
+          "source": "成都市青羊区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_chengdu_qingyang_2021a_n36",
+          "no": 36,
+          "type": "solve",
+          "stem": "一个圆形花坛的直径是6米。绕花坛走一圈大约是多少米？小明绕花坛走了7圈，大约走了多少米？（π取3.14）",
+          "answer": "一圈18.84米，7圈131.88米",
+          "score": 4,
+          "analysis": "C=πd=3.14×6=18.84（米）；7圈：18.84×7=131.88（米）。",
+          "source": "成都市青羊区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_chengdu_qingyang_2021a_n37",
+          "no": 37,
+          "type": "solve",
+          "stem": "一个圆形餐桌的半径是10米。这张餐桌的桌面面积是多少平方米？（π取3.14）",
+          "answer": "314平方米",
+          "score": 4,
+          "analysis": "S=πr²=3.14×10×10=314（平方米）。",
+          "source": "成都市青羊区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_chengdu_qingyang_2021a_n38",
+          "no": 38,
+          "type": "solve",
+          "stem": "学校买来55本课外书，按2:3分给五、六年级，五年级分得多少本？六年级分得多少本？",
+          "answer": "五年级22本，六年级33本",
+          "score": 4,
+          "analysis": "总份数2+3=5，每份11本：五年级11×2=22本，六年级11×3=33本。",
+          "source": "成都市青羊区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_chengdu_qingyang_2021a_n39",
+          "no": 39,
+          "type": "solve",
+          "stem": "一台电视机原价200元，先涨价10%，再降价10%，现价是多少元？",
+          "answer": "198元",
+          "score": 4,
+          "analysis": "涨价后：200×(1+10%)=220元；再降价10%：220×(1-10%)=198元。",
+          "source": "成都市青羊区2021-2022学年上期期末（组编）",
+          "figure": null
+        },
+        {
+          "id": "paper_g6_chengdu_qingyang_2021a_n40",
+          "no": 40,
+          "type": "solve",
+          "stem": "一根绳子用去2/3，正好用了40米。这根绳子原来长多少米？",
+          "answer": "60米",
+          "score": 4,
+          "analysis": "已知一个数的2/3是40，求这个数用除法：40÷2/3=40×3=60（米）。",
+          "source": "成都市青羊区2021-2022学年上期期末（组编）",
+          "figure": null
+        }
+      ]
     }
   ]
 }
