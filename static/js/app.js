@@ -2215,6 +2215,15 @@ function init() {
       $('link-docx').classList.add('hidden');
       $('btn-export-print').classList.remove('hidden');
     }
+    // 页头右上角版本号徽标（v+构建日期，服务端下发；无 version 字段则不显示）
+    if (c && c.version) {
+      document.querySelectorAll('.page-header').forEach(function (h) {
+        var s = document.createElement('span');
+        s.className = 'version-badge';
+        s.textContent = 'v' + c.version;
+        h.appendChild(s);
+      });
+    }
   }).catch(function () {});
 
   // 页面心跳：每 3 秒上报一次服务端；页面全部关闭后服务在超时后自动退出。

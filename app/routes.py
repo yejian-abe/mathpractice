@@ -20,6 +20,7 @@ from datetime import datetime
 from flask import Blueprint, current_app, jsonify, request, send_file
 
 from app import config as config_mod, heartbeat
+from app import version as version_mod
 from app.services import bank, daily_set, export_docx, export_pdf, grading, \
     print_bridge, stats, users
 from app.services import finale as finale_svc
@@ -353,11 +354,13 @@ def api_users():
 
 @api_bp.route("/caps")
 def api_caps():
-    """设备能力：export=桌面导出库可用；print=安卓系统打印可用
+    """设备能力与版本：export=桌面导出库可用；print=安卓系统打印可用；
+    version=构建日期（前端页头右上角显示 v+该值）
     （前端据 print 显示「打印 / 保存 PDF」，据 export 显示导出文件按钮）"""
     return jsonify({
         "export": bool(export_pdf.PDF_OK and export_docx.DOCX_OK),
         "print": print_bridge.is_available(),
+        "version": version_mod.BUILD_DATE,
     })
 
 
