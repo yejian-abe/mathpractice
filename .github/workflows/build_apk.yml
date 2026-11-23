@@ -203,12 +203,16 @@ jobs:
           exit $CODE
 
       - name: Sign APK
+        id: sign
         env:
           KS_PASS: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
         run: |
           # release 构建产物为 unsigned APK（gradle assembleRelease）。
           # 用 build-tools 的 zipalign 对齐后以 apksigner 完成 v1+v2 签名，
           # 产出固定签名的正式 APK（不依赖 buildozer 的签名配置键）。
+          # APK 文件名带构建日期（用户要求：产物名含年月日）
+          BUILD_DATE=$(TZ=Asia/Shanghai date +%Y%m%d)
+          SIGNED="bin/mathpractice-release-$BUILD_DATE.apk"
           UNSIGNED=$(ls bin/*release-unsigned*.apk 2>/dev/null | head -n1)
           if [ -z "$UNSIGNED" ]; then
             echo "ERROR: 未找到 unsigned release APK："; ls -l bin/ || true; exit 1
@@ -222,11 +226,13 @@ jobs:
             --ks-key-alias mathpractice \
             --ks-pass "pass:$KS_PASS" \
             --key-pass "pass:$KS_PASS" \
-            --out bin/mathpractice-release.apk \
+            --out "$SIGNED" \
             bin/mathpractice-aligned.apk
-          "$BT/apksigner" verify --print-certs bin/mathpractice-release.apk
+          "$BT/apksigner" verify --print-certs "$SIGNED"
           rm -f bin/mathpractice-aligned.apk "$UNSIGNED"
           ls -l bin/
+          echo "apk_path=$SIGNED" >> "$GITHUB_OUTPUT"
+          echo "build_date=$BUILD_DATE" >> "$GITHUB_OUTPUT"
 
       - name: Upload build log
         if: always()
@@ -239,5 +245,5 @@ jobs:
         if: success()
         uses: actions/upload-artifact@v4
         with:
-          name: mathpractice-apk
-          path: bin/mathpractice-release.apk
+          name: mathpractice-apk-${{ steps.sign.outputs.build_date }}
+          path: ${{ steps.sign.outputs.apk_path }}

@@ -1,5 +1,9 @@
 # -*- mode: python ; coding: utf-8 -*-
 
+# 产物名带构建日期（用户要求：年月日后缀，如 mathPractice_tool_pad_20261123.exe）
+import datetime
+_BUILD_DATE = datetime.date.today().strftime("%Y%m%d")
+
 
 a = Analysis(
     ['main.py'],
@@ -22,7 +26,7 @@ exe = EXE(
     a.binaries,
     a.datas,
     [],
-    name='mathPractice_tool_pad',
+    name='mathPractice_tool_pad_' + _BUILD_DATE,
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
