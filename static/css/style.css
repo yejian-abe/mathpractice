@@ -118,6 +118,10 @@ body {
 /* 通用隐藏（如安卓端隐藏导出按钮） */
 .hidden { display: none; }
 
+/* .btn 声明了 display:inline-block（位于 .hidden 之后，同特异性会覆盖
+   display:none），故按钮类元素隐藏需更高特异性兜底 */
+.btn.hidden, a.btn.hidden { display: none; }
+
 /* ---------- 通用 ---------- */
 .page-header h2 { margin-bottom: 16px; font-size: var(--fs-h2); }
 
