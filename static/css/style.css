@@ -902,48 +902,21 @@ select:focus, input:focus {
 
 .paper-solve-actions { margin-top: 10px; }
 
-/* ---------- 打印 / 保存 PDF（安卓 WebView 打印框架；桌面浏览器 Ctrl+P 同样生效） ----------
-   两种打印源：body.print-practice = 做题页当前题单 DOM（隐藏交互元素与作答痕迹，
-   输出空白练习卷）；body.print-export = #print-root 容器（生成/导出页按日期
-   范围渲染的逐日题单）。非打印状态两者均不可见。 */
+/* ---------- 打印 / 保存 PDF（安卓 WebView 打印框架）----------
+   打印源：#print-root 容器（生成/导出页按日期范围渲染的逐日题单）。
+   非打印状态容器不可见。 */
 
 .print-root { display: none; }
 
 @media print {
   @page { size: A4; margin: 14mm; }
 
-  /* 隐藏应用框架：侧边栏、页头控件、弹窗 */
-  .sidebar, .page-header, .modal-mask, .focus-tip { display: none !important; }
+  /* 隐藏应用框架：侧边栏、页头控件、弹窗与各视图 */
+  .sidebar, .page-header, .modal-mask, .focus-tip, .view { display: none !important; }
 
-  /* 打印源二选一：做题页 DOM 或打印容器 */
-  .view { display: none !important; }
+  /* 仅显示打印容器 */
   #print-root { display: block !important; }
-  body.print-practice #view-practice { display: block !important; }
 
-  /* 做题页打印：隐藏判题痕迹/答案解析/类别标签，输出无答案练习卷 */
-  body.print-practice .cat-tag,
-  body.print-practice .problem-status,
-  body.print-practice .result-box,
-  body.print-practice .solution-box,
-  body.print-practice .step-result { display: none !important; }
-
-  /* 输入框：隐藏已填内容，变为下划线空白作答框 */
-  body.print-practice .answer-input {
-    color: transparent;
-    -webkit-text-fill-color: transparent;
-    border: none;
-    border-bottom: 1px solid #000;
-    border-radius: 0;
-    background: none;
-    box-shadow: none;
-    width: 160px;
-  }
-
-  /* 竖式书写区打印时加高便于手写演算 */
-  body.print-practice .vertical-pad { height: 50mm; }
-
-  /* A4 分页：题目卡片不跨页断开 */
-  .problem-card { break-inside: avoid; page-break-inside: avoid; }
   .print-problem { break-inside: avoid; page-break-inside: avoid; }
 
   /* 打印容器（导出页题单）排版 */

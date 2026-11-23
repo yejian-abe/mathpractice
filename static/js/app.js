@@ -810,9 +810,9 @@ function updateExportLinks() {
 
 /* ---------- 安卓系统打印（打印 / 保存 PDF） ---------- */
 
-/* 流程：加 body 打印模式类（@media print 输出空白练习卷）→ POST /api/print
-   调起系统打印（WebView 打印框架）→ 弹提示，用户完成打印后点"返回页面"
-   恢复交互视图。期间不动 DOM 内容，恢复时只移除打印模式类。 */
+/* 流程：加 body 打印模式类（@media print 仅显示 #print-root 打印容器）→
+   POST /api/print 调起系统打印（WebView 打印框架）→ 弹提示，用户完成打印后
+   点"返回页面"恢复交互视图。期间不动 DOM 内容，恢复时只移除打印模式类。 */
 var _printRestoreTimer = null;
 
 function enterPrintMode(mode) {
@@ -821,7 +821,7 @@ function enterPrintMode(mode) {
 }
 
 function exitPrintMode() {
-  document.body.classList.remove('print-mode', 'print-practice', 'print-export');
+  document.body.classList.remove('print-mode', 'print-export');
   var root = $('print-root');
   if (root) root.innerHTML = '';
   if (_printRestoreTimer) { clearTimeout(_printRestoreTimer); _printRestoreTimer = null; }
@@ -845,14 +845,7 @@ function androidPrint(mode, jobName) {
   });
 }
 
-/* 做题页打印：直接复用当前题单 DOM（打印 CSS 隐藏作答痕迹与按钮） */
-function printPractice() {
-  if (!state.set || !(state.set.problems || []).length) {
-    appAlert('请先加载当日题目再打印');
-    return;
-  }
-  androidPrint('practice', '每日一练');
-}
+/* 做题页无打印入口（用户要求）；打印/保存 PDF 仅在生成/导出页提供 */
 
 /* 生成/导出页打印：按起止日期拉取题单渲染到打印容器（多日自动分节分页），
    等价于桌面端"导出 PDF"的无答案版 */
@@ -2221,7 +2214,6 @@ function init() {
       $('link-docx').classList.add('hidden');
       $('btn-export-print').classList.remove('hidden');
     }
-    $('btn-print').classList.toggle('hidden', !printOk);
   }).catch(function () {});
 
   // 页面心跳：每 3 秒上报一次服务端；页面全部关闭后服务在超时后自动退出。
@@ -2249,7 +2241,6 @@ function init() {
   $('btn-load').addEventListener('click', loadDaily);
   $('btn-regenerate').addEventListener('click', regenerate);
   $('btn-submit-all').addEventListener('click', submitAll);
-  $('btn-print').addEventListener('click', printPractice);
   $('btn-export-print').addEventListener('click', printExportSets);
   $('print-overlay-close').addEventListener('click', exitPrintMode);
   $('submit-modal-close').addEventListener('click', function () {
