@@ -77,7 +77,19 @@ def delete_user(data_dir, user_id):
     save_users(data_dir, data)
     _remove_user_sets(data_dir, user_id)
     bank.remove_progress(data_dir, user_id)  # 连带清理题库抽题进度
+    _remove_user_file(data_dir, "papers", user_id)  # 连带清理真题卷成绩
+    _remove_user_file(data_dir, "finale", user_id)  # 连带清理压轴专项记录
     return True, ""
+
+
+def _remove_user_file(data_dir, sub_dir, user_id):
+    """删除 data/{sub_dir}/{user_id}.json 单文件（不存在则忽略）"""
+    path = os.path.join(data_dir, sub_dir, "%s.json" % user_id)
+    if os.path.exists(path):
+        try:
+            os.remove(path)
+        except OSError:
+            pass
 
 
 def _remove_user_sets(data_dir, user_id):

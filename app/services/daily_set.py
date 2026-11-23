@@ -337,6 +337,13 @@ def regenerate(data_dir, date_str, grade, user_id=DEFAULT_USER, semester=0,
     dataset = get_or_create(data_dir, date_str, grade, user_id, semester,
                             kind, units)
     if saved_record is not None:
+        # 新题集固定编号 c1/v1/w1 与快照里的旧题 id 撞车：按生成代数给新题
+        # 改 id（c1_g2…），保证 update_attempt 的「题目 id 不在快照中→
+        # 不改变当天记录」判断成立，重新生成后的作答不污染 day_record
+        gen = int((old or {}).get("gen") or 1) + 1
+        dataset["gen"] = gen
+        for p in dataset.get("problems", []):
+            p["id"] = "%s_g%d" % (p.get("id"), gen)
         dataset["day_record"] = saved_record
         _save(data_dir, date_str, grade, dataset, user_id)
     return dataset
