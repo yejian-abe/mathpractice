@@ -64,7 +64,9 @@ def compute_stats(data_dir, user_id="default", grade=None, semester="0"):
             att = attempts.get(p.get("id"))
             if not att:
                 continue
-            ok = 1 if (att.get("result") or {}).get("correct") else 0
+            # 记录口径：订正重提只保留第一次结果（first），防止刷正确率
+            base = att.get("first") if isinstance(att.get("first"), dict) else att
+            ok = 1 if (base.get("result") or {}).get("correct") else 0
             d_total += 1
             d_correct += ok
             t = p.get("type")

@@ -335,6 +335,18 @@ def update_attempt(data_dir, date_str, grade, problem_id, attempt,
         return None
     if "attempts" not in dataset or not isinstance(dataset["attempts"], dict):
         dataset["attempts"] = {}
+    old = dataset["attempts"].get(problem_id)
+    if isinstance(old, dict) and old.get("result"):
+        # 订正重提：页面展示最新判分（attempt 本体），练习记录/统计口径只保留
+        # 第一次结果（first），防止看答案后改答案刷正确率。多次重提时 first
+        # 始终指向最初那次
+        attempt = dict(attempt)
+        attempt["resubmitted"] = True
+        attempt["first"] = (old.get("first")
+                            if isinstance(old.get("first"), dict)
+                            else {"payload": old.get("payload"),
+                                  "result": old.get("result"),
+                                  "at": old.get("at")})
     dataset["attempts"][problem_id] = attempt
     _save(data_dir, date_str, grade, dataset, user_id)
     return dataset
@@ -400,7 +412,9 @@ def _record_item(dataset):
         c["total"] += 1
         att = attempts.get(p.get("id"))
         if isinstance(att, dict):
-            r = att.get("result") or {}
+            # 记录口径：订正重提只保留第一次结果
+            base = att.get("first") if isinstance(att.get("first"), dict) else att
+            r = base.get("result") or {}
             if r.get("correct"):
                 c["correct"] += 1
     return {
@@ -469,9 +483,11 @@ def record_detail(data_dir, date_str, grade, user_id=DEFAULT_USER):
             item["answer_labels"] = p.get("answer_labels") or []
         att = attempts.get(p.get("id"))
         if isinstance(att, dict):
-            r = att.get("result") or {}
+            # 记录口径：订正重提只保留第一次结果
+            base = att.get("first") if isinstance(att.get("first"), dict) else att
+            r = base.get("result") or {}
             item["correct"] = bool(r.get("correct"))
-            payload = att.get("payload") or {}
+            payload = base.get("payload") or {}
             main = payload.get("main")
             if p.get("type") == "equation":
                 if isinstance(main, dict) and main:

@@ -266,19 +266,20 @@ function loadDaily() {
 }
 
 function regenerate() {
-  if (!confirm('重新生成将删除该日期的题集和作答记录，确定吗？')) return;
-  fetchJSON('/api/regenerate', {
-    method: 'POST',
-    body: JSON.stringify({
-      grade: state.grade, date: state.date,
-      semester: parseInt(state.semester, 10) || 0,
-      kind: state.kind || '0',
-      units: unitPayload(),
-      user_id: state.user
-    })
-  }).then(function (data) {
-    state.set = data;
-    renderProblems();
+  appConfirm('重新生成将删除该日期的题集和作答记录，确定吗？', function () {
+    fetchJSON('/api/regenerate', {
+      method: 'POST',
+      body: JSON.stringify({
+        grade: state.grade, date: state.date,
+        semester: parseInt(state.semester, 10) || 0,
+        kind: state.kind || '0',
+        units: unitPayload(),
+        user_id: state.user
+      })
+    }).then(function (data) {
+      state.set = data;
+      renderProblems();
+    });
   });
 }
 
@@ -652,15 +653,33 @@ function openSubmitModal(title, bodyHtml, actions) {
   $('submit-modal').classList.remove('hidden');
 }
 
+// Android WebView 没有 WebChromeClient，原生 confirm()/alert() 静默失效
+// （不弹窗直接返回假），统一走自建 HTML 弹窗
+function appConfirm(msg, onOk) {
+  openSubmitModal('确认操作', '<p>' + escapeHtml(msg) + '</p>', [
+    { text: '取消', fn: null },
+    { text: '确定', cls: 'primary', fn: onOk }
+  ]);
+}
+
+function appAlert(msg) {
+  openSubmitModal('提示', '<p>' + escapeHtml(msg) + '</p>', [
+    { text: '好的', fn: null }
+  ]);
+}
+
 function submitAll() {
   if (!state.set || !state.set.problems || !state.set.problems.length) return;
   var problems = state.set.problems;
   var attempts = state.set.attempts || {};
-  var unanswered = [];   // 完全没做
-  var partial = [];      // 做了一部分
-  var pending = [];      // 待提交的题（含未做的，按空答案提交判错）
+  var unanswered = [];    // 完全没做
+  var partial = [];       // 做了一部分
+  var pending = [];       // 待提交的题（含未做的，按空答案提交判错）
+  var resubmitted = [];   // 答错后订正重提的题号（练习记录只保留第一次结果）
   problems.forEach(function (p, idx) {
-    if (attempts[p.id] && attempts[p.id].result) return;  // 已提交过的不再重复提交
+    var att = attempts[p.id];
+    if (att && att.result && att.result.correct) return;  // 已判对的锁定
+    if (att && att.result && !att.result.correct) resubmitted.push(idx + 1);
     var payload = buildPayload(p);
     var st = answerState(p, payload);
     if (st === 'empty') unanswered.push(idx + 1);
@@ -677,6 +696,10 @@ function submitAll() {
   if (partial.length) {
     info += '<p class="warn-text">⚠ 还有未答完的题：第 ' +
       partial.join('、') + ' 题，空着的小问将按错误处理。</p>';
+  }
+  if (resubmitted.length) {
+    info += '<p class="warn-text">⚠ 第 ' + resubmitted.join('、') +
+      ' 题为订正后重新提交：练习记录只保留第一次结果，本次成绩不会改变当日记录。</p>';
   }
   info += '<p>确定提交吗？</p>';
 
@@ -803,7 +826,7 @@ function generateSets() {
       kind: state.kind || '0', units: unitPayload(), user_id: state.user,
     }),
   }).then(function (data) {
-    if (data.error) { box.innerHTML = ''; alert(data.error); return; }
+    if (data.error) { box.innerHTML = ''; appAlert(data.error); return; }
     if (PAGERS.gen) PAGERS.gen.page = 1;  // 新生成回第一页
     renderGenList(data.items || []);
   });
@@ -847,7 +870,7 @@ function previewSet(date, grade) {
   var url = '/api/records/detail?user_id=' + encodeURIComponent(state.user) +
     '&date=' + date + '&grade=' + grade;
   fetchJSON(url).then(function (d) {
-    if (d.error) { alert(d.error); return; }
+    if (d.error) { appAlert(d.error); return; }
     renderPreviewModal(d);
   });
 }
@@ -881,7 +904,7 @@ function regenerateSet(btn, date, grade) {
     }),
   }).then(function (data) {
     btn.disabled = false;
-    if (data.error) { alert(data.error); return; }
+    if (data.error) { appAlert(data.error); return; }
     btn.textContent = '已重新生成';
     setTimeout(function () { btn.textContent = '重新生成'; }, 1500);
   });
@@ -969,7 +992,7 @@ function showRecordDetail(date, grade) {
   var url = '/api/records/detail?user_id=' + encodeURIComponent(state.user) +
     '&date=' + date + '&grade=' + grade;
   fetchJSON(url).then(function (d) {
-    if (d.error) { alert(d.error); return; }
+    if (d.error) { appAlert(d.error); return; }
     renderRecordModal(d);
   });
 }
@@ -1106,7 +1129,7 @@ function assessFinale(result, btn) {
     method: 'POST',
     body: JSON.stringify({ user_id: state.user, qid: q.id, result: result })
   }).then(function (res) {
-    if (res.error) { alert(res.error); btn.disabled = false; return; }
+    if (res.error) { appAlert(res.error); btn.disabled = false; return; }
     openSubmitModal('自评完成', '<p>' + escapeHtml(tips[result] || '') + '</p>',
       [{ text: '好的', cls: 'primary', fn: function () { loadFinale(); } }]);
   }).catch(function () { btn.disabled = false; });
@@ -1590,7 +1613,7 @@ function submitPaper() {
       self_assess: selfAssess
     })
   }).then(function (res) {
-    if (res.error) { alert(res.error); return; }
+    if (res.error) { appAlert(res.error); return; }
     var rec = res.record || {};
     // 统计客观题与解答题明细
     var objOk = 0, objTotal = 0;
@@ -1648,7 +1671,7 @@ function saveConfig() {
     $('cfg-calc').value = body.calc_count;
     $('cfg-vertical').value = body.vertical_count;
     $('cfg-word').value = body.word_count;
-    alert('保存成功：计算 ' + body.calc_count + ' 题，竖式/解方程 ' +
+    appAlert('保存成功：计算 ' + body.calc_count + ' 题，竖式/解方程 ' +
       body.vertical_count + ' 题，应用题 ' + body.word_count + ' 题。' +
       '如需当日题集生效，请回到做题页点"重新生成"。');
   });
@@ -1726,10 +1749,10 @@ function onUserChange() {
 
 function addUser() {
   var name = $('new-user-name').value.trim();
-  if (!name) { alert('请输入姓名'); return; }
+  if (!name) { appAlert('请输入姓名'); return; }
   fetchJSON('/api/users', { method: 'POST', body: JSON.stringify({ name: name }) })
     .then(function (res) {
-      if (res.error) { alert(res.error); return; }
+      if (res.error) { appAlert(res.error); return; }
       $('new-user-name').value = '';
       state.user = res.id;
       localStorage.setItem('mpt_user', res.id);
@@ -1743,20 +1766,21 @@ function addUser() {
 }
 
 function deleteUser(u) {
-  if (!confirm('确定删除用户「' + u.name + '」吗？其全部练习记录将一并删除！')) return;
-  fetchJSON('/api/users', {
-    method: 'DELETE',
-    body: JSON.stringify({ user_id: u.id })
-  }).then(function (res) {
-    if (res.error) { alert(res.error); return; }
-    if (u.id === state.user) {
-      state.user = 'default';
-      localStorage.setItem('mpt_user', 'default');
-    }
-    initUsers().then(function () {
-      applyUserGrade();  // 当前用户可能变为默认用户，恢复其年级
-      loadDaily();
-      loadRecords();
+  appConfirm('确定删除用户「' + u.name + '」吗？其全部练习记录将一并删除！', function () {
+    fetchJSON('/api/users', {
+      method: 'DELETE',
+      body: JSON.stringify({ user_id: u.id })
+    }).then(function (res) {
+      if (res.error) { appAlert(res.error); return; }
+      if (u.id === state.user) {
+        state.user = 'default';
+        localStorage.setItem('mpt_user', 'default');
+      }
+      initUsers().then(function () {
+        applyUserGrade();  // 当前用户可能变为默认用户，恢复其年级
+        loadDaily();
+        loadRecords();
+      });
     });
   });
 }
