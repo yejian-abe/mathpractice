@@ -9,6 +9,10 @@ var TYPE_NAMES = { calc: '计算题', vertical: '竖式计算',
 
 var VIEWS = ['practice', 'finale', 'papers', 'records', 'stats', 'export', 'settings', 'users'];
 
+/* 设备能力（init 时从 /api/caps 拉取）：export=可生成 PDF/Word 文件，
+   print=安卓系统打印可用（打印/另存 PDF） */
+var CAPS = { export: true, print: false };
+
 /* 学期名称（侧边栏全局学期选择器，做题 / 生成导出共用） */
 var SEMESTER_NAMES = { '0': '自动（按学期）', '1': '上册', '2': '下册' };
 
@@ -802,6 +806,128 @@ function updateExportLinks() {
     '&semester=' + encodeURIComponent(sem) +
     '&kind=' + encodeURIComponent(state.kind || '0') +
     '&with_answers=' + a + uid + u;
+}
+
+/* ---------- 安卓系统打印（打印 / 保存 PDF） ---------- */
+
+/* 流程：加 body 打印模式类（@media print 输出空白练习卷）→ POST /api/print
+   调起系统打印（WebView 打印框架）→ 弹提示，用户完成打印后点"返回页面"
+   恢复交互视图。期间不动 DOM 内容，恢复时只移除打印模式类。 */
+var _printRestoreTimer = null;
+
+function enterPrintMode(mode) {
+  document.body.classList.add('print-mode');
+  document.body.classList.add('print-' + mode);
+}
+
+function exitPrintMode() {
+  document.body.classList.remove('print-mode', 'print-practice', 'print-export');
+  var root = $('print-root');
+  if (root) root.innerHTML = '';
+  if (_printRestoreTimer) { clearTimeout(_printRestoreTimer); _printRestoreTimer = null; }
+  var ov = $('print-overlay');
+  if (ov) ov.classList.add('hidden');
+}
+
+function androidPrint(mode, jobName) {
+  enterPrintMode(mode);
+  fetchJSON('/api/print', {
+    method: 'POST',
+    body: JSON.stringify({ job_name: jobName }),
+  }).then(function (r) {
+    if (r && r.error) { appAlert(r.error); exitPrintMode(); return; }
+    // 兜底：2 分钟未返回自动恢复交互视图
+    _printRestoreTimer = setTimeout(exitPrintMode, 120000);
+    $('print-overlay').classList.remove('hidden');
+  }).catch(function () {
+    appAlert('打印调起失败，请确认设备支持系统打印');
+    exitPrintMode();
+  });
+}
+
+/* 做题页打印：直接复用当前题单 DOM（打印 CSS 隐藏作答痕迹与按钮） */
+function printPractice() {
+  if (!state.set || !(state.set.problems || []).length) {
+    appAlert('请先加载当日题目再打印');
+    return;
+  }
+  androidPrint('practice', '每日一练');
+}
+
+/* 生成/导出页打印：按起止日期拉取题单渲染到打印容器（多日自动分节分页），
+   等价于桌面端"导出 PDF"的无答案版 */
+function printExportSets() {
+  var g = state.grade || 3;
+  var d = $('export-date').value || todayStr();
+  var dTo = $('export-date-to').value || '';
+  fetchJSON('/api/sets/generate', {
+    method: 'POST',
+    body: JSON.stringify({
+      grade: g, date: d, date_to: dTo, semester: state.semester || '0',
+      kind: state.kind || '0', units: unitPayload(), user_id: state.user,
+    }),
+  }).then(function (data) {
+    if (data.error) { appAlert(data.error); return; }
+    var items = data.items || [];
+    if (!items.length) { appAlert('未生成任何题集'); return; }
+    return Promise.all(items.map(function (it) {
+      return fetchJSON('/api/records/detail?user_id=' +
+          encodeURIComponent(state.user) +
+          '&date=' + encodeURIComponent(it.date) + '&grade=' + it.grade)
+        .then(function (det) { return { item: it, detail: det }; })
+        .catch(function () { return { item: it, detail: null }; });
+    })).then(function (pairs) {
+      if (!buildPrintRoot(pairs)) {
+        appAlert('范围内题集尚不可打印，请先点击"生成题目"');
+        return;
+      }
+      androidPrint('export', '数学练习题单');
+    });
+  }).catch(function () { appAlert('打印失败，请检查服务是否正常'); });
+}
+
+/* 把逐日详情渲染进打印容器；返回是否有可打印内容 */
+function buildPrintRoot(pairs) {
+  var html = '';
+  var hasAny = false;
+  pairs.forEach(function (pair) {
+    var det = pair.detail;
+    if (!det || det.error || !(det.problems || []).length) return;
+    hasAny = true;
+    var it = pair.item;
+    html += '<section class="print-day"><h3>' +
+      (GRADE_NAMES[it.grade] || it.grade + '年级') +
+      (it.volume === 1 ? '上' : '下') + ' · ' + escapeHtml(it.date) + '</h3>';
+    (det.problems || []).forEach(function (p, idx) {
+      html += '<div class="print-problem">' +
+        '<div class="print-question"><span class="print-type">' +
+        (TYPE_NAMES[p.type] || p.type) + '</span>' + (idx + 1) + '. ' +
+        escapeHtml(p.question) + '</div>';
+      if (p.type === 'word') {
+        var labels = p.answer_labels || [];
+        if (labels.length) {
+          labels.forEach(function (lb) {
+            html += '<div class="print-blank-line">' + escapeHtml(lb) +
+              '：＿＿＿＿＿＿＿＿＿＿</div>';
+          });
+        } else {
+          html += '<div class="print-blank-line">答：＿＿＿＿＿＿＿＿＿＿＿＿</div>';
+        }
+        html += '<div class="print-work-space"></div>';
+      } else if (p.type === 'vertical') {
+        html += '<div class="print-vertical-pad"></div>';
+      } else if (p.type === 'equation') {
+        html += '<div class="print-blank-line">解：＿＿＿＿＿＿＿＿＿＿＿＿</div>';
+      } else {
+        html += '<div class="print-blank-line">＿＿＿＿＿＿＿＿＿＿＿</div>';
+      }
+      html += '</div>';
+    });
+    html += '</section>';
+  });
+  if (!hasAny) return false;
+  $('print-root').innerHTML = html;
+  return true;
 }
 
 /* ---------- 导出页：生成列表 / 预览 / 重新生成 ---------- */
@@ -2082,11 +2208,20 @@ function init() {
   $('export-date').value = state.date;
   applyUserGrade();  // 恢复当前用户记忆的年级并同步各下拉
   updateExportInfo();
-  // 导出能力检测：安卓 APK 端未打包导出库，隐藏导出按钮并显示说明
+  // 设备能力检测：export=可生成 PDF/Word 文件；print=安卓系统打印可用。
+  // 安卓端隐藏文件导出链接，改用「打印 / 保存 PDF」
   fetchJSON('/api/caps').then(function (c) {
-    var ok = !c || c.export !== false;  // 端点异常时按可用处理
-    $('export-buttons').classList.toggle('hidden', !ok);
-    $('export-unsupported').classList.toggle('hidden', ok);
+    CAPS = c || CAPS;
+    var exportOk = !c || c.export !== false;   // 端点异常时按可用处理
+    var printOk = !!(c && c.print === true);
+    $('export-buttons').classList.toggle('hidden', !exportOk && !printOk);
+    $('export-unsupported').classList.toggle('hidden', exportOk);
+    if (printOk && !exportOk) {
+      $('link-pdf').classList.add('hidden');
+      $('link-docx').classList.add('hidden');
+      $('btn-export-print').classList.remove('hidden');
+    }
+    $('btn-print').classList.toggle('hidden', !printOk);
   }).catch(function () {});
 
   // 页面心跳：每 3 秒上报一次服务端；页面全部关闭后服务在超时后自动退出。
@@ -2114,6 +2249,9 @@ function init() {
   $('btn-load').addEventListener('click', loadDaily);
   $('btn-regenerate').addEventListener('click', regenerate);
   $('btn-submit-all').addEventListener('click', submitAll);
+  $('btn-print').addEventListener('click', printPractice);
+  $('btn-export-print').addEventListener('click', printExportSets);
+  $('print-overlay-close').addEventListener('click', exitPrintMode);
   $('submit-modal-close').addEventListener('click', function () {
     $('submit-modal').classList.add('hidden');
   });

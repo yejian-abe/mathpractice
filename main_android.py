@@ -17,6 +17,10 @@ PORT = 10021
 BASE = os.path.dirname(os.path.abspath(__file__))
 os.chdir(BASE)
 
+# 安卓标记：在 create_app 前设置，服务端据此上报设备能力（/api/caps 的
+# print 字段供前端显示「打印 / 保存 PDF」），print_bridge 也据此放行
+os.environ["MPT_ANDROID"] = "1"
+
 from app import create_app
 
 flask_app = create_app()

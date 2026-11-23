@@ -21,7 +21,7 @@ from flask import Blueprint, current_app, jsonify, request, send_file
 
 from app import config as config_mod, heartbeat
 from app.services import bank, daily_set, export_docx, export_pdf, grading, \
-    stats, users
+    print_bridge, stats, users
 from app.services import finale as finale_svc
 from app.services import papers as papers_svc
 from app.services import units as units_svc
@@ -347,8 +347,24 @@ def api_users():
 
 @api_bp.route("/caps")
 def api_caps():
-    """设备能力：安卓 APK 端未打包导出库，前端据此隐藏导出按钮"""
-    return jsonify({"export": bool(export_pdf.PDF_OK and export_docx.DOCX_OK)})
+    """设备能力：export=桌面导出库可用；print=安卓系统打印可用
+    （前端据 print 显示「打印 / 保存 PDF」，据 export 显示导出文件按钮）"""
+    return jsonify({
+        "export": bool(export_pdf.PDF_OK and export_docx.DOCX_OK),
+        "print": print_bridge.is_available(),
+    })
+
+
+@api_bp.route("/print", methods=["POST"])
+def api_print():
+    """调起安卓系统打印：前端先备好打印视图（无答案练习卷），再调本端点
+    用 WebView 打印框架把当前页面交给系统打印（对话框内可选"另存为 PDF"）"""
+    body = request.get_json(force=True, silent=True) or {}
+    job = str(body.get("job_name") or "数学练习").strip()[:40] or "数学练习"
+    ok, err = print_bridge.trigger_print(job)
+    if not ok:
+        return jsonify({"error": "打印调起失败：" + err}), 503
+    return jsonify({"ok": True})
 
 
 @api_bp.route("/stats")
