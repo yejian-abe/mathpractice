@@ -23,12 +23,20 @@ version = 1.0
 # 应用图标（512x512 PNG，安装后在桌面显示）
 icon.filename = icon.png
 
-# 依赖：仅保留 APK 运行必需项。reportlab/pillow/lxml/python-docx 用于桌面端
-# PDF/Word 导出——p4a 的 reportlab recipe 下载源 hg.reportlab.com 已失效（403），
-# 且这些库仅服务端导出用，安卓端停用导出（routes 做运行时检测返回友好提示）
-requirements = python3,kivy,pyjnius,flask
+# 依赖：仅保留 APK 运行必需项。kivy 仅 sdl2 bootstrap 需要，webview 用不到；
+# reportlab/pillow/lxml/python-docx 用于桌面端 PDF/Word 导出——p4a 的 reportlab
+# recipe 下载源 hg.reportlab.com 已失效（403），且这些库仅服务端导出用，
+# 安卓端停用导出（routes 做运行时检测返回友好提示）
+requirements = python3,pyjnius,flask
 
-# 启动不显示 Kivy 窗口内容（窗口会被浏览器覆盖）
+# webview bootstrap：应用内 WebView 打开本地 Flask 页面（PythonActivity.loadUrl）。
+# 修复「提交响应超时」：外部浏览器方案下应用退到后台成为缓存进程，
+# Android 12+ 缓存应用冻结器（cgroup freezer）会把进程整体冻结——本地
+# 127.0.0.1 的 TCP 连接由内核代答进 backlog，请求永远得不到服务，
+# 页面所有 fetch 挂起（debug 构建不暴露：debuggable 进程不冻结）。
+# webview 方案应用始终前台，不进缓存、不被冻结，看门狗心跳也持续有效
+p4a.bootstrap = webview
+
 fullscreen = False
 orientation = all
 

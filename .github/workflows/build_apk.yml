@@ -163,6 +163,18 @@ jobs:
           git -C "$P4A_DIR" -c user.email=ci@local -c user.name=ci \
             commit -q -m "ci: repair broken ensurepip-seeded venv pip via get-pip.py" \
             || echo "WARNING: 补丁 commit 失败（将依赖 sed 直接生效）"
+          # 2.4) webview bootstrap（buildozer.spec p4a.bootstrap=webview）：应用内
+          #    WebView 加载 http://127.0.0.1 本地服务，Android 9+ 默认禁止明文
+          #    HTTP，p4a webview manifest 模板未含 usesCleartextTraffic，克隆后
+          #    直接改模板（dist manifest 生成时生效）
+          MAN_TPL=$P4A_DIR/pythonforandroid/bootstraps/webview/build/templates/AndroidManifest.tmpl.xml
+          if [ ! -f "$MAN_TPL" ]; then
+            echo "ERROR: webview manifest 模板不存在: $MAN_TPL"; exit 1
+          fi
+          grep -q "usesCleartextTraffic" "$MAN_TPL" || \
+            sed -i 's|<application|<application android:usesCleartextTraffic="true"|' "$MAN_TPL"
+          grep -c "usesCleartextTraffic" "$MAN_TPL" >/dev/null \
+            || { echo "ERROR: cleartext 补丁未生效"; exit 1; }
           # 2.7) 关键修复（run #17 根因）：buildozer 1.6.0 不支持
           #    source.main 重命名（_copy_application_sources 只原样复制），
           #    p4a 打包时在 app 目录只认 main.py —— exclude_patterns 排除了
