@@ -448,15 +448,29 @@ select:focus, input:focus {
     position: static;
     width: 100%;
     flex-direction: row;
+    flex-wrap: wrap;       /* 手机竖屏放不下单行：logo 独占一行，页签另起一行 */
     align-items: center;
     padding: 0 12px;
   }
 
-  .logo { padding: 12px 12px; font-size: 18px; }
+  .logo { padding: 12px 12px; font-size: 18px; flex: 1 1 auto; }
 
-  .sidebar nav { display: flex; flex: 1; }
+  .sidebar nav {
+    display: flex;
+    flex: 1 1 100%;        /* 占满整行强制换行 */
+    overflow-x: auto;      /* 窄屏页签横向滑动 */
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none; /* 隐藏滚动条（滑动即可，视觉更干净） */
+  }
 
-  .nav-item { padding: 14px 16px; border-radius: 6px; }
+  .sidebar nav::-webkit-scrollbar { display: none; }
+
+  .nav-item {
+    padding: 14px 16px;
+    border-radius: 6px;
+    flex: 0 0 auto;        /* 页签不压缩不换行，溢出靠滑动 */
+    white-space: nowrap;
+  }
 
   .sidebar-footer { display: none; }
 
