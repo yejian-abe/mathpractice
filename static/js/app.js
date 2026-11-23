@@ -1108,8 +1108,9 @@ function renderRecords(items) {
 }
 
 function showRecordDetail(date, grade) {
+  // 练习记录详情用首次提交的冻结快照（重新生成换题/订正重提不改变当天记录）
   var url = '/api/records/detail?user_id=' + encodeURIComponent(state.user) +
-    '&date=' + date + '&grade=' + grade;
+    '&date=' + date + '&grade=' + grade + '&source=day_record';
   fetchJSON(url).then(function (d) {
     if (d.error) { appAlert(d.error); return; }
     renderRecordModal(d);

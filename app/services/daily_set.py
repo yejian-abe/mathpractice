@@ -319,17 +319,89 @@ def get_or_create(data_dir, date_str, grade, user_id=DEFAULT_USER, semester=0,
 
 def regenerate(data_dir, date_str, grade, user_id=DEFAULT_USER, semester=0,
                kind="all", units=None):
-    """家长强制重新生成当日题集（删除旧文件重新生成）"""
+    """家长强制重新生成当日题集（删除旧文件重新生成）。
+    旧的练习记录不受影响：删除前把当天首次提交的记录快照（day_record）
+    带入新题集——练习记录每天只记第一次提交的结果，重新生成换题后
+    的新作答不改变当天记录。
+    """
     path = _set_path(data_dir, date_str, grade, user_id)
+    saved_record = None
+    old = load_set(data_dir, date_str, grade, user_id)
+    if old is not None:
+        saved_record = day_record_of(old)
+        if saved_record is None and old.get("attempts"):
+            # 兼容旧版本数据：已有作答但尚无快照，按当前口径补建
+            saved_record = _build_day_record(old, old["attempts"])
     if os.path.exists(path):
         os.remove(path)
-    return get_or_create(data_dir, date_str, grade, user_id, semester, kind,
-                         units)
+    dataset = get_or_create(data_dir, date_str, grade, user_id, semester,
+                            kind, units)
+    if saved_record is not None:
+        dataset["day_record"] = saved_record
+        _save(data_dir, date_str, grade, dataset, user_id)
+    return dataset
+
+
+def day_record_of(dataset):
+    """题集内冻结的当天首次提交练习记录快照；无快照返回 None"""
+    dr = (dataset or {}).get("day_record")
+    if isinstance(dr, dict) and dr.get("problems"):
+        return dr
+    return None
+
+
+def _record_problem_item(p, attempts):
+    """练习详情的单题条目（题干 + 首答口径的作答与判定，不含答案/解析）"""
+    item = {
+        "id": p.get("id"),
+        "type": p.get("type"),
+        "category": p.get("category"),
+        "question": p.get("question", ""),
+        "correct": None,  # None=未作答
+        "user_answer": "",
+    }
+    if p.get("type") == "word":
+        item["answer_labels"] = p.get("answer_labels") or []
+    att = attempts.get(p.get("id"))
+    if isinstance(att, dict):
+        # 记录口径：订正重提只保留第一次结果
+        base = att.get("first") if isinstance(att.get("first"), dict) else att
+        r = base.get("result") or {}
+        item["correct"] = bool(r.get("correct"))
+        payload = base.get("payload") or {}
+        main = payload.get("main")
+        if p.get("type") == "equation":
+            if isinstance(main, dict) and main:
+                item["user_answer"] = "，".join(
+                    "%s=%s" % (k, v) for k, v in main.items())
+            item["sub_results"] = [
+                {"correct": bool(d.get("correct"))}
+                for d in (r.get("details") or {}).values()]
+        elif p.get("type") == "word":
+            answers = payload.get("answers") or []
+            item["user_answer"] = "；".join(str(a) for a in answers)
+            item["sub_results"] = [
+                {"correct": bool(a.get("correct"))}
+                for a in (r.get("answer_results") or [])]
+        else:
+            item["user_answer"] = "" if main is None else str(main)
+    return item
+
+
+def _build_day_record(dataset, attempts):
+    """把当前题集（按首答口径）冻结为当天练习记录快照"""
+    return {"problems": [_record_problem_item(p, attempts)
+                         for p in dataset.get("problems", [])]}
 
 
 def update_attempt(data_dir, date_str, grade, problem_id, attempt,
                    user_id=DEFAULT_USER):
-    """把一次作答与判题结果写回题集文件，刷新后仍能看到成绩"""
+    """把一次作答与判题结果写回题集文件，刷新后仍能看到成绩。
+    当天练习记录（day_record）只反映第一次提交的那套题：
+    - 当天还没有快照（首次提交）→ 冻结当前题集与作答为当天记录
+    - 提交的题属于已冻结那套题 → 按首答口径刷新对应条目（订正重提不改首答）
+    - 重新生成后的新题集（题目 id 不在快照中）→ 不改变当天记录
+    """
     dataset = load_set(data_dir, date_str, grade, user_id)
     if dataset is None:
         return None
@@ -348,6 +420,9 @@ def update_attempt(data_dir, date_str, grade, problem_id, attempt,
                                   "result": old.get("result"),
                                   "at": old.get("at")})
     dataset["attempts"][problem_id] = attempt
+    dr = day_record_of(dataset)
+    if dr is None or any(q.get("id") == problem_id for q in dr["problems"]):
+        dataset["day_record"] = _build_day_record(dataset, dataset["attempts"])
     _save(data_dir, date_str, grade, dataset, user_id)
     return dataset
 
@@ -404,19 +479,31 @@ def volume_of(dataset, semester=0):
 
 
 def _record_item(dataset):
-    """一条练习记录：日期/年级/册别 + 各题型正确数统计"""
+    """一条练习记录：日期/年级/册别 + 各题型正确数统计。
+    优先用当天首次提交的冻结快照（day_record）；旧版本数据（无快照）
+    回退到实时按首答口径统计。
+    """
+    dr = day_record_of(dataset)
     counts = {}
-    attempts = dataset.get("attempts") or {}
-    for p in dataset.get("problems", []):
-        c = counts.setdefault(p.get("type"), {"correct": 0, "total": 0})
-        c["total"] += 1
-        att = attempts.get(p.get("id"))
-        if isinstance(att, dict):
-            # 记录口径：订正重提只保留第一次结果
-            base = att.get("first") if isinstance(att.get("first"), dict) else att
-            r = base.get("result") or {}
-            if r.get("correct"):
+    if dr is not None:
+        for q in dr["problems"]:
+            c = counts.setdefault(q.get("type"), {"correct": 0, "total": 0})
+            c["total"] += 1
+            if q.get("correct"):
                 c["correct"] += 1
+    else:
+        attempts = dataset.get("attempts") or {}
+        for p in dataset.get("problems", []):
+            c = counts.setdefault(p.get("type"), {"correct": 0, "total": 0})
+            c["total"] += 1
+            att = attempts.get(p.get("id"))
+            if isinstance(att, dict):
+                # 记录口径：订正重提只保留第一次结果
+                base = (att.get("first")
+                        if isinstance(att.get("first"), dict) else att)
+                r = base.get("result") or {}
+                if r.get("correct"):
+                    c["correct"] += 1
     return {
         "date": dataset["date"],
         "grade": dataset["grade"],
@@ -462,49 +549,31 @@ def list_records(data_dir, user_id=DEFAULT_USER, grade=0,
     return {"items": items, "grade_used": grade_used}
 
 
-def record_detail(data_dir, date_str, grade, user_id=DEFAULT_USER):
+def record_detail(data_dir, date_str, grade, user_id=DEFAULT_USER,
+                  source="current"):
     """单次练习详情：逐题题干、我的作答与对错判定。
     不返回正确答案/解析（防止通过接口抄答案）。题集不存在返回 None。
+    source="day_record" 优先返回当天首次提交的冻结快照（练习记录详情口径，
+    重新生成后的新题与订正重提不改变结果）；无快照或 source="current"
+    （默认，导出页打印/预览用）返回当前题集的实时计算结果。
     """
     dataset = load_set(data_dir, date_str, grade, user_id)
     if dataset is None:
         return None
-    attempts = dataset.get("attempts") or {}
-    problems = []
-    for p in dataset.get("problems", []):
-        item = {
-            "id": p.get("id"),
-            "type": p.get("type"),
-            "question": p.get("question", ""),
-            "correct": None,  # None=未作答
-            "user_answer": "",
-        }
-        if p.get("type") == "word":
-            item["answer_labels"] = p.get("answer_labels") or []
-        att = attempts.get(p.get("id"))
-        if isinstance(att, dict):
-            # 记录口径：订正重提只保留第一次结果
-            base = att.get("first") if isinstance(att.get("first"), dict) else att
-            r = base.get("result") or {}
-            item["correct"] = bool(r.get("correct"))
-            payload = base.get("payload") or {}
-            main = payload.get("main")
-            if p.get("type") == "equation":
-                if isinstance(main, dict) and main:
-                    item["user_answer"] = "，".join(
-                        "%s=%s" % (k, v) for k, v in main.items())
-                item["sub_results"] = [
-                    {"correct": bool(d.get("correct"))}
-                    for d in (r.get("details") or {}).values()]
-            elif p.get("type") == "word":
-                answers = payload.get("answers") or []
-                item["user_answer"] = "；".join(str(a) for a in answers)
-                item["sub_results"] = [
-                    {"correct": bool(a.get("correct"))}
-                    for a in (r.get("answer_results") or [])]
-            else:
-                item["user_answer"] = "" if main is None else str(main)
-        problems.append(item)
+    if source == "day_record":
+        dr = day_record_of(dataset)
+        if dr is not None:
+            problems = dr["problems"]
+            return {
+                "date": dataset["date"],
+                "grade": dataset["grade"],
+                "volume": volume_of(dataset),
+                "correct": sum(1 for q in problems if q.get("correct")),
+                "total": len(problems),
+                "problems": problems,
+            }
+    problems = [_record_problem_item(p, dataset.get("attempts") or {})
+                for p in dataset.get("problems", [])]
     return {
         "date": dataset["date"],
         "grade": dataset["grade"],

@@ -282,11 +282,17 @@ def api_records():
 
 @api_bp.route("/records/detail")
 def api_record_detail():
-    """单次练习详情：逐题题干、我的作答与对错（不含正确答案）"""
+    """单次练习详情：逐题题干、我的作答与对错（不含正确答案）
+    source=day_record 返回当天首次提交的冻结快照（练习记录详情）；
+    默认 current 返回当前题集实时结果（导出页打印/预览）"""
     uid = _user_id_from(request.args.get("user_id"))
     grade = _grade_from(request.args.get("grade"))
     dt = request.args.get("date") or _today()
-    detail = daily_set.record_detail(_data_dir(), dt, grade, uid)
+    source = request.args.get("source", "current").strip()
+    detail = daily_set.record_detail(_data_dir(), dt, grade, uid,
+                                     source=("day_record"
+                                             if source == "day_record"
+                                             else "current"))
     if detail is None:
         return jsonify({"error": "题集不存在"}), 404
     return jsonify(detail)

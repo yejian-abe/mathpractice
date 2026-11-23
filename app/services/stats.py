@@ -58,33 +58,49 @@ def compute_stats(data_dir, user_id="default", grade=None, semester="0"):
         ds = daily_set.load_set(data_dir, item["date"], item["grade"], user_id)
         if not ds:
             continue
-        attempts = ds.get("attempts") or {}
         d_total = d_correct = 0
-        for p in ds.get("problems", []):
-            att = attempts.get(p.get("id"))
-            if not att:
-                continue
-            # 记录口径：订正重提只保留第一次结果（first），防止刷正确率
-            base = att.get("first") if isinstance(att.get("first"), dict) else att
-            ok = 1 if (base.get("result") or {}).get("correct") else 0
+
+        def _acc(t, cat, ok):
+            """向各聚合桶累计一道题（ok: 1=正确 0=错误）"""
+            nonlocal d_total, d_correct
             d_total += 1
             d_correct += ok
-            t = p.get("type")
             by_type.setdefault(t, [0, 0])
             by_type[t][0] += 1
             by_type[t][1] += ok
-            td = type_daily.setdefault(t, {}).setdefault(
-                item["date"], [0, 0])
+            td = type_daily.setdefault(t, {}).setdefault(item["date"], [0, 0])
             td[0] += 1
             td[1] += ok
-            cat = p.get("category") or _TYPE_LABELS.get(t, t)
             by_cat.setdefault(cat, [0, 0])
             by_cat[cat][0] += 1
             by_cat[cat][1] += ok
-            cd = cat_daily.setdefault(cat, {}).setdefault(
-                item["date"], [0, 0])
+            cd = cat_daily.setdefault(cat, {}).setdefault(item["date"], [0, 0])
             cd[0] += 1
             cd[1] += ok
+
+        dr = daily_set.day_record_of(ds)
+        if dr is not None:
+            # 当天首次提交的冻结快照（重新生成换题/订正重提不改变当天口径）
+            for q in dr["problems"]:
+                if q.get("correct") is None:
+                    continue  # 未作答不计入
+                t = q.get("type")
+                cat = q.get("category") or _TYPE_LABELS.get(t, t)
+                _acc(t, cat, 1 if q.get("correct") else 0)
+        else:
+            # 旧版本数据（无快照）：按首答口径实时统计
+            attempts = ds.get("attempts") or {}
+            for p in ds.get("problems", []):
+                att = attempts.get(p.get("id"))
+                if not att:
+                    continue
+                # 记录口径：订正重提只保留第一次结果（first），防止刷正确率
+                base = (att.get("first")
+                        if isinstance(att.get("first"), dict) else att)
+                ok = 1 if (base.get("result") or {}).get("correct") else 0
+                t = p.get("type")
+                cat = p.get("category") or _TYPE_LABELS.get(t, t)
+                _acc(t, cat, ok)
         if d_total:
             daily[item["date"]] = [d_total, d_correct]
 
