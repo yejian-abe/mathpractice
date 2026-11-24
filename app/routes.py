@@ -299,6 +299,13 @@ def api_record_detail():
     return jsonify(detail)
 
 
+@api_bp.route("/summary")
+def api_summary():
+    """练习汇总（每日一练页顶部）：总共已练习 / 全对 / 连续全对天数"""
+    uid = _user_id_from(request.args.get("user_id"))
+    return jsonify(daily_set.practice_summary(_data_dir(), uid))
+
+
 @api_bp.route("/sets/generate", methods=["POST"])
 def api_sets_generate():
     """按起止日期批量生成题集（缺失的补生成），返回列表供导出页展示"""

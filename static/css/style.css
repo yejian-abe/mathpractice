@@ -123,6 +123,16 @@ body {
 .btn.hidden, a.btn.hidden { display: none; }
 
 /* ---------- 通用 ---------- */
+/* 练习汇总条：做题页顶部（总共已练习/全对/连续全对） */
+.practice-summary {
+  margin: 0 0 12px;
+  padding: 8px 14px;
+  background: #eef4ee;
+  border: 1px solid #dce8dc;
+  border-radius: 8px;
+  font-size: 13px;
+  color: #3c6e47;
+}
 .page-header { position: relative; }
 .page-header h2 { margin-bottom: 16px; font-size: var(--fs-h2); }
 

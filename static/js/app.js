@@ -265,8 +265,21 @@ function loadDaily() {
     fetchJSON(url).then(function (data) {
       state.set = data;
       renderProblems();
+      loadPracticeSummary();
     });
   });
+}
+
+/* 练习汇总（做题页顶部）：总共已练习 / 全对 / 连续全对天数 */
+function loadPracticeSummary() {
+  fetchJSON('/api/summary?user_id=' + encodeURIComponent(state.user))
+    .then(function (s) {
+      var el = $('practice-summary');
+      if (!s || !s.days) { el.classList.add('hidden'); return; }
+      el.textContent = '总共已练习 ' + s.days + ' 天，全对 ' + s.full_days +
+        ' 天，已连续 ' + (s.streak || 0) + ' 天全对';
+      el.classList.remove('hidden');
+    }).catch(function () {});
 }
 
 function regenerate() {
@@ -283,6 +296,7 @@ function regenerate() {
     }).then(function (data) {
       state.set = data;
       renderProblems();
+      loadPracticeSummary();  // 重新生成清空当日作答，汇总需刷新
     });
   });
 }
@@ -729,6 +743,7 @@ function doSubmitAll(pending) {
   seq.then(function () {
     renderProblems();
     showSubmitResult();
+    loadPracticeSummary();  // 提交后刷新练习天数/连续全对
   }).catch(function () {
     renderProblems();
     openSubmitModal('提交失败', '<p>部分题目提交失败，请检查服务是否正常后重试。</p>',
