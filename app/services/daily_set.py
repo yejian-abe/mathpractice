@@ -9,7 +9,7 @@
 """
 import json
 import os
-from datetime import date, datetime, timedelta
+from datetime import date, datetime
 
 from app.config import load_config
 from app.generators import arithmetic, equations, word_problems
@@ -478,8 +478,8 @@ def practice_summary(data_dir, user_id=DEFAULT_USER, today=None):
     口径与练习记录一致（day_record 快照优先，旧数据回退首答实时统计）。
     - 已练习：该日有任一提交
     - 全对：correct == total 且 total > 0
-    - 连续全对：从今天往回数连续全对日；今天尚未练习不打断（从昨天起算），
-      今天练了但未全对则清零。同日多年级题集按 correct/total 合并计。
+    - 连续全对：没练的天不打断（跳过），练了但没全对才清零；
+      从最近一次练习往回数有记录的日期。同日多年级题集按 correct/total 合并计。
     """
     per_day = {}  # date -> [correct, total]
     for item in list_history(data_dir, user_id):
@@ -492,17 +492,20 @@ def practice_summary(data_dir, user_id=DEFAULT_USER, today=None):
         acc[1] += r["total"]
     days = len(per_day)
     full_days = sum(1 for c, t in per_day.values() if t > 0 and c == t)
+    # 连续全对：没练的天不打断连续（跳过），练了但没全对才清零；
+    # 从最近往回数有记录的日期，未来日期的记录不计入（防设备日期偏差）
     streak = 0
-    cur = date.fromisoformat(today) if today else date.today()
-    if cur.isoformat() not in per_day:
-        cur -= timedelta(days=1)  # 今天还没练，不打断连续
-    while cur.isoformat() in per_day:
-        c, t = per_day[cur.isoformat()]
-        if t > 0 and c == t:
-            streak += 1
-            cur -= timedelta(days=1)
-        else:
-            break
+    if per_day:
+        today_s = (date.fromisoformat(today) if today else date.today()
+                   ).isoformat()
+        for d in sorted(per_day, reverse=True):
+            if d > today_s:
+                continue
+            c, t = per_day[d]
+            if t > 0 and c == t:
+                streak += 1
+            else:
+                break
     return {"days": days, "full_days": full_days, "streak": streak}
 
 
