@@ -40,16 +40,64 @@ def _android_data_dir():
     return os.path.join(ext.getAbsolutePath(), "data")
 
 
+def _bank_signature(root):
+    """题库目录内容签名（文件名+内容哈希），用于检测 APK 内置题库是否更新"""
+    import hashlib
+
+    h = hashlib.sha1()
+    for dirpath, _dirs, files in sorted(os.walk(root)):
+        for name in sorted(files):
+            h.update(name.encode("utf-8"))
+            try:
+                with open(os.path.join(dirpath, name), "rb") as f:
+                    while True:
+                        b = f.read(65536)
+                        if not b:
+                            break
+                        h.update(b)
+            except OSError:
+                pass
+    return h.hexdigest()
+
+
+def _sync_bundled_tree(src, dst):
+    """把内置题库模板覆盖到外部数据目录（仅 bundled 侧存在的文件，
+    外部独有的运行文件如抽题进度 progress_* 不受影响）"""
+    for dirpath, _dirs, files in os.walk(src):
+        rel = os.path.relpath(dirpath, src)
+        target = dst if rel == "." else os.path.join(dst, rel)
+        os.makedirs(target, exist_ok=True)
+        for name in files:
+            try:
+                shutil.copy2(os.path.join(dirpath, name),
+                             os.path.join(target, name))
+            except OSError as e:
+                print("题库同步失败：", name, e)
+
+
 try:
     DATA_DIR = _android_data_dir()
     print("Android 数据目录：", DATA_DIR)
-    # 首次使用外部数据目录：把 APK 内置的题库模板（解包目录 data/bank，
-    # buildozer 已随包释放）播种过去；已存在则不动（保留用户运行数据）
+    # 内置题库随 APK 升级增量同步：签名一致则跳过（日常启动近乎零开销）；
+    # 签名变化（新版加了真题卷/压轴题/模板修正）则全量覆盖模板文件，
+    # 保证新题库生效；抽题进度等运行文件不在内置侧，不会被覆盖
     bundled_bank = os.path.join(BASE, "data", "bank")
     target_bank = os.path.join(DATA_DIR, "bank")
-    if os.path.isdir(bundled_bank) and not os.path.isdir(target_bank):
-        shutil.copytree(bundled_bank, target_bank)
-        print("已播种内置题库到外部数据目录")
+    if os.path.isdir(bundled_bank):
+        os.makedirs(target_bank, exist_ok=True)
+        marker = os.path.join(target_bank, ".bundled_sig")
+        sig = _bank_signature(bundled_bank)
+        old_sig = ""
+        try:
+            with open(marker, "r", encoding="utf-8") as f:
+                old_sig = f.read().strip()
+        except OSError:
+            pass
+        if sig != old_sig:
+            print("内置题库有更新，同步到数据目录…")
+            _sync_bundled_tree(bundled_bank, target_bank)
+            with open(marker, "w", encoding="utf-8") as f:
+                f.write(sig)
 except Exception as e:
     # 取不到外部目录时回退应用内目录（能跑，但升级会丢数据）
     print("获取外部数据目录失败，回退应用内目录：", e)
