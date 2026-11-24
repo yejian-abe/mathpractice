@@ -10,6 +10,7 @@ PythonActivity.loadUrl 把页面加载进应用内 WebView。
 本文件仅在安卓构建时作为入口；桌面端仍使用 main.py。
 """
 import os
+import shutil
 import threading
 import time
 
@@ -23,7 +24,38 @@ os.environ["MPT_ANDROID"] = "1"
 
 from app import create_app
 
-flask_app = create_app()
+
+def _android_data_dir():
+    """运行数据目录：外部应用专属目录（Android/data/<pkg>/files/data）。
+    不能放应用解包目录 files/app——p4a 每次安装新 APK 检测到
+    private_version 变化会递归删除 files/app 再重新解包，数据升级即丢
+    （用户 #25 升级后练习记录/用户全丢的根因）；getExternalFilesDir
+    不受解包影响，覆盖安装保留，仅卸载时清除，且无需存储权限。"""
+    from jnius import autoclass
+
+    PythonActivity = autoclass("org.kivy.android.PythonActivity")
+    ext = PythonActivity.mActivity.getExternalFilesDir(None)
+    if ext is None:
+        raise RuntimeError("getExternalFilesDir 返回 null")
+    return os.path.join(ext.getAbsolutePath(), "data")
+
+
+try:
+    DATA_DIR = _android_data_dir()
+    print("Android 数据目录：", DATA_DIR)
+    # 首次使用外部数据目录：把 APK 内置的题库模板（解包目录 data/bank，
+    # buildozer 已随包释放）播种过去；已存在则不动（保留用户运行数据）
+    bundled_bank = os.path.join(BASE, "data", "bank")
+    target_bank = os.path.join(DATA_DIR, "bank")
+    if os.path.isdir(bundled_bank) and not os.path.isdir(target_bank):
+        shutil.copytree(bundled_bank, target_bank)
+        print("已播种内置题库到外部数据目录")
+except Exception as e:
+    # 取不到外部目录时回退应用内目录（能跑，但升级会丢数据）
+    print("获取外部数据目录失败，回退应用内目录：", e)
+    DATA_DIR = None
+
+flask_app = create_app(DATA_DIR)
 
 
 def serve():
