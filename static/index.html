@@ -22,6 +22,8 @@
   <symbol id="i-sem" viewBox="0 0 24 24"><rect x="3" y="4.5" width="18" height="17" rx="2"/><line x1="3" y1="10" x2="21" y2="10"/><line x1="8" y1="2" x2="8" y2="6.5"/><line x1="16" y1="2" x2="16" y2="6.5"/><line x1="7.5" y1="14.5" x2="10.5" y2="14.5"/><line x1="13.5" y1="14.5" x2="16.5" y2="14.5"/><line x1="7.5" y1="18" x2="10.5" y2="18"/></symbol>
   <symbol id="i-finale" viewBox="0 0 24 24"><circle cx="12" cy="9" r="5.5"/><path d="M8.8 13.8 7 21l5-2.6L17 21l-1.8-7.2"/><path d="M12 6.5l1 2 2.2.3-1.6 1.5.4 2.2-2-1-2 1 .4-2.2L8.8 8.8 11 8.5z"/></symbol>
   <symbol id="i-papers" viewBox="0 0 24 24"><rect x="4" y="2.5" width="16" height="19" rx="2"/><line x1="8" y1="7" x2="16" y2="7"/><line x1="8" y1="11" x2="16" y2="11"/><line x1="8" y1="15" x2="13" y2="15"/><line x1="8" y1="18.5" x2="11" y2="18.5"/></symbol>
+  <symbol id="i-wrongbook" viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/><line x1="10" y1="7" x2="15" y2="12"/><line x1="15" y1="7" x2="10" y2="12"/></symbol>
+  <symbol id="i-sprint" viewBox="0 0 24 24"><circle cx="12" cy="13.5" r="7.5"/><line x1="12" y1="13.5" x2="14.8" y2="10.7"/><line x1="10" y1="2.5" x2="14" y2="2.5"/><line x1="12" y1="2.5" x2="12" y2="6"/><line x1="18.5" y1="6.8" x2="20.3" y2="5"/></symbol>
 </svg>
 <div class="layout">
   <!-- 侧边导航 -->
@@ -44,14 +46,31 @@
       </select>
     </div>
     <nav>
-      <a href="#/practice" class="nav-item" data-view="practice"><svg class="icon" viewBox="0 0 24 24"><use href="#i-practice"/></svg>每日一练</a>
-      <a href="#/finale" class="nav-item" data-view="finale"><svg class="icon" viewBox="0 0 24 24"><use href="#i-finale"/></svg>压轴专项</a>
-      <a href="#/papers" class="nav-item" data-view="papers"><svg class="icon" viewBox="0 0 24 24"><use href="#i-papers"/></svg>真题试卷</a>
-      <a href="#/records" class="nav-item" data-view="records"><svg class="icon" viewBox="0 0 24 24"><use href="#i-records"/></svg>练习记录</a>
-      <a href="#/stats" class="nav-item" data-view="stats"><svg class="icon" viewBox="0 0 24 24"><use href="#i-stats"/></svg>学情</a>
-      <a href="#/export" class="nav-item" data-view="export"><svg class="icon" viewBox="0 0 24 24"><use href="#i-export"/></svg>生成 / 导出</a>
-      <a href="#/settings" class="nav-item" data-view="settings"><svg class="icon" viewBox="0 0 24 24"><use href="#i-settings"/></svg>设置</a>
-      <a href="#/users" class="nav-item" data-view="users"><svg class="icon" viewBox="0 0 24 24"><use href="#i-users"/></svg>用户管理</a>
+      <div class="nav-group" data-group="practice">
+        <button type="button" class="nav-group-head">练习</button>
+        <div class="nav-group-body">
+          <a href="#/practice" class="nav-item" data-view="practice"><svg class="icon" viewBox="0 0 24 24"><use href="#i-practice"/></svg>每日一练</a>
+          <a href="#/sprint" class="nav-item" data-view="sprint"><svg class="icon" viewBox="0 0 24 24"><use href="#i-sprint"/></svg>口算挑战</a>
+          <a href="#/finale" class="nav-item" data-view="finale"><svg class="icon" viewBox="0 0 24 24"><use href="#i-finale"/></svg><span id="nav-finale-label">压轴专项</span></a>
+          <a href="#/papers" class="nav-item" data-view="papers"><svg class="icon" viewBox="0 0 24 24"><use href="#i-papers"/></svg>真题试卷</a>
+        </div>
+      </div>
+      <div class="nav-group" data-group="review">
+        <button type="button" class="nav-group-head">回顾</button>
+        <div class="nav-group-body">
+          <a href="#/records" class="nav-item" data-view="records"><svg class="icon" viewBox="0 0 24 24"><use href="#i-records"/></svg>练习记录</a>
+          <a href="#/wrongbook" class="nav-item" data-view="wrongbook"><svg class="icon" viewBox="0 0 24 24"><use href="#i-wrongbook"/></svg>错题本</a>
+          <a href="#/stats" class="nav-item" data-view="stats"><svg class="icon" viewBox="0 0 24 24"><use href="#i-stats"/></svg>学情</a>
+        </div>
+      </div>
+      <div class="nav-group" data-group="system">
+        <button type="button" class="nav-group-head">系统</button>
+        <div class="nav-group-body">
+          <a href="#/export" class="nav-item" data-view="export"><svg class="icon" viewBox="0 0 24 24"><use href="#i-export"/></svg>生成 / 导出</a>
+          <a href="#/settings" class="nav-item" data-view="settings"><svg class="icon" viewBox="0 0 24 24"><use href="#i-settings"/></svg>设置</a>
+          <a href="#/users" class="nav-item" data-view="users"><svg class="icon" viewBox="0 0 24 24"><use href="#i-users"/></svg>用户管理</a>
+        </div>
+      </div>
     </nav>
     <div class="sidebar-footer">mathPractice_tool</div>
   </aside>
@@ -73,6 +92,7 @@
         </div>
       </div>
       <div id="practice-summary" class="practice-summary hidden"></div>
+      <div id="difficulty-hint" class="difficulty-hint hidden"></div>
       <div id="focus-tip" class="focus-tip hidden"></div>
       <div id="problem-list"></div>
     </section>
@@ -80,7 +100,7 @@
     <!-- ============ 压轴专项页（初中每周一题） ============ -->
     <section id="view-finale" class="view hidden">
       <div class="page-header">
-        <h2>压轴专项 <span class="finale-sub">初中 · 每周一题</span></h2>
+        <h2><span id="finale-title">压轴专项</span> <span class="finale-sub" id="finale-subtitle">初中 · 每周一题</span></h2>
       </div>
       <div id="finale-content"><p class="tip">加载中…</p></div>
       <div id="finale-history" class="card finale-history"></div>
@@ -94,11 +114,51 @@
       <div id="papers-content"><p class="tip">加载中…</p></div>
     </section>
 
+    <!-- ============ 口算挑战页（口算专项 + 限时） ============ -->
+    <section id="view-sprint" class="view hidden">
+      <div id="sp-pick-box">
+        <div class="page-header">
+          <h2>口算挑战</h2>
+          <div class="controls card">
+            <label>年级 <span id="sp-grade-text" class="readonly-value"></span></label>
+            <button id="btn-sp-refresh" class="btn primary">刷新</button>
+          </div>
+        </div>
+        <div id="sp-special-list" class="sp-grid"><p class="tip">加载中…</p></div>
+        <p class="tip">选择一个口算专项开启限时挑战：在限定时间内作答，倒计时结束自动交卷；只统计答对数量，答对越多、用时越短越好；每个专项保留你的个人最佳纪录。</p>
+      </div>
+      <div id="sp-run-box" class="hidden">
+        <div class="page-header">
+          <h2><span id="sp-run-title">口算挑战</span> <span id="sp-run-sub" class="finale-sub"></span></h2>
+          <div class="progress-wrap">
+            <div class="sp-timer">
+              <svg class="sp-ring" viewBox="0 0 40 40"><circle class="sp-ring-bg" cx="20" cy="20" r="16"/><circle id="sp-ring-fg" class="sp-ring-fg" cx="20" cy="20" r="16"/></svg>
+              <span id="sp-time-text">--:--</span>
+            </div>
+            <div class="progress"><div id="sp-progress-fill"></div></div>
+            <span id="sp-progress-text" class="progress-text">0/0</span>
+            <button id="btn-sp-submit" class="btn primary">交卷</button>
+            <button id="btn-sp-quit" class="btn">放弃</button>
+          </div>
+        </div>
+        <div id="sp-problem-list" class="sp-run-list"></div>
+      </div>
+      <div id="sp-result-box" class="hidden">
+        <div class="page-header"><h2>挑战结算</h2></div>
+        <div id="sp-result-card" class="card sp-result"></div>
+        <div id="sp-result-detail" class="card records-scroll sp-detail"></div>
+        <div class="controls sp-result-actions">
+          <button id="btn-sp-again" class="btn primary">再来一局</button>
+          <button id="btn-sp-back" class="btn">返回选择</button>
+        </div>
+      </div>
+    </section>
+
     <!-- ============ 练习记录页 ============ -->
     <section id="view-records" class="view hidden">
       <div class="page-header">
         <h2>练习记录</h2>
-        <div class="controls card">
+        <div class="controls card records-filter">
           <label>年级
             <select id="records-grade"></select>
           </label>
@@ -112,6 +172,46 @@
       </div>
     </section>
 
+    <!-- ============ 错题本页 ============ -->
+    <section id="view-wrongbook" class="view hidden">
+      <div id="wb-list-box">
+        <div class="page-header">
+          <h2>错题本</h2>
+          <div class="controls card">
+            <label>年级
+              <select id="wb-grade"></select>
+            </label>
+            <label>状态
+              <select id="wb-status">
+                <option value="open">未掌握</option>
+                <option value="resolved">已掌握</option>
+                <option value="all">全部</option>
+              </select>
+            </label>
+            <button id="btn-wb-refresh" class="btn primary">刷新</button>
+            <button id="btn-wb-practice" class="btn primary">重练未掌握</button>
+          </div>
+        </div>
+        <div class="card records-scroll">
+          <div id="wb-list"><p class="tip">加载中…</p></div>
+          <div id="wb-more-wrap" class="hidden"><button id="btn-wb-more" class="btn">加载更多</button></div>
+        </div>
+        <p class="tip">错题按首答口径收录（订正重提不改判）；当天做错的题答案次日解锁；标记「粗心 / 不会」帮助区分错因，「已掌握」的题不再出现在默认列表；「举一反三」对该错题生成原题重做 + 同型变式重练；「重练未掌握」一次最多带 5 道错题。</p>
+      </div>
+      <div id="wb-practice-box" class="hidden">
+        <div class="page-header">
+          <h2>举一反三 <span id="wb-practice-count" class="finale-sub"></span></h2>
+          <div class="progress-wrap">
+            <div class="progress"><div id="wb-progress-fill"></div></div>
+            <span id="wb-progress-text" class="progress-text">0/0 · 正确 0</span>
+            <button id="btn-wb-submit" class="btn primary btn-submit-all">提交</button>
+            <button id="btn-wb-back" class="btn">返回列表</button>
+          </div>
+        </div>
+        <div id="wb-problem-list"></div>
+      </div>
+    </section>
+
     <!-- ============ 学情页 ============ -->
     <section id="view-stats" class="view hidden">
       <div class="page-header">
@@ -120,6 +220,7 @@
           <label>年级 <select id="stats-grade"></select></label>
         </div>
       </div>
+      <div id="achievements-wall" class="ach-wall"><p class="tip">加载中…</p></div>
       <div id="stats-content"><p class="tip">加载中…</p></div>
     </section>
 
@@ -131,16 +232,19 @@
       <div class="card export-controls">
         <label>年级 <span id="export-grade-text" class="readonly-value"></span></label>
         <label>学期 <span id="export-semester-text" class="readonly-value"></span></label>
+        <span class="readonly-hint">只读，跟随左侧边栏的年级 / 学期选择</span>
         <label>起始日期 <input type="date" id="export-date"></label>
         <label>结束日期 <input type="date" id="export-date-to"></label>
         <label class="checkbox">
           <input type="checkbox" id="export-answers"> 附参考答案页
         </label>
-        <button id="btn-generate" class="btn primary">生成题目</button>
-        <div class="btn-group" id="export-buttons">
-          <a id="link-pdf" class="btn primary" href="#">导出 PDF</a>
-          <a id="link-docx" class="btn" href="#">导出 Word</a>
-          <button id="btn-export-print" class="btn primary hidden">打印 / 保存 PDF</button>
+        <div class="export-actions">
+          <button id="btn-generate" class="btn primary">生成题目</button>
+          <div class="btn-group" id="export-buttons">
+            <a id="link-pdf" class="btn primary" href="#">导出 PDF</a>
+            <a id="link-docx" class="btn" href="#">导出 Word</a>
+            <button id="btn-export-print" class="btn primary hidden">打印 / 保存 PDF</button>
+          </div>
         </div>
         <p id="export-unsupported" class="tip hidden">本设备为安卓端，不支持生成 PDF/Word 文件。可用上方「打印 / 保存 PDF」把题单交给系统打印，在打印对话框中选择"另存为 PDF"保存到手机；导出 Word 与含答案文档需在电脑端使用。</p>
         <p class="tip">提示：年级、学期在左侧边栏选择，此处只读显示；点击"生成题目"按起止日期生成并列出题目列表，可在列表中预览或重新生成某天；"导出"一次把列表范围内全部题目排入一份文档（缺失日期自动补生成），页数按题量自动压缩到尽量少。</p>
@@ -253,5 +357,7 @@
 <!-- 打印导出容器：仅打印时可见（@media print），由前端按生成范围填充题单 -->
 <div id="print-root" class="print-root hidden"></div>
 <script src="/static/js/app.js"></script>
+<script src="/static/js/view-wrongbook.js"></script>
+<script src="/static/js/view-sprint.js"></script>
 </body>
 </html>

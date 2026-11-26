@@ -7,7 +7,7 @@ var GRADE_NAMES = { 1: '一年级', 2: '二年级', 3: '三年级', 4: '四年�
 var TYPE_NAMES = { calc: '计算题', vertical: '竖式计算',
                    equation: '解方程', word: '应用题' };
 
-var VIEWS = ['practice', 'finale', 'papers', 'records', 'stats', 'export', 'settings', 'users'];
+var VIEWS = ['practice', 'sprint', 'finale', 'papers', 'records', 'wrongbook', 'stats', 'export', 'settings', 'users'];
 
 /* 设备能力（init 时从 /api/caps 拉取）：export=可生成 PDF/Word 文件，
    print=安卓系统打印可用（打印/另存 PDF） */
@@ -119,9 +119,60 @@ function route() {
     a.classList.toggle('active', a.getAttribute('data-view') === target);
   });
   if (target === 'records') loadRecords();
+  if (target === 'wrongbook' && typeof loadWrongbook === 'function') loadWrongbook();
+  if (target === 'sprint' && typeof loadSprint === 'function') loadSprint();
   if (target === 'stats') loadStats();
   if (target === 'finale') loadFinale();
   if (target === 'papers') loadPapers(null, true);
+  expandNavGroup(target);
+}
+
+/* ---------- 侧边栏分组（练习 / 回顾 / 系统） ---------- */
+
+var NAV_GROUP_KEY = 'mpt_nav_groups';
+
+/* 切换页面时自动展开该页所在分组（其余分组保持各自记忆状态） */
+function expandNavGroup(view) {
+  var link = document.querySelector('.nav-item[data-view="' + view + '"]');
+  if (!link) return;
+  var group = link.closest ? link.closest('.nav-group') : null;
+  if (!group) return;
+  var body = group.querySelector('.nav-group-body');
+  var head = group.querySelector('.nav-group-head');
+  if (body && body.classList.contains('hidden')) {
+    body.classList.remove('hidden');
+    if (head) head.classList.add('open');
+    saveNavGroups();
+  }
+}
+
+/* 记忆各分组折叠状态（localStorage） */
+function saveNavGroups() {
+  try {
+    var open = [];
+    document.querySelectorAll('.nav-group').forEach(function (g) {
+      var b = g.querySelector('.nav-group-body');
+      if (b && !b.classList.contains('hidden')) {
+        open.push(g.getAttribute('data-group'));
+      }
+    });
+    localStorage.setItem(NAV_GROUP_KEY, JSON.stringify(open));
+  } catch (e) { /* 存储不可用时忽略 */ }
+}
+
+function restoreNavGroups() {
+  var saved = [];
+  try {
+    saved = JSON.parse(localStorage.getItem(NAV_GROUP_KEY) || '[]');
+  } catch (e) { saved = []; }
+  if (!Array.isArray(saved)) saved = [];
+  document.querySelectorAll('.nav-group').forEach(function (g) {
+    var b = g.querySelector('.nav-group-body');
+    var h = g.querySelector('.nav-group-head');
+    var open = saved.indexOf(g.getAttribute('data-group')) >= 0;
+    if (b) b.classList.toggle('hidden', !open);
+    if (h) h.classList.toggle('open', open);
+  });
 }
 
 /* ---------- 做题页 ---------- */
@@ -266,6 +317,7 @@ function loadDaily() {
       state.set = data;
       renderProblems();
       loadPracticeSummary();
+      loadDifficultyHint();
     });
   });
 }
@@ -278,6 +330,27 @@ function loadPracticeSummary() {
       if (!s || !s.days) { el.classList.add('hidden'); return; }
       el.textContent = '总共已练习 ' + s.days + ' 天，全对 ' + s.full_days +
         ' 天，已连续 ' + (s.streak || 0) + ' 天全对';
+      el.classList.remove('hidden');
+    }).catch(function () {});
+}
+
+/* 难度自适应建议条：基于近期正确率与薄弱知识点的规则引擎 */
+var HINT_LEVEL_META = {
+  up:   { icon: '🚀', cls: 'hint-up' },
+  keep: { icon: '💪', cls: 'hint-keep' },
+  down: { icon: '📚', cls: 'hint-down' },
+  none: { icon: '💡', cls: 'hint-keep' }
+};
+
+function loadDifficultyHint() {
+  fetchJSON('/api/hint?user_id=' + encodeURIComponent(state.user) +
+      '&grade=' + state.grade)
+    .then(function (d) {
+      var el = $('difficulty-hint');
+      if (!el) return;
+      var meta = HINT_LEVEL_META[d.level] || HINT_LEVEL_META.none;
+      el.className = 'difficulty-hint ' + meta.cls;
+      el.textContent = meta.icon + ' ' + (d.message || '');
       el.classList.remove('hidden');
     }).catch(function () {});
 }
@@ -297,6 +370,7 @@ function regenerate() {
       state.set = data;
       renderProblems();
       loadPracticeSummary();  // 重新生成清空当日作答，汇总需刷新
+      loadDifficultyHint();
     });
   });
 }
@@ -744,6 +818,7 @@ function doSubmitAll(pending) {
     renderProblems();
     showSubmitResult();
     loadPracticeSummary();  // 提交后刷新练习天数/连续全对
+    loadDifficultyHint();   // 提交后难度建议可能变化
   }).catch(function () {
     renderProblems();
     openSubmitModal('提交失败', '<p>部分题目提交失败，请检查服务是否正常后重试。</p>',
@@ -1190,13 +1265,33 @@ function closeRecordModal() {
 
 var FINALE_RESULT_NAMES = { done: '做出来了', hint: '看了提示做出来',
                             fail: '没做出来' };
-var FINALE_TYPE_NAMES = { quadratic: '二次函数', geometry: '几何综合' };
+var FINALE_TYPE_NAMES = { quadratic: '二次函数', geometry: '几何综合',
+                          pattern: '找规律', count: '计数问题',
+                          logic: '逻辑推理', app: '应用综合' };
+
+/* 每周一题页文案按年级切换：小学=思维拓展，初中=压轴专项 */
+function finaleLabels() {
+  return (state.grade <= 6)
+    ? { name: '思维拓展', sub: '小学 · 每周一题' }
+    : { name: '压轴专项', sub: '初中 · 每周一题' };
+}
+
+function applyFinaleLabels() {
+  var lb = finaleLabels();
+  var nav = $('nav-finale-label');
+  var title = $('finale-title');
+  var sub = $('finale-subtitle');
+  if (nav) nav.textContent = lb.name;
+  if (title) title.textContent = lb.name;
+  if (sub) sub.textContent = lb.sub;
+}
 
 function loadFinale(force) {
   var box = $('finale-content');
   if (!box) return;
+  applyFinaleLabels();
   var url = '/api/finale/current?user_id=' + encodeURIComponent(state.user) +
-    (force ? '&force=1' : '');
+    '&grade=' + state.grade + (force ? '&force=1' : '');
   box.innerHTML = '<p class="tip">加载中…</p>';
   fetchJSON(url).then(function (d) {
     renderFinale(d);
@@ -1262,7 +1357,8 @@ function assessFinale(result, btn) {
   btn.disabled = true;
   fetchJSON('/api/finale/assess', {
     method: 'POST',
-    body: JSON.stringify({ user_id: state.user, qid: q.id, result: result })
+    body: JSON.stringify({ user_id: state.user, qid: q.id, result: result,
+                           grade: state.grade })
   }).then(function (res) {
     if (res.error) { appAlert(res.error); btn.disabled = false; return; }
     openSubmitModal('自评完成', '<p>' + escapeHtml(tips[result] || '') + '</p>',
@@ -1320,14 +1416,15 @@ function renderFinale(d) {
     return;
   }
   state.finaleQuestion = null;
+  var lb = finaleLabels();
   if (d.status === 'completed') {
     box.innerHTML = '<div class="card finale-card finale-status">' +
-      '<p>🎉 本周压轴题已完成，下次推送：<b>' + escapeHtml(d.next_push || '') +
-      '</b>（周六）。</p>' +
+      '<p>🎉 本周' + lb.name + '题已完成，下次推送：<b>' +
+      escapeHtml(d.next_push || '') + '</b>（周六）。</p>' +
       '<p class="tip">做错的题会在约 3 周后自动推送一道同类型新题。</p></div>';
   } else if (d.status === 'upcoming') {
     box.innerHTML = '<div class="card finale-card finale-status">' +
-      '<p>本周压轴题将于 <b>' + escapeHtml(d.next_push || '') +
+      '<p>本周' + lb.name + '题将于 <b>' + escapeHtml(d.next_push || '') +
       '</b>（周六）推送，也可以现在提前查看：</p>' +
       '<p><button id="btn-finale-early" class="btn primary">提前查看本周题</button></p>' +
       '</div>';
@@ -1342,7 +1439,8 @@ function renderFinale(d) {
 function loadFinaleHistory() {
   var box = $('finale-history');
   if (!box) return;
-  fetchJSON('/api/finale/history?user_id=' + encodeURIComponent(state.user))
+  fetchJSON('/api/finale/history?user_id=' + encodeURIComponent(state.user) +
+      '&grade=' + state.grade)
     .then(function (d) {
       var items = d.items || [];
       if (!items.length) {
@@ -1860,6 +1958,7 @@ function onGradeChange() {
   state.grade = parseInt($('grade-select').value, 10) || 3;
   localStorage.setItem(userGradeKey(), state.grade);
   $('stats-grade').value = state.grade;
+  applyFinaleLabels();  // 年级变化时同步侧边栏"每周一题"标签（跨小学/初中界限）
   updateExportInfo();
   updateExportLinks();
   loadDaily();
@@ -1957,6 +2056,7 @@ function loadStats() {
   if (!box) return;
   var g = $('stats-grade').value || state.grade;
   box.innerHTML = '<p class="tip">加载中…</p>';
+  loadAchievements();
   fetchJSON('/api/stats?grade=' + g + '&user_id=' +
       encodeURIComponent(state.user) + '&semester=' + state.semester)
     .then(function (d) {
@@ -1964,6 +2064,123 @@ function loadStats() {
       if (PAGERS.cats) PAGERS.cats.page = 1;
       renderStats(d);
     });
+}
+
+/* ---------- 成就徽章墙（学情页顶部） ---------- */
+
+// 成就徽章：游戏勋章风（儿童向）——圆形渐变底 + 白色具象图形 + 笑脸。
+// 图形为手绘内嵌 SVG（48x48，fill 为主），按借鉴设计：
+// 坚持类绿色升级链（种子→小树→大树→森林）、火苗三级（3/7/14 天连对）、
+// 表情细节统一 rgba 黑（眼/嘴）+ rgba 浅层（内焰/屏幕等辅助面）。
+// 渐变色由 ACHIEVE_COLORS 提供（每类一个色系，深浅暗示递进）；
+// 锁定态统一灰底 + 白线锁。键与 achievements.py BADGES 的 icon 字段对应。
+var ACHIEVE_ICONS = {
+  'sprout': '<circle cx="24" cy="16" r="9.5" fill="#fff"/><circle cx="21" cy="15" r="1.6" fill="rgba(0,0,0,.42)"/><circle cx="27" cy="15" r="1.6" fill="rgba(0,0,0,.42)"/><path d="M20.5 18.5c1.5 1.6 6.5 1.6 8 0" stroke="rgba(0,0,0,.42)" stroke-width="1.6" fill="none" stroke-linecap="round"/><rect x="22.8" y="24" width="2.4" height="11" rx="1.2" fill="#fff"/><path d="M24 24c-6.5-1-9-6-8.5-11 4.5.5 7.3 3.8 8.5 11z" fill="#fff"/><path d="M24 24c6.5-1 9-6 8.5-11-4.5.5-7.3 3.8-8.5 11z" fill="#fff"/><path d="M16 38h16" stroke="#fff" stroke-width="2.6" stroke-linecap="round"/><path d="M18 42h12" stroke="#fff" stroke-width="2.2" stroke-linecap="round" opacity=".6"/>',
+  'calendar-check': '<circle cx="24" cy="15" r="11" fill="#fff"/><circle cx="20" cy="14" r="1.7" fill="rgba(0,0,0,.42)"/><circle cx="28" cy="14" r="1.7" fill="rgba(0,0,0,.42)"/><path d="M20 18c1.8 2 6.2 2 8 0" stroke="rgba(0,0,0,.42)" stroke-width="1.7" fill="none" stroke-linecap="round"/><rect x="22.4" y="26" width="3.2" height="11" rx="1.6" fill="#fff"/><path d="M13 39c3.5-2.8 18.5-2.8 22 0" stroke="#fff" stroke-width="2.6" fill="none" stroke-linecap="round"/>',
+  'trophy': '<circle cx="24" cy="11" r="8.5" fill="#fff"/><circle cx="24" cy="19" r="12" fill="#fff"/><circle cx="20" cy="18" r="1.8" fill="rgba(0,0,0,.42)"/><circle cx="28" cy="18" r="1.8" fill="rgba(0,0,0,.42)"/><path d="M20 22.5c2 2.2 6 2.2 8 0" stroke="rgba(0,0,0,.42)" stroke-width="1.8" fill="none" stroke-linecap="round"/><rect x="22.2" y="30" width="3.6" height="7.5" rx="1.8" fill="#fff"/><path d="M13 39.5c3.5-2.8 18.5-2.8 22 0" stroke="#fff" stroke-width="2.6" fill="none" stroke-linecap="round"/>',
+  'gem': '<circle cx="19" cy="16" r="10" fill="#fff"/><circle cx="16" cy="15" r="1.6" fill="rgba(0,0,0,.42)"/><circle cx="22" cy="15" r="1.6" fill="rgba(0,0,0,.42)"/><path d="M15.5 19c1.6 1.8 5.4 1.8 7 0" stroke="rgba(0,0,0,.42)" stroke-width="1.6" fill="none" stroke-linecap="round"/><circle cx="34.5" cy="21" r="6.5" fill="#fff" opacity=".85"/><rect x="17.4" y="26" width="3.2" height="11" rx="1.6" fill="#fff"/><rect x="33.2" y="27.5" width="2.6" height="9.5" rx="1.3" fill="#fff" opacity=".85"/><path d="M11 39.5c4-2.6 22-2.6 26 0" stroke="#fff" stroke-width="2.6" fill="none" stroke-linecap="round"/>',
+  'star': '<path d="M24 8 28 18.5 39.2 19.1 30.5 26.1 33.4 36.9 24 30.8 14.6 36.9 17.5 26.1 8.8 19.1 20 18.5Z" fill="#fff" stroke="#fff" stroke-width="3" stroke-linejoin="round"/><circle cx="20.5" cy="19.5" r="1.6" fill="rgba(0,0,0,.42)"/><circle cx="27.5" cy="19.5" r="1.6" fill="rgba(0,0,0,.42)"/><path d="M20.5 23c1.5 1.6 5.5 1.6 7 0" stroke="rgba(0,0,0,.42)" stroke-width="1.6" fill="none" stroke-linecap="round"/>',
+  'sparkles': '<path d="M24 13 27 20.9 35.4 21.3 28.8 26.6 31 34.7 24 30.1 17 34.7 19.2 26.6 12.6 21.3 21 20.9Z" fill="#fff" stroke="#fff" stroke-width="3" stroke-linejoin="round"/><circle cx="20.8" cy="20.5" r="1.5" fill="rgba(0,0,0,.42)"/><circle cx="27.2" cy="20.5" r="1.5" fill="rgba(0,0,0,.42)"/><path d="M21 23.6c1.3 1.4 5.7 1.4 7 0" stroke="rgba(0,0,0,.42)" stroke-width="1.5" fill="none" stroke-linecap="round"/><path d="M9.5 8.5q1.4 4.2 5.6 5.6-4.2 1.4-5.6 5.6Q8.1 15.5 3.9 14.1q4.2-1.4 5.6-5.6z" fill="#fff" opacity=".8"/><path d="M38.5 12.5q1.4 4.2 5.6 5.6-4.2 1.4-5.6 5.6-1.4-4.2-5.6-5.6 4.2-1.4 5.6-5.6z" fill="#fff" opacity=".8"/>',
+  'badge-check': '<circle cx="24" cy="23" r="14" fill="#fff"/><circle cx="19.5" cy="21" r="1.9" fill="rgba(0,0,0,.42)"/><circle cx="28.5" cy="21" r="1.9" fill="rgba(0,0,0,.42)"/><path d="M19 25.5c2 2.2 8 2.2 10 0" stroke="rgba(0,0,0,.42)" stroke-width="1.8" fill="none" stroke-linecap="round"/><path d="M39 8.5q1.3 3.8 5 5-3.7 1.2-5 5-1.3-3.8-5-5 3.7-1.2 5-5z" fill="#fff" opacity=".85"/><path d="M8 12q1 3 3.8 3.9Q9 16.8 8 19.8 7 16.8 4.2 15.9 7 15 8 12z" fill="#fff" opacity=".7"/>',
+  'zap': '<path d="M24 5c3.5 5.5 9.5 9 9.5 18a9.5 9.5 0 0 1-19 0c0-4 1.8-6.6 3.7-9 .7 2 1.9 3.4 3.4 4.3C20.8 13.5 21.6 9.5 24 5z" fill="#fff" stroke="#fff" stroke-width="2" stroke-linejoin="round"/><circle cx="21.2" cy="24" r="1.6" fill="rgba(0,0,0,.42)"/><circle cx="26.8" cy="24" r="1.6" fill="rgba(0,0,0,.42)"/><path d="M20.5 27.5c1.5 1.7 5.5 1.7 7 0" stroke="rgba(0,0,0,.42)" stroke-width="1.6" fill="none" stroke-linecap="round"/>',
+  'flame': '<path d="M24 3c4.5 7 11.5 10.5 11.5 20a11.5 11.5 0 0 1-23 0c0-4.6 2.1-7.6 4.3-10.4.8 2.3 2.2 3.8 3.9 4.8C19.5 12.5 20.7 8.3 24 3z" fill="#fff" stroke="#fff" stroke-width="2" stroke-linejoin="round"/><path d="M24 17c2.4 3.6 5.6 5.6 5.6 10.2a5.6 5.6 0 0 1-11.2 0c0-3.3 1.9-5.2 3.1-6.6.4 1.2 1.1 2.1 1.9 2.6C22.7 20.7 23.2 18.8 24 17z" fill="rgba(0,0,0,.14)"/><circle cx="20.8" cy="27.5" r="1.6" fill="rgba(0,0,0,.42)"/><circle cx="27.2" cy="27.5" r="1.6" fill="rgba(0,0,0,.42)"/><path d="M20.3 31c1.5 1.6 5.9 1.6 7.4 0" stroke="rgba(0,0,0,.42)" stroke-width="1.6" fill="none" stroke-linecap="round"/>',
+  'sunrise': '<path d="M24 2c5 8 12.5 11.5 12.5 21.5a12.5 12.5 0 0 1-25 0c0-5 2.3-8.3 4.7-11.3.9 2.5 2.4 4.1 4.2 5.2C18.9 12.8 20.3 7.6 24 2z" fill="#fff" stroke="#fff" stroke-width="2" stroke-linejoin="round"/><path d="M24 16c2.6 4 6 6.2 6 11a6 6 0 0 1-12 0c0-3.5 2-5.5 3.3-7 .4 1.3 1.1 2.2 2 2.7C22.6 20.5 23.1 18.6 24 16z" fill="rgba(0,0,0,.14)"/><circle cx="20.6" cy="28" r="1.7" fill="rgba(0,0,0,.42)"/><circle cx="27.4" cy="28" r="1.7" fill="rgba(0,0,0,.42)"/><path d="M20 31.5c1.6 1.7 6.4 1.7 8 0" stroke="rgba(0,0,0,.42)" stroke-width="1.7" fill="none" stroke-linecap="round"/><circle cx="10" cy="12" r="1.8" fill="#fff" opacity=".8"/><circle cx="38" cy="14" r="1.5" fill="#fff" opacity=".8"/><circle cx="34.5" cy="5.5" r="1.3" fill="#fff" opacity=".7"/>',
+  'hammer': '<rect x="14" y="8" width="20" height="11" rx="3.5" fill="#fff"/><rect x="22" y="19" width="4" height="17" rx="2" fill="#fff"/><circle cx="19.5" cy="12.5" r="1.4" fill="rgba(0,0,0,.42)"/><circle cx="25.5" cy="12.5" r="1.4" fill="rgba(0,0,0,.42)"/><path d="M18.5 15.5c1.5 1.4 5.5 1.4 7 0" stroke="rgba(0,0,0,.42)" stroke-width="1.4" fill="none" stroke-linecap="round"/><path d="M14 41h20" stroke="#fff" stroke-width="2.6" stroke-linecap="round" opacity=".7"/>',
+  'calculator': '<rect x="13" y="7" width="22" height="34" rx="4" fill="#fff"/><rect x="17" y="11" width="14" height="9" rx="2" fill="rgba(0,0,0,.14)"/><circle cx="20.5" cy="14.5" r="1.3" fill="rgba(0,0,0,.42)"/><circle cx="23.5" cy="14.5" r="1.3" fill="rgba(0,0,0,.42)"/><path d="M20 16.8c1.5 1.3 4.5 1.3 6 0" stroke="rgba(0,0,0,.42)" stroke-width="1.4" fill="none" stroke-linecap="round"/><circle cx="19" cy="25" r="2.2" fill="rgba(0,0,0,.18)"/><circle cx="25" cy="25" r="2.2" fill="rgba(0,0,0,.18)"/><circle cx="31" cy="25" r="2.2" fill="rgba(0,0,0,.18)"/><circle cx="19" cy="30" r="2.2" fill="rgba(0,0,0,.18)"/><circle cx="25" cy="30" r="2.2" fill="rgba(0,0,0,.18)"/><circle cx="31" cy="30" r="2.2" fill="rgba(0,0,0,.18)"/><circle cx="19" cy="35" r="2.2" fill="rgba(0,0,0,.18)"/><circle cx="25" cy="35" r="2.2" fill="rgba(0,0,0,.18)"/><circle cx="31" cy="35" r="2.2" fill="rgba(0,0,0,.18)"/>',
+  'circle-check-big': '<circle cx="24" cy="23" r="15" fill="#fff"/><path d="M17.5 20c1.6-2.2 4.4-2.2 6 0" stroke="rgba(0,0,0,.42)" stroke-width="1.8" fill="none" stroke-linecap="round"/><path d="M24.5 20c1.6-2.2 4.4-2.2 6 0" stroke="rgba(0,0,0,.42)" stroke-width="1.8" fill="none" stroke-linecap="round"/><path d="M18.5 26c2 3.6 9 3.6 11 0" stroke="rgba(0,0,0,.42)" stroke-width="1.8" fill="none" stroke-linecap="round"/><circle cx="16" cy="25" r="2.2" fill="rgba(0,0,0,.12)"/><circle cx="32" cy="25" r="2.2" fill="rgba(0,0,0,.12)"/><path d="M38 6.5q1.3 3.8 5 5-3.7 1.2-5 5-1.3-3.8-5-5 3.7-1.2 5-5z" fill="#fff" opacity=".85"/>',
+  'gauge': '<path d="M24 4c5 4.2 7.5 9.5 7.5 16.5v9c0 2-1.6 3.5-3.6 3.5h-7.8c-2 0-3.6-1.5-3.6-3.5v-9C16.5 13.5 19 8.2 24 4z" fill="#fff"/><circle cx="20.2" cy="16" r="1.6" fill="rgba(0,0,0,.42)"/><circle cx="27.8" cy="16" r="1.6" fill="rgba(0,0,0,.42)"/><path d="M20 19.5c1.5 1.6 6.5 1.6 8 0" stroke="rgba(0,0,0,.42)" stroke-width="1.6" fill="none" stroke-linecap="round"/><path d="M16.5 25l-4.5 7.5 4.5 3.5z" fill="#fff" opacity=".85"/><path d="M31.5 25l4.5 7.5-4.5 3.5z" fill="#fff" opacity=".85"/><path d="M21.5 33h5c0 3.5-1 6.2-2.5 8.5-1.5-2.3-2.5-5-2.5-8.5z" fill="rgba(0,0,0,.14)"/>',
+  'timer': '<circle cx="16.3" cy="7" r="2.4" fill="#fff"/><rect x="15" y="9" width="2.6" height="29" rx="1.3" fill="#fff"/><path d="M17.6 10h15.5c2.6 0 3.7 1.6 3.1 3.7l-1.7 6c-.5 1.9-2.1 3.3-4 3.3H17.6z" fill="#fff"/><circle cx="23" cy="13.5" r="1.5" fill="rgba(0,0,0,.42)"/><circle cx="29" cy="13.5" r="1.5" fill="rgba(0,0,0,.42)"/><path d="M22.5 16.5c1.5 1.5 5.5 1.5 7 0" stroke="rgba(0,0,0,.42)" stroke-width="1.5" fill="none" stroke-linecap="round"/><path d="M11 39.5c4-2.6 22-2.6 26 0" stroke="#fff" stroke-width="2.6" fill="none" stroke-linecap="round"/>',
+  'repeat': '<path d="M9.5 33 8 17.5l9 6.5L24 11.5l7 12.5 9-6.5L38.5 33c0 1.5-1 2.5-2.5 2.5H12c-1.5 0-2.5-1-2.5-2.5z" fill="#fff"/><circle cx="8" cy="16.5" r="2.4" fill="#fff"/><circle cx="24" cy="10.5" r="2.4" fill="#fff"/><circle cx="40" cy="16.5" r="2.4" fill="#fff"/><circle cx="20.5" cy="26.5" r="1.7" fill="rgba(0,0,0,.42)"/><circle cx="27.5" cy="26.5" r="1.7" fill="rgba(0,0,0,.42)"/><path d="M20 30c1.5 1.7 6.5 1.7 8 0" stroke="rgba(0,0,0,.42)" stroke-width="1.7" fill="none" stroke-linecap="round"/>',
+  'shield-check': '<path d="M24 6l12 4.5v9.5c0 7.5-4.5 13.5-12 17-7.5-3.5-12-9.5-12-17V10.5z" fill="#fff"/><circle cx="19.5" cy="18" r="1.7" fill="rgba(0,0,0,.42)"/><circle cx="28.5" cy="18" r="1.7" fill="rgba(0,0,0,.42)"/><path d="M19 22c1.6 1.8 8.4 1.8 10 0" stroke="rgba(0,0,0,.42)" stroke-width="1.7" fill="none" stroke-linecap="round"/>',
+  'swords': '<path d="M24 8c8 0 13 5.5 13 13 0 9-5 16-13 16s-13-7-13-16c0-7.5 5-13 13-13z" fill="#fff"/><path d="M15.5 11.5 12.5 5l6.5 2.2z" fill="#fff"/><path d="M32.5 11.5 35.5 5 29 7.2z" fill="#fff"/><circle cx="19.5" cy="20" r="2.2" fill="rgba(0,0,0,.42)"/><circle cx="28.5" cy="20" r="2.2" fill="rgba(0,0,0,.42)"/><path d="M19 26c2 3.5 8 3.5 10 0" stroke="rgba(0,0,0,.42)" stroke-width="1.8" fill="none" stroke-linecap="round"/><path d="M18 33c3.5 2 8.5 2 12 0" stroke="rgba(0,0,0,.14)" stroke-width="1.6" fill="none" stroke-linecap="round"/>',
+  'rotate-ccw': '<path d="M6 34a18 18 0 0 1 36 0" stroke="#fff" stroke-width="4.5" fill="none" stroke-linecap="round"/><path d="M11.5 34a12.5 12.5 0 0 1 25 0" stroke="#fff" stroke-width="4.5" fill="none" stroke-linecap="round" opacity=".55"/><path d="M17 34a7 7 0 0 1 14 0" stroke="#fff" stroke-width="4.5" fill="none" stroke-linecap="round" opacity=".3"/><circle cx="21.5" cy="20.5" r="1.5" fill="rgba(0,0,0,.42)"/><circle cx="26.5" cy="20.5" r="1.5" fill="rgba(0,0,0,.42)"/><path d="M21 23.5c1.2 1.4 4.8 1.4 6 0" stroke="rgba(0,0,0,.42)" stroke-width="1.4" fill="none" stroke-linecap="round"/><circle cx="9.5" cy="35" r="3.8" fill="#fff"/><circle cx="13.5" cy="32.5" r="3" fill="#fff"/><circle cx="38.5" cy="35" r="3.8" fill="#fff"/><circle cx="34.5" cy="32.5" r="3" fill="#fff"/>',
+  'file-text': '<rect x="14" y="7" width="20" height="34" rx="3" fill="#fff"/><path d="M26 7h4.5A3.5 3.5 0 0 1 34 10.5V15z" fill="rgba(0,0,0,.12)"/><circle cx="19.5" cy="21" r="1.7" fill="rgba(0,0,0,.42)"/><circle cx="28.5" cy="21" r="1.7" fill="rgba(0,0,0,.42)"/><path d="M19 25.5c1.8 2 8.2 2 10 0" stroke="rgba(0,0,0,.42)" stroke-width="1.7" fill="none" stroke-linecap="round"/><path d="M19 31h10" stroke="rgba(0,0,0,.14)" stroke-width="1.8" stroke-linecap="round"/><path d="M19 35h10" stroke="rgba(0,0,0,.14)" stroke-width="1.8" stroke-linecap="round"/>',
+  'medal': '<path d="M18 5l5.5 10.5L20 18l-5.5-9z" fill="#fff" opacity=".85"/><path d="M30 5l-5.5 10.5L28 18l5.5-9z" fill="#fff" opacity=".85"/><circle cx="24" cy="29" r="9.5" fill="#fff"/><circle cx="24" cy="29" r="6.5" stroke="rgba(0,0,0,.14)" stroke-width="1.6" fill="none"/><circle cx="21.5" cy="27.5" r="1.5" fill="rgba(0,0,0,.42)"/><circle cx="26.5" cy="27.5" r="1.5" fill="rgba(0,0,0,.42)"/><path d="M21 30.5c1.3 1.4 4.7 1.4 6 0" stroke="rgba(0,0,0,.42)" stroke-width="1.4" fill="none" stroke-linecap="round"/>',
+  'crown': '<path d="M8.5 34 7 16.5l9.5 7L24 10l7.5 13.5 9.5-7L39.5 34c0 1.6-1 2.6-2.6 2.6H11.1C9.5 36.6 8.5 35.6 8.5 34z" fill="#fff"/><circle cx="7" cy="15" r="2.4" fill="#fff"/><circle cx="24" cy="8.5" r="2.4" fill="#fff"/><circle cx="41" cy="15" r="2.4" fill="#fff"/><rect x="11" y="33.5" width="26" height="4" rx="2" fill="rgba(0,0,0,.12)"/><circle cx="20.5" cy="26.5" r="1.7" fill="rgba(0,0,0,.42)"/><circle cx="27.5" cy="26.5" r="1.7" fill="rgba(0,0,0,.42)"/><path d="M20 30c1.5 1.7 6.5 1.7 8 0" stroke="rgba(0,0,0,.42)" stroke-width="1.7" fill="none" stroke-linecap="round"/>',
+  'lightbulb': '<circle cx="24" cy="20" r="11.5" fill="#fff"/><rect x="19" y="32" width="10" height="4" rx="2" fill="#fff"/><rect x="20" y="37" width="8" height="3" rx="1.5" fill="#fff" opacity=".7"/><circle cx="20" cy="19.5" r="1.8" fill="rgba(0,0,0,.42)"/><circle cx="28" cy="19.5" r="1.8" fill="rgba(0,0,0,.42)"/><path d="M20 23c1.6 1.8 6.4 1.8 8 0" stroke="rgba(0,0,0,.42)" stroke-width="1.7" fill="none" stroke-linecap="round"/><path d="M24 6V2.5" stroke="#fff" stroke-width="2.2" stroke-linecap="round" opacity=".8"/><path d="M12.5 9 10 6.5" stroke="#fff" stroke-width="2.2" stroke-linecap="round" opacity=".8"/><path d="M35.5 9 38 6.5" stroke="#fff" stroke-width="2.2" stroke-linecap="round" opacity=".8"/><path d="M9 20H5.5" stroke="#fff" stroke-width="2.2" stroke-linecap="round" opacity=".8"/><path d="M43 20h-3.5" stroke="#fff" stroke-width="2.2" stroke-linecap="round" opacity=".8"/>',
+  'layers': '<circle cx="24" cy="20" r="11.5" fill="#fff"/><rect x="19" y="32" width="10" height="4" rx="2" fill="#fff"/><rect x="20" y="37" width="8" height="3" rx="1.5" fill="#fff" opacity=".7"/><circle cx="20" cy="19.5" r="1.8" fill="rgba(0,0,0,.42)"/><circle cx="28" cy="19.5" r="1.8" fill="rgba(0,0,0,.42)"/><path d="M20 23c1.6 1.8 6.4 1.8 8 0" stroke="rgba(0,0,0,.42)" stroke-width="1.7" fill="none" stroke-linecap="round"/><path d="M40 7q1.3 3.8 5 5-3.7 1.2-5 5-1.3-3.8-5-5 3.7-1.2 5-5z" fill="#fff" opacity=".85"/><path d="M8 9q1.1 3.2 4.3 4.3-3.2 1.1-4.3 4.3Q6.9 14.4 3.7 13.3 7.1 12.2 8 9z" fill="#fff" opacity=".8"/>',
+  'graduation-cap': '<path d="M24 9 4 18.5 24 28l20-9.5z" fill="#fff"/><path d="M14.5 22v6.2c0 3.6 4.4 6.2 9.5 6.2s9.5-2.6 9.5-6.2V22z" fill="#fff"/><path d="M42 19.5v8" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="42" cy="29" r="2" fill="#fff"/><circle cx="20.5" cy="26.5" r="1.5" fill="rgba(0,0,0,.42)"/><circle cx="27.5" cy="26.5" r="1.5" fill="rgba(0,0,0,.42)"/><path d="M20 29.5c1.4 1.5 6.6 1.5 8 0" stroke="rgba(0,0,0,.42)" stroke-width="1.5" fill="none" stroke-linecap="round"/>',
+  'lock': '<rect x="14" y="22" width="20" height="16" rx="4" stroke="#fff" stroke-width="3" fill="none"/><path d="M19 22v-5a5 5 0 0 1 10 0v5" stroke="#fff" stroke-width="3" fill="none" stroke-linecap="round"/>'
+};
+
+// 每枚徽章的渐变底色 [浅, 深]（同类色系、深浅暗示递进；与手绘图形配套）
+var ACHIEVE_COLORS = {
+  'sprout': ['#4ADE80', '#16A34A'],
+  'calendar-check': ['#34D399', '#059669'],
+  'trophy': ['#2DD4BF', '#0D9488'],
+  'gem': ['#10B981', '#047857'],
+  'hammer': ['#86EFAC', '#22C55E'],
+  'zap': ['#FBBF24', '#F59E0B'],
+  'flame': ['#F59E0B', '#EA580C'],
+  'sunrise': ['#F97316', '#DC2626'],
+  'star': ['#FDE047', '#F59E0B'],
+  'sparkles': ['#FCD34D', '#F59E0B'],
+  'badge-check': ['#FEF08A', '#EAB308'],
+  'calculator': ['#FB923C', '#EA580C'],
+  'circle-check-big': ['#FDBA74', '#F97316'],
+  'gauge': ['#60A5FA', '#2563EB'],
+  'timer': ['#93C5FD', '#3B82F6'],
+  'repeat': ['#2563EB', '#1D4ED8'],
+  'shield-check': ['#F87171', '#DC2626'],
+  'swords': ['#FB7185', '#E11D48'],
+  'rotate-ccw': ['#FCA5A5', '#EF4444'],
+  'file-text': ['#C084FC', '#9333EA'],
+  'medal': ['#A78BFA', '#7C3AED'],
+  'crown': ['#D8B4FE', '#A855F7'],
+  'lightbulb': ['#38BDF8', '#0284C7'],
+  'layers': ['#7DD3FC', '#0EA5E9'],
+  'graduation-cap': ['#22D3EE', '#0891B2']
+};
+
+var ACHIEVE_LOCK_BG = '#8E95A3, #B8BDC7';
+
+// 组装一枚徽章图标：渐变圆底 + 白色图形；未解锁用灰底 + 锁
+function achBadge(iconId, unlocked) {
+  var colors = unlocked && ACHIEVE_COLORS[iconId];
+  var bg = colors ? colors[0] + ', ' + colors[1] : ACHIEVE_LOCK_BG;
+  var shape = ACHIEVE_ICONS[unlocked ? iconId : 'lock'] ||
+    ACHIEVE_ICONS.star;
+  return '<div class="ach-icon' + (unlocked ? '' : ' locked') +
+    '" style="background:linear-gradient(135deg,' + bg + ')">' +
+    '<svg viewBox="0 0 48 48" aria-hidden="true">' + shape + '</svg></div>';
+}
+
+function loadAchievements() {
+  var box = $('achievements-wall');
+  if (!box) return;
+  fetchJSON('/api/achievements?user_id=' + encodeURIComponent(state.user))
+    .then(function (d) { renderAchievements(d); })
+    .catch(function () {
+      box.innerHTML = '<p class="tip">成就加载失败，请刷新重试</p>';
+    });
+}
+
+function renderAchievements(d) {
+  var box = $('achievements-wall');
+  if (!box) return;
+  var badges = d.badges || [];
+  var html = '<h3 class="ach-title">我的成就 <span class="ach-count">已解锁 ' +
+    (d.unlocked_count || 0) + ' / ' + (d.total_count || badges.length) +
+    '</span></h3><div class="ach-grid">';
+  badges.forEach(function (b) {
+    html += '<div class="ach-badge' + (b.unlocked ? ' unlocked' : '') +
+      '" title="' + escapeHtml(b.desc) + '">' +
+      achBadge(b.icon, b.unlocked) +
+      '<div class="ach-name">' + escapeHtml(b.name) + '</div>' +
+      '<div class="ach-desc">' + escapeHtml(b.desc) + '</div>';
+    if (b.unlocked) {
+      html += '<div class="ach-progress ok">已达成</div>';
+    } else {
+      html += '<div class="ach-progress"><div class="ach-bar"><div ' +
+        'class="ach-bar-fill" style="width:' +
+        (b.target ? Math.min(100, Math.round(b.progress * 100 / b.target)) : 0) +
+        '%"></div></div><span>' + b.progress + '/' + b.target +
+        '</span></div>';
+    }
+    html += '</div>';
+  });
+  html += '</div>';
+  box.innerHTML = html;
 }
 
 var lastStatsData = null;  // 学情页分页翻页时重渲染用
@@ -2216,6 +2433,7 @@ function init() {
   $('date-input').value = state.date;
   $('export-date').value = state.date;
   applyUserGrade();  // 恢复当前用户记忆的年级并同步各下拉
+  applyFinaleLabels();  // 侧边栏"每周一题"标签按年级初始化（小学=思维拓展）
   updateExportInfo();
   // 设备能力检测：export=可生成 PDF/Word 文件；print=安卓系统打印可用。
   // 安卓端隐藏文件导出链接，改用「打印 / 保存 PDF」
@@ -2293,6 +2511,20 @@ function init() {
   });
   ['export-date', 'export-date-to', 'export-answers'].forEach(function (id) {
     $(id).addEventListener('change', updateExportLinks);
+  });
+
+  // 侧边栏分组：恢复折叠记忆 + 组头点击展开/收起
+  restoreNavGroups();
+  document.querySelectorAll('.nav-group-head').forEach(function (h) {
+    h.addEventListener('click', function () {
+      var g = h.closest('.nav-group');
+      var body = g.querySelector('.nav-group-body');
+      if (body) {
+        body.classList.toggle('hidden');
+        h.classList.toggle('open', !body.classList.contains('hidden'));
+        saveNavGroups();
+      }
+    });
   });
 
   window.addEventListener('hashchange', route);

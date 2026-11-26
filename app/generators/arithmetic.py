@@ -340,6 +340,65 @@ CALC_KINDS = {
 }
 
 
+# ---------- 口算专项注册表（限时挑战页按年级过滤展示） ----------
+# 每个专项：id / 名称 / 适用年级 / CALC_KINDS 题型键 / 题量 / 限时秒数
+
+SPECIALS = [
+    {"id": "add10", "name": "10以内加法", "grades": [1],
+     "kinds": ["add10"], "count": 50, "seconds": 180},
+    {"id": "sub10", "name": "10以内减法", "grades": [1],
+     "kinds": ["sub10"], "count": 50, "seconds": 180},
+    {"id": "add20c", "name": "20以内进位加", "grades": [1],
+     "kinds": ["carry_add20"], "count": 50, "seconds": 240},
+    {"id": "sub20b", "name": "20以内退位减", "grades": [1],
+     "kinds": ["borrow_sub20"], "count": 50, "seconds": 240},
+    {"id": "add100", "name": "100以内加减法", "grades": [1, 2],
+     "kinds": ["add100_nc", "sub100_nb", "add100_c", "sub100_b"],
+     "count": 40, "seconds": 300},
+    {"id": "mul_table", "name": "表内乘法", "grades": [2],
+     "kinds": ["mul_t25", "mul_t69", "mul_table"], "count": 50, "seconds": 240},
+    {"id": "div_table", "name": "表内除法", "grades": [2],
+     "kinds": ["div_t"], "count": 50, "seconds": 240},
+    {"id": "muldiv_table", "name": "表内乘除混合", "grades": [2],
+     "kinds": ["mul_t25", "mul_t69", "mul_table", "div_t"],
+     "count": 50, "seconds": 240},
+    {"id": "oral_muldiv", "name": "整十整百乘除口算", "grades": [2, 3],
+     "kinds": ["oral_muldiv"], "count": 40, "seconds": 240},
+    {"id": "addsub3", "name": "三位数加减", "grades": [2, 3],
+     "kinds": ["add3", "sub3"], "count": 30, "seconds": 300},
+    {"id": "muldiv1", "name": "多位数乘除一位数", "grades": [3],
+     "kinds": ["mul1", "div1"], "count": 30, "seconds": 300},
+    {"id": "mixed34", "name": "混合运算", "grades": [3, 4],
+     "kinds": ["mixed"], "count": 25, "seconds": 300},
+    {"id": "mul2", "name": "两位数乘两位数", "grades": [3, 4],
+     "kinds": ["mul2"], "count": 25, "seconds": 300},
+    {"id": "mul3div2", "name": "三位数乘两位数·除以两位数", "grades": [4],
+     "kinds": ["mul3", "div2"], "count": 20, "seconds": 300},
+    {"id": "simple", "name": "简便运算", "grades": [3, 4, 5],
+     "kinds": ["simple", "simple3"], "count": 20, "seconds": 300},
+    {"id": "dec_addsub", "name": "小数加减", "grades": [4, 5],
+     "kinds": ["dec_add", "dec_sub"], "count": 30, "seconds": 240},
+    {"id": "dec_muldiv", "name": "小数乘除", "grades": [5],
+     "kinds": ["dec_mul_int", "dec_div"], "count": 25, "seconds": 300},
+    {"id": "frac_add", "name": "异分母分数加法", "grades": [5],
+     "kinds": ["frac_add_diff"], "count": 25, "seconds": 300},
+    {"id": "frac_mixed", "name": "分数混合运算", "grades": [5, 6],
+     "kinds": ["frac_mul_mix", "frac_mixed"], "count": 20, "seconds": 300},
+    {"id": "pct_calc", "name": "百分数计算", "grades": [6],
+     "kinds": ["pct_calc"], "count": 25, "seconds": 240},
+]
+
+
+def find_special(special_id, grade=None):
+    """按 id 查专项；grade 非 None 时校验年级适用性"""
+    for sp in SPECIALS:
+        if sp["id"] == special_id:
+            if grade is not None and grade not in sp["grades"]:
+                return None
+            return sp
+    return None
+
+
 # ---------- 计算题（小学部分：按册混合，委托给 kind 函数） ----------
 
 def _calc_g1(volume=None):

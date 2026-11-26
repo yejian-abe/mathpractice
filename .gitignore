@@ -1,5 +1,9 @@
 # 用户数据（本地保留，不入仓库）
 data/daily/
+data/mind/
+data/sprint/
+data/wrongbook/
+data/finale/
 data/config.json
 data/users.json
 data/bank/progress_*.json

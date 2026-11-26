@@ -492,6 +492,17 @@ def practice_summary(data_dir, user_id=DEFAULT_USER, today=None):
         acc[1] += r["total"]
     days = len(per_day)
     full_days = sum(1 for c, t in per_day.values() if t > 0 and c == t)
+    # 历史最长连续全对（升序扫描；没练的天不打断，练了没全对清零）。
+    # 只增不减，用于成就进度展示，避免"当前连续"中断后进度倒退的挫败感
+    max_streak = cur = 0
+    for d in sorted(per_day):
+        c, t = per_day[d]
+        if t > 0 and c == t:
+            cur += 1
+            if cur > max_streak:
+                max_streak = cur
+        else:
+            cur = 0
     # 连续全对：没练的天不打断连续（跳过），练了但没全对才清零；
     # 从最近往回数有记录的日期，未来日期的记录不计入（防设备日期偏差）
     streak = 0
@@ -506,7 +517,8 @@ def practice_summary(data_dir, user_id=DEFAULT_USER, today=None):
                 streak += 1
             else:
                 break
-    return {"days": days, "full_days": full_days, "streak": streak}
+    return {"days": days, "full_days": full_days, "streak": streak,
+            "max_streak": max_streak}
 
 
 # ---------- 练习记录 ----------

@@ -1,19 +1,21 @@
 # -*- coding: utf-8 -*-
-"""压轴专项服务：初中中考压轴题"每周一题"
-- 题库：data/bank/finale_grade9_pilot.json（随 APK 分发的精选静态题库）
+"""每周一题服务（按年级切换两套题库）
+- 初中（grade>=7）压轴专项：中考压轴题，题库 data/bank/finale_grade9_pilot.json
+- 小学（grade<=6）思维拓展：数学思维/奥数启蒙题，题库 data/bank/mind_bank.json
 - 排期：每周推送 1 道（周六为推送日，本周内可提前查看）；未完成的题跨周
   一直展示，直到自评完成
 - 自评三态：done=独立做出来 / hint=看了提示做出来 / fail=没做出来；
   fail 的题进入错题回收队列，约 3 周后推送一道同类型没做过的新题
-- 进度：data/finale/<user>.json（按用户存储；APK 打包时该目录被排除，
-  不预置运行时数据）
+- 进度：小学 data/mind/<user>.json、初中 data/finale/<user>.json
+  （按用户存储；APK 打包时运行数据目录被排除，不预置）
 """
 import json
 import os
 from datetime import date, datetime, timedelta
 
 # 题库文件名（位于 data/bank/ 下，与配图目录 finale_figs/ 同级）
-BANK_FILE = "finale_grade9_pilot.json"
+FINALE_BANK_FILE = "finale_grade9_pilot.json"
+MIND_BANK_FILE = "mind_bank.json"
 FIG_DIR = "finale_figs"
 
 # 自评结果值
@@ -23,36 +25,44 @@ _VALID_RESULTS = (RESULT_DONE, RESULT_HINT, RESULT_FAIL)
 # 错题回收间隔（天）：2-3 周后推送同类型新题
 RETRY_AFTER_DAYS = 21
 
-_BANK_CACHE = None  # 题库内容进程级缓存（静态文件，体积小）
+_BANK_CACHE = {}  # 题库内容进程级缓存（静态文件，按文件名缓存，体积小）
 
 
-def _bank_path(data_dir):
-    return os.path.join(data_dir, "bank", BANK_FILE)
+def _bank_file(grade):
+    """按年级选题库：小学（<=6）思维拓展，初中压轴专项"""
+    return MIND_BANK_FILE if (grade or 9) <= 6 else FINALE_BANK_FILE
+
+
+def _bank_path(data_dir, filename):
+    return os.path.join(data_dir, "bank", filename)
 
 
 def _fig_dir(data_dir):
     return os.path.join(data_dir, "bank", FIG_DIR)
 
 
-def _progress_dir(data_dir):
-    return os.path.join(data_dir, "finale")
+def _progress_dir(data_dir, grade):
+    return (os.path.join(data_dir, "mind") if (grade or 9) <= 6
+            else os.path.join(data_dir, "finale"))
 
 
-def _progress_path(data_dir, user_id):
-    return os.path.join(_progress_dir(data_dir), "%s.json" % user_id)
+def _progress_path(data_dir, user_id, grade):
+    return os.path.join(_progress_dir(data_dir, grade),
+                        "%s.json" % user_id)
 
 
-def load_bank(data_dir):
-    """加载压轴题题库（questions 列表）；文件缺失/损坏返回空列表"""
-    global _BANK_CACHE
-    if _BANK_CACHE is None:
+def load_bank(data_dir, grade=None):
+    """加载题库（questions 列表）；文件缺失/损坏返回空列表"""
+    filename = _bank_file(grade)
+    if filename not in _BANK_CACHE:
         try:
-            with open(_bank_path(data_dir), "r", encoding="utf-8") as f:
+            with open(_bank_path(data_dir, filename), "r",
+                      encoding="utf-8") as f:
                 data = json.load(f)
-            _BANK_CACHE = data.get("questions") or []
+            _BANK_CACHE[filename] = data.get("questions") or []
         except (ValueError, OSError):
-            _BANK_CACHE = []
-    return _BANK_CACHE
+            _BANK_CACHE[filename] = []
+    return _BANK_CACHE[filename]
 
 
 def fig_path(data_dir, name):
@@ -66,9 +76,9 @@ def fig_path(data_dir, name):
 
 # ---------- 进度读写 ----------
 
-def _load_progress(data_dir, user_id):
+def _load_progress(data_dir, user_id, grade):
     try:
-        with open(_progress_path(data_dir, user_id), "r",
+        with open(_progress_path(data_dir, user_id, grade), "r",
                   encoding="utf-8") as f:
             data = json.load(f)
         if isinstance(data, dict):
@@ -78,10 +88,10 @@ def _load_progress(data_dir, user_id):
     return {"user": user_id, "assigned": [], "retry": []}
 
 
-def _save_progress(data_dir, progress):
-    os.makedirs(_progress_dir(data_dir), exist_ok=True)
-    with open(_progress_path(data_dir, progress.get("user") or "default"),
-              "w", encoding="utf-8") as f:
+def _save_progress(data_dir, progress, grade):
+    os.makedirs(_progress_dir(data_dir, grade), exist_ok=True)
+    with open(_progress_path(data_dir, progress.get("user") or "default",
+                             grade), "w", encoding="utf-8") as f:
         json.dump(progress, f, ensure_ascii=False, indent=1)
 
 
@@ -124,10 +134,13 @@ def _used_qids(progress):
     return {a.get("qid") for a in progress.get("assigned", [])}
 
 
-def _pick_new_question(data_dir, progress, today):
+def _pick_new_question(data_dir, progress, today, grade):
     """挑选下一道推送题：优先错题回收（到期的同类型换题），否则按题库
-    顺序取下一道没做过的题；全部做完返回 None"""
-    bank = load_bank(data_dir)
+    顺序取下一道没做过的题；题目按年级过滤（小学题库分年级）；全部做完
+    返回 None"""
+    all_q = load_bank(data_dir, grade)
+    bank = [q for q in all_q
+            if not q.get("grade") or q.get("grade") == grade]
     if not bank:
         return None
     used = _used_qids(progress)
@@ -154,7 +167,7 @@ def _pick_new_question(data_dir, progress, today):
     return None
 
 
-def _ensure_assignment(data_dir, progress, today, force):
+def _ensure_assignment(data_dir, progress, today, force, grade):
     """确保有可展示的题目；返回 (assignment, status, next_push)
     status: active=有未完成题 / completed=本周已完成 / upcoming=未到推送日
     """
@@ -176,24 +189,24 @@ def _ensure_assignment(data_dir, progress, today, force):
     if not force and today.weekday() < 5:  # 周一~周五，未到推送日
         return None, "upcoming", _saturday_of_week(today)
 
-    q = _pick_new_question(data_dir, progress, today)
+    q = _pick_new_question(data_dir, progress, today, grade)
     if q is None:
         return None, "empty", None
     entry = {"qid": q["id"], "week": this_week, "assigned_at":
              today.isoformat(), "assessed": None, "assessed_at": None}
     assigned.append(entry)
-    _save_progress(data_dir, progress)
+    _save_progress(data_dir, progress, grade)
     return entry, "active", None
 
 
-def _public_assignment(data_dir, entry, status, next_push):
+def _public_assignment(data_dir, entry, status, next_push, grade):
     """组装对外响应：active 附题目内容，其余附提示信息"""
     resp = {"status": status}
     if next_push:
         resp["next_push"] = next_push.isoformat()
     if entry is None:
         return resp
-    bank = load_bank(data_dir)
+    bank = load_bank(data_dir, grade)
     for q in bank:
         if q["id"] == entry.get("qid"):
             resp["question"] = question_meta(q)
@@ -202,21 +215,21 @@ def _public_assignment(data_dir, entry, status, next_push):
     return resp
 
 
-def get_current(data_dir, user_id, today=None, force=False):
-    """当前应推送的压轴题（含排期状态）"""
+def get_current(data_dir, user_id, today=None, force=False, grade=None):
+    """当前应推送的每周一题（含排期状态）；grade 决定题库（小学思维/初中压轴）"""
     today = today or date.today()
-    progress = _load_progress(data_dir, user_id)
+    progress = _load_progress(data_dir, user_id, grade)
     entry, status, next_push = _ensure_assignment(data_dir, progress, today,
-                                                  force)
-    return _public_assignment(data_dir, entry, status, next_push)
+                                                  force, grade)
+    return _public_assignment(data_dir, entry, status, next_push, grade)
 
 
-def assess(data_dir, user_id, qid, result, today=None):
+def assess(data_dir, user_id, qid, result, today=None, grade=None):
     """记录自评三态；fail 进错题回收队列。返回 (ok, error)"""
     today = today or date.today()
     if result not in _VALID_RESULTS:
         return False, "无效的自评结果"
-    progress = _load_progress(data_dir, user_id)
+    progress = _load_progress(data_dir, user_id, grade)
     entry = None
     for a in progress.setdefault("assigned", []):
         if a.get("qid") == qid:
@@ -226,7 +239,7 @@ def assess(data_dir, user_id, qid, result, today=None):
     entry["assessed"] = result
     entry["assessed_at"] = datetime.now().isoformat()
     if result == RESULT_FAIL:
-        bank = load_bank(data_dir)
+        bank = load_bank(data_dir, grade)
         qtype = next((q.get("type") for q in bank if q["id"] == qid), None)
         progress.setdefault("retry", []).append({
             "origin": qid,
@@ -235,14 +248,14 @@ def assess(data_dir, user_id, qid, result, today=None):
             "due": (today + timedelta(days=RETRY_AFTER_DAYS)).isoformat(),
             "new_qid": None,
         })
-    _save_progress(data_dir, progress)
+    _save_progress(data_dir, progress, grade)
     return True, None
 
 
-def list_history(data_dir, user_id):
+def list_history(data_dir, user_id, grade=None):
     """已完成（已自评）的推送记录，按分配时间倒序"""
-    progress = _load_progress(data_dir, user_id)
-    bank = {q["id"]: q for q in load_bank(data_dir)}
+    progress = _load_progress(data_dir, user_id, grade)
+    bank = {q["id"]: q for q in load_bank(data_dir, grade)}
     items = []
     for a in progress.get("assigned", []):
         if not a.get("assessed"):

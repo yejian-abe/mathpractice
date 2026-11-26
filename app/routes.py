@@ -11,6 +11,15 @@
 - GET  /api/records/detail?user_id&date&grade        单次练习详情
 - GET/POST/DELETE /api/users             用户管理
 - GET  /api/stats?user_id&grade          学情统计（正确率曲线 + 薄弱知识点）
+- GET  /api/wrongbook                    错题本列表（首答口径聚合）
+- POST /api/wrongbook/tag                错因标记（粗心/不会）
+- POST /api/wrongbook/resolve            标记已掌握
+- POST /api/wrongbook/practice           举一反三重练题集生成
+- POST /api/wrongbook/answer             重练题集判题
+- GET  /api/sprint/specials?grade        口算专项列表（按年级过滤）
+- POST /api/sprint/start                 开启一局限时挑战（服务端计时）
+- POST /api/sprint/submit                限时挑战交卷（校验用时+判分+个人最佳）
+- GET  /api/sprint/best?user_id          各专项个人最佳
 """
 import json
 import re
@@ -21,8 +30,9 @@ from flask import Blueprint, current_app, jsonify, request, send_file
 
 from app import config as config_mod, heartbeat
 from app import version as version_mod
+from app.services import achievements as achievements_svc
 from app.services import bank, daily_set, export_docx, export_pdf, grading, \
-    print_bridge, stats, users
+    print_bridge, sprint as sprint_svc, stats, users, wrongbook as wrongbook_svc
 from app.services import finale as finale_svc
 from app.services import papers as papers_svc
 from app.services import units as units_svc
@@ -57,10 +67,15 @@ def _grade_or_all(value):
     return v if 1 <= v <= 9 else 0
 
 
+# 用户 id 白名单：字母/数字/下划线/汉字（CJK 基本区），长度 1-32。
+# 点号、空格、路径分隔符等一律不在白名单（防文件名注入/路径遍历）
+_USER_ID_RE = re.compile(r"^[A-Za-z0-9_\u4e00-\u9fff]{1,32}$")
+
+
 def _user_id_from(value):
-    """规范化用户 id：仅允许字母/数字/下划线（默认用户无题集文件名后缀）"""
+    """规范化用户 id：仅允许字母/数字/下划线/汉字（默认用户无题集文件名后缀）"""
     value = (value or "").strip()
-    if re.match(r"^[A-Za-z0-9_]{1,32}$", value):
+    if _USER_ID_RE.match(value):
         return value
     return daily_set.DEFAULT_USER
 
@@ -193,6 +208,129 @@ def api_submit():
     }
     daily_set.update_attempt(_data_dir(), dt, grade, pid, attempt, uid)
     return jsonify(result)
+
+
+# ---------- 错题本 ----------
+
+@api_bp.route("/wrongbook")
+def api_wrongbook():
+    """错题列表（首答口径聚合）：grade=0 不限年级；status=open/resolved/all"""
+    uid = _user_id_from(request.args.get("user_id"))
+    grade = _grade_or_all(request.args.get("grade"))
+    status = str(request.args.get("status") or "open")
+    items = wrongbook_svc.list_wrong(_data_dir(), uid, grade=grade)
+    if status == "open":
+        items = [e for e in items if not e["resolved"]]
+    elif status == "resolved":
+        items = [e for e in items if e["resolved"]]
+    return jsonify({"items": items})
+
+
+@api_bp.route("/wrongbook/tag", methods=["POST"])
+def api_wrongbook_tag():
+    """错因标记：careless=粗心失误 / unknown=知识点不会 / 空串=取消"""
+    body = request.get_json(force=True, silent=True) or {}
+    uid = _user_id_from(body.get("user_id"))
+    key = str(body.get("key") or "")
+    if not key:
+        return jsonify({"error": "缺少错题标识"}), 400
+    wrongbook_svc.tag_mistake(_data_dir(), uid, key,
+                              str(body.get("tag") or ""))
+    return jsonify({"ok": True})
+
+
+@api_bp.route("/wrongbook/resolve", methods=["POST"])
+def api_wrongbook_resolve():
+    """标记/取消已掌握（keys 为错题 key 数组）"""
+    body = request.get_json(force=True, silent=True) or {}
+    uid = _user_id_from(body.get("user_id"))
+    keys = body.get("keys") if isinstance(body.get("keys"), list) else []
+    resolved = bool(body.get("resolved", True))
+    keys = [str(k) for k in keys if k]
+    if not keys:
+        return jsonify({"error": "缺少错题标识"}), 400
+    wrongbook_svc.mark_resolved(_data_dir(), uid, keys, resolved)
+    return jsonify({"ok": True})
+
+
+@api_bp.route("/wrongbook/practice", methods=["POST"])
+def api_wrongbook_practice():
+    """举一反三：按错题 key 列表生成重练题集（原题重做 + 同型变式，
+    对外隐藏答案，与 /api/daily 同规则）"""
+    body = request.get_json(force=True, silent=True) or {}
+    uid = _user_id_from(body.get("user_id"))
+    keys = body.get("keys") if isinstance(body.get("keys"), list) else []
+    set_id, dataset = wrongbook_svc.build_practice(_data_dir(), uid, keys)
+    if dataset is None:
+        return jsonify({"error": "未找到可重练的错题"}), 404
+    dataset = _public_equation_vars(dataset)
+    pub = _public_set(dataset)
+    pub["set_id"] = set_id
+    return jsonify(pub)
+
+
+@api_bp.route("/wrongbook/answer", methods=["POST"])
+def api_wrongbook_answer():
+    """重练题集判题：按 set_id 定位重练题集，判分并记录作答"""
+    body = request.get_json(force=True, silent=True) or {}
+    uid = _user_id_from(body.get("user_id"))
+    set_id = body.get("set_id")
+    pid = body.get("problem_id")
+    payload = {"main": body.get("main"), "answers": body.get("answers")}
+    result = wrongbook_svc.answer_practice(_data_dir(), uid, set_id, pid,
+                                           payload)
+    if result is None:
+        return jsonify({"error": "重练题集不存在或已过期，请重新生成"}), 404
+    return jsonify(result)
+
+
+# ---------- 口算限时挑战 ----------
+
+@api_bp.route("/sprint/specials")
+def api_sprint_specials():
+    """口算专项列表（按年级过滤，返回各专项题量与限时）"""
+    grade = _grade_from(request.args.get("grade"))
+    return jsonify({"grade": grade,
+                    "specials": sprint_svc.list_specials(grade)})
+
+
+@api_bp.route("/sprint/start", methods=["POST"])
+def api_sprint_start():
+    """开启一局限时挑战：服务端生成题集并记录开始时间（对外隐藏答案）"""
+    body = request.get_json(force=True, silent=True) or {}
+    uid = _user_id_from(body.get("user_id"))
+    grade = _grade_from(body.get("grade"))
+    special_id = str(body.get("special_id") or "")
+    set_id, dataset = sprint_svc.create_sprint(_data_dir(), uid, grade,
+                                               special_id)
+    if dataset is None:
+        return jsonify({"error": "专项不存在或不适合当前年级"}), 404
+    pub = _public_set(dataset)
+    pub["set_id"] = set_id
+    return jsonify(pub)
+
+
+@api_bp.route("/sprint/submit", methods=["POST"])
+def api_sprint_submit():
+    """限时挑战交卷：服务端校验用时后判分，更新个人最佳并返回逐题详情"""
+    body = request.get_json(force=True, silent=True) or {}
+    uid = _user_id_from(body.get("user_id"))
+    set_id = body.get("set_id")
+    answers = body.get("answers") if isinstance(body.get("answers"), list) \
+        else []
+    result = sprint_svc.submit_sprint(_data_dir(), uid, set_id, answers)
+    if result is None:
+        return jsonify({"error": "挑战不存在或已过期"}), 404
+    if result.get("error"):
+        return jsonify(result), 400
+    return jsonify(result)
+
+
+@api_bp.route("/sprint/best")
+def api_sprint_best():
+    """各专项个人最佳（答对数优先、用时短优先，跨日期保留）"""
+    uid = _user_id_from(request.args.get("user_id"))
+    return jsonify({"bests": sprint_svc.load_best(_data_dir(), uid)})
 
 
 @api_bp.route("/config", methods=["GET", "POST"])
@@ -395,6 +533,25 @@ def api_stats():
     return jsonify(stats.compute_stats(_data_dir(), uid, grade, semester))
 
 
+@api_bp.route("/hint")
+def api_hint():
+    """难度自适应建议：基于近期正确率与薄弱知识点的规则引擎"""
+    uid = _user_id_from(request.args.get("user_id"))
+    grade = request.args.get("grade")
+    try:
+        grade = _grade_from(grade, default=None)
+    except Exception:
+        grade = None
+    return jsonify(stats.difficulty_hint(_data_dir(), uid, grade))
+
+
+@api_bp.route("/achievements")
+def api_achievements():
+    """成就徽章列表（复用现有统计实时判定，无落盘存储）"""
+    uid = _user_id_from(request.args.get("user_id"))
+    return jsonify(achievements_svc.list_achievements(_data_dir(), uid))
+
+
 @api_bp.route("/heartbeat", methods=["POST"])
 def api_heartbeat():
     """页面存活心跳：前端定时上报，页面全部关闭后服务自动退出"""
@@ -402,15 +559,26 @@ def api_heartbeat():
     return jsonify({"ok": True})
 
 
-# ---------- 压轴专项（初中每周一题） ----------
+# ---------- 每周一题（小学思维拓展 / 初中压轴专项，按年级切题库） ----------
+
+def _finale_grade(value):
+    """年级参数：缺省/非法 → None（按初中题库处理）"""
+    try:
+        v = int(value)
+    except (TypeError, ValueError):
+        return None
+    return v if 1 <= v <= 9 else None
+
 
 @api_bp.route("/finale/current")
 def api_finale_current():
-    """当前应推送的压轴题：status=active|completed|upcoming|empty
+    """当前应推送的每周一题：status=active|completed|upcoming|empty
     force=1 未到推送日（周六）时允许提前查看本周题"""
     uid = _user_id_from(request.args.get("user_id"))
     force = request.args.get("force") in ("1", "true", "yes")
-    return jsonify(finale_svc.get_current(_data_dir(), uid, force=force))
+    grade = _finale_grade(request.args.get("grade"))
+    return jsonify(finale_svc.get_current(_data_dir(), uid, force=force,
+                                          grade=grade))
 
 
 @api_bp.route("/finale/assess", methods=["POST"])
@@ -420,7 +588,8 @@ def api_finale_assess():
     uid = _user_id_from(body.get("user_id"))
     qid = (body.get("qid") or "").strip()
     result = (body.get("result") or "").strip()
-    ok, err = finale_svc.assess(_data_dir(), uid, qid, result)
+    grade = _finale_grade(body.get("grade"))
+    ok, err = finale_svc.assess(_data_dir(), uid, qid, result, grade=grade)
     if not ok:
         return jsonify({"error": err}), 400
     return jsonify({"ok": True})
@@ -428,9 +597,10 @@ def api_finale_assess():
 
 @api_bp.route("/finale/history")
 def api_finale_history():
-    """压轴题完成记录（含自评结果）"""
+    """每周一题完成记录（含自评结果）"""
     uid = _user_id_from(request.args.get("user_id"))
-    return jsonify(finale_svc.list_history(_data_dir(), uid))
+    grade = _finale_grade(request.args.get("grade"))
+    return jsonify(finale_svc.list_history(_data_dir(), uid, grade=grade))
 
 
 @api_bp.route("/finale/fig/<name>")

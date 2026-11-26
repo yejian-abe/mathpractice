@@ -164,3 +164,53 @@ def _to_sorted(counter):
         })
     out.sort(key=lambda x: -x["attempts"])
     return out
+
+
+# ---------- 难度自适应建议（规则引擎） ----------
+
+_HINT_RECENT_DAYS = 5   # 取最近 N 个有作答日的正确率作为"近期水平"
+
+
+def difficulty_hint(data_dir, user_id="default", grade=None):
+    """难度自适应建议：基于近期正确率与薄弱知识点的规则引擎
+    - level: none=数据不足 / up=可以挑战更难 / keep=保持节奏 / down=回到基础
+    - 近期正确率取最近 _HINT_RECENT_DAYS 个有作答日的加权平均；
+      ≥90% 建议提升，<60% 建议巩固，其余保持
+    - weak 取薄弱知识点名单，提示重点练习方向
+    """
+    stats = compute_stats(data_dir, user_id, grade)
+    curve = stats.get("daily") or []
+    weak = stats.get("weak_points") or []
+
+    recent = curve[-_HINT_RECENT_DAYS:]
+    total = sum(p["total"] for p in recent)
+    correct = sum(p["correct"] for p in recent)
+    recent_rate = round(correct * 100.0 / total, 1) if total else None
+
+    weak_names = [w["category"] for w in weak[:3]]
+
+    if recent_rate is None:
+        level = "none"
+        message = "先做几套题，系统会根据你的正确率给出难度建议"
+    elif recent_rate >= 90:
+        level = "up"
+        message = ("最近正确率 %d%%，基础很扎实！可以挑战「口算挑战」"
+                   "限时模式和更难题型" % round(recent_rate))
+    elif recent_rate < 60:
+        level = "down"
+        message = ("最近正确率 %d%%，建议先订正错题、回到基础题型"
+                   "巩固，再逐步提速" % round(recent_rate))
+    else:
+        level = "keep"
+        message = "最近正确率 %d%%，保持当前节奏，稳扎稳打" % round(recent_rate)
+
+    if weak_names:
+        message += "；建议重点练习：" + "、".join(weak_names)
+
+    return {
+        "level": level,
+        "message": message,
+        "recent_rate": recent_rate,
+        "weak": weak_names,
+        "overall_rate": stats.get("summary", {}).get("rate"),
+    }
