@@ -1,13 +1,14 @@
 /* 错题本页逻辑（依赖 app.js 全局工具：$, fetchJSON, escapeHtml, cardHtml,
    typeLabel, appAlert, openSubmitModal, GRADE_NAMES, TYPE_NAMES, state）
-   数据接口：/api/wrongbook、/api/wrongbook/tag、/api/wrongbook/resolve、
-             /api/wrongbook/practice、/api/wrongbook/answer */
+   数据接口：/api/wrongbook、/api/wrongbook/tag、
+             /api/wrongbook/practice、/api/wrongbook/answer
+             （已掌握由服务端在举一反三全对后自动标记，无手动入口） */
 
 var wb = {
   items: [],      // 错题列表（服务端聚合返回）
   shown: 0,       // 已渲染条数（分页加载）
   set: null,      // 重练题集（含 attempts）
-  originKeys: [], // 当前重练题集对应的错题 key（全对后可一键标记已掌握）
+  originKeys: [], // 当前重练题集对应的错题 key（服务端全对后自动标记已掌握）
   gradeTouched: false, // 用户是否手动改过年级筛选（false 时默认跟随左侧年级）
   PAGE: 20
 };
@@ -80,9 +81,6 @@ function wbItemHtml(e, idx) {
     '" data-wb-act="tag" data-tag="careless" data-idx="' + idx + '">粗心</button>' +
     '<button class="btn btn-sm wb-tag-btn' + (e.tag === 'unknown' ? ' active' : '') +
     '" data-wb-act="tag" data-tag="unknown" data-idx="' + idx + '">不会</button>' +
-    '<button class="btn btn-sm wb-tag-btn' + (e.resolved ? ' active' : '') +
-    '" data-wb-act="resolve" data-idx="' + idx + '" title="' +
-    (e.resolved ? '点击取消掌握' : '标记为已掌握') + '">已掌握</button>' +
     '<button class="btn btn-sm" data-wb-act="practice" data-idx="' + idx + '">举一反三</button>' +
     '</div>';
   html += '</div>';
@@ -114,8 +112,6 @@ function bindWbItemEvents(box) {
       var act = b.getAttribute('data-wb-act');
       if (act === 'tag') {
         wbTag(e, b.getAttribute('data-tag'));
-      } else if (act === 'resolve') {
-        wbResolve([e.key], !e.resolved);
       } else if (act === 'practice') {
         wbStartPractice([e.key]);
       }
@@ -130,16 +126,6 @@ function wbTag(e, tag) {
     body: JSON.stringify({ user_id: state.user, key: e.key, tag: next })
   }).then(function () { loadWrongbook(); })
     .catch(function () { appAlert('操作失败，请重试'); });
-}
-
-function wbResolve(keys, resolved) {
-  fetchJSON('/api/wrongbook/resolve', {
-    method: 'POST',
-    body: JSON.stringify({ user_id: state.user, keys: keys, resolved: resolved })
-  }).then(function () {
-    if (wb.set) return;  // 重练页内触发的标记不刷新列表（返回列表时再刷）
-    loadWrongbook();
-  }).catch(function () { appAlert('操作失败，请重试'); });
 }
 
 /* ---------- 举一反三重练 ---------- */
@@ -256,18 +242,12 @@ function wbShowResult() {
   var allOk = ok === total && total > 0;
   var html = '<p>重练完成：正确 <b>' + ok + '</b> / ' + total + ' 题。</p>';
   if (allOk && wb.originKeys.length) {
-    openSubmitModal('重练结果', html + '<p>全部答对！是否把对应的错题标记为已掌握？</p>', [
-      { text: '暂不', fn: null },
-      { text: '标记已掌握', cls: 'primary', fn: function () {
-        wbResolve(wb.originKeys, true);
-        wbBack();
-      } }
-    ]);
-  } else {
-    openSubmitModal('重练结果', html, [
-      { text: '好的', fn: null }
-    ]);
+    // 已掌握由服务端在全对判题时自动标记，这里仅提示结果
+    html += '<p>全部答对！对应的错题已自动标记为已掌握。</p>';
   }
+  openSubmitModal('重练结果', html, [
+    { text: '好的', fn: null }
+  ]);
 }
 
 function wbBack() {

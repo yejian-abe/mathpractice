@@ -547,9 +547,14 @@ def api_hint():
 
 @api_bp.route("/achievements")
 def api_achievements():
-    """成就徽章列表（复用现有统计实时判定，无落盘存储）"""
+    """成就徽章列表（按「年级×册别」组合实时统计，无落盘存储；
+    学习进度类按年级×册别隔离，限时挑战/真题卷/每周一题按年级隔离）"""
     uid = _user_id_from(request.args.get("user_id"))
-    return jsonify(achievements_svc.list_achievements(_data_dir(), uid))
+    grade = request.args.get("grade", type=int) or 0
+    volume = request.args.get("volume", type=int) or 0
+    return jsonify(achievements_svc.list_achievements(_data_dir(), uid,
+                                                      grade=grade,
+                                                      volume=volume))
 
 
 @api_bp.route("/heartbeat", methods=["POST"])

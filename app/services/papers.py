@@ -215,11 +215,16 @@ def get_answers_state(data_dir, user_id, paper_id):
     return progress.get("papers", {}).get(paper_id)
 
 
-def list_done(data_dir, user_id):
-    """该用户已提交的真题卷列表（卷 id、得分、提交时间）"""
+def list_done(data_dir, user_id, grade=0):
+    """该用户已提交的真题卷列表（卷 id、得分、提交时间）
+    grade 非 0 时只返回该年级的卷（成就按年级隔离统计用）"""
     progress = _load_progress(data_dir, user_id)
     items = []
     for paper_id, rec in progress.get("papers", {}).items():
+        if grade:
+            p = find_paper(data_dir, paper_id)
+            if p is None or p.get("grade") != grade:
+                continue
         items.append({
             "paper_id": paper_id,
             "score": rec.get("score"),

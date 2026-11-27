@@ -473,18 +473,24 @@ def list_history(data_dir, user_id=DEFAULT_USER):
 
 # ---------- 练习汇总（每日一练页顶部） ----------
 
-def practice_summary(data_dir, user_id=DEFAULT_USER, today=None):
+def practice_summary(data_dir, user_id=DEFAULT_USER, today=None,
+                     grade=0, volume=0):
     """做题页顶部汇总：总共已练习天数 / 全对天数 / 连续全对天数。
     口径与练习记录一致（day_record 快照优先，旧数据回退首答实时统计）。
     - 已练习：该日有任一提交
     - 全对：correct == total 且 total > 0
     - 连续全对：没练的天不打断（跳过），练了但没全对才清零；
       从最近一次练习往回数有记录的日期。同日多年级题集按 correct/total 合并计。
+    - grade/volume 非 0 时只统计该年级×册别（成就按组合隔离用）
     """
     per_day = {}  # date -> [correct, total]
     for item in list_history(data_dir, user_id):
+        if grade and item["grade"] != grade:
+            continue
         ds = load_set(data_dir, item["date"], item["grade"], user_id)
         if ds is None or not (ds.get("attempts") or {}):
+            continue
+        if volume and volume_of(ds) != volume:
             continue
         r = _record_item(ds)
         acc = per_day.setdefault(r["date"], [0, 0])

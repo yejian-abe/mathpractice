@@ -131,8 +131,11 @@ def _better(new, old):
     return new["elapsed"] < old["elapsed"]
 
 
-def _update_best(data_dir, user_id, special_id, score):
-    """写入个人最佳；返回 (best, record)：record=True 表示打破既有纪录"""
+def _update_best(data_dir, user_id, special_id, score, grade=None,
+                 seconds=None):
+    """写入个人最佳；返回 (best, record)：record=True 表示打破既有纪录
+    条目带 grade（成就按年级隔离统计用；旧条目无 grade 视为全年级通用）
+    条目带 seconds（「极速满分」用时≤限时60% 判定用；旧条目无 seconds 不计）"""
     bests = load_best(data_dir, user_id)
     old = bests.get(special_id)
     record = bool(old) and _better(score, old)
@@ -142,6 +145,8 @@ def _update_best(data_dir, user_id, special_id, score):
             "total": score["total"],
             "elapsed": score["elapsed"],
             "date": score["date"],
+            "grade": grade,
+            "seconds": seconds,
         }
         path = _best_path(data_dir, user_id)
         os.makedirs(os.path.dirname(path), exist_ok=True)
@@ -200,7 +205,9 @@ def submit_sprint(data_dir, user_id, set_id, answers, now=None):
         "elapsed": elapsed,
         "date": date.today().isoformat(),
     }
-    best, record = _update_best(data_dir, user_id, ds["special_id"], score)
+    best, record = _update_best(data_dir, user_id, ds["special_id"], score,
+                                grade=ds.get("grade"),
+                                seconds=ds.get("seconds"))
 
     result = {
         "special_name": ds.get("special_name", ""),

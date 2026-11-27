@@ -100,10 +100,27 @@ def _answer_text(p):
     return str(p.get("answer"))
 
 
-def list_wrong(data_dir, user_id, today=None, grade=0):
+def match_keys(keys, grade=0, volume=0):
+    """按年级/册别过滤错题 key 列表（册别按错题日期的学期规则推导）
+    成就按「年级×册别」组合隔离统计时用"""
+    out = []
+    for k in keys or []:
+        parsed = _parse_key(k)
+        if not parsed:
+            continue
+        date_str, g, _pid = parsed
+        if grade and g != grade:
+            continue
+        if volume and bank.current_volume(date_str) != volume:
+            continue
+        out.append(k)
+    return out
+
+
+def list_wrong(data_dir, user_id, today=None, grade=0, volume=0):
     """聚合该用户全部首答做错的题
     排序：未掌握在前 → 错因（不会 < 粗心 < 未标记）→ 日期倒序
-    grade 非 0 时只返回该年级
+    grade 非 0 时只返回该年级；volume 非 0 时只返回该册别（按日期推导）
     """
     today = today or date.today().isoformat()
     idx = _load_index(data_dir, user_id)
@@ -112,6 +129,8 @@ def list_wrong(data_dir, user_id, today=None, grade=0):
     items = []
     for it in daily_set.list_history(data_dir, user_id):
         if grade and it["grade"] != grade:
+            continue
+        if volume and bank.current_volume(it["date"]) != volume:
             continue
         ds = daily_set.load_set(data_dir, it["date"], it["grade"], user_id)
         dr = daily_set.day_record_of(ds)
@@ -285,7 +304,8 @@ def load_practice(data_dir, user_id, set_id):
 
 
 def answer_practice(data_dir, user_id, set_id, problem_id, payload):
-    """重练题集判题：判分并把作答写回重练题集文件（刷新后可恢复）"""
+    """重练题集判题：判分并把作答写回重练题集文件（刷新后可恢复）
+    整组全部答对后自动把对应错题标记为已掌握（无需手动点击）"""
     ds = load_practice(data_dir, user_id, set_id)
     if ds is None:
         return None
@@ -301,4 +321,12 @@ def answer_practice(data_dir, user_id, set_id, problem_id, payload):
     with open(os.path.join(_practice_dir(data_dir, user_id),
                            str(set_id) + ".json"), "w", encoding="utf-8") as f:
         json.dump(ds, f, ensure_ascii=False, indent=1)
+    # 自动标记：全部题目都已作答且全部答对 → 对应错题标记已掌握
+    problems = ds.get("problems") or []
+    attempts = ds.get("attempts") or {}
+    if result.get("correct") and ds.get("origin_keys") \
+            and len(attempts) == len(problems) \
+            and all((a.get("result") or {}).get("correct")
+                    for a in attempts.values()):
+        mark_resolved(data_dir, user_id, ds["origin_keys"], True)
     return result

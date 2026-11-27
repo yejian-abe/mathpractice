@@ -2083,6 +2083,9 @@ var ACHIEVE_ICONS = {
   'sparkles': '<path d="M24 13 27 20.9 35.4 21.3 28.8 26.6 31 34.7 24 30.1 17 34.7 19.2 26.6 12.6 21.3 21 20.9Z" fill="#fff" stroke="#fff" stroke-width="3" stroke-linejoin="round"/><circle cx="20.8" cy="20.5" r="1.5" fill="rgba(0,0,0,.42)"/><circle cx="27.2" cy="20.5" r="1.5" fill="rgba(0,0,0,.42)"/><path d="M21 23.6c1.3 1.4 5.7 1.4 7 0" stroke="rgba(0,0,0,.42)" stroke-width="1.5" fill="none" stroke-linecap="round"/><path d="M9.5 8.5q1.4 4.2 5.6 5.6-4.2 1.4-5.6 5.6Q8.1 15.5 3.9 14.1q4.2-1.4 5.6-5.6z" fill="#fff" opacity=".8"/><path d="M38.5 12.5q1.4 4.2 5.6 5.6-4.2 1.4-5.6 5.6-1.4-4.2-5.6-5.6 4.2-1.4 5.6-5.6z" fill="#fff" opacity=".8"/>',
   'badge-check': '<circle cx="24" cy="23" r="14" fill="#fff"/><circle cx="19.5" cy="21" r="1.9" fill="rgba(0,0,0,.42)"/><circle cx="28.5" cy="21" r="1.9" fill="rgba(0,0,0,.42)"/><path d="M19 25.5c2 2.2 8 2.2 10 0" stroke="rgba(0,0,0,.42)" stroke-width="1.8" fill="none" stroke-linecap="round"/><path d="M39 8.5q1.3 3.8 5 5-3.7 1.2-5 5-1.3-3.8-5-5 3.7-1.2 5-5z" fill="#fff" opacity=".85"/><path d="M8 12q1 3 3.8 3.9Q9 16.8 8 19.8 7 16.8 4.2 15.9 7 15 8 12z" fill="#fff" opacity=".7"/>',
   'zap': '<path d="M24 5c3.5 5.5 9.5 9 9.5 18a9.5 9.5 0 0 1-19 0c0-4 1.8-6.6 3.7-9 .7 2 1.9 3.4 3.4 4.3C20.8 13.5 21.6 9.5 24 5z" fill="#fff" stroke="#fff" stroke-width="2" stroke-linejoin="round"/><circle cx="21.2" cy="24" r="1.6" fill="rgba(0,0,0,.42)"/><circle cx="26.8" cy="24" r="1.6" fill="rgba(0,0,0,.42)"/><path d="M20.5 27.5c1.5 1.7 5.5 1.7 7 0" stroke="rgba(0,0,0,.42)" stroke-width="1.6" fill="none" stroke-linecap="round"/>',
+  'speed-perfect': '<path d="M24 5c3.5 5.5 9.5 9 9.5 18a9.5 9.5 0 0 1-19 0c0-4 1.8-6.6 3.7-9 .7 2 1.9 3.4 3.4 4.3C20.8 13.5 21.6 9.5 24 5z" fill="#fff"/><circle cx="21.2" cy="24" r="1.6" fill="rgba(0,0,0,.42)"/><circle cx="26.8" cy="24" r="1.6" fill="rgba(0,0,0,.42)"/><path d="M20.5 27.5c1.5 1.7 5.5 1.7 7 0" stroke="rgba(0,0,0,.42)" stroke-width="1.6" fill="none" stroke-linecap="round"/><path d="M7 28h8M5 34h10" stroke="#fff" stroke-width="2.6" stroke-linecap="round" opacity=".75"/><path d="M36.5 6l1.2 2.5 2.7.4-2 1.9.5 2.7-2.4-1.3-2.4 1.3.5-2.7-2-1.9 2.7-.4z" fill="#fff" opacity=".85"/>',
+  'solo-brain': '<path d="M24 5.5a12.5 12.5 0 0 1 12.5 12.5c0 4.8-2.7 7.9-5.2 10.8-1.4 1.6-2.3 3-2.3 4.7h-10c0-1.7-.9-3.1-2.3-4.7-2.5-2.9-5.2-6-5.2-10.8A12.5 12.5 0 0 1 24 5.5z" fill="#fff"/><rect x="20.2" y="35.2" width="7.6" height="2.8" rx="1.4" fill="#fff"/><rect x="21.2" y="39.4" width="5.6" height="2.8" rx="1.4" fill="#fff" opacity=".85"/><circle cx="20.6" cy="18" r="1.7" fill="rgba(0,0,0,.42)"/><circle cx="27.4" cy="18" r="1.7" fill="rgba(0,0,0,.42)"/><path d="M20.8 22c1.2 1.3 4.8 1.3 6.4 0" stroke="rgba(0,0,0,.42)" stroke-width="1.6" fill="none" stroke-linecap="round"/><path d="M38.5 10l2.6 1.2M9 10l-2.6 1.2" stroke="#fff" stroke-width="1.8" stroke-linecap="round" opacity=".8"/>',
+  'think-crown': '<path d="M9 29l3.2-14.5 7.3 6.3L24 10l4.5 10.8 7.3-6.3L39 29z" fill="#fff"/><rect x="9" y="29" width="30" height="4.5" rx="2.2" fill="#fff"/><circle cx="19.5" cy="24" r="1.7" fill="rgba(0,0,0,.42)"/><circle cx="28.5" cy="24" r="1.7" fill="rgba(0,0,0,.42)"/><path d="M20 27c1.6 1.7 6.4 1.7 8 0" stroke="rgba(0,0,0,.42)" stroke-width="1.6" fill="none" stroke-linecap="round"/><circle cx="24" cy="40" r="2.2" fill="#fff" opacity=".8"/><circle cx="15" cy="40" r="1.6" fill="#fff" opacity=".6"/><circle cx="33" cy="40" r="1.6" fill="#fff" opacity=".6"/>',
   'flame': '<path d="M24 3c4.5 7 11.5 10.5 11.5 20a11.5 11.5 0 0 1-23 0c0-4.6 2.1-7.6 4.3-10.4.8 2.3 2.2 3.8 3.9 4.8C19.5 12.5 20.7 8.3 24 3z" fill="#fff" stroke="#fff" stroke-width="2" stroke-linejoin="round"/><path d="M24 17c2.4 3.6 5.6 5.6 5.6 10.2a5.6 5.6 0 0 1-11.2 0c0-3.3 1.9-5.2 3.1-6.6.4 1.2 1.1 2.1 1.9 2.6C22.7 20.7 23.2 18.8 24 17z" fill="rgba(0,0,0,.14)"/><circle cx="20.8" cy="27.5" r="1.6" fill="rgba(0,0,0,.42)"/><circle cx="27.2" cy="27.5" r="1.6" fill="rgba(0,0,0,.42)"/><path d="M20.3 31c1.5 1.6 5.9 1.6 7.4 0" stroke="rgba(0,0,0,.42)" stroke-width="1.6" fill="none" stroke-linecap="round"/>',
   'sunrise': '<path d="M24 2c5 8 12.5 11.5 12.5 21.5a12.5 12.5 0 0 1-25 0c0-5 2.3-8.3 4.7-11.3.9 2.5 2.4 4.1 4.2 5.2C18.9 12.8 20.3 7.6 24 2z" fill="#fff" stroke="#fff" stroke-width="2" stroke-linejoin="round"/><path d="M24 16c2.6 4 6 6.2 6 11a6 6 0 0 1-12 0c0-3.5 2-5.5 3.3-7 .4 1.3 1.1 2.2 2 2.7C22.6 20.5 23.1 18.6 24 16z" fill="rgba(0,0,0,.14)"/><circle cx="20.6" cy="28" r="1.7" fill="rgba(0,0,0,.42)"/><circle cx="27.4" cy="28" r="1.7" fill="rgba(0,0,0,.42)"/><path d="M20 31.5c1.6 1.7 6.4 1.7 8 0" stroke="rgba(0,0,0,.42)" stroke-width="1.7" fill="none" stroke-linecap="round"/><circle cx="10" cy="12" r="1.8" fill="#fff" opacity=".8"/><circle cx="38" cy="14" r="1.5" fill="#fff" opacity=".8"/><circle cx="34.5" cy="5.5" r="1.3" fill="#fff" opacity=".7"/>',
   'hammer': '<rect x="14" y="8" width="20" height="11" rx="3.5" fill="#fff"/><rect x="22" y="19" width="4" height="17" rx="2" fill="#fff"/><circle cx="19.5" cy="12.5" r="1.4" fill="rgba(0,0,0,.42)"/><circle cx="25.5" cy="12.5" r="1.4" fill="rgba(0,0,0,.42)"/><path d="M18.5 15.5c1.5 1.4 5.5 1.4 7 0" stroke="rgba(0,0,0,.42)" stroke-width="1.4" fill="none" stroke-linecap="round"/><path d="M14 41h20" stroke="#fff" stroke-width="2.6" stroke-linecap="round" opacity=".7"/>',
@@ -2129,7 +2132,10 @@ var ACHIEVE_COLORS = {
   'crown': ['#D8B4FE', '#A855F7'],
   'lightbulb': ['#38BDF8', '#0284C7'],
   'layers': ['#7DD3FC', '#0EA5E9'],
-  'graduation-cap': ['#22D3EE', '#0891B2']
+  'graduation-cap': ['#22D3EE', '#0891B2'],
+  'speed-perfect': ['#F0ABFC', '#C026D3'],
+  'solo-brain': ['#67E8F9', '#06B6D4'],
+  'think-crown': ['#FDE68A', '#D97706']
 };
 
 var ACHIEVE_LOCK_BG = '#8E95A3, #B8BDC7';
@@ -2148,7 +2154,9 @@ function achBadge(iconId, unlocked) {
 function loadAchievements() {
   var box = $('achievements-wall');
   if (!box) return;
-  fetchJSON('/api/achievements?user_id=' + encodeURIComponent(state.user))
+  var g = parseInt($('stats-grade').value, 10) || state.grade;
+  fetchJSON('/api/achievements?user_id=' + encodeURIComponent(state.user) +
+      '&grade=' + g + '&volume=' + currentVolume())
     .then(function (d) { renderAchievements(d); })
     .catch(function () {
       box.innerHTML = '<p class="tip">成就加载失败，请刷新重试</p>';
@@ -2159,9 +2167,12 @@ function renderAchievements(d) {
   var box = $('achievements-wall');
   if (!box) return;
   var badges = d.badges || [];
+  var g = parseInt($('stats-grade').value, 10) || state.grade;
+  var scope = (GRADE_NAMES[g] || (g + '年级')) + ' · ' +
+    volumeName(currentVolume());
   var html = '<h3 class="ach-title">我的成就 <span class="ach-count">已解锁 ' +
     (d.unlocked_count || 0) + ' / ' + (d.total_count || badges.length) +
-    '</span></h3><div class="ach-grid">';
+    ' · ' + escapeHtml(scope) + '</span></h3><div class="ach-grid">';
   badges.forEach(function (b) {
     html += '<div class="ach-badge' + (b.unlocked ? ' unlocked' : '') +
       '" title="' + escapeHtml(b.desc) + '">' +
@@ -2398,6 +2409,7 @@ function onSemesterChange() {
   updateExportInfo();   // 导出页学期为只读展示，跟随侧边栏全局值
   updateExportLinks();
   loadDaily();
+  loadStats();          // 成就墙按「年级×册别」隔离统计，册别变化需刷新
   // 停留在真题试卷页时按新学期对应册别刷新（保持页面内已选年级）
   if ((location.hash || '').indexOf('#/papers') === 0) {
     paperState.vol = currentVolume();

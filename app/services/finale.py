@@ -264,6 +264,7 @@ def list_history(data_dir, user_id, grade=None):
         items.append({
             "qid": a.get("qid"),
             "week": a.get("week"),
+            "grade": q.get("grade"),  # 题目年级（小学思维拓展按年级隔离成就用）
             "assigned_at": a.get("assigned_at"),
             "assessed_at": a.get("assessed_at"),
             "result": a.get("assessed"),
